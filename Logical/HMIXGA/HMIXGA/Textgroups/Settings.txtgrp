@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Settings">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="25"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="453370" Value="DELAY FOR BUZZER SOUNDING"/>
+    <Text ID="453371" Value="DELAY BEFORE SYSTEM STANDBY"/>
+    <Text ID="539197" Value="MISC"/>
+    <Text ID="539199" Value="SEAMER 1 SLOW"/>
+    <Text ID="539200" Value="ROW"/>
+    <Text ID="539201" Value="BATCH"/>
+    <Text ID="539202" Value="SERVO 1 PAGE 2"/>
+    <Text ID="539203" Value="SERVO 2 PAGE 1"/>
+    <Text ID="541571" Value="CALC"/>
+    <Text ID="541572" Value="TRANSFER SPEED"/>
+    <Text ID="605958" Value="OTHER"/>
+    <Text ID="605959" Value="SERVO 2 PAGE 2"/>
+    <Text ID="605960" Value="SERVO 3 PAGE 1"/>
+    <Text ID="605991" Value="DELAY BEFORE BATCH CLEAR"/>
+    <Text ID="606016" Value="DELAY FOR OFFLINE LOADING CLEAR"/>
+    <Text ID="606017" Value="DELAY FOR OFFLINE LOAD CLEAR 2"/>
+    <Text ID="606018" Value="DELAY FOR BATCH AT EXIT"/>
+    <Text ID="722368" Value="SERVO 3 PAGE 2"/>
+    <Text ID="776669" Value="DELAY TO CLEAR LOADING FEED"/>
+    <Text ID="844647" Value="DELAY BEFORE SLOW TO S3"/>
+    <Text ID="861366" Value="DELAY FEED SQUARE TO DATUM"/>
+    <Text ID="968728" Value="DELAY AFTER S17 CLEAR"/>
+    <Text ID="990099" Value="WASHER RUNOUT"/>
+    <Text ID="990100" Value="DELAY AFTER S19 CLEAR (FORWARD)"/>
+    <Text ID="990101" Value="DELAY AFTER S19 CLEAR (REVERSE)"/>
+    <Text ID="990102" Value="DELAY AFTER WASHER RUNOUT CLEAR"/>
+    <Text ID="1027888" Value="DELAY AFTER S7 CLEAR B4 PALLET UP"/>
+    <Text ID="1034849" Value="DELAY AFTER S6 CLEAR B4 PALLET DOWN"/>
+    <Text ID="1034851" Value="DELAY BEFORE RESTART BEFORE SEAMER 1"/>
+    <Text ID="1223761" Value="SEAMER 2 SLOW"/>
+    <Text ID="1223762" Value="LOADING"/>
+    <Text ID="1223763" Value="SEAMER 1"/>
+    <Text ID="1223764" Value="TIMEOUTS"/>
+    <Text ID="1223765" Value="SYSTEM"/>
+    <Text ID="1223766" Value="DRIVES"/>
+    <Text ID="1223767" Value="SERVOS"/>
+    <Text ID="1223768" Value="DELAYS/SETTINGS"/>
+    <Text ID="1223801" Value="SERVO 1 PAGE 1"/>
+    <Text ID="1223962" Value="SERVO3 - 2"/>
+    <Text ID="1223963" Value="SERVO3 - 1"/>
+    <Text ID="1223964" Value="SERVO2 - 2"/>
+    <Text ID="1223965" Value="SERVO2 - 1"/>
+    <Text ID="1223966" Value="SERVO1 - 2"/>
+    <Text ID="1223967" Value="SERVO1 - 1"/>
+    <Text ID="1223977" Value="SLOW SPEED"/>
+    <Text ID="1223978" Value="MAXIMUM SPEED"/>
+    <Text ID="1224101" Value="TIMEOUTS 2"/>
+    <Text ID="1224102" Value="TIMEOUTS 1"/>
+    <Text ID="1224103" Value="FILSTAR DELAYS"/>
+    <Text ID="1224104" Value="SYSTEM SETTINGS"/>
+    <Text ID="1224105" Value="FLIP UP ARMS"/>
+    <Text ID="1224106" Value="AUTO START SEAMER 1"/>
+    <Text ID="1224248" Value="TIMEOUTS 3"/>
+    <Text ID="1224252" Value="BACK"/>
+    <Text ID="1224275" Value="MISCELLANEOUS"/>
+    <Text ID="1224276" Value="SERVO HELP"/>
+    <Text ID="1224277" Value="SYSTEM HELP"/>
+    <Text ID="1224278" Value="TIMEOUTS HELP"/>
+    <Text ID="1229698" Value="FAST SEARCH SPEED"/>
+    <Text ID="1229699" Value="SLOW SEARCH SPEED"/>
+    <Text ID="1229700" Value="SLOW CHECK SPEED"/>
+    <Text ID="1229701" Value="SLOW SEARCH MOVE DISTANCE"/>
+    <Text ID="1229702" Value="FORWARD CHECK DISTANCE"/>
+    <Text ID="1229703" Value="REVERSE SLOW ADJUSTMENT"/>
+    <Text ID="1229704" Value="FORWARD SLOW ADJUSTMENT"/>
+    <Text ID="1229705" Value="FORWARD CHECK ADJUSTMENT"/>
+    <Text ID="1229706" Value="MAXIMUM ABSOLUTE POSITION"/>
+    <Text ID="1229707" Value="MINIMUM ABSOLUTE POSITION"/>
+    <Text ID="1229708" Value="FAST FORWARD ABS POSITION"/>
+    <Text ID="1229709" Value="FAST REVERSE ABS POSITION"/>
+    <Text ID="1229710" Value="ORIGIN PRESET POSITION"/>
+    <Text ID="1229711" Value="REVERSE FEED LENGTH"/>
+    <Text ID="1229712" Value="FORWARD FEED LENGTH"/>
+    <Text ID="1230433" Value="FURNACE POSITION"/>
+    <Text ID="1230434" Value="WASHER POSITION"/>
+    <Text ID="1230435" Value="SLOW SPEED"/>
+    <Text ID="1230436" Value="FAST SPEED"/>
+    <Text ID="1230468" Value="FILSTAR"/>
+    <Text ID="1230469" Value="SYSTEM"/>
+    <Text ID="1230470" Value="FLIP UPS"/>
+    <Text ID="1230471" Value="START 1"/>
+    <Text ID="1230472" Value="AUTOSTART DELAYS FOR BELT MOTOR"/>
+    <Text ID="1230473" Value="AUTOSTART DELAYS FOR VACUUM PUMPS"/>
+    <Text ID="1230474" Value="BEFORE WATER TANK PUMPS OFF"/>
+    <Text ID="1230475" Value="BEFORE VACUUM PUMPS OFF AFTER STOP"/>
+    <Text ID="1230476" Value="BEFORE CS1 RESTART AFTER ESTOP RECOVERY"/>
+    <Text ID="1230477" Value="BEFORE CS2 RESTART AFTER ESTOP RECOVERY"/>
+    <Text ID="1230478" Value="BEFORE ED 1 START"/>
+    <Text ID="1230479" Value="BEFORE BELT 10 START"/>
+    <Text ID="1230480" Value="BEFORE CD 2 START"/>
+    <Text ID="1230481" Value="BEFORE ED 2 START"/>
+    <Text ID="1230482" Value="BEFORE VAC 1 START"/>
+    <Text ID="1230483" Value="BEFORE VAC 3 START"/>
+    <Text ID="1230484" Value="SEAMER 1 ARMS POSITION 1"/>
+    <Text ID="1230485" Value="SEAMER 1 ARMS POSITION 2"/>
+    <Text ID="1230486" Value="SEAMER 1 ARMS POSITION 3"/>
+    <Text ID="1230487" Value="SEAMER 1 ARMS POSITION 4"/>
+    <Text ID="1230488" Value="SEAMER 1 ARMS POSITION 5"/>
+    <Text ID="1230786" Value="BEFORE BELT 5 START"/>
+    <Text ID="1230787" Value="BEFORE BELT 6 START"/>
+    <Text ID="1230788" Value="BEFORE BELT 7 START"/>
+    <Text ID="1230789" Value="BEFORE BELT 8 START"/>
+    <Text ID="1230790" Value="BEFORE BELT 11 START"/>
+    <Text ID="1230791" Value="SEAMER 1 MEASUREMENT COMPARATOR"/>
+    <Text ID="1230792" Value="SEAMER 2 MEASUREMENT COMPARATOR"/>
+    <Text ID="1230793" Value="BEFORE BELT 12 START"/>
+    <Text ID="1230794" Value="BEFORE CD 4 START"/>
+    <Text ID="1230795" Value="BEFORE ED 4 START"/>
+    <Text ID="1230796" Value="BEFORE VAC 2 START"/>
+    <Text ID="1230797" Value="BEFORE VAC 4 START"/>
+    <Text ID="1230798" Value="SEAMER 2 ARMS POSITION 1"/>
+    <Text ID="1230799" Value="SEAMER 2 ARMS POSITION 2"/>
+    <Text ID="1230800" Value="SEAMER 2 ARMS POSITION 3"/>
+    <Text ID="1230801" Value="SEAMER 2 ARMS POSITION 4"/>
+    <Text ID="1230802" Value="SEAMER 2 ARMS POSITION 5"/>
+    <Text ID="1230992" Value="AUTO START SEAMER 2"/>
+    <Text ID="1230996" Value="START 2"/>
+    <Text ID="1230999" Value="BEFORE CS1 RESTART AFTER EMO"/>
+    <Text ID="1231000" Value="BEFORE CS2 RESTART AFTER EMO"/>
+    <Text ID="1231001" Value="BEFORE PNEUMATIC SCAVENGE PUMPS START"/>
+    <Text ID="1231002" Value="BEFORE PNEUMATIC SCAVENGE PUMPS STOP"/>
+    <Text ID="1231003" Value="BEFORE SEAMER EVACUATION PUMP 1 ON"/>
+    <Text ID="1231004" Value="BEFORE SEAMER EVACUATION PUMP 2 ON"/>
+    <Text ID="1231005" Value="BEFORE SEAMER EVACUATION PUMP 3 ON"/>
+    <Text ID="1231006" Value="BEFORE SEAMER EVACUATION PUMP 4 ON"/>
+    <Text ID="1231007" Value="FILSTAR FILTER VALVE OPEN DELAY"/>
+    <Text ID="1231008" Value="FILSTAR FILTER VALVE INTERVAL DELAY"/>
+    <Text ID="1231009" Value="BEFORE DIRTY WATER TANK PUMP OFF"/>
+    <Text ID="1231010" Value="BEFORE CLEAN  WATER TANK PUMP OFF"/>
+    <Text ID="1231011" Value="BEFORE VACUUM PUMPS OFF AFTER STOP"/>
+    <Text ID="1235321" Value="SYSTEM SETTINGS 2"/>
+    <Text ID="1235322" Value="SYSTEM 2"/>
+    <Text ID="1235472" Value="TIMEOUT DELAY FOR TRACKING BIT 00-1"/>
+    <Text ID="1235473" Value="TIMEOUT DELAY FOR TRACKING BIT 00-2"/>
+    <Text ID="1235474" Value="TIMEOUT DELAY FOR TRACKING BIT 00-3"/>
+    <Text ID="1235475" Value="TIMEOUT DELAY FOR TRACKING BIT 10-1"/>
+    <Text ID="1235476" Value="TIMEOUT DELAY FOR TRACKING BIT 10-2"/>
+    <Text ID="1235477" Value="TIMEOUT DELAY FOR TRACKING BIT 10-4"/>
+    <Text ID="1235478" Value="TIMEOUT DELAY FOR TRACKING BIT 10-6"/>
+    <Text ID="1235479" Value="TIMEOUT DELAY FOR TRACKING BIT 11-1"/>
+    <Text ID="1235480" Value="TIMEOUT DELAY FOR TRACKING BIT 11-2"/>
+    <Text ID="1235481" Value="TIMEOUT DELAY FOR TRACKING BIT 11-3"/>
+    <Text ID="1235482" Value="TIMEOUT DELAY FOR TRACKING BIT 20-1"/>
+    <Text ID="1235483" Value="TIMEOUT DELAY FOR TRACKING BIT 20-2"/>
+    <Text ID="1235484" Value="TIMEOUT DELAY FOR TRACKING BIT 20-4"/>
+    <Text ID="1235485" Value="TIMEOUT DELAY FOR TRACKING BIT 20-7"/>
+    <Text ID="1235486" Value="TIMEOUT DELAY FOR TRACKING BIT 30-1"/>
+    <Text ID="1235487" Value="TIMEOUT DELAY FOR TRACKING BIT 40-1"/>
+    <Text ID="1235488" Value="TIMEOUT DELAY FOR TRACKING BIT 41-2"/>
+    <Text ID="1235489" Value="TIMEOUT DELAY FOR TRACKING BIT 41-3"/>
+    <Text ID="1235490" Value="TIMEOUT DELAY FOR TRACKING BIT 41-4"/>
+    <Text ID="1235491" Value="TIMEOUT DELAY FOR TRACKING BIT 50-3"/>
+    <Text ID="1235492" Value="TIMEOUT DELAY FOR TRACKING BIT 50-4"/>
+    <Text ID="1235493" Value="TIMEOUT DELAY FOR TRACKING BIT 50-6"/>
+    <Text ID="1235494" Value="TIMEOUT DELAY FOR TRACKING BIT 60-2"/>
+    <Text ID="1240243" Value="SEAMING SPEED"/>
+    <Text ID="1292035" Value="RESTART POSITION"/>
+    <Text ID="1399852" Value="TIMEOUTS 4"/>
+    <Text ID="1416570" Value="DELAYS"/>
+    <Text ID="1431064" Value="WASHER"/>
+    <Text ID="1460275" Value="LASER SPEED"/>
+    <Text ID="1480838" Value="FURNACE CLEAR SIGNAL CONFIGURATION"/>
+    <Text ID="1480839" Value="PULSE SIGNAL"/>
+    <Text ID="1480840" Value="ON SIGNAL"/>
+    <Text ID="1515922" Value="MANUAL BATCHING:"/>
+    <Text ID="1515923" Value="DELAY FOR BATCH TO ADVANCE"/>
+    <Text ID="1567284" Value="DELAY BEFORE WASHER RUNOUT CLEAR"/>
+    <Text ID="1593096" Value="REVERSE SPEED"/>
+    <Text ID="1593097" Value="WASHER SPEED"/>
+    <Text ID="1593098" Value=""/>
+    <Text ID="1593099" Value="CENTERING SPEED"/>
+    <Text ID="1593100" Value="ENTRY SPEED"/>
+    <Text ID="1593101" Value="BUFFER SPEED"/>
+    <Text ID="1593102" Value="BATCHING SPEED"/>
+    <Text ID="1609715" Value="CONVEYOR LOADING 1"/>
+    <Text ID="1609716" Value="CONVEYOR SEAMER 1"/>
+    <Text ID="1609717" Value="CONVEYOR VACUUM 1"/>
+    <Text ID="1609718" Value="CONVEYOR CORNER 1"/>
+    <Text ID="1609719" Value="CONVEYOR CORNER 2"/>
+    <Text ID="1609720" Value="CONVEYOR SEAMER 2"/>
+    <Text ID="1609721" Value="CONVEYOR VACUUM 2"/>
+    <Text ID="1609722" Value="CONVEYOR CORNER 3"/>
+    <Text ID="1609723" Value="CONVEYOR CORNER 4"/>
+    <Text ID="1609724" Value="CONVEYOR BUFFER 1"/>
+    <Text ID="1609725" Value="CONVEYOR BUFFER 2"/>
+    <Text ID="1609726" Value="CONVEYOR ROW BUILD"/>
+    <Text ID="1609735" Value="INVERTER 1:"/>
+    <Text ID="1609736" Value="INVERTER 2:"/>
+    <Text ID="1609737" Value="INVERTER 3:"/>
+    <Text ID="1609738" Value="INVERTER 4:"/>
+    <Text ID="1609739" Value="INVERTER 5:"/>
+    <Text ID="1609740" Value="INVERTER 6:"/>
+    <Text ID="1609741" Value="INVERTER 7:"/>
+    <Text ID="1609742" Value="INVERTER 8:"/>
+    <Text ID="1609743" Value="INVERTER 9:"/>
+    <Text ID="1609744" Value="INVERTER 10:"/>
+    <Text ID="1609745" Value="INVERTER 11:"/>
+    <Text ID="1609746" Value="INVERTER 12:"/>
+    <Text ID="1609982" Value="SPEEDS"/>
+    <Text ID="1610212" Value="M/MIN AT 50HZ"/>
+    <Text ID="1610213" Value="ACCELERATION RAMP"/>
+    <Text ID="1610214" Value="DECELERATION RAMP"/>
+    <Text ID="1652182" Value="ANALOG"/>
+    <Text ID="1652265" Value="NONE"/>
+    <Text ID="1652266" Value="VOLTAGE 0-10V"/>
+    <Text ID="1652268" Value="CURRENT 0-20mA"/>
+    <Text ID="1652269" Value="CURRENT 4-20mA"/>
+    <Text ID="1652270" Value="ANALOG SELECTION"/>
+    <Text ID="1669718" Value="WASHER ANALOG VALUE FOLLOWING:"/>
+    <Text ID="1669719" Value="FURNACE ANALOG VALUE FOLLOWING:"/>
+    <Text ID="1690687" Value="ANALOG RAW VALUE"/>
+    <Text ID="1690688" Value="ACTUAL WASHER SPEED"/>
+    <Text ID="1690689" Value="ACTUAL FURNACE SPEED"/>
+    <Text ID="1690694" Value="SAVE VALUES"/>
+    <Text ID="1690707" Value="YES"/>
+    <Text ID="1690708" Value="NO"/>
+    <Text ID="1695309" Value="ARE YOU SURE?"/>
+    <Text ID="1745381" Value="SAVED WASHER SPEED"/>
+    <Text ID="539196" Value="SEAMER 2"/>
+    <Text ID="1767941" Value="DELAY BEFORE LASER FIRE"/>
+    <Text ID="1767942" Value="SLOW SEAMING SPEED"/>
+    <Text ID="1767943" Value="DELAY CC1 SLOW BEFORE REVERSE"/>
+    <Text ID="1767944" Value="DELAY CC1 REVERSE BEFORE STOP"/>
+    <Text ID="1767945" Value="DELAY BEFORE ROW BUILD STARTS"/>
+    <Text ID="1767946" Value="DELAY BEFORE LOAD BUILD STARTS"/>
+    <Text ID="1767947" Value="DELAY BEFORE LOAD BUILD STOPS"/>
+    <Text ID="1767948" Value="DELAY AFTER  S15 CLEAR"/>
+    <Text ID="1767949" Value="DELAY BEFORE AUTO LOAD CLEAR"/>
+    <Text ID="1767950" Value="DELAY CC3 REVERSE BEFORE STOP"/>
+    <Text ID="1767951" Value="DELAY CC3 SLOW BEFORE REVERSE"/>
+    <Text ID="1767952" Value="DELAY BEFORE OFFLINE POSITION"/>
+    <Text ID="1767957" Value="BATCHING"/>
+    <Text ID="1767973" Value="DELAY BEFORE BELT 1 SOLENOID ON"/>
+    <Text ID="1767974" Value="DELAY BEFORE BELT 1 SOLENOID OFF"/>
+    <Text ID="1767975" Value="DELAY BEFORE BELT 2 SOLENOID ON"/>
+    <Text ID="1767976" Value="DELAY BEFORE BELT 2 SOLENOID OFF"/>
+    <Text ID="1767977" Value="DELAY BEFORE BELT 3 SOLENOID ON"/>
+    <Text ID="1767978" Value="DELAY BEFORE BELT 3 SOLENOID OFF"/>
+    <Text ID="1767979" Value="DELAY BEFORE BELT 4 SOLENOID ON"/>
+    <Text ID="1767980" Value="DELAY BEFORE BELT 4 SOLENOID OFF"/>
+    <Text ID="1767981" Value="DELAY BEFORE BELT 5 SOLENOID ON"/>
+    <Text ID="1767982" Value="DELAY BEFORE BELT 5 SOLENOID OFF"/>
+    <Text ID="1767983" Value="DELAY BEFORE BELT 6 SOLENOID ON"/>
+    <Text ID="1767984" Value="DELAY BEFORE BELT 6 SOLENOID OFF"/>
+    <Text ID="1767985" Value="DELAY BEFORE BELT 7 SOLENOID ON"/>
+    <Text ID="1767986" Value="DELAY BEFORE BELT 7 SOLENOID OFF"/>
+    <Text ID="1767987" Value="DELAY BEFORE BELT 8 SOLENOID ON"/>
+    <Text ID="1767988" Value="DELAY BEFORE BELT 8 SOLENOID OFF"/>
+    <Text ID="1768014" Value="MAXIMUM BATCH WIDTH"/>
+    <Text ID="1768015" Value="ACTUAL WIDTH GAP"/>
+    <Text ID="1768019" Value="CENTRE LINE DISTANCE"/>
+    <Text ID="1768020" Value="MAXIMUM BATCH LENGTH"/>
+    <Text ID="1768021" Value="ACTUAL LENGTH GAP"/>
+    <Text ID="1772824" Value="SAVED ANALOG VALUE"/>
+    <Text ID="1772828" Value="PARAMETER 1"/>
+    <Text ID="1772829" Value="PARAMETER 2"/>
+    <Text ID="1772830" Value="PARAMETER 3"/>
+    <Text ID="1788949" Value="CONVEYOR ROW EXIT"/>
+    <Text ID="1788950" Value="CONVEYOR LOAD BUILD"/>
+    <Text ID="1789021" Value="INVERTER 13:"/>
+    <Text ID="1789022" Value="INVERTER 14:"/>
+    <Text ID="1789025" Value="ANALOG"/>
+    <Text ID="1789029" Value="BEFORE SCAVENGE PUMPS START"/>
+    <Text ID="1789031" Value="BEFORE SCAVENGE PUMPS STOP"/>
+    <Text ID="1789033" Value="TIMEOUT DELAY FOR TRACKING BIT 80-1"/>
+    <Text ID="1789034" Value="TIMEOUT DELAY FOR TRACKING BIT 80-3"/>
+    <Text ID="1789035" Value="TIMEOUT DELAY FOR TRACKING BIT 80-4"/>
+    <Text ID="1789036" Value="TIMEOUT DELAY FOR TRACKING BIT 80-5"/>
+    <Text ID="1789037" Value="TIMEOUT DELAY FOR TRACKING BIT 81-1"/>
+    <Text ID="1789038" Value="TIMEOUT DELAY FOR TRACKING BIT 82-1"/>
+    <Text ID="1789088" Value="DELAY BEFORE SEAMER 2 RESTART"/>
+    <Text ID="1789094" Value="DELAY BEFORE OFFLINE CLEAR"/>
+    <Text ID="1814420" Value="TIMEOUT DELAY FOR TRACKING BIT 51-2"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="453370" Value=""/>
+    <Text ID="453371" Value=""/>
+    <Text ID="539197" Value=""/>
+    <Text ID="539199" Value=""/>
+    <Text ID="539200" Value=""/>
+    <Text ID="539201" Value=""/>
+    <Text ID="539202" Value=""/>
+    <Text ID="539203" Value=""/>
+    <Text ID="541571" Value=""/>
+    <Text ID="541572" Value=""/>
+    <Text ID="605958" Value=""/>
+    <Text ID="605959" Value=""/>
+    <Text ID="605960" Value=""/>
+    <Text ID="605991" Value=""/>
+    <Text ID="606016" Value=""/>
+    <Text ID="606017" Value=""/>
+    <Text ID="606018" Value=""/>
+    <Text ID="722368" Value=""/>
+    <Text ID="776669" Value=""/>
+    <Text ID="844647" Value=""/>
+    <Text ID="861366" Value=""/>
+    <Text ID="968728" Value=""/>
+    <Text ID="990099" Value=""/>
+    <Text ID="990100" Value=""/>
+    <Text ID="990101" Value=""/>
+    <Text ID="990102" Value=""/>
+    <Text ID="1027888" Value=""/>
+    <Text ID="1034849" Value=""/>
+    <Text ID="1034851" Value=""/>
+    <Text ID="1223761" Value=""/>
+    <Text ID="1223762" Value=""/>
+    <Text ID="1223763" Value=""/>
+    <Text ID="1223764" Value=""/>
+    <Text ID="1223765" Value=""/>
+    <Text ID="1223766" Value=""/>
+    <Text ID="1223767" Value=""/>
+    <Text ID="1223768" Value=""/>
+    <Text ID="1223801" Value=""/>
+    <Text ID="1223962" Value=""/>
+    <Text ID="1223963" Value=""/>
+    <Text ID="1223964" Value=""/>
+    <Text ID="1223965" Value=""/>
+    <Text ID="1223966" Value=""/>
+    <Text ID="1223967" Value=""/>
+    <Text ID="1223977" Value="WASHER SPEED"/>
+    <Text ID="1223978" Value=""/>
+    <Text ID="1224101" Value=""/>
+    <Text ID="1224102" Value=""/>
+    <Text ID="1224103" Value=""/>
+    <Text ID="1224104" Value=""/>
+    <Text ID="1224105" Value=""/>
+    <Text ID="1224106" Value=""/>
+    <Text ID="1224248" Value=""/>
+    <Text ID="1224252" Value=""/>
+    <Text ID="1224275" Value=""/>
+    <Text ID="1224276" Value=""/>
+    <Text ID="1224277" Value=""/>
+    <Text ID="1224278" Value=""/>
+    <Text ID="1229698" Value=""/>
+    <Text ID="1229699" Value=""/>
+    <Text ID="1229700" Value=""/>
+    <Text ID="1229701" Value=""/>
+    <Text ID="1229702" Value=""/>
+    <Text ID="1229703" Value=""/>
+    <Text ID="1229704" Value=""/>
+    <Text ID="1229705" Value=""/>
+    <Text ID="1229706" Value=""/>
+    <Text ID="1229707" Value=""/>
+    <Text ID="1229708" Value=""/>
+    <Text ID="1229709" Value=""/>
+    <Text ID="1229710" Value=""/>
+    <Text ID="1229711" Value=""/>
+    <Text ID="1229712" Value=""/>
+    <Text ID="1230433" Value=""/>
+    <Text ID="1230434" Value=""/>
+    <Text ID="1230435" Value=""/>
+    <Text ID="1230436" Value=""/>
+    <Text ID="1230468" Value=""/>
+    <Text ID="1230469" Value=""/>
+    <Text ID="1230470" Value=""/>
+    <Text ID="1230471" Value=""/>
+    <Text ID="1230472" Value=""/>
+    <Text ID="1230473" Value=""/>
+    <Text ID="1230474" Value=""/>
+    <Text ID="1230475" Value=""/>
+    <Text ID="1230476" Value=""/>
+    <Text ID="1230477" Value=""/>
+    <Text ID="1230478" Value=""/>
+    <Text ID="1230479" Value=""/>
+    <Text ID="1230480" Value=""/>
+    <Text ID="1230481" Value=""/>
+    <Text ID="1230482" Value=""/>
+    <Text ID="1230483" Value=""/>
+    <Text ID="1230484" Value=""/>
+    <Text ID="1230485" Value=""/>
+    <Text ID="1230486" Value=""/>
+    <Text ID="1230487" Value=""/>
+    <Text ID="1230488" Value=""/>
+    <Text ID="1230786" Value=""/>
+    <Text ID="1230787" Value=""/>
+    <Text ID="1230788" Value=""/>
+    <Text ID="1230789" Value=""/>
+    <Text ID="1230790" Value=""/>
+    <Text ID="1230791" Value=""/>
+    <Text ID="1230792" Value=""/>
+    <Text ID="1230793" Value=""/>
+    <Text ID="1230794" Value=""/>
+    <Text ID="1230795" Value=""/>
+    <Text ID="1230796" Value=""/>
+    <Text ID="1230797" Value=""/>
+    <Text ID="1230798" Value=""/>
+    <Text ID="1230799" Value=""/>
+    <Text ID="1230800" Value=""/>
+    <Text ID="1230801" Value=""/>
+    <Text ID="1230802" Value=""/>
+    <Text ID="1230992" Value=""/>
+    <Text ID="1230996" Value=""/>
+    <Text ID="1230999" Value=""/>
+    <Text ID="1231000" Value=""/>
+    <Text ID="1231001" Value=""/>
+    <Text ID="1231002" Value=""/>
+    <Text ID="1231003" Value=""/>
+    <Text ID="1231004" Value=""/>
+    <Text ID="1231005" Value=""/>
+    <Text ID="1231006" Value=""/>
+    <Text ID="1231007" Value=""/>
+    <Text ID="1231008" Value=""/>
+    <Text ID="1231009" Value=""/>
+    <Text ID="1231010" Value=""/>
+    <Text ID="1231011" Value=""/>
+    <Text ID="1235321" Value=""/>
+    <Text ID="1235322" Value=""/>
+    <Text ID="1235472" Value=""/>
+    <Text ID="1235473" Value=""/>
+    <Text ID="1235474" Value=""/>
+    <Text ID="1235475" Value=""/>
+    <Text ID="1235476" Value=""/>
+    <Text ID="1235477" Value=""/>
+    <Text ID="1235478" Value=""/>
+    <Text ID="1235479" Value=""/>
+    <Text ID="1235480" Value=""/>
+    <Text ID="1235481" Value=""/>
+    <Text ID="1235482" Value=""/>
+    <Text ID="1235483" Value=""/>
+    <Text ID="1235484" Value=""/>
+    <Text ID="1235485" Value=""/>
+    <Text ID="1235486" Value=""/>
+    <Text ID="1235487" Value=""/>
+    <Text ID="1235488" Value=""/>
+    <Text ID="1235489" Value=""/>
+    <Text ID="1235490" Value=""/>
+    <Text ID="1235491" Value=""/>
+    <Text ID="1235492" Value=""/>
+    <Text ID="1235493" Value=""/>
+    <Text ID="1235494" Value=""/>
+    <Text ID="1240243" Value=""/>
+    <Text ID="1292035" Value=""/>
+    <Text ID="1399852" Value=""/>
+    <Text ID="1416570" Value=""/>
+    <Text ID="1431064" Value=""/>
+    <Text ID="1460275" Value=""/>
+    <Text ID="1480838" Value=""/>
+    <Text ID="1480839" Value=""/>
+    <Text ID="1480840" Value=""/>
+    <Text ID="1515922" Value=""/>
+    <Text ID="1515923" Value=""/>
+    <Text ID="1567284" Value=""/>
+    <Text ID="1593096" Value=""/>
+    <Text ID="1593097" Value=""/>
+    <Text ID="1593098" Value=""/>
+    <Text ID="1593099" Value=""/>
+    <Text ID="1593100" Value=""/>
+    <Text ID="1593101" Value=""/>
+    <Text ID="1593102" Value=""/>
+    <Text ID="1609715" Value=""/>
+    <Text ID="1609716" Value=""/>
+    <Text ID="1609717" Value=""/>
+    <Text ID="1609718" Value=""/>
+    <Text ID="1609719" Value=""/>
+    <Text ID="1609720" Value=""/>
+    <Text ID="1609721" Value=""/>
+    <Text ID="1609722" Value=""/>
+    <Text ID="1609723" Value=""/>
+    <Text ID="1609724" Value=""/>
+    <Text ID="1609725" Value=""/>
+    <Text ID="1609726" Value=""/>
+    <Text ID="1609735" Value=""/>
+    <Text ID="1609736" Value=""/>
+    <Text ID="1609737" Value=""/>
+    <Text ID="1609738" Value=""/>
+    <Text ID="1609739" Value=""/>
+    <Text ID="1609740" Value=""/>
+    <Text ID="1609741" Value=""/>
+    <Text ID="1609742" Value=""/>
+    <Text ID="1609743" Value=""/>
+    <Text ID="1609744" Value=""/>
+    <Text ID="1609745" Value=""/>
+    <Text ID="1609746" Value=""/>
+    <Text ID="1609982" Value=""/>
+    <Text ID="1610212" Value=""/>
+    <Text ID="1610213" Value=""/>
+    <Text ID="1610214" Value=""/>
+    <Text ID="1652182" Value=""/>
+    <Text ID="1652265" Value=""/>
+    <Text ID="1652266" Value=""/>
+    <Text ID="1652268" Value=""/>
+    <Text ID="1652269" Value=""/>
+    <Text ID="1652270" Value=""/>
+    <Text ID="1669718" Value=""/>
+    <Text ID="1669719" Value=""/>
+    <Text ID="1690687" Value=""/>
+    <Text ID="1690688" Value=""/>
+    <Text ID="1690689" Value=""/>
+    <Text ID="1690694" Value=""/>
+    <Text ID="1690707" Value=""/>
+    <Text ID="1690708" Value=""/>
+    <Text ID="1695309" Value=""/>
+    <Text ID="1745381" Value=""/>
+    <Text ID="539196" Value=""/>
+    <Text ID="1767941" Value=""/>
+    <Text ID="1767942" Value=""/>
+    <Text ID="1767943" Value=""/>
+    <Text ID="1767944" Value=""/>
+    <Text ID="1767945" Value=""/>
+    <Text ID="1767946" Value=""/>
+    <Text ID="1767947" Value=""/>
+    <Text ID="1767948" Value=""/>
+    <Text ID="1767949" Value=""/>
+    <Text ID="1767950" Value=""/>
+    <Text ID="1767951" Value=""/>
+    <Text ID="1767952" Value=""/>
+    <Text ID="1767957" Value=""/>
+    <Text ID="1767973" Value=""/>
+    <Text ID="1767974" Value=""/>
+    <Text ID="1767975" Value=""/>
+    <Text ID="1767976" Value=""/>
+    <Text ID="1767977" Value=""/>
+    <Text ID="1767978" Value=""/>
+    <Text ID="1767979" Value=""/>
+    <Text ID="1767980" Value=""/>
+    <Text ID="1767981" Value=""/>
+    <Text ID="1767982" Value=""/>
+    <Text ID="1767983" Value=""/>
+    <Text ID="1767984" Value=""/>
+    <Text ID="1767985" Value=""/>
+    <Text ID="1767986" Value=""/>
+    <Text ID="1767987" Value=""/>
+    <Text ID="1767988" Value=""/>
+    <Text ID="1768014" Value=""/>
+    <Text ID="1768015" Value=""/>
+    <Text ID="1768019" Value=""/>
+    <Text ID="1768020" Value=""/>
+    <Text ID="1768021" Value=""/>
+    <Text ID="1772824" Value=""/>
+    <Text ID="1772828" Value=""/>
+    <Text ID="1772829" Value=""/>
+    <Text ID="1772830" Value=""/>
+    <Text ID="1788949" Value=""/>
+    <Text ID="1788950" Value=""/>
+    <Text ID="1789021" Value=""/>
+    <Text ID="1789022" Value=""/>
+    <Text ID="1789025" Value=""/>
+    <Text ID="1789029" Value=""/>
+    <Text ID="1789031" Value=""/>
+    <Text ID="1789033" Value=""/>
+    <Text ID="1789034" Value=""/>
+    <Text ID="1789035" Value=""/>
+    <Text ID="1789036" Value=""/>
+    <Text ID="1789037" Value=""/>
+    <Text ID="1789038" Value=""/>
+    <Text ID="1789088" Value=""/>
+    <Text ID="1789094" Value=""/>
+    <Text ID="1814420" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="453370" Value="146"/>
+    <Index ID="453371" Value="147"/>
+    <Index ID="539197" Value="14"/>
+    <Index ID="539199" Value="15"/>
+    <Index ID="539200" Value="17"/>
+    <Index ID="539201" Value="18"/>
+    <Index ID="539202" Value="21"/>
+    <Index ID="539203" Value="22"/>
+    <Index ID="541571" Value="32"/>
+    <Index ID="541572" Value="35"/>
+    <Index ID="605958" Value="16"/>
+    <Index ID="605959" Value="23"/>
+    <Index ID="605960" Value="24"/>
+    <Index ID="605991" Value="148"/>
+    <Index ID="606016" Value="149"/>
+    <Index ID="606017" Value="150"/>
+    <Index ID="606018" Value="151"/>
+    <Index ID="722368" Value="25"/>
+    <Index ID="776669" Value="152"/>
+    <Index ID="844647" Value="153"/>
+    <Index ID="861366" Value="154"/>
+    <Index ID="968728" Value="155"/>
+    <Index ID="990099" Value="156"/>
+    <Index ID="990100" Value="157"/>
+    <Index ID="990101" Value="158"/>
+    <Index ID="990102" Value="159"/>
+    <Index ID="1027888" Value="160"/>
+    <Index ID="1034849" Value="161"/>
+    <Index ID="1034851" Value="162"/>
+    <Index ID="1223761" Value="10"/>
+    <Index ID="1223762" Value="9"/>
+    <Index ID="1223763" Value="12"/>
+    <Index ID="1223764" Value="5"/>
+    <Index ID="1223765" Value="4"/>
+    <Index ID="1223766" Value="3"/>
+    <Index ID="1223767" Value="2"/>
+    <Index ID="1223768" Value="1"/>
+    <Index ID="1223801" Value="20"/>
+    <Index ID="1223962" Value="31"/>
+    <Index ID="1223963" Value="30"/>
+    <Index ID="1223964" Value="29"/>
+    <Index ID="1223965" Value="28"/>
+    <Index ID="1223966" Value="27"/>
+    <Index ID="1223967" Value="26"/>
+    <Index ID="1223977" Value="37"/>
+    <Index ID="1223978" Value="36"/>
+    <Index ID="1224101" Value="61"/>
+    <Index ID="1224102" Value="60"/>
+    <Index ID="1224103" Value="52"/>
+    <Index ID="1224104" Value="50"/>
+    <Index ID="1224105" Value="49"/>
+    <Index ID="1224106" Value="46"/>
+    <Index ID="1224248" Value="62"/>
+    <Index ID="1224252" Value="7"/>
+    <Index ID="1224275" Value="8"/>
+    <Index ID="1224276" Value="19"/>
+    <Index ID="1224277" Value="45"/>
+    <Index ID="1224278" Value="59"/>
+    <Index ID="1229698" Value="163"/>
+    <Index ID="1229699" Value="164"/>
+    <Index ID="1229700" Value="165"/>
+    <Index ID="1229701" Value="166"/>
+    <Index ID="1229702" Value="167"/>
+    <Index ID="1229703" Value="168"/>
+    <Index ID="1229704" Value="169"/>
+    <Index ID="1229705" Value="170"/>
+    <Index ID="1229706" Value="171"/>
+    <Index ID="1229707" Value="172"/>
+    <Index ID="1229708" Value="173"/>
+    <Index ID="1229709" Value="174"/>
+    <Index ID="1229710" Value="175"/>
+    <Index ID="1229711" Value="176"/>
+    <Index ID="1229712" Value="177"/>
+    <Index ID="1230433" Value="181"/>
+    <Index ID="1230434" Value="180"/>
+    <Index ID="1230435" Value="179"/>
+    <Index ID="1230436" Value="178"/>
+    <Index ID="1230468" Value="58"/>
+    <Index ID="1230469" Value="56"/>
+    <Index ID="1230470" Value="55"/>
+    <Index ID="1230471" Value="53"/>
+    <Index ID="1230472" Value="183"/>
+    <Index ID="1230473" Value="184"/>
+    <Index ID="1230474" Value="185"/>
+    <Index ID="1230475" Value="188"/>
+    <Index ID="1230476" Value="189"/>
+    <Index ID="1230477" Value="190"/>
+    <Index ID="1230478" Value="191"/>
+    <Index ID="1230479" Value="192"/>
+    <Index ID="1230480" Value="193"/>
+    <Index ID="1230481" Value="194"/>
+    <Index ID="1230482" Value="195"/>
+    <Index ID="1230483" Value="196"/>
+    <Index ID="1230484" Value="197"/>
+    <Index ID="1230485" Value="198"/>
+    <Index ID="1230486" Value="199"/>
+    <Index ID="1230487" Value="200"/>
+    <Index ID="1230488" Value="201"/>
+    <Index ID="1230786" Value="202"/>
+    <Index ID="1230787" Value="203"/>
+    <Index ID="1230788" Value="204"/>
+    <Index ID="1230789" Value="205"/>
+    <Index ID="1230790" Value="206"/>
+    <Index ID="1230791" Value="207"/>
+    <Index ID="1230792" Value="208"/>
+    <Index ID="1230793" Value="209"/>
+    <Index ID="1230794" Value="210"/>
+    <Index ID="1230795" Value="211"/>
+    <Index ID="1230796" Value="212"/>
+    <Index ID="1230797" Value="213"/>
+    <Index ID="1230798" Value="214"/>
+    <Index ID="1230799" Value="215"/>
+    <Index ID="1230800" Value="216"/>
+    <Index ID="1230801" Value="217"/>
+    <Index ID="1230802" Value="218"/>
+    <Index ID="1230992" Value="48"/>
+    <Index ID="1230996" Value="54"/>
+    <Index ID="1230999" Value="219"/>
+    <Index ID="1231000" Value="220"/>
+    <Index ID="1231001" Value="221"/>
+    <Index ID="1231002" Value="222"/>
+    <Index ID="1231003" Value="223"/>
+    <Index ID="1231004" Value="224"/>
+    <Index ID="1231005" Value="225"/>
+    <Index ID="1231006" Value="226"/>
+    <Index ID="1231007" Value="227"/>
+    <Index ID="1231008" Value="228"/>
+    <Index ID="1231009" Value="229"/>
+    <Index ID="1231010" Value="230"/>
+    <Index ID="1231011" Value="231"/>
+    <Index ID="1235321" Value="51"/>
+    <Index ID="1235322" Value="57"/>
+    <Index ID="1235472" Value="232"/>
+    <Index ID="1235473" Value="233"/>
+    <Index ID="1235474" Value="234"/>
+    <Index ID="1235475" Value="235"/>
+    <Index ID="1235476" Value="236"/>
+    <Index ID="1235477" Value="237"/>
+    <Index ID="1235478" Value="238"/>
+    <Index ID="1235479" Value="239"/>
+    <Index ID="1235480" Value="240"/>
+    <Index ID="1235481" Value="241"/>
+    <Index ID="1235482" Value="242"/>
+    <Index ID="1235483" Value="243"/>
+    <Index ID="1235484" Value="244"/>
+    <Index ID="1235485" Value="245"/>
+    <Index ID="1235486" Value="246"/>
+    <Index ID="1235487" Value="247"/>
+    <Index ID="1235488" Value="248"/>
+    <Index ID="1235489" Value="249"/>
+    <Index ID="1235490" Value="250"/>
+    <Index ID="1235491" Value="251"/>
+    <Index ID="1235492" Value="252"/>
+    <Index ID="1235493" Value="253"/>
+    <Index ID="1235494" Value="254"/>
+    <Index ID="1240243" Value="34"/>
+    <Index ID="1292035" Value="182"/>
+    <Index ID="1399852" Value="63"/>
+    <Index ID="1416570" Value="0"/>
+    <Index ID="1431064" Value="6"/>
+    <Index ID="1460275" Value="38"/>
+    <Index ID="1480838" Value="347"/>
+    <Index ID="1480839" Value="348"/>
+    <Index ID="1480840" Value="349"/>
+    <Index ID="1515922" Value="350"/>
+    <Index ID="1515923" Value="351"/>
+    <Index ID="1567284" Value="352"/>
+    <Index ID="1593096" Value="40"/>
+    <Index ID="1593097" Value="39"/>
+    <Index ID="1593098" Value="47"/>
+    <Index ID="1593099" Value="41"/>
+    <Index ID="1593100" Value="43"/>
+    <Index ID="1593101" Value="44"/>
+    <Index ID="1593102" Value="42"/>
+    <Index ID="1609715" Value="360"/>
+    <Index ID="1609716" Value="361"/>
+    <Index ID="1609717" Value="362"/>
+    <Index ID="1609718" Value="363"/>
+    <Index ID="1609719" Value="364"/>
+    <Index ID="1609720" Value="365"/>
+    <Index ID="1609721" Value="366"/>
+    <Index ID="1609722" Value="367"/>
+    <Index ID="1609723" Value="368"/>
+    <Index ID="1609724" Value="369"/>
+    <Index ID="1609725" Value="370"/>
+    <Index ID="1609726" Value="371"/>
+    <Index ID="1609735" Value="380"/>
+    <Index ID="1609736" Value="381"/>
+    <Index ID="1609737" Value="382"/>
+    <Index ID="1609738" Value="383"/>
+    <Index ID="1609739" Value="384"/>
+    <Index ID="1609740" Value="385"/>
+    <Index ID="1609741" Value="386"/>
+    <Index ID="1609742" Value="387"/>
+    <Index ID="1609743" Value="388"/>
+    <Index ID="1609744" Value="389"/>
+    <Index ID="1609745" Value="390"/>
+    <Index ID="1609746" Value="391"/>
+    <Index ID="1609982" Value="400"/>
+    <Index ID="1610212" Value="401"/>
+    <Index ID="1610213" Value="402"/>
+    <Index ID="1610214" Value="403"/>
+    <Index ID="1652182" Value="404"/>
+    <Index ID="1652265" Value="406"/>
+    <Index ID="1652266" Value="407"/>
+    <Index ID="1652268" Value="408"/>
+    <Index ID="1652269" Value="409"/>
+    <Index ID="1652270" Value="405"/>
+    <Index ID="1669718" Value="410"/>
+    <Index ID="1669719" Value="411"/>
+    <Index ID="1690687" Value="412"/>
+    <Index ID="1690688" Value="413"/>
+    <Index ID="1690689" Value="416"/>
+    <Index ID="1690694" Value="417"/>
+    <Index ID="1690707" Value="418"/>
+    <Index ID="1690708" Value="419"/>
+    <Index ID="1695309" Value="420"/>
+    <Index ID="1745381" Value="415"/>
+    <Index ID="539196" Value="13"/>
+    <Index ID="1767941" Value="64"/>
+    <Index ID="1767942" Value="33"/>
+    <Index ID="1767943" Value="65"/>
+    <Index ID="1767944" Value="66"/>
+    <Index ID="1767945" Value="74"/>
+    <Index ID="1767946" Value="75"/>
+    <Index ID="1767947" Value="76"/>
+    <Index ID="1767948" Value="70"/>
+    <Index ID="1767949" Value="71"/>
+    <Index ID="1767950" Value="68"/>
+    <Index ID="1767951" Value="67"/>
+    <Index ID="1767952" Value="72"/>
+    <Index ID="1767957" Value="11"/>
+    <Index ID="1767973" Value="85"/>
+    <Index ID="1767974" Value="86"/>
+    <Index ID="1767975" Value="87"/>
+    <Index ID="1767976" Value="88"/>
+    <Index ID="1767977" Value="91"/>
+    <Index ID="1767978" Value="92"/>
+    <Index ID="1767979" Value="93"/>
+    <Index ID="1767980" Value="94"/>
+    <Index ID="1767981" Value="97"/>
+    <Index ID="1767982" Value="98"/>
+    <Index ID="1767983" Value="99"/>
+    <Index ID="1767984" Value="100"/>
+    <Index ID="1767985" Value="103"/>
+    <Index ID="1767986" Value="104"/>
+    <Index ID="1767987" Value="105"/>
+    <Index ID="1767988" Value="106"/>
+    <Index ID="1768014" Value="115"/>
+    <Index ID="1768015" Value="116"/>
+    <Index ID="1768019" Value="117"/>
+    <Index ID="1768020" Value="118"/>
+    <Index ID="1768021" Value="119"/>
+    <Index ID="1772824" Value="414"/>
+    <Index ID="1772828" Value="421"/>
+    <Index ID="1772829" Value="422"/>
+    <Index ID="1772830" Value="423"/>
+    <Index ID="1788949" Value="372"/>
+    <Index ID="1788950" Value="373"/>
+    <Index ID="1789021" Value="392"/>
+    <Index ID="1789022" Value="393"/>
+    <Index ID="1789025" Value="424"/>
+    <Index ID="1789029" Value="186"/>
+    <Index ID="1789031" Value="187"/>
+    <Index ID="1789033" Value="255"/>
+    <Index ID="1789034" Value="256"/>
+    <Index ID="1789035" Value="257"/>
+    <Index ID="1789036" Value="258"/>
+    <Index ID="1789037" Value="259"/>
+    <Index ID="1789038" Value="260"/>
+    <Index ID="1789088" Value="69"/>
+    <Index ID="1789094" Value="73"/>
+    <Index ID="1814420" Value="261"/>
+  </IndexMap>
+</TextGroup>

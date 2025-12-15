@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Background">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="402"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="956569" Value="ACCESS LEVEL:"/>
+    <Text ID="956571" Value="OPERATOR"/>
+    <Text ID="956572" Value="SUPERVISOR"/>
+    <Text ID="956573" Value="ENGINEER"/>
+    <Text ID="984741" Value="ASHTON TECHNICAL"/>
+    <Text ID="990440" Value="INPUT PASSWORD:"/>
+    <Text ID="994395" Value="CHANGE SUPERVISOR PASSWORD:"/>
+    <Text ID="994397" Value="INPUT NEW PASSWORD:"/>
+    <Text ID="994399" Value="UPDATING SUPERVISOR PASSWORD"/>
+    <Text ID="994414" Value="CHANGE ENGINEER PASSWORD:"/>
+    <Text ID="994415" Value="UPDATING ENGINEER PASSWORD"/>
+    <Text ID="994416" Value="ENGINEERING MENU ONLY AVAILABLE WHEN LINE IS CLEAR AND CONTROL CIRCUIT IS ON."/>
+    <Text ID="994420" Value="PRESS TO CLEAR"/>
+    <Text ID="998395" Value="RESET DEFAULT PASSWORDS:"/>
+    <Text ID="998452" Value="RESETTING DEFAULTS"/>
+    <Text ID="998456" Value=" IP ADDRESS:"/>
+    <Text ID="998458" Value=" STATUS:"/>
+    <Text ID="1002441" Value="NETWORK SETTINGS:"/>
+    <Text ID="1002442" Value="READ IP:"/>
+    <Text ID="1002443" Value="IP ADDRESS:"/>
+    <Text ID="1002444" Value="SUBNET MASK:"/>
+    <Text ID="1002445" Value="DEFAULT GATEWAY:"/>
+    <Text ID="1002447" Value="SET IP ADDRESS:"/>
+    <Text ID="1002448" Value="WRITE IP:"/>
+    <Text ID="1006219" Value="CLOSE MESSAGE"/>
+    <Text ID="1006220" Value="SEAMER"/>
+    <Text ID="1006222" Value="SERVOS"/>
+    <Text ID="1006223" Value="LASER"/>
+    <Text ID="1006230" Value="READY STATE MACHINE:"/>
+    <Text ID="1010013" Value="DESCRIPTION:"/>
+    <Text ID="1010015" Value="SEAMER MACHINE DETAILED STATUS:"/>
+    <Text ID="1010028" Value=" GRINDING:"/>
+    <Text ID="1010029" Value="SEAM1"/>
+    <Text ID="1010030" Value="SEAM2"/>
+    <Text ID="1010057" Value="SEAMER 1 ENABLE:"/>
+    <Text ID="1010058" Value="SEAMER1 START:"/>
+    <Text ID="1010063" Value="START"/>
+    <Text ID="1010105" Value="ALARMS ACTIVE!"/>
+    <Text ID="1010106" Value="WARNINGS ACTIVE!"/>
+    <Text ID="1111398" Value="TEST MODE AVAILABLE:"/>
+    <Text ID="1153338" Value="TEST MODE"/>
+    <Text ID="1153339" Value="TEST BELT 1 IDLE SPEED"/>
+    <Text ID="1153340" Value="TEST BELT 1 GRIND SPEED"/>
+    <Text ID="1153341" Value="TEST BELT 2 IDLE SPEED"/>
+    <Text ID="1153342" Value="TEST BELT 2 GRIND SPEED"/>
+    <Text ID="1153345" Value="BELT TEST BUTTONS:"/>
+    <Text ID="1157466" Value="DRIVE TRIP"/>
+    <Text ID="1167399" Value="BELT INVERTER TRIP! PRESS TO RESET."/>
+    <Text ID="1192886" Value="ED"/>
+    <Text ID="1197338" Value="SEAMERS START ALL:"/>
+    <Text ID="1197339" Value="SEAMER 2 START:"/>
+    <Text ID="1197340" Value="SEAMER 2 ENABLE:"/>
+    <Text ID="1246610" Value=""/>
+    <Text ID="1308001" Value="ED START:"/>
+    <Text ID="1731671" Value="OFFLINE"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="956569" Value=""/>
+    <Text ID="956571" Value=""/>
+    <Text ID="956572" Value=""/>
+    <Text ID="956573" Value=""/>
+    <Text ID="984741" Value=""/>
+    <Text ID="990440" Value=""/>
+    <Text ID="994395" Value=""/>
+    <Text ID="994397" Value=""/>
+    <Text ID="994399" Value=""/>
+    <Text ID="994414" Value=""/>
+    <Text ID="994415" Value=""/>
+    <Text ID="994416" Value=""/>
+    <Text ID="994420" Value=""/>
+    <Text ID="998395" Value=""/>
+    <Text ID="998452" Value=""/>
+    <Text ID="998456" Value=""/>
+    <Text ID="998458" Value=""/>
+    <Text ID="1002441" Value=""/>
+    <Text ID="1002442" Value=""/>
+    <Text ID="1002443" Value=""/>
+    <Text ID="1002444" Value=""/>
+    <Text ID="1002445" Value=""/>
+    <Text ID="1002447" Value=""/>
+    <Text ID="1002448" Value=""/>
+    <Text ID="1006219" Value=""/>
+    <Text ID="1006220" Value=""/>
+    <Text ID="1006222" Value=""/>
+    <Text ID="1006223" Value=""/>
+    <Text ID="1006230" Value=""/>
+    <Text ID="1010013" Value=""/>
+    <Text ID="1010015" Value=""/>
+    <Text ID="1010028" Value=""/>
+    <Text ID="1010029" Value=""/>
+    <Text ID="1010030" Value=""/>
+    <Text ID="1010057" Value=""/>
+    <Text ID="1010058" Value=""/>
+    <Text ID="1010063" Value=""/>
+    <Text ID="1010105" Value=""/>
+    <Text ID="1010106" Value=""/>
+    <Text ID="1111398" Value=""/>
+    <Text ID="1153338" Value=""/>
+    <Text ID="1153339" Value=""/>
+    <Text ID="1153340" Value=""/>
+    <Text ID="1153341" Value=""/>
+    <Text ID="1153342" Value=""/>
+    <Text ID="1153345" Value=""/>
+    <Text ID="1157466" Value=""/>
+    <Text ID="1167399" Value=""/>
+    <Text ID="1192886" Value=""/>
+    <Text ID="1197338" Value=""/>
+    <Text ID="1197339" Value=""/>
+    <Text ID="1197340" Value=""/>
+    <Text ID="1246610" Value=""/>
+    <Text ID="1308001" Value=""/>
+    <Text ID="1731671" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="956569" Value="0"/>
+    <Index ID="956571" Value="1"/>
+    <Index ID="956572" Value="2"/>
+    <Index ID="956573" Value="3"/>
+    <Index ID="984741" Value="4"/>
+    <Index ID="990440" Value="5"/>
+    <Index ID="994395" Value="6"/>
+    <Index ID="994397" Value="8"/>
+    <Index ID="994399" Value="10"/>
+    <Index ID="994414" Value="7"/>
+    <Index ID="994415" Value="11"/>
+    <Index ID="994416" Value="13"/>
+    <Index ID="994420" Value="14"/>
+    <Index ID="998395" Value="9"/>
+    <Index ID="998452" Value="12"/>
+    <Index ID="998456" Value="15"/>
+    <Index ID="998458" Value="16"/>
+    <Index ID="1002441" Value="17"/>
+    <Index ID="1002442" Value="18"/>
+    <Index ID="1002443" Value="19"/>
+    <Index ID="1002444" Value="20"/>
+    <Index ID="1002445" Value="21"/>
+    <Index ID="1002447" Value="22"/>
+    <Index ID="1002448" Value="23"/>
+    <Index ID="1006219" Value="24"/>
+    <Index ID="1006220" Value="25"/>
+    <Index ID="1006222" Value="27"/>
+    <Index ID="1006223" Value="28"/>
+    <Index ID="1006230" Value="29"/>
+    <Index ID="1010013" Value="30"/>
+    <Index ID="1010015" Value="31"/>
+    <Index ID="1010028" Value="32"/>
+    <Index ID="1010029" Value="33"/>
+    <Index ID="1010030" Value="34"/>
+    <Index ID="1010057" Value="36"/>
+    <Index ID="1010058" Value="37"/>
+    <Index ID="1010063" Value="42"/>
+    <Index ID="1010105" Value="43"/>
+    <Index ID="1010106" Value="44"/>
+    <Index ID="1111398" Value="45"/>
+    <Index ID="1153338" Value="46"/>
+    <Index ID="1153339" Value="49"/>
+    <Index ID="1153340" Value="50"/>
+    <Index ID="1153341" Value="51"/>
+    <Index ID="1153342" Value="52"/>
+    <Index ID="1153345" Value="48"/>
+    <Index ID="1157466" Value="47"/>
+    <Index ID="1167399" Value="53"/>
+    <Index ID="1192886" Value="35"/>
+    <Index ID="1197338" Value="40"/>
+    <Index ID="1197339" Value="39"/>
+    <Index ID="1197340" Value="38"/>
+    <Index ID="1246610" Value="54"/>
+    <Index ID="1308001" Value="41"/>
+    <Index ID="1731671" Value="26"/>
+  </IndexMap>
+</TextGroup>

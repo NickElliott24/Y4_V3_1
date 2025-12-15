@@ -1,0 +1,22 @@
+# Ignore files in Automation Studio projects
+# Place gitignore file parallel to project (*.apj) file
+
+# Ignore AS system files
+/AS/System
+
+# Ignore entire Binaries directory (Build results)
+/Binaries
+
+# Ignore everything inside Diagnosis directory (Debugging configs like Watch)
+/Diagnosis/
+
+# Ignore temporary files
+/Temp
+
+# Ignore user set and isopen files (Local user settings/views)
+*.set
+*.isopen
+
+# Ignore hg vcs files
+/.hg
+.hgignore

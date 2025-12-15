@@ -1,0 +1,51 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: IPConfig
+ * File: IPConfig.var
+ * Author: wallisj
+ * Created: July 17, 2008
+ ********************************************************************
+ * Local variables of program IPConfig
+ ********************************************************************)
+VAR
+	ActBroadcastAddr : STRING[16];
+	ActDefaultGateway : STRING[16];
+	ActIPAddr : STRING[16];
+	ActSubnetMask : STRING[16];
+	CfgGetBroadcastAddr_0 : CfgGetBroadcastAddr;
+	CfgGetDefaultGateway_0 : CfgGetDefaultGateway;
+	CfgGetInaNode_0 : CfgGetInaNode;
+	CfgGetIPAddr_0 : CfgGetIPAddr;
+	CfgGetSubnetMask_0 : CfgGetSubnetMask;
+	CfgSetBroadcastAddr_0 : CfgSetBroadcastAddr;
+	CfgSetDefaultGateway_0 : CfgSetDefaultGateway;
+	CfgSetIPAddr_0 : CfgSetIPAddr;
+	CfgSetSubnetMask_0 : CfgSetSubnetMask;
+	InaNodeNumber : USINT;
+	ReadBroadcastAddr : BOOL;
+	ReadBroadcastAddrError : UINT;
+	ReadDefaultGateway : BOOL;
+	ReadDefaultGatewayError : UINT;
+	ReadEthernetSettings : BOOL;
+	ReadInaNode : BOOL;
+	ReadInaNodeError : UINT;
+	ReadIPAddr : BOOL;
+	ReadIPAddrError : UINT := 0;
+	ReadSubnetMask : BOOL;
+	ReadSubnetMaskError : UINT;
+	ReBoot : BOOL;
+	SetBroadcastAddr : STRING[16];
+	SetDefaultGateway : STRING[16];
+	SetIPAddr : STRING[16];
+	SetSubnetMask : STRING[16];
+	WriteBroadcastAddr : BOOL;
+	WriteBroadcastAddrError : UINT;
+	WriteDefaultGateway : BOOL;
+	WriteDefaultGatewayError : UINT;
+	WriteEthernetSettings : BOOL;
+	WriteIPAddr : BOOL;
+	WriteIPAddrError : UINT;
+	WriteSubnetMask : BOOL;
+	WriteSubnetMaskError : UINT;
+END_VAR

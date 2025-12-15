@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageOF9">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="74"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3781" Value="Source[local].Bitmap[Page1OF9]"/>
+    <BitmapRef ID="3782" Value="Source[local].Bitmap[Page2OF9]"/>
+    <BitmapRef ID="3783" Value="Source[local].Bitmap[Page3OF9]"/>
+    <BitmapRef ID="3784" Value="Source[local].Bitmap[Page4OF9]"/>
+    <BitmapRef ID="3785" Value="Source[local].Bitmap[Page5OF9]"/>
+    <BitmapRef ID="3786" Value="Source[local].Bitmap[Page9OF9]"/>
+    <BitmapRef ID="3787" Value="Source[local].Bitmap[Page6OF9]"/>
+    <BitmapRef ID="3788" Value="Source[local].Bitmap[Page7OF9]"/>
+    <BitmapRef ID="3789" Value="Source[local].Bitmap[Page8OF9]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3781" Value="1"/>
+    <Index ID="3782" Value="2"/>
+    <Index ID="3783" Value="3"/>
+    <Index ID="3784" Value="4"/>
+    <Index ID="3785" Value="5"/>
+    <Index ID="3786" Value="9"/>
+    <Index ID="3787" Value="6"/>
+    <Index ID="3788" Value="7"/>
+    <Index ID="3789" Value="8"/>
+  </IndexMap>
+</BitmapGroup>

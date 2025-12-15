@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Servo">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="27"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="546625" Value="SERVO 1"/>
+    <Text ID="546626" Value="SERVO 2"/>
+    <Text ID="546627" Value="SERVO 3"/>
+    <Text ID="546628" Value="SEAMER 1 SERVO MOTOR CONTROLLER:"/>
+    <Text ID="546629" Value="SEAMER 2 SERVO MOTOR CONTROLLER:"/>
+    <Text ID="546630" Value="PIVOT CONVEYOR SERVO MOTOR CONTROLLER:"/>
+    <Text ID="546631" Value="ACTUAL POSITION"/>
+    <Text ID="546632" Value="ACTUAL VELOCITY"/>
+    <Text ID="546633" Value="ERROR TEXT:"/>
+    <Text ID="546634" Value="ERROR ID:"/>
+    <Text ID="546635" Value="NEGATIVE OVER TRAVEL (NOT)"/>
+    <Text ID="546636" Value="POSITIVE OVER TRAVEL (POT)"/>
+    <Text ID="546637" Value="ORIGIN SWITCH."/>
+    <Text ID="546638" Value="NEW POSITION VALUE"/>
+    <Text ID="546639" Value="NEW SPEED VALUE"/>
+    <Text ID="546640" Value="ORIGIN POSITION"/>
+    <Text ID="546641" Value="START SEARCH PATTERN"/>
+    <Text ID="546642" Value="RESET ORIGIN"/>
+    <Text ID="546643" Value="ABSOLUTE MOVE"/>
+    <Text ID="546644" Value="ENSURE ALL FLIP UP ARMS ARE DOWN!"/>
+    <Text ID="546645" Value="S81"/>
+    <Text ID="1113224" Value="S82"/>
+    <Text ID="1113228" Value="SEEK AND FIND STATE:"/>
+    <Text ID="1261807" Value="IDLE"/>
+    <Text ID="1261808" Value="FAST REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S81PHOTO."/>
+    <Text ID="1261809" Value="SLOW REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S82PHOTO."/>
+    <Text ID="1261810" Value="CHECKING STOP POSITION TO EDGE OF GLASS - WAITING FOR FALLING EDGE S82PHOTO."/>
+    <Text ID="1261811" Value="SLOW FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S83PHOTO."/>
+    <Text ID="1261812" Value="FAST FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S84PHOTO."/>
+    <Text ID="1261813" Value="IDLE"/>
+    <Text ID="1261819" Value="FAST REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S91PHOTO."/>
+    <Text ID="1261820" Value="SLOW REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S92PHOTO."/>
+    <Text ID="1261821" Value="CHECKING STOP POSITION TO EDGE OF GLASS - WAITING FOR FALLING EDGE S92PHOTO."/>
+    <Text ID="1261822" Value="SLOW FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S93PHOTO."/>
+    <Text ID="1261823" Value="FAST FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S94PHOTO."/>
+    <Text ID="1261824" Value="S83"/>
+    <Text ID="1261825" Value="S84"/>
+    <Text ID="1261826" Value="S91"/>
+    <Text ID="1261827" Value="S92"/>
+    <Text ID="1261828" Value="S93"/>
+    <Text ID="1261829" Value="S94"/>
+    <Text ID="1261830" Value="S80"/>
+    <Text ID="1261831" Value="S90"/>
+    <Text ID="1261832" Value="S100"/>
+    <Text ID="1267931" Value="RESET"/>
+    <Text ID="1268443" Value="STANDSTILL"/>
+    <Text ID="1268444" Value="DISABLED"/>
+    <Text ID="1268445" Value="STATE:"/>
+    <Text ID="1268446" Value="RESET DONE"/>
+    <Text ID="1268447" Value="LAG WARNING"/>
+    <Text ID="1268448" Value="AXIS ERROR"/>
+    <Text ID="1268449" Value="HOMING OK"/>
+    <Text ID="1268450" Value="CONTROLLER STATUS"/>
+    <Text ID="1268451" Value="CONTROLLER READY"/>
+    <Text ID="1268452" Value="DRIVE ENABLE"/>
+    <Text ID="1268453" Value="TRIGGER2"/>
+    <Text ID="1268454" Value="TRIGGER1"/>
+    <Text ID="1268455" Value="NEG HW SWITCH"/>
+    <Text ID="1268456" Value="POS HW SWITCH"/>
+    <Text ID="1268457" Value="HOME SWITCH"/>
+    <Text ID="1268458" Value="NETWORK INIT"/>
+    <Text ID="1268459" Value="SIMULATION"/>
+    <Text ID="1268460" Value="DRIVE STATUS:"/>
+    <Text ID="1268461" Value="ACT VELOCITY"/>
+    <Text ID="1268462" Value="ACT POSITION"/>
+    <Text ID="1268463" Value="ERROR TEXT"/>
+    <Text ID="1268464" Value="ERROR ID"/>
+    <Text ID="1268465" Value="STATUS:"/>
+    <Text ID="1268466" Value="JOG VELOCITY"/>
+    <Text ID="1268467" Value="HOME MODE"/>
+    <Text ID="1268468" Value="HOME POSITION"/>
+    <Text ID="1268469" Value="DECELERATION"/>
+    <Text ID="1268478" Value="PARAMETER:"/>
+    <Text ID="1268479" Value="ACCELERATION"/>
+    <Text ID="1268480" Value="DIRECTION"/>
+    <Text ID="1268481" Value="VELOCITY"/>
+    <Text ID="1268482" Value="DISTANCE"/>
+    <Text ID="1268483" Value="POSITION"/>
+    <Text ID="1268488" Value="POWER"/>
+    <Text ID="1268489" Value="STOP"/>
+    <Text ID="1268490" Value="HALT"/>
+    <Text ID="1268491" Value="MOVE VELOCITY"/>
+    <Text ID="1268492" Value="MOVE ADDITIVE"/>
+    <Text ID="1268493" Value="MOVE ABSOLUTE"/>
+    <Text ID="1268494" Value="HOME"/>
+    <Text ID="1268496" Value="STEP:"/>
+    <Text ID="1268600" Value="COMMAND:"/>
+    <Text ID="1268601" Value=""/>
+    <Text ID="1268602" Value=""/>
+    <Text ID="1268603" Value=""/>
+    <Text ID="1268604" Value=""/>
+    <Text ID="1268605" Value="ERROR STOP"/>
+    <Text ID="1268606" Value="SYNC MOTION"/>
+    <Text ID="1268607" Value="CONT MOTION"/>
+    <Text ID="1268608" Value="DISCRETE MOTION"/>
+    <Text ID="1268609" Value="STOPPING"/>
+    <Text ID="1268610" Value="HOMING"/>
+    <Text ID="1416573" Value="PIVOT STATE:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="546625" Value=""/>
+    <Text ID="546626" Value=""/>
+    <Text ID="546627" Value=""/>
+    <Text ID="546628" Value=""/>
+    <Text ID="546629" Value=""/>
+    <Text ID="546630" Value=""/>
+    <Text ID="546631" Value=""/>
+    <Text ID="546632" Value=""/>
+    <Text ID="546633" Value=""/>
+    <Text ID="546634" Value=""/>
+    <Text ID="546635" Value=""/>
+    <Text ID="546636" Value=""/>
+    <Text ID="546637" Value=""/>
+    <Text ID="546638" Value=""/>
+    <Text ID="546639" Value=""/>
+    <Text ID="546640" Value=""/>
+    <Text ID="546641" Value=""/>
+    <Text ID="546642" Value=""/>
+    <Text ID="546643" Value=""/>
+    <Text ID="546644" Value=""/>
+    <Text ID="546645" Value=""/>
+    <Text ID="1113224" Value=""/>
+    <Text ID="1113228" Value=""/>
+    <Text ID="1261807" Value=""/>
+    <Text ID="1261808" Value=""/>
+    <Text ID="1261809" Value=""/>
+    <Text ID="1261810" Value=""/>
+    <Text ID="1261811" Value=""/>
+    <Text ID="1261812" Value=""/>
+    <Text ID="1261813" Value=""/>
+    <Text ID="1261819" Value=""/>
+    <Text ID="1261820" Value=""/>
+    <Text ID="1261821" Value=""/>
+    <Text ID="1261822" Value=""/>
+    <Text ID="1261823" Value=""/>
+    <Text ID="1261824" Value=""/>
+    <Text ID="1261825" Value=""/>
+    <Text ID="1261826" Value=""/>
+    <Text ID="1261827" Value=""/>
+    <Text ID="1261828" Value=""/>
+    <Text ID="1261829" Value=""/>
+    <Text ID="1261830" Value=""/>
+    <Text ID="1261831" Value=""/>
+    <Text ID="1261832" Value=""/>
+    <Text ID="1267931" Value=""/>
+    <Text ID="1268443" Value=""/>
+    <Text ID="1268444" Value=""/>
+    <Text ID="1268445" Value=""/>
+    <Text ID="1268446" Value=""/>
+    <Text ID="1268447" Value=""/>
+    <Text ID="1268448" Value=""/>
+    <Text ID="1268449" Value=""/>
+    <Text ID="1268450" Value=""/>
+    <Text ID="1268451" Value=""/>
+    <Text ID="1268452" Value=""/>
+    <Text ID="1268453" Value=""/>
+    <Text ID="1268454" Value=""/>
+    <Text ID="1268455" Value=""/>
+    <Text ID="1268456" Value=""/>
+    <Text ID="1268457" Value=""/>
+    <Text ID="1268458" Value=""/>
+    <Text ID="1268459" Value=""/>
+    <Text ID="1268460" Value=""/>
+    <Text ID="1268461" Value=""/>
+    <Text ID="1268462" Value=""/>
+    <Text ID="1268463" Value=""/>
+    <Text ID="1268464" Value=""/>
+    <Text ID="1268465" Value=""/>
+    <Text ID="1268466" Value=""/>
+    <Text ID="1268467" Value=""/>
+    <Text ID="1268468" Value=""/>
+    <Text ID="1268469" Value=""/>
+    <Text ID="1268478" Value=""/>
+    <Text ID="1268479" Value=""/>
+    <Text ID="1268480" Value=""/>
+    <Text ID="1268481" Value=""/>
+    <Text ID="1268482" Value=""/>
+    <Text ID="1268483" Value=""/>
+    <Text ID="1268488" Value=""/>
+    <Text ID="1268489" Value=""/>
+    <Text ID="1268490" Value=""/>
+    <Text ID="1268491" Value=""/>
+    <Text ID="1268492" Value=""/>
+    <Text ID="1268493" Value=""/>
+    <Text ID="1268494" Value=""/>
+    <Text ID="1268496" Value=""/>
+    <Text ID="1268600" Value=""/>
+    <Text ID="1268601" Value=""/>
+    <Text ID="1268602" Value=""/>
+    <Text ID="1268603" Value=""/>
+    <Text ID="1268604" Value=""/>
+    <Text ID="1268605" Value=""/>
+    <Text ID="1268606" Value=""/>
+    <Text ID="1268607" Value=""/>
+    <Text ID="1268608" Value=""/>
+    <Text ID="1268609" Value=""/>
+    <Text ID="1268610" Value=""/>
+    <Text ID="1416573" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="546625" Value="0"/>
+    <Index ID="546626" Value="1"/>
+    <Index ID="546627" Value="2"/>
+    <Index ID="546628" Value="3"/>
+    <Index ID="546629" Value="4"/>
+    <Index ID="546630" Value="5"/>
+    <Index ID="546631" Value="6"/>
+    <Index ID="546632" Value="7"/>
+    <Index ID="546633" Value="8"/>
+    <Index ID="546634" Value="9"/>
+    <Index ID="546635" Value="10"/>
+    <Index ID="546636" Value="11"/>
+    <Index ID="546637" Value="12"/>
+    <Index ID="546638" Value="13"/>
+    <Index ID="546639" Value="14"/>
+    <Index ID="546640" Value="15"/>
+    <Index ID="546641" Value="16"/>
+    <Index ID="546642" Value="17"/>
+    <Index ID="546643" Value="18"/>
+    <Index ID="546644" Value="19"/>
+    <Index ID="546645" Value="21"/>
+    <Index ID="1113224" Value="22"/>
+    <Index ID="1113228" Value="99"/>
+    <Index ID="1261807" Value="100"/>
+    <Index ID="1261808" Value="101"/>
+    <Index ID="1261809" Value="102"/>
+    <Index ID="1261810" Value="103"/>
+    <Index ID="1261811" Value="104"/>
+    <Index ID="1261812" Value="105"/>
+    <Index ID="1261813" Value="110"/>
+    <Index ID="1261819" Value="111"/>
+    <Index ID="1261820" Value="112"/>
+    <Index ID="1261821" Value="113"/>
+    <Index ID="1261822" Value="114"/>
+    <Index ID="1261823" Value="115"/>
+    <Index ID="1261824" Value="23"/>
+    <Index ID="1261825" Value="24"/>
+    <Index ID="1261826" Value="26"/>
+    <Index ID="1261827" Value="27"/>
+    <Index ID="1261828" Value="28"/>
+    <Index ID="1261829" Value="29"/>
+    <Index ID="1261830" Value="20"/>
+    <Index ID="1261831" Value="25"/>
+    <Index ID="1261832" Value="30"/>
+    <Index ID="1267931" Value="31"/>
+    <Index ID="1268443" Value="74"/>
+    <Index ID="1268444" Value="73"/>
+    <Index ID="1268445" Value="72"/>
+    <Index ID="1268446" Value="71"/>
+    <Index ID="1268447" Value="70"/>
+    <Index ID="1268448" Value="69"/>
+    <Index ID="1268449" Value="68"/>
+    <Index ID="1268450" Value="67"/>
+    <Index ID="1268451" Value="66"/>
+    <Index ID="1268452" Value="65"/>
+    <Index ID="1268453" Value="64"/>
+    <Index ID="1268454" Value="63"/>
+    <Index ID="1268455" Value="62"/>
+    <Index ID="1268456" Value="61"/>
+    <Index ID="1268457" Value="60"/>
+    <Index ID="1268458" Value="59"/>
+    <Index ID="1268459" Value="58"/>
+    <Index ID="1268460" Value="56"/>
+    <Index ID="1268461" Value="55"/>
+    <Index ID="1268462" Value="54"/>
+    <Index ID="1268463" Value="53"/>
+    <Index ID="1268464" Value="52"/>
+    <Index ID="1268465" Value="51"/>
+    <Index ID="1268466" Value="50"/>
+    <Index ID="1268467" Value="49"/>
+    <Index ID="1268468" Value="48"/>
+    <Index ID="1268469" Value="47"/>
+    <Index ID="1268478" Value="41"/>
+    <Index ID="1268479" Value="46"/>
+    <Index ID="1268480" Value="45"/>
+    <Index ID="1268481" Value="44"/>
+    <Index ID="1268482" Value="43"/>
+    <Index ID="1268483" Value="42"/>
+    <Index ID="1268488" Value="34"/>
+    <Index ID="1268489" Value="40"/>
+    <Index ID="1268490" Value="39"/>
+    <Index ID="1268491" Value="38"/>
+    <Index ID="1268492" Value="37"/>
+    <Index ID="1268493" Value="36"/>
+    <Index ID="1268494" Value="35"/>
+    <Index ID="1268496" Value="33"/>
+    <Index ID="1268600" Value="32"/>
+    <Index ID="1268601" Value="84"/>
+    <Index ID="1268602" Value="83"/>
+    <Index ID="1268603" Value="82"/>
+    <Index ID="1268604" Value="81"/>
+    <Index ID="1268605" Value="80"/>
+    <Index ID="1268606" Value="79"/>
+    <Index ID="1268607" Value="78"/>
+    <Index ID="1268608" Value="77"/>
+    <Index ID="1268609" Value="76"/>
+    <Index ID="1268610" Value="75"/>
+    <Index ID="1416573" Value="116"/>
+  </IndexMap>
+</TextGroup>

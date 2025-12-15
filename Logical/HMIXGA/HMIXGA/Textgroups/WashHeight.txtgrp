@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="WashHeight">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="26"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1431013" Value="ACTUAL WASHER HEIGHT"/>
+    <Text ID="1431014" Value="NEW WASHER HEIGHT"/>
+    <Text ID="1431015" Value="AUTO ADJUST ACTIVE"/>
+    <Text ID="1431016" Value=""/>
+    <Text ID="1431017" Value=""/>
+    <Text ID="1431018" Value=""/>
+    <Text ID="1431019" Value=""/>
+    <Text ID="1431020" Value=""/>
+    <Text ID="1431021" Value=""/>
+    <Text ID="1431022" Value=""/>
+    <Text ID="1431023" Value="NOT_ACTIVE"/>
+    <Text ID="1431024" Value="ENABLED"/>
+    <Text ID="1431025" Value=""/>
+    <Text ID="1431026" Value=""/>
+    <Text ID="1431027" Value=""/>
+    <Text ID="1431028" Value=""/>
+    <Text ID="1431029" Value=""/>
+    <Text ID="1431030" Value=""/>
+    <Text ID="1431031" Value=""/>
+    <Text ID="1431032" Value=""/>
+    <Text ID="1431033" Value="SET_LIMITS"/>
+    <Text ID="1431034" Value="LOWER_FAST"/>
+    <Text ID="1431035" Value="LOWER_SLOW"/>
+    <Text ID="1431036" Value="RAISE_FAST"/>
+    <Text ID="1431037" Value="RAISE_SLOW"/>
+    <Text ID="1431038" Value=""/>
+    <Text ID="1431039" Value=""/>
+    <Text ID="1431040" Value=""/>
+    <Text ID="1431041" Value=""/>
+    <Text ID="1431042" Value=""/>
+    <Text ID="1431044" Value="SELECTOR SWITCH ON THE WASHER PANEL IS SWITCHED TO LOCAL MODE. AUTO HEIGHT ADJUST IS NOT ACTIVE."/>
+    <Text ID="1431045" Value="SELECTOR SWITCH ON THE WASHER PANEL IS SWITCHED TO AUTO MODE. AUTO HEIGHT ADJUSTMENT IS ACTIVE. WAITING FOR NEW HEIGHT VALUE. TOUCH THE 'NEW WASHER HEIGHT' VALUE, INPUT A NEW VALUE, USING THE KEYPAD, AND TOUCH THE ENTER KEY."/>
+    <Text ID="1431046" Value=""/>
+    <Text ID="1431047" Value=""/>
+    <Text ID="1431048" Value=""/>
+    <Text ID="1431049" Value=""/>
+    <Text ID="1431050" Value=""/>
+    <Text ID="1431051" Value=""/>
+    <Text ID="1431052" Value=""/>
+    <Text ID="1431053" Value=""/>
+    <Text ID="1431054" Value="SETTING LIMITS FOR SWITCHING SPEED OF RAISING AND LOWERING THE LID. DETERMINING WHICH DIRECTION TO ADJUST AND WHICH SPEED TO ADJUST."/>
+    <Text ID="1431055" Value="ACTUAL HEIGHT IS MORE THAN SLOW PRESET VALUE HIGHER THAN THE REQUESTED POSITION. LOWERING THE LID FAST TO THE SLOW SPEED LIMIT."/>
+    <Text ID="1431056" Value="ACTUAL HEIGHT IS WITHIN THE SLOW PRESET VALUE ABOVE THE REQUESTED POSITION, LOWERING THE LID SLOW TO THE STOP POSITION."/>
+    <Text ID="1431057" Value="ACTUAL HEIGHT IS LESS THAN SLOW PRESET VALUE LOWER THAN THE REQUESTED POSITION. RAISING THE LID FAST TO THE SLOW SPEED LIMIT."/>
+    <Text ID="1431058" Value="ACTUAL HEIGHT IS WITHIN THE SLOW PRESET VALUE BELOW THE REQUESTED POSITION, RAISING THE LID SLOW TO THE STOP POSITION."/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1431013" Value=""/>
+    <Text ID="1431014" Value=""/>
+    <Text ID="1431015" Value=""/>
+    <Text ID="1431016" Value=""/>
+    <Text ID="1431017" Value=""/>
+    <Text ID="1431018" Value=""/>
+    <Text ID="1431019" Value=""/>
+    <Text ID="1431020" Value=""/>
+    <Text ID="1431021" Value=""/>
+    <Text ID="1431022" Value=""/>
+    <Text ID="1431023" Value=""/>
+    <Text ID="1431024" Value=""/>
+    <Text ID="1431025" Value=""/>
+    <Text ID="1431026" Value=""/>
+    <Text ID="1431027" Value=""/>
+    <Text ID="1431028" Value=""/>
+    <Text ID="1431029" Value=""/>
+    <Text ID="1431030" Value=""/>
+    <Text ID="1431031" Value=""/>
+    <Text ID="1431032" Value=""/>
+    <Text ID="1431033" Value=""/>
+    <Text ID="1431034" Value=""/>
+    <Text ID="1431035" Value=""/>
+    <Text ID="1431036" Value=""/>
+    <Text ID="1431037" Value=""/>
+    <Text ID="1431038" Value=""/>
+    <Text ID="1431039" Value=""/>
+    <Text ID="1431040" Value=""/>
+    <Text ID="1431041" Value=""/>
+    <Text ID="1431042" Value=""/>
+    <Text ID="1431044" Value=""/>
+    <Text ID="1431045" Value=""/>
+    <Text ID="1431046" Value=""/>
+    <Text ID="1431047" Value=""/>
+    <Text ID="1431048" Value=""/>
+    <Text ID="1431049" Value=""/>
+    <Text ID="1431050" Value=""/>
+    <Text ID="1431051" Value=""/>
+    <Text ID="1431052" Value=""/>
+    <Text ID="1431053" Value=""/>
+    <Text ID="1431054" Value=""/>
+    <Text ID="1431055" Value=""/>
+    <Text ID="1431056" Value=""/>
+    <Text ID="1431057" Value=""/>
+    <Text ID="1431058" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1431013" Value="0"/>
+    <Index ID="1431014" Value="1"/>
+    <Index ID="1431015" Value="2"/>
+    <Index ID="1431016" Value="3"/>
+    <Index ID="1431017" Value="4"/>
+    <Index ID="1431018" Value="5"/>
+    <Index ID="1431019" Value="6"/>
+    <Index ID="1431020" Value="7"/>
+    <Index ID="1431021" Value="8"/>
+    <Index ID="1431022" Value="9"/>
+    <Index ID="1431023" Value="10"/>
+    <Index ID="1431024" Value="11"/>
+    <Index ID="1431025" Value="12"/>
+    <Index ID="1431026" Value="13"/>
+    <Index ID="1431027" Value="14"/>
+    <Index ID="1431028" Value="15"/>
+    <Index ID="1431029" Value="16"/>
+    <Index ID="1431030" Value="17"/>
+    <Index ID="1431031" Value="18"/>
+    <Index ID="1431032" Value="19"/>
+    <Index ID="1431033" Value="20"/>
+    <Index ID="1431034" Value="21"/>
+    <Index ID="1431035" Value="22"/>
+    <Index ID="1431036" Value="23"/>
+    <Index ID="1431037" Value="24"/>
+    <Index ID="1431038" Value="25"/>
+    <Index ID="1431039" Value="26"/>
+    <Index ID="1431040" Value="27"/>
+    <Index ID="1431041" Value="28"/>
+    <Index ID="1431042" Value="29"/>
+    <Index ID="1431044" Value="30"/>
+    <Index ID="1431045" Value="31"/>
+    <Index ID="1431046" Value="32"/>
+    <Index ID="1431047" Value="33"/>
+    <Index ID="1431048" Value="34"/>
+    <Index ID="1431049" Value="35"/>
+    <Index ID="1431050" Value="36"/>
+    <Index ID="1431051" Value="37"/>
+    <Index ID="1431052" Value="38"/>
+    <Index ID="1431053" Value="39"/>
+    <Index ID="1431054" Value="40"/>
+    <Index ID="1431055" Value="41"/>
+    <Index ID="1431056" Value="42"/>
+    <Index ID="1431057" Value="43"/>
+    <Index ID="1431058" Value="44"/>
+  </IndexMap>
+</TextGroup>

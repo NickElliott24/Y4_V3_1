@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Drives">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="406"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="347459" Value="PRESET SPEED 1:"/>
+    <Text ID="347460" Value="PRESET SPEED 2:"/>
+    <Text ID="347461" Value="PRESET SPEED 3:"/>
+    <Text ID="347466" Value="SPEED 1 - SEAMING SPEED."/>
+    <Text ID="347467" Value="TEST:"/>
+    <Text ID="347468" Value="TEST SPEED 2"/>
+    <Text ID="607784" Value="TEST"/>
+    <Text ID="607785" Value="9 ~ 12"/>
+    <Text ID="607786" Value="5 ~ 8"/>
+    <Text ID="607787" Value="1 ~ 4"/>
+    <Text ID="607788" Value="OUTPUT FREQUENCY:"/>
+    <Text ID="825358" Value="OUTPUT CURRENT:"/>
+    <Text ID="1111504" Value="TEST BUTTONS ONLY AVAILABLE WHEN LINE IS EMPTY"/>
+    <Text ID="1111505" Value="STATUS:"/>
+    <Text ID="1111506" Value="READY TO SWITCH ON"/>
+    <Text ID="1111507" Value="SWITCHED ON, READY"/>
+    <Text ID="1111508" Value="RUNNING"/>
+    <Text ID="1111509" Value="FAULT DETECTION"/>
+    <Text ID="1111510" Value="VOLTAGE ENABLED"/>
+    <Text ID="1111511" Value="QUICK STOP"/>
+    <Text ID="1111512" Value="SWITCH ON DISABLED"/>
+    <Text ID="1111513" Value="WARNING, ALARM"/>
+    <Text ID="1111514" Value="COMMAND VIA COMMS"/>
+    <Text ID="1111515" Value="REFERENCE REACHED"/>
+    <Text ID="1111516" Value="OUTSIDE LIMITS"/>
+    <Text ID="1111517" Value="STOP"/>
+    <Text ID="1111518" Value="REVERSE ROTATION"/>
+    <Text ID="1111519" Value="DRIVE NOT IN FAULT"/>
+    <Text ID="1111520" Value="DRIVE IN SPEED MODE"/>
+    <Text ID="1111521" Value="DC INJECTION"/>
+    <Text ID="1111522" Value="DRIVE NOT STEADY"/>
+    <Text ID="1111523" Value="THERMAL THRESHOLD"/>
+    <Text ID="1111524" Value="OVERBRAKING"/>
+    <Text ID="1111525" Value="ACCELERATING"/>
+    <Text ID="1111526" Value="DECELERATING"/>
+    <Text ID="1111527" Value="LIMITING CURRENT"/>
+    <Text ID="1111528" Value="FAST STOP"/>
+    <Text ID="1111529" Value="POWER REMOVAL ON"/>
+    <Text ID="1111530" Value="COMMAND:"/>
+    <Text ID="1111531" Value="SWITCH ON"/>
+    <Text ID="1111532" Value="ENABLE VOLTAGE"/>
+    <Text ID="1111533" Value="QUICK STOP OFF"/>
+    <Text ID="1111534" Value="ENABLE OPERATION"/>
+    <Text ID="1111535" Value="FAULT RESET"/>
+    <Text ID="1111536" Value="STOP REQUESTED"/>
+    <Text ID="1240032" Value="CONVEYOR VACUUM 2:"/>
+    <Text ID="1240033" Value="CONVEYOR SEAMER 2:"/>
+    <Text ID="1240034" Value="CONVEYOR CORNER 2:"/>
+    <Text ID="1240035" Value="CONVEYOR CORNER 1:"/>
+    <Text ID="1240036" Value="CONVEYOR VACUUM 1:"/>
+    <Text ID="1240037" Value="CONVEYOR SEAMER 1:"/>
+    <Text ID="1240038" Value="CONVEYOR LOADING 1:"/>
+    <Text ID="1240039" Value="CONVEYOR ROW EXIT:"/>
+    <Text ID="1240040" Value="CONVEYOR LOAD BUILD:"/>
+    <Text ID="1240041" Value="CONVEYOR ROW EXIT:"/>
+    <Text ID="1240042" Value="CONVEYOR ROW BUILD:"/>
+    <Text ID="1240043" Value="CONVEYOR BUFFER 2:"/>
+    <Text ID="1240044" Value="CONVEYOR BUFFER 1:"/>
+    <Text ID="1240045" Value="CONVEYOR CORNER 4:"/>
+    <Text ID="1240046" Value="CONVEYOR CORNER 3:"/>
+    <Text ID="1240047" Value="INVERTER 15:"/>
+    <Text ID="1240048" Value="INVERTER 14:"/>
+    <Text ID="1240049" Value="INVERTER 13:"/>
+    <Text ID="1240050" Value="INVERTER 12:"/>
+    <Text ID="1240051" Value="INVERTER 11:"/>
+    <Text ID="1240052" Value="INVERTER 10:"/>
+    <Text ID="1240053" Value="INVERTER 9:"/>
+    <Text ID="1240054" Value="INVERTER 8:"/>
+    <Text ID="1240055" Value="INVERTER 7:"/>
+    <Text ID="1240056" Value="INVERTER 6:"/>
+    <Text ID="1240057" Value="INVERTER 5:"/>
+    <Text ID="1240058" Value="INVERTER 4:"/>
+    <Text ID="1240059" Value="INVERTER 3:"/>
+    <Text ID="1240060" Value="INVERTER 2:"/>
+    <Text ID="1240061" Value="INVERTER 1:"/>
+    <Text ID="1240062" Value="20"/>
+    <Text ID="1240063" Value="19"/>
+    <Text ID="1240064" Value="18 ~ 21"/>
+    <Text ID="1240066" Value="WASHER RUNOUT:"/>
+    <Text ID="1240067" Value="INVERTER 20:"/>
+    <Text ID="1240068" Value="INVERTER 19:"/>
+    <Text ID="1240069" Value="INVERTER 18:"/>
+    <Text ID="1240070" Value="INVERTER 17:"/>
+    <Text ID="1240071" Value="INVERTER 16:"/>
+    <Text ID="1240072" Value="ACCELERATION:"/>
+    <Text ID="1240073" Value="DECELERATION:"/>
+    <Text ID="1240100" Value="TEST SPEED 3"/>
+    <Text ID="1240251" Value="CONFIRM WRITE TO INVERTER"/>
+    <Text ID="1240252" Value="TEST RAISE FAST"/>
+    <Text ID="1246593" Value="SPEED 2 - TRANSFER SPEED."/>
+    <Text ID="1246594" Value="SPEED 3 - POSITIONING SPEED."/>
+    <Text ID="1246607" Value="SPEED 3 - SQUARING SPEED."/>
+    <Text ID="1246608" Value="SPEED 2 - REVERSE SPEED."/>
+    <Text ID="1246609" Value="SPEED 3 - WASHER SPEED."/>
+    <Text ID="1253134" Value="NO"/>
+    <Text ID="1253135" Value="YES"/>
+    <Text ID="1253574" Value="SEAMER AND VACUUM CONVEYORS WILL RUN TOGETHER"/>
+    <Text ID="1261447" Value="SPEED 1 - FAST RAISE/LOWER"/>
+    <Text ID="1261448" Value="SPEED 2 - SLOW RAISE/LOWER"/>
+    <Text ID="1261455" Value="TEST LOWER SLOW"/>
+    <Text ID="1261456" Value="TEST LOWER FAST"/>
+    <Text ID="1261457" Value="TEST RAISE SLOW"/>
+    <Text ID="1261458" Value=""/>
+    <Text ID="1261460" Value="PRESS AND HOLD TO RUN LEG 2"/>
+    <Text ID="1261461" Value="PRESS AND HOLD TO RUN LEG 1"/>
+    <Text ID="1261462" Value="LEG 2 (CORNER CONVEYOR 2, THROUGH SEAMER 2 TO THE CORNER CONVEYOR 3)"/>
+    <Text ID="1261463" Value="LEG1 (LOADING CONVEYOR, THROUGH SEAMER 1 TO THE CORNER CONVEYOR 1)"/>
+    <Text ID="1261464" Value="PALLET CONTROL TO BE PERFORMED ON THE REMOTE TEST SCREENS."/>
+    <Text ID="1261465" Value="INDIVIDUAL TEST BUTTONS ONLY AVAILABLE IF THE LEG TEST ENABLE BUTTON IS OFF."/>
+    <Text ID="1261466" Value="LEG TEST BUTTONS:"/>
+    <Text ID="1261467" Value="STATE"/>
+    <Text ID="1261468" Value=""/>
+    <Text ID="1261469" Value=""/>
+    <Text ID="1261470" Value=""/>
+    <Text ID="1261471" Value=""/>
+    <Text ID="1261472" Value=""/>
+    <Text ID="1261473" Value=""/>
+    <Text ID="1261474" Value="DOWN_LIMIT"/>
+    <Text ID="1261475" Value="CONTROL_OFF"/>
+    <Text ID="1261476" Value="SPEED 3 - CENTERING SPEED"/>
+    <Text ID="1261478" Value=""/>
+    <Text ID="1261479" Value=""/>
+    <Text ID="1261480" Value=""/>
+    <Text ID="1261481" Value="UP_OVERLIMIT"/>
+    <Text ID="1261482" Value="LOWER_SLOW"/>
+    <Text ID="1261483" Value="LOWER_FAST"/>
+    <Text ID="1261484" Value="UP_LIMIT"/>
+    <Text ID="1261485" Value="RAISE_SLOW"/>
+    <Text ID="1261486" Value="RAISE_FAST"/>
+    <Text ID="1261487" Value=""/>
+    <Text ID="1261488" Value=""/>
+    <Text ID="1261489" Value=""/>
+    <Text ID="1261490" Value="UP_SLOW_RESET"/>
+    <Text ID="1261491" Value="DOWN_OVERLIMIT"/>
+    <Text ID="1261492" Value=""/>
+    <Text ID="1261493" Value=""/>
+    <Text ID="1261494" Value=""/>
+    <Text ID="1261495" Value=""/>
+    <Text ID="1261496" Value=""/>
+    <Text ID="1261497" Value=""/>
+    <Text ID="1261498" Value=""/>
+    <Text ID="1261499" Value=""/>
+    <Text ID="1261500" Value=""/>
+    <Text ID="1261501" Value=""/>
+    <Text ID="1261502" Value=""/>
+    <Text ID="1261503" Value=""/>
+    <Text ID="1261504" Value=""/>
+    <Text ID="1261505" Value=""/>
+    <Text ID="1261506" Value="REVERSE"/>
+    <Text ID="1261507" Value="FORWARD"/>
+    <Text ID="1261508" Value=""/>
+    <Text ID="1261509" Value="RAISING SLOW TO CLEAR DOWN SWITCHES BEFORE RESETTING TO DOWN POSITION."/>
+    <Text ID="1261510" Value="DOWN POSITION STOP SENSOR HAS NOT REGISTERED. CHECK SENSOR IS WORKING BEFORE RESETTING POSITION."/>
+    <Text ID="1261511" Value="UP POSITION STOP SENSOR HAS NOT REGISTERED. CHECK SENSOR IS WORKING BEFORE RESETTING POSITION."/>
+    <Text ID="1261512" Value=""/>
+    <Text ID="1261513" Value=""/>
+    <Text ID="1261514" Value=""/>
+    <Text ID="1261515" Value=""/>
+    <Text ID="1261516" Value=""/>
+    <Text ID="1261517" Value="LOWERING SLOW, WAITING FOR STOP SENSOR TO POSITION."/>
+    <Text ID="1261518" Value="LOWERING FAST, WAITING FOR SLOW SENSOR TO CUT TO SLOW SPEED."/>
+    <Text ID="1261519" Value="AT UP LIMIT. BRAKE APPLIED. ONLY LOWER BUTTONS ARE ACTIVE."/>
+    <Text ID="1261520" Value="RAISING SLOW, WAITING FOR STOP SENSOR TO POSITION."/>
+    <Text ID="1261521" Value="RAISING FAST, WAITING FOR SLOW SENSOR TO CUT TO SLOW SPEED."/>
+    <Text ID="1261522" Value="AT DOWN LIMIT. BRAKE APPLIED. ONLY RAISE BUTTONS ARE ACTIVE."/>
+    <Text ID="1261523" Value=""/>
+    <Text ID="1261524" Value=""/>
+    <Text ID="1261525" Value=""/>
+    <Text ID="1261526" Value=""/>
+    <Text ID="1261527" Value=""/>
+    <Text ID="1261528" Value=""/>
+    <Text ID="1261529" Value=""/>
+    <Text ID="1261530" Value=""/>
+    <Text ID="1261531" Value=""/>
+    <Text ID="1261532" Value=""/>
+    <Text ID="1261533" Value="CONTROL CIRCUIT OFF, BRAKE APPLIED"/>
+    <Text ID="1261534" Value=""/>
+    <Text ID="1261535" Value=""/>
+    <Text ID="1261536" Value=""/>
+    <Text ID="1261537" Value=""/>
+    <Text ID="1261538" Value=""/>
+    <Text ID="1261593" Value="MOVING SEAMER POSITIONING TO BE PERFORMED ON THE SERVO TEST SCREEN."/>
+    <Text ID="1350851" Value="SPEED 1 - TRANSFER SPEED"/>
+    <Text ID="1351087" Value="PRESS AND HOLD TO RUN LEG 3 "/>
+    <Text ID="1351088" Value="LEG 3 (CORNER CONVEYOR 4 TO ROW BUILDING CONVEYOR)"/>
+    <Text ID="1399904" Value="CONVEYOR ROW BUILD:"/>
+    <Text ID="1405520" Value="PRESET SPEED 4:"/>
+    <Text ID="1405533" Value="SPEED 1 - WASHER SPEED"/>
+    <Text ID="1405534" Value="SPEED 2 - BATCHING SPEED"/>
+    <Text ID="1405536" Value="SPEED 4 - WASHER SLOW SPEED"/>
+    <Text ID="1405537" Value="WASHER TRANSPORT MUST BE RUNNING TO TEST WASHER SPEED"/>
+    <Text ID="1405538" Value="TEST SPEED 4"/>
+    <Text ID="1405548" Value="SPEED 2 - FURNACE ENTRY SPEED"/>
+    <Text ID="1567319" Value="CONVEYOR LOAD BUILD:"/>
+    <Text ID="1567328" Value="CORNER 2 AND CORNER 3 CONVEYORS WILL RUN TOGETHER"/>
+    <Text ID="1567383" Value="SPEED 1 - BATCHING SPEED"/>
+    <Text ID="1598436" Value="OUTPUT SPEED:"/>
+    <Text ID="1598437" Value="DIRECTION:"/>
+    <Text ID="1598518" Value="MODULE STATUS:"/>
+    <Text ID="1598519" Value="SERIAL NUMBER:"/>
+    <Text ID="1598520" Value="MODULE ID:"/>
+    <Text ID="1598521" Value="HARDWARE VARIANT:"/>
+    <Text ID="1598522" Value="FIRMWARE VERSION:"/>
+    <Text ID="1598523" Value="ACPi SERIAL NUMBER:"/>
+    <Text ID="1598524" Value="ACPi MODULE ID:"/>
+    <Text ID="1603979" Value="SEAMING SPEED"/>
+    <Text ID="1603980" Value="TRANSFER SPEED"/>
+    <Text ID="1603981" Value="MAXIMUM SPEED"/>
+    <Text ID="1603982" Value="SLOW SPEED"/>
+    <Text ID="1603983" Value="LASER SPEED"/>
+    <Text ID="1603984" Value="WASHER SPEED"/>
+    <Text ID="1603985" Value="REVERSE SPEED"/>
+    <Text ID="1603986" Value="CENTERING SPEED"/>
+    <Text ID="1603987" Value="BATCHING SPEED"/>
+    <Text ID="1603988" Value="ENTRY SPEED"/>
+    <Text ID="1603989" Value="EXIT SPEED"/>
+    <Text ID="1603990" Value="TEST FWD SPEED"/>
+    <Text ID="1604002" Value="TEST REV SPEED"/>
+    <Text ID="1616789" Value="ENGINEER LEVEL SETTINGS:"/>
+    <Text ID="1616852" Value="TO SET THE SCALING OF THE INVERTER DRIVES, THE ACTUAL SPEED OF THE CONVEYOR AT 50HZ HAS TO BE INPUT IN THE 'M/MIN AT 50HZ. SET THE 'M/MIN AT 50HZ' VALUE TO '50'. SET THE TEST 'TEST FWD SPEED' VALUE TO '50.0m/min'. TOGGLE THE 'TEST FWD SPEED' BUTTON. USING A TACHO, MEASURE THE SPEED OF THE CONVEYOR AT 50HZ. INPUT THIS VALUE INTO THE 'M/MIN AT 50HZ' FIELD. OPERATE THE OTHER SPEEDS AND CHECK WITH A TACHO THAT THE SPEED IS CORRECT. ADJUST TO SUIT. "/>
+    <Text ID="1652546" Value="INVERTER 17A:"/>
+    <Text ID="1705017" Value="VERTICAL CONVEYOR 1:"/>
+    <Text ID="1705018" Value="VERTICAL CONVEYOR 2:"/>
+    <Text ID="1705019" Value="INVERTER 21:"/>
+    <Text ID="1738691" Value="ANALOG SPEED"/>
+    <Text ID="1777164" Value=""/>
+    <Text ID="1777165" Value=""/>
+    <Text ID="1777166" Value=""/>
+    <Text ID="1777183" Value="LEG 4 (ROW EXIT CONVEYOR, LOAD BUILDING CONVEYOR INTO WASHER) - ENSURE WASHER IS RUNNING!"/>
+    <Text ID="1777184" Value="PRESS AND HOLD TO RUN LEG 4"/>
+    <Text ID="1793150" Value="13 ~ 14"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="347459" Value=""/>
+    <Text ID="347460" Value=""/>
+    <Text ID="347461" Value=""/>
+    <Text ID="347466" Value=""/>
+    <Text ID="347467" Value=""/>
+    <Text ID="347468" Value=""/>
+    <Text ID="607784" Value=""/>
+    <Text ID="607785" Value=""/>
+    <Text ID="607786" Value=""/>
+    <Text ID="607787" Value=""/>
+    <Text ID="607788" Value=""/>
+    <Text ID="825358" Value=""/>
+    <Text ID="1111504" Value=""/>
+    <Text ID="1111505" Value=""/>
+    <Text ID="1111506" Value=""/>
+    <Text ID="1111507" Value=""/>
+    <Text ID="1111508" Value=""/>
+    <Text ID="1111509" Value=""/>
+    <Text ID="1111510" Value=""/>
+    <Text ID="1111511" Value=""/>
+    <Text ID="1111512" Value=""/>
+    <Text ID="1111513" Value=""/>
+    <Text ID="1111514" Value=""/>
+    <Text ID="1111515" Value=""/>
+    <Text ID="1111516" Value=""/>
+    <Text ID="1111517" Value=""/>
+    <Text ID="1111518" Value=""/>
+    <Text ID="1111519" Value=""/>
+    <Text ID="1111520" Value=""/>
+    <Text ID="1111521" Value=""/>
+    <Text ID="1111522" Value=""/>
+    <Text ID="1111523" Value=""/>
+    <Text ID="1111524" Value=""/>
+    <Text ID="1111525" Value=""/>
+    <Text ID="1111526" Value=""/>
+    <Text ID="1111527" Value=""/>
+    <Text ID="1111528" Value=""/>
+    <Text ID="1111529" Value=""/>
+    <Text ID="1111530" Value=""/>
+    <Text ID="1111531" Value=""/>
+    <Text ID="1111532" Value=""/>
+    <Text ID="1111533" Value=""/>
+    <Text ID="1111534" Value=""/>
+    <Text ID="1111535" Value=""/>
+    <Text ID="1111536" Value=""/>
+    <Text ID="1240032" Value=""/>
+    <Text ID="1240033" Value=""/>
+    <Text ID="1240034" Value=""/>
+    <Text ID="1240035" Value=""/>
+    <Text ID="1240036" Value=""/>
+    <Text ID="1240037" Value=""/>
+    <Text ID="1240038" Value=""/>
+    <Text ID="1240039" Value="CONVEYOR ROW EXIT:"/>
+    <Text ID="1240040" Value=""/>
+    <Text ID="1240041" Value=""/>
+    <Text ID="1240042" Value=""/>
+    <Text ID="1240043" Value=""/>
+    <Text ID="1240044" Value=""/>
+    <Text ID="1240045" Value=""/>
+    <Text ID="1240046" Value=""/>
+    <Text ID="1240047" Value=""/>
+    <Text ID="1240048" Value=""/>
+    <Text ID="1240049" Value=""/>
+    <Text ID="1240050" Value=""/>
+    <Text ID="1240051" Value=""/>
+    <Text ID="1240052" Value=""/>
+    <Text ID="1240053" Value=""/>
+    <Text ID="1240054" Value=""/>
+    <Text ID="1240055" Value=""/>
+    <Text ID="1240056" Value=""/>
+    <Text ID="1240057" Value=""/>
+    <Text ID="1240058" Value=""/>
+    <Text ID="1240059" Value=""/>
+    <Text ID="1240060" Value=""/>
+    <Text ID="1240061" Value=""/>
+    <Text ID="1240062" Value=""/>
+    <Text ID="1240063" Value=""/>
+    <Text ID="1240064" Value=""/>
+    <Text ID="1240066" Value=""/>
+    <Text ID="1240067" Value=""/>
+    <Text ID="1240068" Value=""/>
+    <Text ID="1240069" Value=""/>
+    <Text ID="1240070" Value=""/>
+    <Text ID="1240071" Value=""/>
+    <Text ID="1240072" Value=""/>
+    <Text ID="1240073" Value=""/>
+    <Text ID="1240100" Value=""/>
+    <Text ID="1240251" Value=""/>
+    <Text ID="1240252" Value=""/>
+    <Text ID="1246593" Value=""/>
+    <Text ID="1246594" Value=""/>
+    <Text ID="1246607" Value=""/>
+    <Text ID="1246608" Value=""/>
+    <Text ID="1246609" Value=""/>
+    <Text ID="1253134" Value=""/>
+    <Text ID="1253135" Value=""/>
+    <Text ID="1253574" Value=""/>
+    <Text ID="1261447" Value=""/>
+    <Text ID="1261448" Value=""/>
+    <Text ID="1261455" Value=""/>
+    <Text ID="1261456" Value=""/>
+    <Text ID="1261457" Value=""/>
+    <Text ID="1261458" Value=""/>
+    <Text ID="1261460" Value=""/>
+    <Text ID="1261461" Value=""/>
+    <Text ID="1261462" Value=""/>
+    <Text ID="1261463" Value=""/>
+    <Text ID="1261464" Value=""/>
+    <Text ID="1261465" Value=""/>
+    <Text ID="1261466" Value=""/>
+    <Text ID="1261467" Value=""/>
+    <Text ID="1261468" Value=""/>
+    <Text ID="1261469" Value=""/>
+    <Text ID="1261470" Value=""/>
+    <Text ID="1261471" Value=""/>
+    <Text ID="1261472" Value=""/>
+    <Text ID="1261473" Value=""/>
+    <Text ID="1261474" Value=""/>
+    <Text ID="1261475" Value=""/>
+    <Text ID="1261476" Value=""/>
+    <Text ID="1261478" Value=""/>
+    <Text ID="1261479" Value=""/>
+    <Text ID="1261480" Value=""/>
+    <Text ID="1261481" Value=""/>
+    <Text ID="1261482" Value=""/>
+    <Text ID="1261483" Value=""/>
+    <Text ID="1261484" Value=""/>
+    <Text ID="1261485" Value=""/>
+    <Text ID="1261486" Value=""/>
+    <Text ID="1261487" Value=""/>
+    <Text ID="1261488" Value=""/>
+    <Text ID="1261489" Value=""/>
+    <Text ID="1261490" Value=""/>
+    <Text ID="1261491" Value=""/>
+    <Text ID="1261492" Value=""/>
+    <Text ID="1261493" Value=""/>
+    <Text ID="1261494" Value=""/>
+    <Text ID="1261495" Value=""/>
+    <Text ID="1261496" Value=""/>
+    <Text ID="1261497" Value=""/>
+    <Text ID="1261498" Value=""/>
+    <Text ID="1261499" Value=""/>
+    <Text ID="1261500" Value=""/>
+    <Text ID="1261501" Value=""/>
+    <Text ID="1261502" Value=""/>
+    <Text ID="1261503" Value=""/>
+    <Text ID="1261504" Value=""/>
+    <Text ID="1261505" Value=""/>
+    <Text ID="1261506" Value=""/>
+    <Text ID="1261507" Value=""/>
+    <Text ID="1261508" Value=""/>
+    <Text ID="1261509" Value=""/>
+    <Text ID="1261510" Value=""/>
+    <Text ID="1261511" Value=""/>
+    <Text ID="1261512" Value=""/>
+    <Text ID="1261513" Value=""/>
+    <Text ID="1261514" Value=""/>
+    <Text ID="1261515" Value=""/>
+    <Text ID="1261516" Value=""/>
+    <Text ID="1261517" Value=""/>
+    <Text ID="1261518" Value=""/>
+    <Text ID="1261519" Value=""/>
+    <Text ID="1261520" Value=""/>
+    <Text ID="1261521" Value=""/>
+    <Text ID="1261522" Value=""/>
+    <Text ID="1261523" Value=""/>
+    <Text ID="1261524" Value=""/>
+    <Text ID="1261525" Value=""/>
+    <Text ID="1261526" Value=""/>
+    <Text ID="1261527" Value=""/>
+    <Text ID="1261528" Value=""/>
+    <Text ID="1261529" Value=""/>
+    <Text ID="1261530" Value=""/>
+    <Text ID="1261531" Value=""/>
+    <Text ID="1261532" Value=""/>
+    <Text ID="1261533" Value=""/>
+    <Text ID="1261534" Value=""/>
+    <Text ID="1261535" Value=""/>
+    <Text ID="1261536" Value=""/>
+    <Text ID="1261537" Value=""/>
+    <Text ID="1261538" Value=""/>
+    <Text ID="1261593" Value="ROTATION POSITIONING TO BE PERFORMED ON THE SERVO TEST SCREEN."/>
+    <Text ID="1350851" Value=""/>
+    <Text ID="1351087" Value=""/>
+    <Text ID="1351088" Value="LEG 3 (CORNER CONVEYOR, THROUGH SEAMER 2 TO THE RUNOUT CONVEYOR)"/>
+    <Text ID="1399904" Value="CONVEYOR ROW BUILD:"/>
+    <Text ID="1405520" Value=""/>
+    <Text ID="1405533" Value=""/>
+    <Text ID="1405534" Value=""/>
+    <Text ID="1405536" Value=""/>
+    <Text ID="1405537" Value=""/>
+    <Text ID="1405538" Value=""/>
+    <Text ID="1405548" Value=""/>
+    <Text ID="1567319" Value=""/>
+    <Text ID="1567328" Value=""/>
+    <Text ID="1567383" Value=""/>
+    <Text ID="1598436" Value=""/>
+    <Text ID="1598437" Value=""/>
+    <Text ID="1598518" Value=""/>
+    <Text ID="1598519" Value=""/>
+    <Text ID="1598520" Value=""/>
+    <Text ID="1598521" Value=""/>
+    <Text ID="1598522" Value=""/>
+    <Text ID="1598523" Value=""/>
+    <Text ID="1598524" Value=""/>
+    <Text ID="1603979" Value=""/>
+    <Text ID="1603980" Value=""/>
+    <Text ID="1603981" Value=""/>
+    <Text ID="1603982" Value="WASHER SPEED"/>
+    <Text ID="1603983" Value=""/>
+    <Text ID="1603984" Value=""/>
+    <Text ID="1603985" Value=""/>
+    <Text ID="1603986" Value=""/>
+    <Text ID="1603987" Value=""/>
+    <Text ID="1603988" Value=""/>
+    <Text ID="1603989" Value=""/>
+    <Text ID="1603990" Value=""/>
+    <Text ID="1604002" Value=""/>
+    <Text ID="1616789" Value=""/>
+    <Text ID="1616852" Value=""/>
+    <Text ID="1652546" Value=""/>
+    <Text ID="1705017" Value=""/>
+    <Text ID="1705018" Value=""/>
+    <Text ID="1705019" Value=""/>
+    <Text ID="1738691" Value=""/>
+    <Text ID="1777164" Value=""/>
+    <Text ID="1777165" Value=""/>
+    <Text ID="1777166" Value=""/>
+    <Text ID="1777183" Value=""/>
+    <Text ID="1777184" Value=""/>
+    <Text ID="1793150" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="347459" Value="61"/>
+    <Index ID="347460" Value="62"/>
+    <Index ID="347461" Value="63"/>
+    <Index ID="347466" Value="65"/>
+    <Index ID="347467" Value="79"/>
+    <Index ID="347468" Value="80"/>
+    <Index ID="607784" Value="4"/>
+    <Index ID="607785" Value="2"/>
+    <Index ID="607786" Value="1"/>
+    <Index ID="607787" Value="0"/>
+    <Index ID="607788" Value="55"/>
+    <Index ID="825358" Value="57"/>
+    <Index ID="1111504" Value="83"/>
+    <Index ID="1111505" Value="179"/>
+    <Index ID="1111506" Value="180"/>
+    <Index ID="1111507" Value="181"/>
+    <Index ID="1111508" Value="182"/>
+    <Index ID="1111509" Value="183"/>
+    <Index ID="1111510" Value="184"/>
+    <Index ID="1111511" Value="185"/>
+    <Index ID="1111512" Value="186"/>
+    <Index ID="1111513" Value="187"/>
+    <Index ID="1111514" Value="188"/>
+    <Index ID="1111515" Value="189"/>
+    <Index ID="1111516" Value="190"/>
+    <Index ID="1111517" Value="191"/>
+    <Index ID="1111518" Value="192"/>
+    <Index ID="1111519" Value="193"/>
+    <Index ID="1111520" Value="194"/>
+    <Index ID="1111521" Value="195"/>
+    <Index ID="1111522" Value="196"/>
+    <Index ID="1111523" Value="197"/>
+    <Index ID="1111524" Value="198"/>
+    <Index ID="1111525" Value="199"/>
+    <Index ID="1111526" Value="200"/>
+    <Index ID="1111527" Value="201"/>
+    <Index ID="1111528" Value="202"/>
+    <Index ID="1111529" Value="203"/>
+    <Index ID="1111530" Value="204"/>
+    <Index ID="1111531" Value="205"/>
+    <Index ID="1111532" Value="206"/>
+    <Index ID="1111533" Value="207"/>
+    <Index ID="1111534" Value="208"/>
+    <Index ID="1111535" Value="209"/>
+    <Index ID="1111536" Value="210"/>
+    <Index ID="1240032" Value="19"/>
+    <Index ID="1240033" Value="18"/>
+    <Index ID="1240034" Value="17"/>
+    <Index ID="1240035" Value="16"/>
+    <Index ID="1240036" Value="15"/>
+    <Index ID="1240037" Value="14"/>
+    <Index ID="1240038" Value="13"/>
+    <Index ID="1240039" Value="28"/>
+    <Index ID="1240040" Value="26"/>
+    <Index ID="1240041" Value="25"/>
+    <Index ID="1240042" Value="24"/>
+    <Index ID="1240043" Value="23"/>
+    <Index ID="1240044" Value="22"/>
+    <Index ID="1240045" Value="21"/>
+    <Index ID="1240046" Value="20"/>
+    <Index ID="1240047" Value="49"/>
+    <Index ID="1240048" Value="48"/>
+    <Index ID="1240049" Value="47"/>
+    <Index ID="1240050" Value="46"/>
+    <Index ID="1240051" Value="45"/>
+    <Index ID="1240052" Value="44"/>
+    <Index ID="1240053" Value="43"/>
+    <Index ID="1240054" Value="42"/>
+    <Index ID="1240055" Value="41"/>
+    <Index ID="1240056" Value="40"/>
+    <Index ID="1240057" Value="39"/>
+    <Index ID="1240058" Value="38"/>
+    <Index ID="1240059" Value="37"/>
+    <Index ID="1240060" Value="36"/>
+    <Index ID="1240061" Value="35"/>
+    <Index ID="1240062" Value="34"/>
+    <Index ID="1240063" Value="33"/>
+    <Index ID="1240064" Value="32"/>
+    <Index ID="1240066" Value="30"/>
+    <Index ID="1240067" Value="54"/>
+    <Index ID="1240068" Value="53"/>
+    <Index ID="1240069" Value="52"/>
+    <Index ID="1240070" Value="51"/>
+    <Index ID="1240071" Value="50"/>
+    <Index ID="1240072" Value="59"/>
+    <Index ID="1240073" Value="60"/>
+    <Index ID="1240100" Value="81"/>
+    <Index ID="1240251" Value="84"/>
+    <Index ID="1240252" Value="88"/>
+    <Index ID="1246593" Value="66"/>
+    <Index ID="1246594" Value="67"/>
+    <Index ID="1246607" Value="69"/>
+    <Index ID="1246608" Value="68"/>
+    <Index ID="1246609" Value="70"/>
+    <Index ID="1253134" Value="86"/>
+    <Index ID="1253135" Value="85"/>
+    <Index ID="1253574" Value="87"/>
+    <Index ID="1261447" Value="71"/>
+    <Index ID="1261448" Value="72"/>
+    <Index ID="1261455" Value="91"/>
+    <Index ID="1261456" Value="90"/>
+    <Index ID="1261457" Value="89"/>
+    <Index ID="1261458" Value="117"/>
+    <Index ID="1261460" Value="103"/>
+    <Index ID="1261461" Value="102"/>
+    <Index ID="1261462" Value="101"/>
+    <Index ID="1261463" Value="100"/>
+    <Index ID="1261464" Value="95"/>
+    <Index ID="1261465" Value="94"/>
+    <Index ID="1261466" Value="93"/>
+    <Index ID="1261467" Value="92"/>
+    <Index ID="1261468" Value="116"/>
+    <Index ID="1261469" Value="115"/>
+    <Index ID="1261470" Value="114"/>
+    <Index ID="1261471" Value="113"/>
+    <Index ID="1261472" Value="112"/>
+    <Index ID="1261473" Value="111"/>
+    <Index ID="1261474" Value="120"/>
+    <Index ID="1261475" Value="109"/>
+    <Index ID="1261476" Value="108"/>
+    <Index ID="1261478" Value="129"/>
+    <Index ID="1261479" Value="128"/>
+    <Index ID="1261480" Value="127"/>
+    <Index ID="1261481" Value="131"/>
+    <Index ID="1261482" Value="125"/>
+    <Index ID="1261483" Value="124"/>
+    <Index ID="1261484" Value="123"/>
+    <Index ID="1261485" Value="122"/>
+    <Index ID="1261486" Value="121"/>
+    <Index ID="1261487" Value="110"/>
+    <Index ID="1261488" Value="119"/>
+    <Index ID="1261489" Value="118"/>
+    <Index ID="1261490" Value="133"/>
+    <Index ID="1261491" Value="132"/>
+    <Index ID="1261492" Value="126"/>
+    <Index ID="1261493" Value="130"/>
+    <Index ID="1261494" Value="178"/>
+    <Index ID="1261495" Value="177"/>
+    <Index ID="1261496" Value="176"/>
+    <Index ID="1261497" Value="175"/>
+    <Index ID="1261498" Value="174"/>
+    <Index ID="1261499" Value="173"/>
+    <Index ID="1261500" Value="172"/>
+    <Index ID="1261501" Value="171"/>
+    <Index ID="1261502" Value="170"/>
+    <Index ID="1261503" Value="169"/>
+    <Index ID="1261504" Value="168"/>
+    <Index ID="1261505" Value="167"/>
+    <Index ID="1261506" Value="166"/>
+    <Index ID="1261507" Value="165"/>
+    <Index ID="1261508" Value="164"/>
+    <Index ID="1261509" Value="163"/>
+    <Index ID="1261510" Value="162"/>
+    <Index ID="1261511" Value="161"/>
+    <Index ID="1261512" Value="160"/>
+    <Index ID="1261513" Value="159"/>
+    <Index ID="1261514" Value="158"/>
+    <Index ID="1261515" Value="157"/>
+    <Index ID="1261516" Value="156"/>
+    <Index ID="1261517" Value="155"/>
+    <Index ID="1261518" Value="154"/>
+    <Index ID="1261519" Value="153"/>
+    <Index ID="1261520" Value="152"/>
+    <Index ID="1261521" Value="151"/>
+    <Index ID="1261522" Value="150"/>
+    <Index ID="1261523" Value="149"/>
+    <Index ID="1261524" Value="148"/>
+    <Index ID="1261525" Value="147"/>
+    <Index ID="1261526" Value="146"/>
+    <Index ID="1261527" Value="145"/>
+    <Index ID="1261528" Value="144"/>
+    <Index ID="1261529" Value="143"/>
+    <Index ID="1261530" Value="142"/>
+    <Index ID="1261531" Value="141"/>
+    <Index ID="1261532" Value="140"/>
+    <Index ID="1261533" Value="139"/>
+    <Index ID="1261534" Value="138"/>
+    <Index ID="1261535" Value="137"/>
+    <Index ID="1261536" Value="136"/>
+    <Index ID="1261537" Value="135"/>
+    <Index ID="1261538" Value="134"/>
+    <Index ID="1261593" Value="96"/>
+    <Index ID="1350851" Value="73"/>
+    <Index ID="1351087" Value="105"/>
+    <Index ID="1351088" Value="104"/>
+    <Index ID="1399904" Value="27"/>
+    <Index ID="1405520" Value="64"/>
+    <Index ID="1405533" Value="74"/>
+    <Index ID="1405534" Value="76"/>
+    <Index ID="1405536" Value="78"/>
+    <Index ID="1405537" Value="77"/>
+    <Index ID="1405538" Value="82"/>
+    <Index ID="1405548" Value="75"/>
+    <Index ID="1567319" Value="29"/>
+    <Index ID="1567328" Value="211"/>
+    <Index ID="1567383" Value="212"/>
+    <Index ID="1598436" Value="56"/>
+    <Index ID="1598437" Value="58"/>
+    <Index ID="1598518" Value="213"/>
+    <Index ID="1598519" Value="214"/>
+    <Index ID="1598520" Value="215"/>
+    <Index ID="1598521" Value="216"/>
+    <Index ID="1598522" Value="217"/>
+    <Index ID="1598523" Value="218"/>
+    <Index ID="1598524" Value="219"/>
+    <Index ID="1603979" Value="220"/>
+    <Index ID="1603980" Value="221"/>
+    <Index ID="1603981" Value="222"/>
+    <Index ID="1603982" Value="223"/>
+    <Index ID="1603983" Value="224"/>
+    <Index ID="1603984" Value="225"/>
+    <Index ID="1603985" Value="226"/>
+    <Index ID="1603986" Value="227"/>
+    <Index ID="1603987" Value="228"/>
+    <Index ID="1603988" Value="229"/>
+    <Index ID="1603989" Value="230"/>
+    <Index ID="1603990" Value="231"/>
+    <Index ID="1604002" Value="232"/>
+    <Index ID="1616789" Value="235"/>
+    <Index ID="1616852" Value="236"/>
+    <Index ID="1652546" Value="234"/>
+    <Index ID="1705017" Value="237"/>
+    <Index ID="1705018" Value="238"/>
+    <Index ID="1705019" Value="239"/>
+    <Index ID="1738691" Value="233"/>
+    <Index ID="1777164" Value="99"/>
+    <Index ID="1777165" Value="98"/>
+    <Index ID="1777166" Value="97"/>
+    <Index ID="1777183" Value="106"/>
+    <Index ID="1777184" Value="107"/>
+    <Index ID="1793150" Value="3"/>
+  </IndexMap>
+</TextGroup>

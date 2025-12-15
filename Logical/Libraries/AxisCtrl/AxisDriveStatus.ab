@@ -1,0 +1,22 @@
+FUNCTION_BLOCK AxisDriveStatus
+	; Decode drive status.
+	
+	if (Enable) then
+		RefSw 					=	BOOL(Axis.dig_in.status.reference)
+		PosSw 					= BOOL(Axis.dig_in.status.pos_hw_end)
+		NegSw 					= BOOL(Axis.dig_in.status.neg_hw_end)
+		Trigger1 				= BOOL(Axis.dig_in.status.trigger1)
+		Trigger2 				= BOOL(Axis.dig_in.status.trigger2)
+		EnableSw 				= BOOL(Axis.dig_in.status.enable)
+		HomedOK					= BOOL(Axis.move.homing.status.ok)
+	else
+		RefSw 					= 0
+		PosSw 					= 0
+		NegSw 					= 0
+		Trigger1 				= 0
+		Trigger2 				= 0
+		EnableSw 				= 0
+		HomedOK   			= 0
+	endif
+		
+END_FUNCTION_BLOCK

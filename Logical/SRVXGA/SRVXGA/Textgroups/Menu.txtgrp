@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Menu">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="413"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1794155" Value=" SETTINGS"/>
+    <Text ID="1794156" Value=" MIMIC"/>
+    <Text ID="1794157" Value=" REMOTE I/O"/>
+    <Text ID="1794158" Value=" DRIVES"/>
+    <Text ID="1794159" Value=" SERVOS"/>
+    <Text ID="1794160" Value=" ALARMS"/>
+    <Text ID="1794161" Value=" WARNINGS"/>
+    <Text ID="1794162" Value=" OPTIONS"/>
+    <Text ID="1794163" Value=" EVENTS"/>
+    <Text ID="1794164" Value=" ASHTON TECHNICAL"/>
+    <Text ID="1794165" Value=" SYSTEM DEVICE MONITOR"/>
+    <Text ID="1794166" Value=" TIME AND DATE"/>
+    <Text ID="1794167" Value=" TIMES"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1794155" Value=""/>
+    <Text ID="1794156" Value=""/>
+    <Text ID="1794157" Value=""/>
+    <Text ID="1794158" Value=""/>
+    <Text ID="1794159" Value=""/>
+    <Text ID="1794160" Value=""/>
+    <Text ID="1794161" Value=""/>
+    <Text ID="1794162" Value=""/>
+    <Text ID="1794163" Value=""/>
+    <Text ID="1794164" Value=""/>
+    <Text ID="1794165" Value=""/>
+    <Text ID="1794166" Value=""/>
+    <Text ID="1794167" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1794155" Value="2"/>
+    <Index ID="1794156" Value="1"/>
+    <Index ID="1794157" Value="5"/>
+    <Index ID="1794158" Value="3"/>
+    <Index ID="1794159" Value="4"/>
+    <Index ID="1794160" Value="7"/>
+    <Index ID="1794161" Value="8"/>
+    <Index ID="1794162" Value="10"/>
+    <Index ID="1794163" Value="9"/>
+    <Index ID="1794164" Value="6"/>
+    <Index ID="1794165" Value="20"/>
+    <Index ID="1794166" Value="11"/>
+    <Index ID="1794167" Value="21"/>
+  </IndexMap>
+</TextGroup>

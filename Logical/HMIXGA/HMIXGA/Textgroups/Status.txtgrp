@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Status">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="422"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1006231" Value="WAIT"/>
+    <Text ID="1006232" Value="READY_CONTROL"/>
+    <Text ID="1006233" Value="READY_SERVOS"/>
+    <Text ID="1006234" Value="READY_SEAMERS"/>
+    <Text ID="1006235" Value="READY_CONTROL_SERVOS"/>
+    <Text ID="1006236" Value="READY_CONTROL_SEAMERS"/>
+    <Text ID="1006238" Value="READY"/>
+    <Text ID="1006239" Value="Waiting for ready"/>
+    <Text ID="1006242" Value="All systems ready. Glass can be fully processed with selected options.(E.g. Laser)"/>
+    <Text ID="1006243" Value="Only control circuit ready"/>
+    <Text ID="1006244" Value="Only servo controllers ready"/>
+    <Text ID="1006245" Value="Only seaming ready"/>
+    <Text ID="1006246" Value="Control and servo controllers ready. Glass can be processed without seaming. Turn on Vacuums if required."/>
+    <Text ID="1006247" Value="Control and grinding ready. Check Servo controllers for errors."/>
+    <Text ID="1010018" Value="CONTROL CIRCUIT OFF"/>
+    <Text ID="1010019" Value="CONTROL CIRCUIT READY"/>
+    <Text ID="1010020" Value="WAITING FOR CONTROL"/>
+    <Text ID="1010021" Value="PAUSE ACTIVE"/>
+    <Text ID="1010022" Value=""/>
+    <Text ID="1010023" Value="ESTOP RECOVERY ACTIVE"/>
+    <Text ID="1303914" Value=""/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1006231" Value=""/>
+    <Text ID="1006232" Value=""/>
+    <Text ID="1006233" Value=""/>
+    <Text ID="1006234" Value=""/>
+    <Text ID="1006235" Value=""/>
+    <Text ID="1006236" Value=""/>
+    <Text ID="1006238" Value=""/>
+    <Text ID="1006239" Value=""/>
+    <Text ID="1006242" Value=""/>
+    <Text ID="1006243" Value=""/>
+    <Text ID="1006244" Value=""/>
+    <Text ID="1006245" Value=""/>
+    <Text ID="1006246" Value=""/>
+    <Text ID="1006247" Value=""/>
+    <Text ID="1010018" Value=""/>
+    <Text ID="1010019" Value=""/>
+    <Text ID="1010020" Value=""/>
+    <Text ID="1010021" Value=""/>
+    <Text ID="1010022" Value=""/>
+    <Text ID="1010023" Value=""/>
+    <Text ID="1303914" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1006231" Value="0"/>
+    <Index ID="1006232" Value="1"/>
+    <Index ID="1006233" Value="2"/>
+    <Index ID="1006234" Value="3"/>
+    <Index ID="1006235" Value="4"/>
+    <Index ID="1006236" Value="5"/>
+    <Index ID="1006238" Value="10"/>
+    <Index ID="1006239" Value="20"/>
+    <Index ID="1006242" Value="30"/>
+    <Index ID="1006243" Value="21"/>
+    <Index ID="1006244" Value="22"/>
+    <Index ID="1006245" Value="23"/>
+    <Index ID="1006246" Value="24"/>
+    <Index ID="1006247" Value="25"/>
+    <Index ID="1010018" Value="44"/>
+    <Index ID="1010019" Value="41"/>
+    <Index ID="1010020" Value="40"/>
+    <Index ID="1010021" Value="42"/>
+    <Index ID="1010022" Value="45"/>
+    <Index ID="1010023" Value="46"/>
+    <Index ID="1303914" Value="43"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,91 @@
+FUNCTION_BLOCK AxisObjToAxisCfg
+	(* Implementation of AxisObjtoAxisCfg *)
+	
+	if (Execute) then
+	
+		AxisConfig.dig_in_reference = Axis.dig_in.level.reference
+		AxisConfig.dig_in_pos_hw_end = Axis.dig_in.level.pos_hw_end
+		AxisConfig.dig_in_neg_hw_end = Axis.dig_in.level.neg_hw_end
+		AxisConfig.dig_in_trigger1 = Axis.dig_in.level.trigger1 
+		AxisConfig.dig_in_trigger2 = Axis.dig_in.level.trigger2 
+		
+		AxisConfig.encoder_if_count_dir = Axis.encoder_if.parameter.count_dir
+		AxisConfig.encoder_if_units = Axis.encoder_if.parameter.scaling.load.units
+		AxisConfig.encoder_if_rev_motor = Axis.encoder_if.parameter.scaling.load.rev_motor
+		
+		AxisConfig.limit_v_pos = Axis.limit.parameter.v_pos
+		AxisConfig.limit_v_neg = Axis.limit.parameter.v_neg 
+		AxisConfig.limit_a1_pos = Axis.limit.parameter.a1_pos
+		AxisConfig.limit_a2_pos = Axis.limit.parameter.a2_pos 
+		AxisConfig.limit_a1_neg = Axis.limit.parameter.a1_neg
+		AxisConfig.limit_a2_neg = Axis.limit.parameter.a2_neg
+		AxisConfig.limit_t_jolt = Axis.limit.parameter.t_jolt
+		AxisConfig.limit_t_in_pos = Axis.limit.parameter.t_in_pos
+		AxisConfig.limit_pos_sw_end = Axis.limit.parameter.pos_sw_end 
+		AxisConfig.limit_neg_sw_end = Axis.limit.parameter.neg_sw_end 
+		AxisConfig.limit_ds_warning = Axis.limit.parameter.ds_warning
+		AxisConfig.limit_ds_stop = Axis.limit.parameter.ds_stop
+		AxisConfig.limit_a_stop = Axis.limit.parameter.a_stop 
+		
+		AxisConfig.controller_mode = Axis.controller.mode
+		AxisConfig.position_kv = Axis.controller.position.kv 
+		AxisConfig.position_tn = Axis.controller.position.tn
+		AxisConfig.position_t_predict = Axis.controller.position.t_predict
+		AxisConfig.position_t_total = Axis.controller.position.t_total 
+		AxisConfig.position_p_max = Axis.controller.position.p_max 
+		AxisConfig.position_i_max = Axis.controller.position.i_max
+		AxisConfig.speed_kv = Axis.controller.speed.kv 
+		AxisConfig.speed_tn = Axis.controller.speed.tn
+		AxisConfig.speed_t_filter = Axis.controller.speed.t_filter 
+		AxisConfig.speed_isq_filter1_type = Axis.controller.speed.isq_filter1.type 
+		AxisConfig.speed_isq_filter1_a0 = Axis.controller.speed.isq_filter1.a0
+		AxisConfig.speed_isq_filter1_a1 = Axis.controller.speed.isq_filter1.a1 
+		AxisConfig.speed_isq_filter1_b0 = Axis.controller.speed.isq_filter1.b0
+		AxisConfig.speed_isq_filter1_b1 = Axis.controller.speed.isq_filter1.b1 
+		AxisConfig.speed_isq_filter1_b2 = Axis.controller.speed.isq_filter1.b2
+		AxisConfig.speed_isq_filter2_type = Axis.controller.speed.isq_filter2.type 
+		AxisConfig.speed_isq_filter2_a0 = Axis.controller.speed.isq_filter2.a0
+		AxisConfig.speed_isq_filter2_a1 = Axis.controller.speed.isq_filter2.a1 
+		AxisConfig.speed_isq_filter2_b0 = Axis.controller.speed.isq_filter2.b0 
+		AxisConfig.speed_isq_filter2_b1 = Axis.controller.speed.isq_filter2.b1
+		AxisConfig.speed_isq_filter2_b2 = Axis.controller.speed.isq_filter2.b2
+		AxisConfig.speed_isq_filter3_type = Axis.controller.speed.isq_filter3.type
+		AxisConfig.speed_isq_filter3_a0 = Axis.controller.speed.isq_filter3.a0
+		AxisConfig.speed_isq_filter3_a1 = Axis.controller.speed.isq_filter3.a1 
+		AxisConfig.speed_isq_filter3_b0 = Axis.controller.speed.isq_filter3.b0
+		AxisConfig.speed_isq_filter3_b1 = Axis.controller.speed.isq_filter3.b1 
+		AxisConfig.speed_isq_filter3_b2 = Axis.controller.speed.isq_filter3.b2
+		AxisConfig.uf_type = Axis.controller.uf.type
+		AxisConfig.uf_auto_config = Axis.controller.uf.auto_config
+		AxisConfig.uf_u0 = Axis.controller.uf.u0 
+		AxisConfig.uf_un = Axis.controller.uf.un
+		AxisConfig.uf_fn = Axis.controller.uf.fn 
+		AxisConfig.ff_torque_load = Axis.controller.ff.torque_load
+		AxisConfig.ff_torque_pos = Axis.controller.ff.torque_pos
+		AxisConfig.ff_torque_neg = Axis.controller.ff.torque_neg
+		AxisConfig.ff_kv_torque = Axis.controller.ff.kv_torque 
+		AxisConfig.ff_inertia = Axis.controller.ff.inertia
+		
+		AxisConfig.stop_decel_ramp = Axis.move.stop.parameter[0].decel_ramp 
+		AxisConfig.stop_controller = Axis.move.stop.parameter[0].controller 
+		
+		AxisConfig.homing_s = Axis.move.homing.parameter.s 
+		AxisConfig.homing_v_switch = Axis.move.homing.parameter.v_switch 
+		AxisConfig.homing_v_trigger = Axis.move.homing.parameter.v_trigger 
+		AxisConfig.homing_a = Axis.move.homing.parameter.a
+		AxisConfig.homing_mode = Axis.move.homing.parameter.mode
+		AxisConfig.homing_edge_sw = Axis.move.homing.parameter.edge_sw
+		AxisConfig.homing_start_dir = Axis.move.homing.parameter.start_dir 
+		AxisConfig.homing_trigg_dir = Axis.move.homing.parameter.trigg_dir 
+		AxisConfig.homing_ref_pulse = Axis.move.homing.parameter.ref_pulse 
+		AxisConfig.homing_tr_s_block = Axis.move.homing.parameter.tr_s_block
+	
+		Done = true
+	
+	else
+	
+		Done = false
+		
+	endif
+	
+END_FUNCTION_BLOCK

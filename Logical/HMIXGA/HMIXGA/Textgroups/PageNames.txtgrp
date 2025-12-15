@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PageNames">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="91842" Value="INITIALISE"/>
+    <Text ID="91843" Value="MENU"/>
+    <Text ID="91846" Value="MIMIC"/>
+    <Text ID="91847" Value="OPTIONS"/>
+    <Text ID="91848" Value="SETTINGS"/>
+    <Text ID="91849" Value="DRIVES"/>
+    <Text ID="91852" Value="SERVOS"/>
+    <Text ID="91854" Value="REMOTE I/O"/>
+    <Text ID="91855" Value="ASHTON TECH"/>
+    <Text ID="91856" Value="DEVICE MONITOR"/>
+    <Text ID="213187" Value="ALARMS"/>
+    <Text ID="1100588" Value="WARNINGS"/>
+    <Text ID="1229669" Value="EVENTS"/>
+    <Text ID="1358633" Value="VARIABLES"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="91842" Value=""/>
+    <Text ID="91843" Value=""/>
+    <Text ID="91846" Value=""/>
+    <Text ID="91847" Value=""/>
+    <Text ID="91848" Value=""/>
+    <Text ID="91849" Value=""/>
+    <Text ID="91852" Value=""/>
+    <Text ID="91854" Value=""/>
+    <Text ID="91855" Value=""/>
+    <Text ID="91856" Value=""/>
+    <Text ID="213187" Value=""/>
+    <Text ID="1100588" Value=""/>
+    <Text ID="1229669" Value=""/>
+    <Text ID="1358633" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="91842" Value="0"/>
+    <Index ID="91843" Value="10"/>
+    <Index ID="91846" Value="11"/>
+    <Index ID="91847" Value="12"/>
+    <Index ID="91848" Value="13"/>
+    <Index ID="91849" Value="14"/>
+    <Index ID="91852" Value="15"/>
+    <Index ID="91854" Value="16"/>
+    <Index ID="91855" Value="20"/>
+    <Index ID="91856" Value="21"/>
+    <Index ID="213187" Value="17"/>
+    <Index ID="1100588" Value="18"/>
+    <Index ID="1229669" Value="19"/>
+    <Index ID="1358633" Value="30"/>
+  </IndexMap>
+</TextGroup>

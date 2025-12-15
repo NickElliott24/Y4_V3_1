@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.4.149?>
+<Library xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File Description="Exported functions and function blocks">Lib_Ashton.fun</File>
+    <File>TrackCount.st</File>
+    <File Description="Anti bounce input filter">Photo.st</File>
+    <File>TrackProc.st</File>
+    <File Description="Calculate Restart delay for C5R">C5Restart.st</File>
+    <File Description="Calculate system run time">RunTime.st</File>
+    <File Description="Calculate grind time and length">GrindTime.st</File>
+    <File>Center.st</File>
+    <File>Center2.st</File>
+    <File>ControlFB.st</File>
+    <File>InvTestFB.st</File>
+    <File>SeamersSMProFB.st</File>
+    <File>SeamersFB.st</File>
+    <File>TrackBit.st</File>
+    <File>TrackingSection.st</File>
+    <File>Lib_Ashton.typ</File>
+    <File>Batch.st</File>
+    <File>FlipUps.st</File>
+  </Files>
+</Library>

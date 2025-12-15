@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Servo">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="65"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1803265" Value="SERVO 1"/>
+    <Text ID="1803266" Value="SERVO 2"/>
+    <Text ID="1803267" Value="SERVO 3"/>
+    <Text ID="1803268" Value="SEAMER 1 SERVO MOTOR CONTROLLER:"/>
+    <Text ID="1803269" Value="SEAMER 2 SERVO MOTOR CONTROLLER:"/>
+    <Text ID="1803270" Value="PIVOT CONVEYOR SERVO MOTOR CONTROLLER:"/>
+    <Text ID="1803271" Value="ACTUAL POSITION"/>
+    <Text ID="1803272" Value="ACTUAL VELOCITY"/>
+    <Text ID="1803273" Value="ERROR TEXT:"/>
+    <Text ID="1803274" Value="ERROR ID:"/>
+    <Text ID="1803275" Value="NEGATIVE OVER TRAVEL (NOT)"/>
+    <Text ID="1803276" Value="POSITIVE OVER TRAVEL (POT)"/>
+    <Text ID="1803277" Value="ORIGIN SWITCH."/>
+    <Text ID="1803278" Value="NEW POSITION VALUE"/>
+    <Text ID="1803279" Value="NEW SPEED VALUE"/>
+    <Text ID="1803280" Value="ORIGIN POSITION"/>
+    <Text ID="1803281" Value="START SEARCH PATTERN"/>
+    <Text ID="1803282" Value="RESET ORIGIN"/>
+    <Text ID="1803283" Value="ABSOLUTE MOVE"/>
+    <Text ID="1803284" Value="ENSURE ALL FLIP UP ARMS ARE DOWN!"/>
+    <Text ID="1803285" Value="S81"/>
+    <Text ID="1803286" Value="S82"/>
+    <Text ID="1803287" Value="SEEK AND FIND STATE:"/>
+    <Text ID="1803288" Value="IDLE"/>
+    <Text ID="1803289" Value="FAST REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S81PHOTO."/>
+    <Text ID="1803290" Value="SLOW REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S82PHOTO."/>
+    <Text ID="1803291" Value="CHECKING STOP POSITION TO EDGE OF GLASS - WAITING FOR FALLING EDGE S82PHOTO."/>
+    <Text ID="1803292" Value="SLOW FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S83PHOTO."/>
+    <Text ID="1803293" Value="FAST FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S84PHOTO."/>
+    <Text ID="1803294" Value="IDLE"/>
+    <Text ID="1803295" Value="FAST REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S91PHOTO."/>
+    <Text ID="1803296" Value="SLOW REVERSE SEARCH PATTERN - WAITING FOR RISING EDGE S92PHOTO."/>
+    <Text ID="1803297" Value="CHECKING STOP POSITION TO EDGE OF GLASS - WAITING FOR FALLING EDGE S92PHOTO."/>
+    <Text ID="1803298" Value="SLOW FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S93PHOTO."/>
+    <Text ID="1803299" Value="FAST FORWARD SEARCH PATTERN - WAITING FOR FALLING EDGE S94PHOTO."/>
+    <Text ID="1803300" Value="S83"/>
+    <Text ID="1803301" Value="S84"/>
+    <Text ID="1803302" Value="S91"/>
+    <Text ID="1803303" Value="S92"/>
+    <Text ID="1803304" Value="S93"/>
+    <Text ID="1803305" Value="S94"/>
+    <Text ID="1803306" Value="S80"/>
+    <Text ID="1803307" Value="S90"/>
+    <Text ID="1803308" Value="S100"/>
+    <Text ID="1803309" Value="RESET"/>
+    <Text ID="1803310" Value="STANDSTILL"/>
+    <Text ID="1803311" Value="DISABLED"/>
+    <Text ID="1803312" Value="STATE:"/>
+    <Text ID="1803313" Value="RESET DONE"/>
+    <Text ID="1803314" Value="LAG WARNING"/>
+    <Text ID="1803315" Value="AXIS ERROR"/>
+    <Text ID="1803316" Value="HOMING OK"/>
+    <Text ID="1803317" Value="CONTROLLER STATUS"/>
+    <Text ID="1803318" Value="CONTROLLER READY"/>
+    <Text ID="1803319" Value="DRIVE ENABLE"/>
+    <Text ID="1803320" Value="TRIGGER2"/>
+    <Text ID="1803321" Value="TRIGGER1"/>
+    <Text ID="1803322" Value="NEG HW SWITCH"/>
+    <Text ID="1803323" Value="POS HW SWITCH"/>
+    <Text ID="1803324" Value="HOME SWITCH"/>
+    <Text ID="1803325" Value="NETWORK INIT"/>
+    <Text ID="1803326" Value="SIMULATION"/>
+    <Text ID="1803327" Value="DRIVE STATUS:"/>
+    <Text ID="1803328" Value="ACT VELOCITY"/>
+    <Text ID="1803329" Value="ACT POSITION"/>
+    <Text ID="1803330" Value="ERROR TEXT"/>
+    <Text ID="1803331" Value="ERROR ID"/>
+    <Text ID="1803332" Value="STATUS:"/>
+    <Text ID="1803333" Value="JOG VELOCITY"/>
+    <Text ID="1803334" Value="HOME MODE"/>
+    <Text ID="1803335" Value="HOME POSITION"/>
+    <Text ID="1803336" Value="DECELERATION"/>
+    <Text ID="1803337" Value="PARAMETER:"/>
+    <Text ID="1803338" Value="ACCELERATION"/>
+    <Text ID="1803339" Value="DIRECTION"/>
+    <Text ID="1803340" Value="VELOCITY"/>
+    <Text ID="1803341" Value="DISTANCE"/>
+    <Text ID="1803342" Value="POSITION"/>
+    <Text ID="1803343" Value="POWER"/>
+    <Text ID="1803344" Value="STOP"/>
+    <Text ID="1803345" Value="HALT"/>
+    <Text ID="1803346" Value="MOVE VELOCITY"/>
+    <Text ID="1803347" Value="MOVE ADDITIVE"/>
+    <Text ID="1803348" Value="MOVE ABSOLUTE"/>
+    <Text ID="1803349" Value="HOME"/>
+    <Text ID="1803350" Value="STEP:"/>
+    <Text ID="1803351" Value="COMMAND:"/>
+    <Text ID="1803352" Value=""/>
+    <Text ID="1803353" Value=""/>
+    <Text ID="1803354" Value=""/>
+    <Text ID="1803355" Value=""/>
+    <Text ID="1803356" Value="ERROR STOP"/>
+    <Text ID="1803357" Value="SYNC MOTION"/>
+    <Text ID="1803358" Value="CONT MOTION"/>
+    <Text ID="1803359" Value="DISCRETE MOTION"/>
+    <Text ID="1803360" Value="STOPPING"/>
+    <Text ID="1803361" Value="HOMING"/>
+    <Text ID="1803362" Value="PIVOT STATE:"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1803265" Value=""/>
+    <Text ID="1803266" Value=""/>
+    <Text ID="1803267" Value=""/>
+    <Text ID="1803268" Value=""/>
+    <Text ID="1803269" Value=""/>
+    <Text ID="1803270" Value=""/>
+    <Text ID="1803271" Value=""/>
+    <Text ID="1803272" Value=""/>
+    <Text ID="1803273" Value=""/>
+    <Text ID="1803274" Value=""/>
+    <Text ID="1803275" Value=""/>
+    <Text ID="1803276" Value=""/>
+    <Text ID="1803277" Value=""/>
+    <Text ID="1803278" Value=""/>
+    <Text ID="1803279" Value=""/>
+    <Text ID="1803280" Value=""/>
+    <Text ID="1803281" Value=""/>
+    <Text ID="1803282" Value=""/>
+    <Text ID="1803283" Value=""/>
+    <Text ID="1803284" Value=""/>
+    <Text ID="1803285" Value=""/>
+    <Text ID="1803286" Value=""/>
+    <Text ID="1803287" Value=""/>
+    <Text ID="1803288" Value=""/>
+    <Text ID="1803289" Value=""/>
+    <Text ID="1803290" Value=""/>
+    <Text ID="1803291" Value=""/>
+    <Text ID="1803292" Value=""/>
+    <Text ID="1803293" Value=""/>
+    <Text ID="1803294" Value=""/>
+    <Text ID="1803295" Value=""/>
+    <Text ID="1803296" Value=""/>
+    <Text ID="1803297" Value=""/>
+    <Text ID="1803298" Value=""/>
+    <Text ID="1803299" Value=""/>
+    <Text ID="1803300" Value=""/>
+    <Text ID="1803301" Value=""/>
+    <Text ID="1803302" Value=""/>
+    <Text ID="1803303" Value=""/>
+    <Text ID="1803304" Value=""/>
+    <Text ID="1803305" Value=""/>
+    <Text ID="1803306" Value=""/>
+    <Text ID="1803307" Value=""/>
+    <Text ID="1803308" Value=""/>
+    <Text ID="1803309" Value=""/>
+    <Text ID="1803310" Value=""/>
+    <Text ID="1803311" Value=""/>
+    <Text ID="1803312" Value=""/>
+    <Text ID="1803313" Value=""/>
+    <Text ID="1803314" Value=""/>
+    <Text ID="1803315" Value=""/>
+    <Text ID="1803316" Value=""/>
+    <Text ID="1803317" Value=""/>
+    <Text ID="1803318" Value=""/>
+    <Text ID="1803319" Value=""/>
+    <Text ID="1803320" Value=""/>
+    <Text ID="1803321" Value=""/>
+    <Text ID="1803322" Value=""/>
+    <Text ID="1803323" Value=""/>
+    <Text ID="1803324" Value=""/>
+    <Text ID="1803325" Value=""/>
+    <Text ID="1803326" Value=""/>
+    <Text ID="1803327" Value=""/>
+    <Text ID="1803328" Value=""/>
+    <Text ID="1803329" Value=""/>
+    <Text ID="1803330" Value=""/>
+    <Text ID="1803331" Value=""/>
+    <Text ID="1803332" Value=""/>
+    <Text ID="1803333" Value=""/>
+    <Text ID="1803334" Value=""/>
+    <Text ID="1803335" Value=""/>
+    <Text ID="1803336" Value=""/>
+    <Text ID="1803337" Value=""/>
+    <Text ID="1803338" Value=""/>
+    <Text ID="1803339" Value=""/>
+    <Text ID="1803340" Value=""/>
+    <Text ID="1803341" Value=""/>
+    <Text ID="1803342" Value=""/>
+    <Text ID="1803343" Value=""/>
+    <Text ID="1803344" Value=""/>
+    <Text ID="1803345" Value=""/>
+    <Text ID="1803346" Value=""/>
+    <Text ID="1803347" Value=""/>
+    <Text ID="1803348" Value=""/>
+    <Text ID="1803349" Value=""/>
+    <Text ID="1803350" Value=""/>
+    <Text ID="1803351" Value=""/>
+    <Text ID="1803352" Value=""/>
+    <Text ID="1803353" Value=""/>
+    <Text ID="1803354" Value=""/>
+    <Text ID="1803355" Value=""/>
+    <Text ID="1803356" Value=""/>
+    <Text ID="1803357" Value=""/>
+    <Text ID="1803358" Value=""/>
+    <Text ID="1803359" Value=""/>
+    <Text ID="1803360" Value=""/>
+    <Text ID="1803361" Value=""/>
+    <Text ID="1803362" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1803265" Value="0"/>
+    <Index ID="1803266" Value="1"/>
+    <Index ID="1803267" Value="2"/>
+    <Index ID="1803268" Value="3"/>
+    <Index ID="1803269" Value="4"/>
+    <Index ID="1803270" Value="5"/>
+    <Index ID="1803271" Value="6"/>
+    <Index ID="1803272" Value="7"/>
+    <Index ID="1803273" Value="8"/>
+    <Index ID="1803274" Value="9"/>
+    <Index ID="1803275" Value="10"/>
+    <Index ID="1803276" Value="11"/>
+    <Index ID="1803277" Value="12"/>
+    <Index ID="1803278" Value="13"/>
+    <Index ID="1803279" Value="14"/>
+    <Index ID="1803280" Value="15"/>
+    <Index ID="1803281" Value="16"/>
+    <Index ID="1803282" Value="17"/>
+    <Index ID="1803283" Value="18"/>
+    <Index ID="1803284" Value="19"/>
+    <Index ID="1803285" Value="21"/>
+    <Index ID="1803286" Value="22"/>
+    <Index ID="1803287" Value="99"/>
+    <Index ID="1803288" Value="100"/>
+    <Index ID="1803289" Value="101"/>
+    <Index ID="1803290" Value="102"/>
+    <Index ID="1803291" Value="103"/>
+    <Index ID="1803292" Value="104"/>
+    <Index ID="1803293" Value="105"/>
+    <Index ID="1803294" Value="110"/>
+    <Index ID="1803295" Value="111"/>
+    <Index ID="1803296" Value="112"/>
+    <Index ID="1803297" Value="113"/>
+    <Index ID="1803298" Value="114"/>
+    <Index ID="1803299" Value="115"/>
+    <Index ID="1803300" Value="23"/>
+    <Index ID="1803301" Value="24"/>
+    <Index ID="1803302" Value="26"/>
+    <Index ID="1803303" Value="27"/>
+    <Index ID="1803304" Value="28"/>
+    <Index ID="1803305" Value="29"/>
+    <Index ID="1803306" Value="20"/>
+    <Index ID="1803307" Value="25"/>
+    <Index ID="1803308" Value="30"/>
+    <Index ID="1803309" Value="31"/>
+    <Index ID="1803310" Value="74"/>
+    <Index ID="1803311" Value="73"/>
+    <Index ID="1803312" Value="72"/>
+    <Index ID="1803313" Value="71"/>
+    <Index ID="1803314" Value="70"/>
+    <Index ID="1803315" Value="69"/>
+    <Index ID="1803316" Value="68"/>
+    <Index ID="1803317" Value="67"/>
+    <Index ID="1803318" Value="66"/>
+    <Index ID="1803319" Value="65"/>
+    <Index ID="1803320" Value="64"/>
+    <Index ID="1803321" Value="63"/>
+    <Index ID="1803322" Value="62"/>
+    <Index ID="1803323" Value="61"/>
+    <Index ID="1803324" Value="60"/>
+    <Index ID="1803325" Value="59"/>
+    <Index ID="1803326" Value="58"/>
+    <Index ID="1803327" Value="56"/>
+    <Index ID="1803328" Value="55"/>
+    <Index ID="1803329" Value="54"/>
+    <Index ID="1803330" Value="53"/>
+    <Index ID="1803331" Value="52"/>
+    <Index ID="1803332" Value="51"/>
+    <Index ID="1803333" Value="50"/>
+    <Index ID="1803334" Value="49"/>
+    <Index ID="1803335" Value="48"/>
+    <Index ID="1803336" Value="47"/>
+    <Index ID="1803337" Value="41"/>
+    <Index ID="1803338" Value="46"/>
+    <Index ID="1803339" Value="45"/>
+    <Index ID="1803340" Value="44"/>
+    <Index ID="1803341" Value="43"/>
+    <Index ID="1803342" Value="42"/>
+    <Index ID="1803343" Value="34"/>
+    <Index ID="1803344" Value="40"/>
+    <Index ID="1803345" Value="39"/>
+    <Index ID="1803346" Value="38"/>
+    <Index ID="1803347" Value="37"/>
+    <Index ID="1803348" Value="36"/>
+    <Index ID="1803349" Value="35"/>
+    <Index ID="1803350" Value="33"/>
+    <Index ID="1803351" Value="32"/>
+    <Index ID="1803352" Value="84"/>
+    <Index ID="1803353" Value="83"/>
+    <Index ID="1803354" Value="82"/>
+    <Index ID="1803355" Value="81"/>
+    <Index ID="1803356" Value="80"/>
+    <Index ID="1803357" Value="79"/>
+    <Index ID="1803358" Value="78"/>
+    <Index ID="1803359" Value="77"/>
+    <Index ID="1803360" Value="76"/>
+    <Index ID="1803361" Value="75"/>
+    <Index ID="1803362" Value="116"/>
+  </IndexMap>
+</TextGroup>

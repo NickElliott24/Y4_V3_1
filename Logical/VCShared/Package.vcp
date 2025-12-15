@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="EnableEvents" Value="False"/>
+  <Property Name="SharedTargetResourceRoot" Value=""/>
+  <SourceFiles>
+    <Source File="Languages.vcr"/>
+    <Source File="TextGroups\AlarmAcknowledgeState.txtgrp"/>
+    <Source File="TextGroups\AlarmBypassState.txtgrp"/>
+    <Source File="TextGroups\AlarmEvent.txtgrp"/>
+    <Source File="TextGroups\AlarmState.txtgrp"/>
+    <Source File="TextGroups\DateTimeFormats.txtgrp"/>
+    <Source File="TextGroups\httpURL_SDM.txtgrp"/>
+    <Source File="UnitGroups\Length.vcug"/>
+    <Source File="UnitGroups\Mass.vcug"/>
+    <Source File="UnitGroups\Volume.vcug"/>
+    <Source File="UnitGroups\Power.vcug"/>
+    <Source File="UnitGroups\Memory.vcug"/>
+    <Source File="UnitGroups\Pressure.vcug"/>
+    <Source File="UnitGroups\Temperatures.vcug"/>
+    <Source File="UnitGroups\AccelDecel.vcug"/>
+    <Source File="UnitGroups\Current.vcug"/>
+    <Source File="UnitGroups\Frequency.vcug"/>
+    <Source File="UnitGroups\LengthServom.vcug"/>
+    <Source File="UnitGroups\LengthServomm.vcug"/>
+    <Source File="UnitGroups\Metre.vcug"/>
+    <Source File="UnitGroups\Millimetre.vcug"/>
+    <Source File="UnitGroups\Minutes.vcug"/>
+    <Source File="UnitGroups\ServoVelocity.vcug"/>
+    <Source File="UnitGroups\Speed.vcug"/>
+    <Source File="UnitGroups\Time.vcug"/>
+    <Source File="UnitGroups\Velocity.vcug"/>
+    <Source File="UnitGroups\rpm.vcug"/>
+    <Source File="UnitGroups\CosPhi.vcug"/>
+    <Source File="UnitGroups\ScaleFactor.vcug"/>
+    <Source File="AlarmGroups\AlarmSystem.alcfg"/>
+    <Source File="AlarmGroups\SystemAlarms.algrp"/>
+    <Source File="AlarmGroups\Events.algrp"/>
+    <Source File="AlarmGroups\Timeouts.algrp"/>
+    <Source File="AlarmGroups\Trips.algrp"/>
+    <Source File="DataSources\Internal.dso"/>
+    <Source File="DataSources\DataSource.dso"/>
+    <Source File="DataSources\PLC.dso"/>
+    <Source File="ControlVersion.cvinfo"/>
+  </SourceFiles>
+</Project>

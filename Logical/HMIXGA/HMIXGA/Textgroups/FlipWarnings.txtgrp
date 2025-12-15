@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="FlipWarnings">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="7"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1284873" Value="SEAMER 1 - WAITING FOR ALL ARMS TO BE DOWN BEFORE SEEK AND FIND."/>
+    <Text ID="1284874" Value="ARM 1-1 DOWN"/>
+    <Text ID="1284875" Value="ARM 1-1 NOT DOWN"/>
+    <Text ID="1284876" Value="SEAMER 2 - WAITING FOR ALL ARMS TO BE DOWN BEFORE SEEK AND FIND."/>
+    <Text ID="1284877" Value="ARM 1-2 DOWN"/>
+    <Text ID="1284878" Value="ARM 1-2 NOT DOWN"/>
+    <Text ID="1284879" Value="ARM 2-1 DOWN"/>
+    <Text ID="1284880" Value="ARM 2-1 NOT DOWN"/>
+    <Text ID="1284881" Value="ARM 2-2 DOWN"/>
+    <Text ID="1284882" Value="ARM 2-2 NOT DOWN"/>
+    <Text ID="1284883" Value="ARM 3-1 DOWN"/>
+    <Text ID="1284884" Value="ARM 3-1 NOT DOWN"/>
+    <Text ID="1284885" Value="ARM 3-2 DOWN"/>
+    <Text ID="1284886" Value="ARM 3-2 NOT DOWN"/>
+    <Text ID="1284887" Value="ARM 4-1 DOWN"/>
+    <Text ID="1284888" Value="ARM 4-1 NOT DOWN"/>
+    <Text ID="1284889" Value="ARM 4-2 DOWN"/>
+    <Text ID="1284890" Value="ARM 4-2 NOT DOWN"/>
+    <Text ID="1284891" Value="SEAMER 1 - WAITING FOR SELECTED ARMS TO BE UP BEFORE CONVEYORS MOVE."/>
+    <Text ID="1284892" Value="SEAMER 2 - WAITING FOR SELECTED ARMS TO BE UP BEFORE CONVEYORS MOVE."/>
+    <Text ID="1284893" Value="ARM 1-1 UP"/>
+    <Text ID="1284894" Value="ARM 1-1 NOT UP"/>
+    <Text ID="1284895" Value="ARM 1-2 UP"/>
+    <Text ID="1284896" Value="ARM 1-2 NOT UP"/>
+    <Text ID="1284897" Value="ARM 2-1 UP"/>
+    <Text ID="1284898" Value="ARM 2-1 NOT UP"/>
+    <Text ID="1284899" Value="ARM 2-2 UP"/>
+    <Text ID="1284900" Value="ARM 2-2 NOT UP"/>
+    <Text ID="1284901" Value="ARM 3-1 UP"/>
+    <Text ID="1284902" Value="ARM 3-1 NOT UP"/>
+    <Text ID="1284903" Value="ARM 3-2 UP"/>
+    <Text ID="1284904" Value="ARM 3-2 NOT UP"/>
+    <Text ID="1284905" Value="ARM 4-1 UP"/>
+    <Text ID="1284906" Value="ARM 4-1 NOT UP"/>
+    <Text ID="1284907" Value="ARM 4-2 UP"/>
+    <Text ID="1284908" Value="ARM 4-2 NOT UP"/>
+    <Text ID="1284909" Value="ARM 5-1 DOWN"/>
+    <Text ID="1284910" Value="ARM 5-1 NOT DOWN"/>
+    <Text ID="1284911" Value="ARM 5-2 DOWN"/>
+    <Text ID="1284912" Value="ARM 5-2 NOT DOWN"/>
+    <Text ID="1284913" Value="ARM 5-1 UP"/>
+    <Text ID="1284914" Value="ARM 5-1 NOT UP"/>
+    <Text ID="1284915" Value="ARM 5-2 UP"/>
+    <Text ID="1284916" Value="ARM 5-2 NOT UP"/>
+    <Text ID="1284919" Value="ARM 6-1 DOWN"/>
+    <Text ID="1284920" Value="ARM 6-1 NOT DOWN"/>
+    <Text ID="1284921" Value="ARM 6-2 DOWN"/>
+    <Text ID="1284922" Value="ARM 6-2 NOT DOWN"/>
+    <Text ID="1284923" Value="ARM 7-1 DOWN"/>
+    <Text ID="1284924" Value="ARM 7-1 NOT DOWN"/>
+    <Text ID="1284925" Value="ARM 7-2 DOWN"/>
+    <Text ID="1284926" Value="ARM 7-2 NOT DOWN"/>
+    <Text ID="1284927" Value="ARM 8-1 DOWN"/>
+    <Text ID="1284928" Value="ARM 8-1 NOT DOWN"/>
+    <Text ID="1284929" Value="ARM 8-2 DOWN"/>
+    <Text ID="1284930" Value="ARM 8-2 NOT DOWN"/>
+    <Text ID="1284931" Value="ARM 9-1 DOWN"/>
+    <Text ID="1284932" Value="ARM 9-1 NOT DOWN"/>
+    <Text ID="1284933" Value="ARM 9-2 DOWN"/>
+    <Text ID="1284934" Value="ARM 9-2 NOT DOWN"/>
+    <Text ID="1284935" Value="ARM 10-1 DOWN"/>
+    <Text ID="1284936" Value="ARM 10-1 NOT DOWN"/>
+    <Text ID="1284937" Value="ARM 10-2 DOWN"/>
+    <Text ID="1284938" Value="ARM 10-2 NOT DOWN"/>
+    <Text ID="1284939" Value="ARM 6-1 UP"/>
+    <Text ID="1284940" Value="ARM 6-1 NOT UP"/>
+    <Text ID="1284941" Value="ARM 6-2 UP"/>
+    <Text ID="1284942" Value="ARM 6-2 NOT UP"/>
+    <Text ID="1284943" Value="ARM 7-1 UP"/>
+    <Text ID="1284944" Value="ARM 7-1 NOT UP"/>
+    <Text ID="1284945" Value="ARM 7-2 UP"/>
+    <Text ID="1284946" Value="ARM 7-2 NOT UP"/>
+    <Text ID="1284947" Value="ARM 8-1 UP"/>
+    <Text ID="1284948" Value="ARM 8-1 NOT UP"/>
+    <Text ID="1284949" Value="ARM 8-2 UP"/>
+    <Text ID="1284950" Value="ARM 8-2 NOT UP"/>
+    <Text ID="1284951" Value="ARM 9-1 UP"/>
+    <Text ID="1284952" Value="ARM 9-1 NOT UP"/>
+    <Text ID="1284953" Value="ARM 9-2 UP"/>
+    <Text ID="1284954" Value="ARM 9-2 NOT UP"/>
+    <Text ID="1284955" Value="ARM 10-1 UP"/>
+    <Text ID="1284956" Value="ARM 10-1 NOT UP"/>
+    <Text ID="1284957" Value="ARM 10-2 UP"/>
+    <Text ID="1284958" Value="ARM 10-2 NOT UP"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1284873" Value=""/>
+    <Text ID="1284874" Value=""/>
+    <Text ID="1284875" Value=""/>
+    <Text ID="1284876" Value=""/>
+    <Text ID="1284877" Value=""/>
+    <Text ID="1284878" Value=""/>
+    <Text ID="1284879" Value=""/>
+    <Text ID="1284880" Value=""/>
+    <Text ID="1284881" Value=""/>
+    <Text ID="1284882" Value=""/>
+    <Text ID="1284883" Value=""/>
+    <Text ID="1284884" Value=""/>
+    <Text ID="1284885" Value=""/>
+    <Text ID="1284886" Value=""/>
+    <Text ID="1284887" Value=""/>
+    <Text ID="1284888" Value=""/>
+    <Text ID="1284889" Value=""/>
+    <Text ID="1284890" Value=""/>
+    <Text ID="1284891" Value=""/>
+    <Text ID="1284892" Value=""/>
+    <Text ID="1284893" Value=""/>
+    <Text ID="1284894" Value=""/>
+    <Text ID="1284895" Value=""/>
+    <Text ID="1284896" Value=""/>
+    <Text ID="1284897" Value=""/>
+    <Text ID="1284898" Value=""/>
+    <Text ID="1284899" Value=""/>
+    <Text ID="1284900" Value=""/>
+    <Text ID="1284901" Value=""/>
+    <Text ID="1284902" Value=""/>
+    <Text ID="1284903" Value=""/>
+    <Text ID="1284904" Value=""/>
+    <Text ID="1284905" Value=""/>
+    <Text ID="1284906" Value=""/>
+    <Text ID="1284907" Value=""/>
+    <Text ID="1284908" Value=""/>
+    <Text ID="1284909" Value=""/>
+    <Text ID="1284910" Value=""/>
+    <Text ID="1284911" Value=""/>
+    <Text ID="1284912" Value=""/>
+    <Text ID="1284913" Value=""/>
+    <Text ID="1284914" Value=""/>
+    <Text ID="1284915" Value=""/>
+    <Text ID="1284916" Value=""/>
+    <Text ID="1284919" Value=""/>
+    <Text ID="1284920" Value=""/>
+    <Text ID="1284921" Value=""/>
+    <Text ID="1284922" Value=""/>
+    <Text ID="1284923" Value=""/>
+    <Text ID="1284924" Value=""/>
+    <Text ID="1284925" Value=""/>
+    <Text ID="1284926" Value=""/>
+    <Text ID="1284927" Value=""/>
+    <Text ID="1284928" Value=""/>
+    <Text ID="1284929" Value=""/>
+    <Text ID="1284930" Value=""/>
+    <Text ID="1284931" Value=""/>
+    <Text ID="1284932" Value=""/>
+    <Text ID="1284933" Value=""/>
+    <Text ID="1284934" Value=""/>
+    <Text ID="1284935" Value=""/>
+    <Text ID="1284936" Value=""/>
+    <Text ID="1284937" Value=""/>
+    <Text ID="1284938" Value=""/>
+    <Text ID="1284939" Value=""/>
+    <Text ID="1284940" Value=""/>
+    <Text ID="1284941" Value=""/>
+    <Text ID="1284942" Value=""/>
+    <Text ID="1284943" Value=""/>
+    <Text ID="1284944" Value=""/>
+    <Text ID="1284945" Value=""/>
+    <Text ID="1284946" Value=""/>
+    <Text ID="1284947" Value=""/>
+    <Text ID="1284948" Value=""/>
+    <Text ID="1284949" Value=""/>
+    <Text ID="1284950" Value=""/>
+    <Text ID="1284951" Value=""/>
+    <Text ID="1284952" Value=""/>
+    <Text ID="1284953" Value=""/>
+    <Text ID="1284954" Value=""/>
+    <Text ID="1284955" Value=""/>
+    <Text ID="1284956" Value=""/>
+    <Text ID="1284957" Value=""/>
+    <Text ID="1284958" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1284873" Value="0"/>
+    <Index ID="1284874" Value="4"/>
+    <Index ID="1284875" Value="5"/>
+    <Index ID="1284876" Value="1"/>
+    <Index ID="1284877" Value="6"/>
+    <Index ID="1284878" Value="7"/>
+    <Index ID="1284879" Value="8"/>
+    <Index ID="1284880" Value="9"/>
+    <Index ID="1284881" Value="10"/>
+    <Index ID="1284882" Value="11"/>
+    <Index ID="1284883" Value="12"/>
+    <Index ID="1284884" Value="13"/>
+    <Index ID="1284885" Value="14"/>
+    <Index ID="1284886" Value="15"/>
+    <Index ID="1284887" Value="16"/>
+    <Index ID="1284888" Value="17"/>
+    <Index ID="1284889" Value="18"/>
+    <Index ID="1284890" Value="19"/>
+    <Index ID="1284891" Value="2"/>
+    <Index ID="1284892" Value="3"/>
+    <Index ID="1284893" Value="24"/>
+    <Index ID="1284894" Value="25"/>
+    <Index ID="1284895" Value="26"/>
+    <Index ID="1284896" Value="27"/>
+    <Index ID="1284897" Value="28"/>
+    <Index ID="1284898" Value="29"/>
+    <Index ID="1284899" Value="30"/>
+    <Index ID="1284900" Value="31"/>
+    <Index ID="1284901" Value="32"/>
+    <Index ID="1284902" Value="33"/>
+    <Index ID="1284903" Value="34"/>
+    <Index ID="1284904" Value="35"/>
+    <Index ID="1284905" Value="36"/>
+    <Index ID="1284906" Value="37"/>
+    <Index ID="1284907" Value="38"/>
+    <Index ID="1284908" Value="39"/>
+    <Index ID="1284909" Value="20"/>
+    <Index ID="1284910" Value="21"/>
+    <Index ID="1284911" Value="22"/>
+    <Index ID="1284912" Value="23"/>
+    <Index ID="1284913" Value="40"/>
+    <Index ID="1284914" Value="41"/>
+    <Index ID="1284915" Value="42"/>
+    <Index ID="1284916" Value="43"/>
+    <Index ID="1284919" Value="44"/>
+    <Index ID="1284920" Value="45"/>
+    <Index ID="1284921" Value="46"/>
+    <Index ID="1284922" Value="47"/>
+    <Index ID="1284923" Value="48"/>
+    <Index ID="1284924" Value="49"/>
+    <Index ID="1284925" Value="50"/>
+    <Index ID="1284926" Value="51"/>
+    <Index ID="1284927" Value="52"/>
+    <Index ID="1284928" Value="53"/>
+    <Index ID="1284929" Value="54"/>
+    <Index ID="1284930" Value="55"/>
+    <Index ID="1284931" Value="56"/>
+    <Index ID="1284932" Value="57"/>
+    <Index ID="1284933" Value="58"/>
+    <Index ID="1284934" Value="59"/>
+    <Index ID="1284935" Value="60"/>
+    <Index ID="1284936" Value="61"/>
+    <Index ID="1284937" Value="62"/>
+    <Index ID="1284938" Value="63"/>
+    <Index ID="1284939" Value="64"/>
+    <Index ID="1284940" Value="65"/>
+    <Index ID="1284941" Value="66"/>
+    <Index ID="1284942" Value="67"/>
+    <Index ID="1284943" Value="68"/>
+    <Index ID="1284944" Value="69"/>
+    <Index ID="1284945" Value="70"/>
+    <Index ID="1284946" Value="71"/>
+    <Index ID="1284947" Value="72"/>
+    <Index ID="1284948" Value="73"/>
+    <Index ID="1284949" Value="74"/>
+    <Index ID="1284950" Value="75"/>
+    <Index ID="1284951" Value="76"/>
+    <Index ID="1284952" Value="77"/>
+    <Index ID="1284953" Value="78"/>
+    <Index ID="1284954" Value="79"/>
+    <Index ID="1284955" Value="80"/>
+    <Index ID="1284956" Value="81"/>
+    <Index ID="1284957" Value="82"/>
+    <Index ID="1284958" Value="83"/>
+  </IndexMap>
+</TextGroup>

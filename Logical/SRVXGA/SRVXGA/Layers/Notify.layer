@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Notify">
+  <Property Name="BackColor" Value="247"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001004" Name="txtTitles2">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="162"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Trebuchet18]"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="120"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.ServiceLevel.TestModeEnable]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
+      <Property Name="TextIndexOffset" Value="46"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="728"/>
+      <Property Name="Width" Value="168"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="txtTitles3">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="BackColor" Value="45"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="FillStyle" Value="Opaque"/>
+      <Property Name="Font" Value="Source[local].Font[Trebuchet18]"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="736"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.ServiceVis.P14.Status[23]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
+      <Property Name="TextIndexOffset" Value="47"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="728"/>
+      <Property Name="Width" Value="168"/>
+    </Control>
+    <Control ClassId="0x00001003" Name="HotSpot_1">
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="736"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.ServiceVis.P14.Status[23]]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+      <Property Name="Top" Value="728"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_INVReset]"/>
+      <Property Name="Width" Value="168"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

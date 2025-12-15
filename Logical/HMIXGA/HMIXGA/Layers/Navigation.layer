@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Navigation">
+  <Property Name="BackColor" Value="247"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="None"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001002" Name="butSettings">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconSettings]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicSettings]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="280"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page13]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butMimic">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconMimic]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicMimic]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="200"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page11]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butDrives">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconDrives]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicDrives]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="360"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page14]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butServos">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconServos]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicServos]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="440"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page15]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butOptions">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconOption]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicOption]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="600"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page12]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butMenu">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconMenu]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicMenu]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="680"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page10]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butRemoteIO">
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[IconIO]"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="72"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="16"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicRemote]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="520"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Page16]"/>
+      <Property Name="Width" Value="96"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

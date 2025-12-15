@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="Axis1" ModuleId="8V1045.00-2a" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="axis1" AcoposParameter="table_par1" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1045.00-2a_ncV_AXIS1" ModuleId="8V1045.00-2a" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="Axis2" ModuleId="8V1045.00-2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" InitParameter="axis1" AcoposParameter="table_par1" Disabled="FALSE" ModuleDisabled="FALSE" />
+  <NcObject Name="8V1045.00-2_ncV_AXIS1" ModuleId="8V1045.00-2" Type="ncV_AXIS" Channel="1" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8I74xxxxxxx.01P-1_ncAXIS1" ModuleId="INV2" Type="ncAXIS" Channel="1" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8I74xxxxxxx.01P-1_ncAXIS1" ModuleId="INV7" Type="ncAXIS" Channel="1" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8I74xxxxxxx.01P-1_ncAXIS1" ModuleId="INV10" Type="ncAXIS" Channel="1" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8I74xxxxxxx.01P-1_ncAXIS1" ModuleId="INV13" Type="ncAXIS" Channel="1" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8I74xxxxxxx.01P-1_ncAXIS1" ModuleId="INV11" Type="ncAXIS" Channel="1" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+  <NcObject Name="8I74xxxxxxx.01P-1_ncAXIS1" ModuleId="INV12" Type="ncAXIS" Channel="1" AcoposSimulation="Off" Disabled="TRUE" ModuleDisabled="FALSE" />
+</NcMapping>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.4.402?>
+<Library Version="0.00.0" xmlns="http://br-automation.co.at/AS/Library">
+  <Files>
+    <File>AxisCtrl.fun</File>
+    <File>AxisCtrl.typ</File>
+    <File>AxisAbsMoveConv.ab</File>
+    <File>AxisBrakeStatus.ab</File>
+    <File>AxisCfgToAxisObj.ab</File>
+    <File>AxisClearErrorTxt.ab</File>
+    <File>AxisDriveStatus.ab</File>
+    <File>AxisFaultStatus.ab</File>
+    <File>AxisHomeStatus.ab</File>
+    <File>AxisObjToAxisCfg.ab</File>
+    <File>AxisSwitchCfg.ab</File>
+    <File>AxisVelMoveConv.ab</File>
+  </Files>
+</Library>

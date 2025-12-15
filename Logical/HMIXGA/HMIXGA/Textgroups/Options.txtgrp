@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Options">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="416"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="344571" Value="DISABLE PANEL BUZZER "/>
+    <Text ID="588163" Value="DISABLE STANDBY DELAY "/>
+    <Text ID="1090642" Value="DISABLE WARNINGS"/>
+    <Text ID="1095031" Value="DETENSION ENABLE"/>
+    <Text ID="1218880" Value="TRANSPORT ONLY MODE"/>
+    <Text ID="1218881" Value="HIGH VOLUME MODE"/>
+    <Text ID="1219065" Value="TURNS OFF THE PANEL BUZZER. WITH THIS OPTION ENABLED, NO AUDIBLE WARNING WILL BE AVAILABLE IN CASE OF AN ALARM."/>
+    <Text ID="1219068" Value="TURNS OFF THE COUNTDOWN DELAY, 'BEFORE SYSTEM STANDBY'. SYSTEM WILL NOT AUTO SHUT DOWN."/>
+    <Text ID="1219071" Value="ONLY AVAILABLE WHEN PASSWORD LEVEL IS GREATER THAN 'OPERATOR'. TURNS OFF TIMEOUT MONITORING OF PROCESS."/>
+    <Text ID="1219072" Value="OPERATES VACUUM PUMPS. USE TO RUN GLASS THROUGH LINE WITHOUT SEAMING GLASS EDGES."/>
+    <Text ID="1219073" Value="DISABLES SEEK AND FIND AFTER THE FIRST PIECE HAS BEEN MEASURED. TURN OFF MODE TO RESET."/>
+    <Text ID="1219074" Value="ONLY AVAILABLE WHEN PASSWORD LEVEL IS GREATER THAN 'OPERATOR'. ENABLES THE DETENSION SWITCHES FOR BELT CHANGING."/>
+    <Text ID="1641415" Value="ROW BATCHING OPTIONS"/>
+    <Text ID="1641416" Value="LOAD BATCHING OPTIONS"/>
+    <Text ID="1641417" Value="SLOW SEAMING MODE"/>
+    <Text ID="1641425" Value="BATCHING MODES"/>
+    <Text ID="1641426" Value="AUTO BATCHING"/>
+    <Text ID="1641427" Value="SINGLES BATCHING"/>
+    <Text ID="1641428" Value="PAIRS BATCHING"/>
+    <Text ID="1641429" Value="FOUR PIECE BATCHING"/>
+    <Text ID="1647209" Value="DISPLAYS WHAT MODE THE FURNACE IS OPERATING IN, BATCHING OR CONTINUOUS."/>
+    <Text ID="1647216" Value="SELECT THE REQUIRED BATCHING MODE TO OPERATE IN. SELECT FROM THE DROP DOWN LIST."/>
+    <Text ID="1663871" Value="FURNACE CLEAR SIGNAL"/>
+    <Text ID="1663872" Value="PULSE SIGNAL"/>
+    <Text ID="1663873" Value="ON SIGNAL"/>
+    <Text ID="1663881" Value="SELECT THIS MODE TO SLOW MODE DOWN THE SEAMING SPEED AND USE THE 'SLOW' BELT DELAYS. "/>
+    <Text ID="1726090" Value="TWO PIECE BATCHING"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="344571" Value=""/>
+    <Text ID="588163" Value=""/>
+    <Text ID="1090642" Value=""/>
+    <Text ID="1095031" Value=""/>
+    <Text ID="1218880" Value=""/>
+    <Text ID="1218881" Value=""/>
+    <Text ID="1219065" Value=""/>
+    <Text ID="1219068" Value=""/>
+    <Text ID="1219071" Value=""/>
+    <Text ID="1219072" Value=""/>
+    <Text ID="1219073" Value=""/>
+    <Text ID="1219074" Value=""/>
+    <Text ID="1641415" Value=""/>
+    <Text ID="1641416" Value=""/>
+    <Text ID="1641417" Value=""/>
+    <Text ID="1641425" Value=""/>
+    <Text ID="1641426" Value=""/>
+    <Text ID="1641427" Value=""/>
+    <Text ID="1641428" Value=""/>
+    <Text ID="1641429" Value=""/>
+    <Text ID="1647209" Value=""/>
+    <Text ID="1647216" Value=""/>
+    <Text ID="1663871" Value=""/>
+    <Text ID="1663872" Value=""/>
+    <Text ID="1663873" Value=""/>
+    <Text ID="1663881" Value=""/>
+    <Text ID="1726090" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="344571" Value="0"/>
+    <Index ID="588163" Value="1"/>
+    <Index ID="1090642" Value="2"/>
+    <Index ID="1095031" Value="3"/>
+    <Index ID="1218880" Value="4"/>
+    <Index ID="1218881" Value="5"/>
+    <Index ID="1219065" Value="10"/>
+    <Index ID="1219068" Value="11"/>
+    <Index ID="1219071" Value="12"/>
+    <Index ID="1219072" Value="13"/>
+    <Index ID="1219073" Value="14"/>
+    <Index ID="1219074" Value="15"/>
+    <Index ID="1641415" Value="6"/>
+    <Index ID="1641416" Value="7"/>
+    <Index ID="1641417" Value="8"/>
+    <Index ID="1641425" Value="9"/>
+    <Index ID="1641426" Value="20"/>
+    <Index ID="1641427" Value="21"/>
+    <Index ID="1641428" Value="22"/>
+    <Index ID="1641429" Value="24"/>
+    <Index ID="1647209" Value="16"/>
+    <Index ID="1647216" Value="17"/>
+    <Index ID="1663871" Value="25"/>
+    <Index ID="1663872" Value="26"/>
+    <Index ID="1663873" Value="27"/>
+    <Index ID="1663881" Value="18"/>
+    <Index ID="1726090" Value="23"/>
+  </IndexMap>
+</TextGroup>

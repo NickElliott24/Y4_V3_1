@@ -1,0 +1,23 @@
+FUNCTION_BLOCK AxisHomeStatus
+	(* Implementation of AxisHomeStatus *)
+	
+	if (Enable) then
+		if NOT(AxisCtrl.Status.ControllerOn) then
+			AxisCtrl.Status.HomeStatus = 8
+		else if NOT(AxisCtrl.Status.HomedOK) then
+			AxisCtrl.Status.HomeStatus = 51
+		else if (AxisCtrl.Status.Homing) AND (Clock) then
+			AxisCtrl.Status.HomeStatus = 46
+		else if (AxisCtrl.Status.Homing) AND NOT(Clock) then
+			AxisCtrl.Status.HomeStatus = 7
+		else if (AxisCtrl.Status.HomedOK) then
+			AxisCtrl.Status.HomeStatus = 221
+		endif
+	else
+		AxisCtrl.Status.HomeStatus = 0
+	endif
+	
+	HomeStatus = AxisCtrl.Status.HomeStatus
+	
+	
+END_FUNCTION_BLOCK

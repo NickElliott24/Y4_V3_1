@@ -1,0 +1,28 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: Cpu.per
+ * Author: NickE
+ * Created: April 2, 2015
+ ********************************************************************
+ * Declaration of permanent variables
+ ********************************************************************)
+VAR_CONFIG
+	Ax1P AT %M0; (*Axis 1 permananent variables*)
+	Ax2P AT %M60; (*Axis 2 permananent variables*)
+	Grind1 AT %M120; (*Grinding data permanent variables*)
+	Grind2 AT %M176; (*Grinding data permanent variables*)
+	Data AT %M232; (*Runtime data permanent variables*)
+	PresetSys AT %M264; (*System timer presets*)
+	SysPerm AT %M344; (*Permanent system variables*)
+	PresetSeam AT %M368; (*Auto running timer presets*)
+	RowPerm AT %M472; (*Row building permanent variables*)
+	LoadPerm AT %M488; (*Load building permanent variables*)
+	ArmsPerm1 AT %M504; (*Flip up arms retained values*)
+	ArmsPerm2 AT %M528; (*Flip up arms retained values*)
+	ScalePerm AT %M552; (*Conveyor scaling constants*)
+	InvPerms AT %M608; (*Inverter Permanent Variables*)
+	Speeds AT %M724; (*Conveyor speeds*)
+	AnalogPerm AT %M768; (* *)
+	TrackDelayPT AT %M1104; (*Preset for timeout*)
+END_VAR

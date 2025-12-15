@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Buttons_PageTexts">
+  <Property Name="Description" Value="Texts for elements on pages"/>
+  <Property Name="Index" Value="14"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1610510" Value="Contrast"/>
+    <Text ID="1610511" Value="Touch Calibration"/>
+    <Text ID="1610512" Value="Setup"/>
+    <Text ID="1610513" Value="Home"/>
+    <Text ID="1610514" Value="Service"/>
+    <Text ID="1610515" Value="Brightness"/>
+    <Text ID="1610516" Value="Example Frame"/>
+    <Text ID="1610517" Value="History"/>
+    <Text ID="1610518" Value="Select Language"/>
+    <Text ID="1610519" Value="Touch Configuration"/>
+    <Text ID="1610520" Value="Network Settings"/>
+    <Text ID="1610521" Value="IP Address:"/>
+    <Text ID="1610522" Value="Node Number:"/>
+    <Text ID="1610523" Value="HH:MM:SS"/>
+    <Text ID="1610524" Value="yyyy/mm/dd"/>
+    <Text ID="1610525" Value="Time and Date"/>
+    <Text ID="1610526" Value="Alarm"/>
+    <Text ID="1610527" Value="Trend"/>
+    <Text ID="1610528" Value="Diagnostics"/>
+    <Text ID="1610529" Value="Room temp."/>
+    <Text ID="1610530" Value="Cpu temp."/>
+    <Text ID="1610531" Value="Auto refresh"/>
+    <Text ID="1610532" Value="Cursor control"/>
+    <Text ID="1610533" Value="Cursor 1"/>
+    <Text ID="1610534" Value="Cursor 2"/>
+    <Text ID="1610535" Value="View all"/>
+    <Text ID="1610536" Value="Time [s]"/>
+    <Text ID="1610537" Value=""/>
+    <Text ID="1610538" Value=""/>
+    <Text ID="1610539" Value=""/>
+    <Text ID="1610540" Value=""/>
+    <Text ID="1610541" Value=""/>
+    <Text ID="1610542" Value="On/Off"/>
+    <Text ID="1610543" Value="Display Settings"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1610510" Value="Kontrast"/>
+    <Text ID="1610511" Value="Touch kalibrieren"/>
+    <Text ID="1610512" Value="Setup"/>
+    <Text ID="1610513" Value="Home"/>
+    <Text ID="1610514" Value="Service"/>
+    <Text ID="1610515" Value="Helligkeit"/>
+    <Text ID="1610516" Value="Beispiel Frame"/>
+    <Text ID="1610517" Value="Historie"/>
+    <Text ID="1610518" Value="Sprache Auswählen"/>
+    <Text ID="1610519" Value="Touch Konfiguration"/>
+    <Text ID="1610520" Value="Netzwerk Einstellungen"/>
+    <Text ID="1610521" Value="IP Adresse:"/>
+    <Text ID="1610522" Value="Knotennummer:"/>
+    <Text ID="1610523" Value="HH:MM:SS"/>
+    <Text ID="1610524" Value="yyyy/mm/dd"/>
+    <Text ID="1610525" Value="Zeit und Datum"/>
+    <Text ID="1610526" Value="Alarm"/>
+    <Text ID="1610527" Value="Trend"/>
+    <Text ID="1610528" Value="Diagnose"/>
+    <Text ID="1610529" Value="Umgebungstemp."/>
+    <Text ID="1610530" Value="CPU-Temp."/>
+    <Text ID="1610531" Value="Auto Scrollen"/>
+    <Text ID="1610532" Value="Cursorsteuerung"/>
+    <Text ID="1610533" Value="Cursor 1"/>
+    <Text ID="1610534" Value="Cursor 2"/>
+    <Text ID="1610535" Value="Zeige alles"/>
+    <Text ID="1610536" Value="Zeit [s]"/>
+    <Text ID="1610537" Value=""/>
+    <Text ID="1610538" Value=""/>
+    <Text ID="1610539" Value=""/>
+    <Text ID="1610540" Value=""/>
+    <Text ID="1610541" Value=""/>
+    <Text ID="1610542" Value="Ein/Aus"/>
+    <Text ID="1610543" Value="Display Einstellungen"/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1610510" Value="6010"/>
+    <Index ID="1610511" Value="6009"/>
+    <Index ID="1610512" Value="2"/>
+    <Index ID="1610513" Value="1"/>
+    <Index ID="1610514" Value="0"/>
+    <Index ID="1610515" Value="6011"/>
+    <Index ID="1610516" Value="1000"/>
+    <Index ID="1610517" Value="6"/>
+    <Index ID="1610518" Value="6000"/>
+    <Index ID="1610519" Value="6001"/>
+    <Index ID="1610520" Value="6002"/>
+    <Index ID="1610521" Value="6003"/>
+    <Index ID="1610522" Value="6004"/>
+    <Index ID="1610523" Value="6005"/>
+    <Index ID="1610524" Value="6006"/>
+    <Index ID="1610525" Value="6007"/>
+    <Index ID="1610526" Value="5"/>
+    <Index ID="1610527" Value="3"/>
+    <Index ID="1610528" Value="7"/>
+    <Index ID="1610529" Value="1200"/>
+    <Index ID="1610530" Value="1201"/>
+    <Index ID="1610531" Value="1202"/>
+    <Index ID="1610532" Value="1203"/>
+    <Index ID="1610533" Value="1204"/>
+    <Index ID="1610534" Value="1205"/>
+    <Index ID="1610535" Value="1206"/>
+    <Index ID="1610536" Value="1207"/>
+    <Index ID="1610537" Value="1208"/>
+    <Index ID="1610538" Value="1209"/>
+    <Index ID="1610539" Value="1210"/>
+    <Index ID="1610540" Value="1211"/>
+    <Index ID="1610541" Value="1212"/>
+    <Index ID="1610542" Value="8"/>
+    <Index ID="1610543" Value="6008"/>
+  </IndexMap>
+</TextGroup>

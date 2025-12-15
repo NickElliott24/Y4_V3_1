@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Remote">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="419"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="537495" Value="CONTROL PANEL SLICE IO - 1"/>
+    <Text ID="537496" Value="CONTROL PANEL SLICE IO - 2"/>
+    <Text ID="537497" Value="LINE REMOTE IO BLOCKS - 1"/>
+    <Text ID="537498" Value="LINE REMOTE IO BLOCKS - 2"/>
+    <Text ID="537499" Value="LINE REMOTE IO BLOCKS - 3"/>
+    <Text ID="537502" Value="PANEL 1"/>
+    <Text ID="537503" Value=""/>
+    <Text ID="537532" Value="MODULE 3 - INPUTS"/>
+    <Text ID="537533" Value="MODULE 4 - OUTPUTS"/>
+    <Text ID="537534" Value="MODULE 7 - 0V COMMON"/>
+    <Text ID="537535" Value="MODULE 10 - MIXED"/>
+    <Text ID="537536" Value="MODULE 11 - MIXED"/>
+    <Text ID="537537" Value="MODULE 12 - INPUTS"/>
+    <Text ID="537538" Value="MODULE 14 - MIXED"/>
+    <Text ID="537540" Value="MODULE 15 - INPUT"/>
+    <Text ID="537541" Value="MODULE 16 - MIXED"/>
+    <Text ID="537542" Value="MODULE 17 - INPUT"/>
+    <Text ID="606050" Value="MODULE 9 - BUS CARD"/>
+    <Text ID="864382" Value="MODULE 13 - MIXED"/>
+    <Text ID="1033940" Value="LINE REMOTE IO BLOCKS - 4"/>
+    <Text ID="1033941" Value=""/>
+    <Text ID="1044683" Value="MODULE STATUS:"/>
+    <Text ID="1044684" Value="SERIAL NUMBER:"/>
+    <Text ID="1044685" Value="MODULE ID:"/>
+    <Text ID="1044686" Value="HARDWARE VARIANT:"/>
+    <Text ID="1044687" Value="FIRMWARE VERSION:"/>
+    <Text ID="1049106" Value="MODULE 5 - 24V COMMON"/>
+    <Text ID="1049107" Value="MODULE 6 - 0V COMMON"/>
+    <Text ID="1049108" Value="MODULE 8 - OUTPUTS"/>
+    <Text ID="1049110" Value="FUSE STATUS:"/>
+    <Text ID="1049125" Value="X67 POWER STATUS:"/>
+    <Text ID="1049126" Value="DC SUPPLY STATUS:"/>
+    <Text ID="1049367" Value="OVERLOAD STATUS:"/>
+    <Text ID="1049378" Value="FUSE OK"/>
+    <Text ID="1049379" Value="FUSE BLOWN"/>
+    <Text ID="1049380" Value="BUS POWER OK"/>
+    <Text ID="1049381" Value="BUS OVERCURRENT"/>
+    <Text ID="1049382" Value="DC POWER OK"/>
+    <Text ID="1049383" Value="DC WARNING"/>
+    <Text ID="1049384" Value="CHANNEL OVERLOAD"/>
+    <Text ID="1049385" Value="NO OVERLOAD"/>
+    <Text ID="1049386" Value="DC WARNING"/>
+    <Text ID="1049387" Value="DC POWER OK"/>
+    <Text ID="1272687" Value=""/>
+    <Text ID="1272688" Value="LINE 4"/>
+    <Text ID="1272689" Value="LINE 3"/>
+    <Text ID="1272690" Value="LINE 2"/>
+    <Text ID="1272691" Value="LINE 1"/>
+    <Text ID="1272692" Value="PANEL 2"/>
+    <Text ID="1272795" Value="MODULE 1 - POWER SUPPLY"/>
+    <Text ID="1272796" Value="MODULE 2 - INPUTS"/>
+    <Text ID="1279503" Value="TEST MOTORS AND PUMPS:"/>
+    <Text ID="1279504" Value="TEST SOLENOIDS:"/>
+    <Text ID="1279641" Value="TEST 1"/>
+    <Text ID="1279642" Value="TEST 2"/>
+    <Text ID="1405741" Value=""/>
+    <Text ID="1405892" Value=""/>
+    <Text ID="1411252" Value="TEST"/>
+    <Text ID="1793519" Value="MODULE 18 - MIXED"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="537495" Value=""/>
+    <Text ID="537496" Value=""/>
+    <Text ID="537497" Value=""/>
+    <Text ID="537498" Value=""/>
+    <Text ID="537499" Value=""/>
+    <Text ID="537502" Value=""/>
+    <Text ID="537503" Value=""/>
+    <Text ID="537532" Value=""/>
+    <Text ID="537533" Value=""/>
+    <Text ID="537534" Value=""/>
+    <Text ID="537535" Value=""/>
+    <Text ID="537536" Value=""/>
+    <Text ID="537537" Value=""/>
+    <Text ID="537538" Value=""/>
+    <Text ID="537540" Value=""/>
+    <Text ID="537541" Value=""/>
+    <Text ID="537542" Value=""/>
+    <Text ID="606050" Value=""/>
+    <Text ID="864382" Value=""/>
+    <Text ID="1033940" Value=""/>
+    <Text ID="1033941" Value=""/>
+    <Text ID="1044683" Value=""/>
+    <Text ID="1044684" Value=""/>
+    <Text ID="1044685" Value=""/>
+    <Text ID="1044686" Value=""/>
+    <Text ID="1044687" Value=""/>
+    <Text ID="1049106" Value=""/>
+    <Text ID="1049107" Value=""/>
+    <Text ID="1049108" Value=""/>
+    <Text ID="1049110" Value=""/>
+    <Text ID="1049125" Value=""/>
+    <Text ID="1049126" Value=""/>
+    <Text ID="1049367" Value=""/>
+    <Text ID="1049378" Value=""/>
+    <Text ID="1049379" Value=""/>
+    <Text ID="1049380" Value=""/>
+    <Text ID="1049381" Value=""/>
+    <Text ID="1049382" Value=""/>
+    <Text ID="1049383" Value=""/>
+    <Text ID="1049384" Value=""/>
+    <Text ID="1049385" Value=""/>
+    <Text ID="1049386" Value=""/>
+    <Text ID="1049387" Value=""/>
+    <Text ID="1272687" Value=""/>
+    <Text ID="1272688" Value=""/>
+    <Text ID="1272689" Value=""/>
+    <Text ID="1272690" Value=""/>
+    <Text ID="1272691" Value=""/>
+    <Text ID="1272692" Value=""/>
+    <Text ID="1272795" Value=""/>
+    <Text ID="1272796" Value=""/>
+    <Text ID="1279503" Value=""/>
+    <Text ID="1279504" Value=""/>
+    <Text ID="1279641" Value=""/>
+    <Text ID="1279642" Value=""/>
+    <Text ID="1405741" Value=""/>
+    <Text ID="1405892" Value=""/>
+    <Text ID="1411252" Value=""/>
+    <Text ID="1793519" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="537495" Value="0"/>
+    <Index ID="537496" Value="1"/>
+    <Index ID="537497" Value="2"/>
+    <Index ID="537498" Value="3"/>
+    <Index ID="537499" Value="4"/>
+    <Index ID="537502" Value="8"/>
+    <Index ID="537503" Value="14"/>
+    <Index ID="537532" Value="53"/>
+    <Index ID="537533" Value="54"/>
+    <Index ID="537534" Value="57"/>
+    <Index ID="537535" Value="60"/>
+    <Index ID="537536" Value="61"/>
+    <Index ID="537537" Value="62"/>
+    <Index ID="537538" Value="64"/>
+    <Index ID="537540" Value="65"/>
+    <Index ID="537541" Value="66"/>
+    <Index ID="537542" Value="67"/>
+    <Index ID="606050" Value="59"/>
+    <Index ID="864382" Value="63"/>
+    <Index ID="1033940" Value="5"/>
+    <Index ID="1033941" Value="6"/>
+    <Index ID="1044683" Value="16"/>
+    <Index ID="1044684" Value="17"/>
+    <Index ID="1044685" Value="18"/>
+    <Index ID="1044686" Value="19"/>
+    <Index ID="1044687" Value="20"/>
+    <Index ID="1049106" Value="55"/>
+    <Index ID="1049107" Value="56"/>
+    <Index ID="1049108" Value="58"/>
+    <Index ID="1049110" Value="21"/>
+    <Index ID="1049125" Value="22"/>
+    <Index ID="1049126" Value="23"/>
+    <Index ID="1049367" Value="24"/>
+    <Index ID="1049378" Value="25"/>
+    <Index ID="1049379" Value="26"/>
+    <Index ID="1049380" Value="27"/>
+    <Index ID="1049381" Value="28"/>
+    <Index ID="1049382" Value="29"/>
+    <Index ID="1049383" Value="30"/>
+    <Index ID="1049384" Value="31"/>
+    <Index ID="1049385" Value="32"/>
+    <Index ID="1049386" Value="33"/>
+    <Index ID="1049387" Value="34"/>
+    <Index ID="1272687" Value="35"/>
+    <Index ID="1272688" Value="13"/>
+    <Index ID="1272689" Value="12"/>
+    <Index ID="1272690" Value="11"/>
+    <Index ID="1272691" Value="10"/>
+    <Index ID="1272692" Value="9"/>
+    <Index ID="1272795" Value="51"/>
+    <Index ID="1272796" Value="52"/>
+    <Index ID="1279503" Value="36"/>
+    <Index ID="1279504" Value="37"/>
+    <Index ID="1279641" Value="39"/>
+    <Index ID="1279642" Value="40"/>
+    <Index ID="1405741" Value="15"/>
+    <Index ID="1405892" Value="7"/>
+    <Index ID="1411252" Value="38"/>
+    <Index ID="1793519" Value="68"/>
+  </IndexMap>
+</TextGroup>

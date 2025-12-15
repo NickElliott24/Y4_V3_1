@@ -1,0 +1,19 @@
+FUNCTION_BLOCK AxisClearErrorTxt
+	(* Implementation of AxisClearError *)
+	
+	if (Enable) then
+		Busy = True		; Future
+		Done = False	; Future
+		Error = False	; Future
+		ErrorID = 0		; Future
+		memset(DataAddress,0,320)
+		Busy = False
+		Done = True
+	else
+		Busy = False
+		Done = False
+		Error = False
+		ErrorID = 0
+	endif
+	
+END_FUNCTION_BLOCK

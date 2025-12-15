@@ -1,0 +1,44 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: Motion1
+ * File: Motion1.var
+ * Author: nicke
+ * Created: February, 2012
+ ********************************************************************
+ * Variables of package Motion1
+ ********************************************************************)
+VAR
+	ErrorACKs2 : ARRAY[0..5] OF BOOL := [6(FALSE)];
+	ScreenACK2 : BOOL := FALSE;
+	ScreenACK1 : BOOL := FALSE;
+	ErrorACKs1 : ARRAY[0..5] OF BOOL := [6(FALSE)];
+	Axis1DigiIPsFromX67 : AxisSwitchCfg;
+	Axis1StatusBitsCyclicRead : MC_BR_InitCyclicRead;
+	Axis2DigiIPsFromX67 : AxisSwitchCfg;
+	Axis2StatusBitsCyclicRead : MC_BR_InitCyclicRead;
+	machine : Machine;
+	machine2 : Machine;
+	MC_Home_0 : MC_Home;
+	MC_Home_2 : MC_Home;
+	MC_MoveAbsolute_0 : MC_MoveAbsolute;
+	MC_MoveAbsolute_2 : MC_MoveAbsolute;
+	MC_MoveVelocity_0 : MC_MoveVelocity;
+	MC_MoveVelocity_1 : MC_MoveVelocity;
+	MC_MoveVelocity_3 : MC_MoveVelocity;
+	MC_MoveVelocity_2 : MC_MoveVelocity;
+	MC_Power_0 : MC_Power;
+	MC_Power_2 : MC_Power;
+	MC_ReadActualPosition_0 : MC_ReadActualPosition;
+	MC_ReadActualPosition_2 : MC_ReadActualPosition;
+	MC_ReadActualVelocity_0 : MC_ReadActualVelocity;
+	MC_ReadActualVelocity_2 : MC_ReadActualVelocity;
+	MC_ReadAxisError_0 : MC_ReadAxisError;
+	MC_ReadAxisError_2 : MC_ReadAxisError;
+	MC_ReadStatus_0 : MC_ReadStatus;
+	MC_ReadStatus_2 : MC_ReadStatus;
+	MC_Reset_0 : MC_Reset;
+	MC_Reset_2 : MC_Reset;
+	MC_Stop_0 : MC_Stop;
+	MC_Stop_2 : MC_Stop;
+END_VAR

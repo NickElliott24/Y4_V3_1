@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.4.149?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Package variables" Private="true">Automatic.var</Object>
+    <Object Type="Program" Language="IEC" Description="Reset Inverters Before scan">ResetInv</Object>
+    <Object Type="Program" Language="IEC">AxBlocks</Object>
+    <Object Type="Program" Language="IEC" Description="Loading Conveyor">ConLoad</Object>
+    <Object Type="Program" Language="IEC" Description="Seaming 1 Conveyor">ConSeam1</Object>
+    <Object Type="Program" Language="IEC" Description="Corner Conveyor Control">ConCorner</Object>
+    <Object Type="Program" Language="IEC" Description="Seaming 2 conveyor">ConSeam2</Object>
+    <Object Type="Program" Language="IEC" Description="Buffer conveyors">ConBuffers</Object>
+    <Object Type="Program" Language="IEC" Description="Row Building Conveyor">ConRow</Object>
+    <Object Type="Program" Language="IEC" Description="Batch Building Conveyor">ConBatch</Object>
+    <Object Type="Program" Language="IEC">Seaming</Object>
+    <Object Type="Program" Language="IEC">Batching</Object>
+    <Object Type="Program" Language="IEC" Description="Mode options program">Modes</Object>
+    <Object Type="Program" Language="IEC">FlipUpArms</Object>
+    <Object Type="Program" Language="IEC" Description="Set outputs from array conditions">Outputs</Object>
+  </Objects>
+</Package>

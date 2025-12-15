@@ -1,0 +1,20 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Package: Automatic
+ * File: Automatic.var
+ * Author: nicke
+ * Created: February, 2012
+ ********************************************************************
+ * Variables of package Automatic
+ ********************************************************************)
+VAR
+	Belt1 : TrackProc; (*Belt timing control*)
+	Belt2 : TrackProc; (*Belt timing control*)
+	Belt3 : TrackProc; (*Belt timing control*)
+	Belt4 : TrackProc; (*Belt timing control*)
+	Belt5 : TrackProc; (*Belt timing control*)
+	Belt6 : TrackProc; (*Belt timing control*)
+	Belt7 : TrackProc; (*Belt timing control*)
+	Belt8 : TrackProc; (*Belt timing control*)
+END_VAR

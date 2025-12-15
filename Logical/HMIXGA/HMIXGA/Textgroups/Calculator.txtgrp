@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Calculator">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="32"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="546149" Value="BELT DELAY CALCULATOR"/>
+    <Text ID="546150" Value="DELAY BEFORE:"/>
+    <Text ID="546151" Value="ON/OFF"/>
+    <Text ID="546152" Value="CURRENT TIME"/>
+    <Text ID="546153" Value="UNGROUND LENGTH"/>
+    <Text ID="546154" Value="ADJUSTMENT VALUE"/>
+    <Text ID="546155" Value="NEW TIME"/>
+    <Text ID="546156" Value="CLOSE"/>
+    <Text ID="546157" Value="FREQUENCY CALCULATOR"/>
+    <Text ID="546158" Value="CURRENT SPEED"/>
+    <Text ID="546159" Value="REQUIRED SPEED"/>
+    <Text ID="546160" Value="NEW FREQUENCY"/>
+    <Text ID="546165" Value="CURRENT FREQUENCY"/>
+    <Text ID="1261694" Value="INPUT VALUES IN THE FIELDS ABOVE. NEW FREQUENCY WILL BE CALCULATED AND DISPLAYED IN THE FIELD BELOW."/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="546149" Value=""/>
+    <Text ID="546150" Value=""/>
+    <Text ID="546151" Value=""/>
+    <Text ID="546152" Value=""/>
+    <Text ID="546153" Value=""/>
+    <Text ID="546154" Value=""/>
+    <Text ID="546155" Value=""/>
+    <Text ID="546156" Value=""/>
+    <Text ID="546157" Value=""/>
+    <Text ID="546158" Value=""/>
+    <Text ID="546159" Value=""/>
+    <Text ID="546160" Value=""/>
+    <Text ID="546165" Value=""/>
+    <Text ID="1261694" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="546149" Value="0"/>
+    <Index ID="546150" Value="1"/>
+    <Index ID="546151" Value="2"/>
+    <Index ID="546152" Value="3"/>
+    <Index ID="546153" Value="4"/>
+    <Index ID="546154" Value="5"/>
+    <Index ID="546155" Value="6"/>
+    <Index ID="546156" Value="7"/>
+    <Index ID="546157" Value="8"/>
+    <Index ID="546158" Value="9"/>
+    <Index ID="546159" Value="11"/>
+    <Index ID="546160" Value="12"/>
+    <Index ID="546165" Value="10"/>
+    <Index ID="1261694" Value="13"/>
+  </IndexMap>
+</TextGroup>

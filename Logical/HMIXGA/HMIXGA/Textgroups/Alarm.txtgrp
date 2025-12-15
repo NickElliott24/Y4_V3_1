@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Alarm">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="401"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="543329" Value="ID1"/>
+    <Text ID="543330" Value="ID2"/>
+    <Text ID="543331" Value="ALARM TIME"/>
+    <Text ID="543332" Value="ALARM DESCRIPTION"/>
+    <Text ID="543346" Value="WARNING TIME"/>
+    <Text ID="543347" Value="WARNING DESCRIPTION"/>
+    <Text ID="543348" Value="PROCEDURE"/>
+    <Text ID="543349" Value="FAULT FINDING"/>
+    <Text ID="543350" Value="003"/>
+    <Text ID="543351" Value="If required remove lite using the EMO recovery procedure or the Engineering mimic screen."/>
+    <Text ID="543352" Value="ACKNOWLEDGE"/>
+    <Text ID="1105812" Value="EVENT TIME"/>
+    <Text ID="1105813" Value="EVENT DESCRIPTION"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="543329" Value=""/>
+    <Text ID="543330" Value=""/>
+    <Text ID="543331" Value=""/>
+    <Text ID="543332" Value=""/>
+    <Text ID="543346" Value=""/>
+    <Text ID="543347" Value=""/>
+    <Text ID="543348" Value=""/>
+    <Text ID="543349" Value=""/>
+    <Text ID="543350" Value=""/>
+    <Text ID="543351" Value=""/>
+    <Text ID="543352" Value=""/>
+    <Text ID="1105812" Value=""/>
+    <Text ID="1105813" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="543329" Value="0"/>
+    <Index ID="543330" Value="1"/>
+    <Index ID="543331" Value="2"/>
+    <Index ID="543332" Value="3"/>
+    <Index ID="543346" Value="4"/>
+    <Index ID="543347" Value="5"/>
+    <Index ID="543348" Value="6"/>
+    <Index ID="543349" Value="7"/>
+    <Index ID="543350" Value="8"/>
+    <Index ID="543351" Value="9"/>
+    <Index ID="543352" Value="10"/>
+    <Index ID="1105812" Value="11"/>
+    <Index ID="1105813" Value="12"/>
+  </IndexMap>
+</TextGroup>

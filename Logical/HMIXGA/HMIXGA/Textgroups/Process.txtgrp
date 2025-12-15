@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Process">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="418"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="543222" Value="SHIFT RUNTIME:"/>
+    <Text ID="546734" Value="RESET SHIFT TOTAL"/>
+    <Text ID="1059287" Value="SHIFT GRIND TIME:"/>
+    <Text ID="1213719" Value="TOTAL GRIND TIME:"/>
+    <Text ID="1213720" Value="TOTAL RUNTIME:"/>
+    <Text ID="1213721" Value="SHIFT PIECE COUNT:"/>
+    <Text ID="1213722" Value="SHIFT METERAGE:"/>
+    <Text ID="1213725" Value="TOTAL PIECE COUNT:"/>
+    <Text ID="1213726" Value="RESET TOTAL"/>
+    <Text ID="1213738" Value="TOTAL METERAGE:"/>
+    <Text ID="1213739" Value="YEARS"/>
+    <Text ID="1213740" Value="DAYS"/>
+    <Text ID="1213741" Value="MINS"/>
+    <Text ID="1213742" Value="SECS"/>
+    <Text ID="1213743" Value="SEAMER 1"/>
+    <Text ID="1213744" Value="SEAMER 2"/>
+    <Text ID="1213745" Value=""/>
+    <Text ID="1213746" Value="HOURS"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="543222" Value=""/>
+    <Text ID="546734" Value=""/>
+    <Text ID="1059287" Value=""/>
+    <Text ID="1213719" Value=""/>
+    <Text ID="1213720" Value=""/>
+    <Text ID="1213721" Value=""/>
+    <Text ID="1213722" Value=""/>
+    <Text ID="1213725" Value=""/>
+    <Text ID="1213726" Value=""/>
+    <Text ID="1213738" Value=""/>
+    <Text ID="1213739" Value=""/>
+    <Text ID="1213740" Value=""/>
+    <Text ID="1213741" Value=""/>
+    <Text ID="1213742" Value=""/>
+    <Text ID="1213743" Value=""/>
+    <Text ID="1213744" Value=""/>
+    <Text ID="1213745" Value=""/>
+    <Text ID="1213746" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="543222" Value="0"/>
+    <Index ID="546734" Value="8"/>
+    <Index ID="1059287" Value="1"/>
+    <Index ID="1213719" Value="5"/>
+    <Index ID="1213720" Value="4"/>
+    <Index ID="1213721" Value="3"/>
+    <Index ID="1213722" Value="2"/>
+    <Index ID="1213725" Value="7"/>
+    <Index ID="1213726" Value="9"/>
+    <Index ID="1213738" Value="6"/>
+    <Index ID="1213739" Value="10"/>
+    <Index ID="1213740" Value="11"/>
+    <Index ID="1213741" Value="13"/>
+    <Index ID="1213742" Value="14"/>
+    <Index ID="1213743" Value="15"/>
+    <Index ID="1213744" Value="16"/>
+    <Index ID="1213745" Value="17"/>
+    <Index ID="1213746" Value="12"/>
+  </IndexMap>
+</TextGroup>

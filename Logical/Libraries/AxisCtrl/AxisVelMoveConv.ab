@@ -1,0 +1,14 @@
+FUNCTION_BLOCK AxisVelMoveConv
+	(* Implementation of AxisVelMoveConv *)
+	
+	if (Enable) then
+		Velocity = Axis.limit.parameter.v_pos * REAL(AxisMoveVel.Velocity) * 0.01
+		Acceleration = Axis.limit.parameter.a1_pos * REAL(AxisMoveVel.Acceleration) * 0.01
+		Deceleration = Axis.limit.parameter.a2_pos * REAL(AxisMoveVel.Deceleration) * 0.01
+	else
+		Velocity = 0.0
+		Acceleration = 0.0
+		Deceleration = 0.0
+	endif
+	
+END_FUNCTION_BLOCK

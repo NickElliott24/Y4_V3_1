@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="3.0"?>
+<VisualComponents xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Visualization Name="BatchP">
+    <Property Name="Width" Value="1080" />
+    <Property Name="Height" Value="1920" />
+  </Visualization>
+</VisualComponents>

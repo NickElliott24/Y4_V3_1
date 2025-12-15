@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MimicHelp">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="2"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1208629" Value="-"/>
+    <Text ID="1208669" Value="WAITING FOR BOTH 'SEEK AND FIND' AND LASER (IF ENABLED) OPERATIONS TO COMPLETE."/>
+    <Text ID="1208670" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF."/>
+    <Text ID="1208681" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF GATE SENSOR (S4)."/>
+    <Text ID="1208682" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR PROCESS SENSOR (S3). 'BEFORE PROCESS ON' DELAYS WILL START"/>
+    <Text ID="1208693" Value="'BEFORE PROCESS OFF' DELAYS STARTED. WAITING FOR ALL 'BEFORE PROCESS OFF' DELAYS ARE COMPLETE."/>
+    <Text ID="1208694" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR THE END OF GATE SENSOR (S4)."/>
+    <Text ID="1208697" Value="WAITING UNTIL 'DELAY CC1 SLOW BEFORE REVERSE' IS COMPLETE."/>
+    <Text ID="1208767" Value=""/>
+    <Text ID="1208768" Value=""/>
+    <Text ID="1208769" Value=""/>
+    <Text ID="1208770" Value=""/>
+    <Text ID="1208771" Value=""/>
+    <Text ID="1208772" Value="WAITING FOR BOTH 'SEEK AND FIND' AND LASER (IF ENABLED) OPERATIONS TO COMPLETE."/>
+    <Text ID="1208773" Value="WAITING FOR LASER BUSY SIGNAL TO BE OFF."/>
+    <Text ID="1208774" Value="WAITING FOR 'DELAY BEFORE LASER FIRE' DELAY COMPLETE."/>
+    <Text ID="1208776" Value=""/>
+    <Text ID="1208777" Value="WAITING FOR 'DELAY BEFORE AUTO LOAD CLEAR' TO BE DONE."/>
+    <Text ID="1208778" Value="WAITING FOR THE LEADING EDGE OF THE LOAD TO MAKE THE END OF LINE SENSOR (S21)."/>
+    <Text ID="1208779" Value=""/>
+    <Text ID="1208780" Value=""/>
+    <Text ID="1208781" Value=""/>
+    <Text ID="1208782" Value=""/>
+    <Text ID="1208783" Value=""/>
+    <Text ID="1208784" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO MOVE OFF THE ROW BUILDING POSITION SENSOR (S17)."/>
+    <Text ID="1208785" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO REVERSE ONTO THE ROW BUILDING POSITION SENSOR (S17)."/>
+    <Text ID="1208786" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR THE ROW BUILDING POSITION SENSOR (S17)."/>
+    <Text ID="1208787" Value="WAITING FOR 'DELAY BEFORE ROW BUILD STARTS' TO BE DONE."/>
+    <Text ID="1208788" Value="-"/>
+    <Text ID="1208789" Value=""/>
+    <Text ID="1208790" Value="WAITING UNTIL DELAY 'REVERSE BEFORE STOP' IS COMPLETE."/>
+    <Text ID="1208791" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF."/>
+    <Text ID="1208792" Value="WAITING FOR THE BELTS TO RAISE AND THE UP REED SWITCH (S35) TO REGISTER AS ON"/>
+    <Text ID="1208793" Value="WAITING UNTIL DELAY 'SLOW BEFORE REVERSE' IS COMPLETE."/>
+    <Text ID="1208794" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR THE END OF CONVEYOR SENSOR (S12)."/>
+    <Text ID="1208795" Value="'BEFORE PROCESS OFF' DELAYS STARTED. WAITING FOR ALL 'BEFORE PROCESS OFF' DELAYS ARE COMPLETE."/>
+    <Text ID="1208796" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR PROCESS SENSOR (S8). 'BEFORE PROCESS ON' DELAYS WILL START"/>
+    <Text ID="1208797" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF CONVEYOR SENSOR (S12)."/>
+    <Text ID="1208798" Value="-"/>
+    <Text ID="1208799" Value=""/>
+    <Text ID="1208800" Value=""/>
+    <Text ID="1208801" Value=""/>
+    <Text ID="1208803" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF."/>
+    <Text ID="1208804" Value="WAITING FOR THE 'SEEK AND FIND' TO COMPLETE."/>
+    <Text ID="1208805" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE STOP SENSOR (S7)."/>
+    <Text ID="1208806" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE SLOW DOWN SENSOR (S6)."/>
+    <Text ID="1208807" Value="-"/>
+    <Text ID="1208808" Value="-"/>
+    <Text ID="1208809" Value=""/>
+    <Text ID="1208810" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF."/>
+    <Text ID="1208817" Value="-"/>
+    <Text ID="1208818" Value=""/>
+    <Text ID="1208819" Value="LOAD GLASS ON CASTORS AND PRESS THE START (S45) FOOTPEDAL"/>
+    <Text ID="1208820" Value="WAITING FOR THE BELTS TO LOWER AND THE DOWN REED SWITCH (S32) TO REGISTER AS ON"/>
+    <Text ID="1208821" Value=""/>
+    <Text ID="1208822" Value=""/>
+    <Text ID="1208823" Value=""/>
+    <Text ID="1208824" Value=""/>
+    <Text ID="1208826" Value=""/>
+    <Text ID="1208827" Value=""/>
+    <Text ID="1208828" Value=""/>
+    <Text ID="1208829" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE STOP SENSOR (S2)."/>
+    <Text ID="1208830" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE SLOW DOWN SENSOR (S1)."/>
+    <Text ID="1208831" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF"/>
+    <Text ID="1208832" Value="WAITING FOR THE CASTOR PALLET TO RAISE AND THE UP REED SWITCH (S31) TO REGISTER AS ON."/>
+    <Text ID="1208833" Value="WAITING FOR THE SYSTEM TO CALCULATE THAT NO MORE ROWS WILL FIT IN THE LOAD, OR THE 'CLEAR PARTIAL BATCH' BUTTON IS TOUCHED."/>
+    <Text ID="1208834" Value="-"/>
+    <Text ID="1208835" Value=""/>
+    <Text ID="1208836" Value="-"/>
+    <Text ID="1208837" Value=""/>
+    <Text ID="1208838" Value=""/>
+    <Text ID="1208839" Value="WAITING FOR THE 'DELAY BEFORE LOAD BUILD STOPS' TO BE DONE."/>
+    <Text ID="1208840" Value="WAITING FOR THE TRAILING EDGE OF THE ROW TO CLEAR THE LOAD BUILDING SENSOR (S19)."/>
+    <Text ID="1208841" Value="WAITING FOR THE 'DELAY BEFORE LOAD BUILD STARTS' TO BE DONE."/>
+    <Text ID="1208842" Value="WAITING FOR THE LEADING EDGE OF THE ROW TO MAKE THE LOAD BUILDING SENSOR (S19)."/>
+    <Text ID="1389338" Value="WAITING UNTIL NO MORE GLASS WILL FIT INTO THE ROW, OR THE 'CLEAR PARTIAL BATCH' BUTTON IS TOUCHED."/>
+    <Text ID="1389339" Value="WAITING FOR ROW TO CENTRE ON THE CRB CONVEYOR. THE END OF CONVEYOR SENSOR (S18) WILL STOP THE CENTERING"/>
+    <Text ID="1389340" Value="WAITING FOR FOLLOWING CONVEYOR TO CLEAR AND BELT PALLET TO LOWER AND THE DOWN REED SWITCH (S36) TO REGISTER AS ON."/>
+    <Text ID="1761901" Value="WAITING UNTIL 'DELAY CC1 REVERSE BEFORE STOP' IS COMPLETE."/>
+    <Text ID="1761902" Value="WAITING FOR THE DATUM GATE DOWN REED SWITCH (S50) TO REGISTER AS ON."/>
+    <Text ID="1761903" Value=""/>
+    <Text ID="1788887" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF CONVEYOR SENSOR (S16)."/>
+    <Text ID="1788888" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF CONVEYOR SENSOR (S14)."/>
+    <Text ID="1788889" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF."/>
+    <Text ID="1788890" Value=""/>
+    <Text ID="1788891" Value=""/>
+    <Text ID="1788892" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF."/>
+    <Text ID="1788893" Value=""/>
+    <Text ID="1788894" Value=""/>
+    <Text ID="1788895" Value=""/>
+    <Text ID="1788896" Value=""/>
+    <Text ID="1788897" Value=""/>
+    <Text ID="1788898" Value=""/>
+    <Text ID="1788899" Value=""/>
+    <Text ID="1788900" Value="-"/>
+    <Text ID="1788902" Value=""/>
+    <Text ID="1788903" Value=""/>
+    <Text ID="1788904" Value=""/>
+    <Text ID="1788905" Value=""/>
+    <Text ID="1788906" Value=""/>
+    <Text ID="1788907" Value=""/>
+    <Text ID="1788908" Value="-"/>
+    <Text ID="1788909" Value=""/>
+    <Text ID="1788910" Value=""/>
+    <Text ID="1788911" Value=""/>
+    <Text ID="1788912" Value=""/>
+    <Text ID="1788913" Value=""/>
+    <Text ID="1788914" Value=""/>
+    <Text ID="1788915" Value=""/>
+    <Text ID="1788916" Value=""/>
+    <Text ID="1788918" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE CONVEYOR START SENSOR (S18)."/>
+    <Text ID="1788919" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR THE CONVEYOR START SENSOR (S18)."/>
+    <Text ID="1788920" Value="WAITING FOR THE 'DELAY BEFORE OFFLINE POSITION' TO BE DONE."/>
+    <Text ID="1788921" Value="WAITING FOR FOLLOWING CONVEYOR TO CLEAR AND BELT PALLET TO LOWER AND THE DOWN REED SWITCH (S36) TO REGISTER AS ON."/>
+    <Text ID="1788922" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF CONVEYOR SENSOR (S20)."/>
+    <Text ID="1788923" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR THE END OF CONVEYOR SENSOR (S20)."/>
+    <Text ID="1788924" Value=""/>
+    <Text ID="1788925" Value=""/>
+    <Text ID="1788926" Value=""/>
+    <Text ID="1788927" Value="-"/>
+    <Text ID="1788928" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF LINE SENSOR (S21)."/>
+    <Text ID="1788929" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF"/>
+    <Text ID="1788930" Value=""/>
+    <Text ID="1788931" Value=""/>
+    <Text ID="1788932" Value=""/>
+    <Text ID="1788933" Value=""/>
+    <Text ID="1788934" Value=""/>
+    <Text ID="1788935" Value=""/>
+    <Text ID="1788936" Value=""/>
+    <Text ID="1788937" Value="-"/>
+    <Text ID="1788938" Value="WAITING FOR 'DELAY BEFORE OFFLINE GLASS CLEAR' TO BE DONE."/>
+    <Text ID="1788939" Value=""/>
+    <Text ID="1802260" Value="WAITING FOR THE TRAILING EDGE OF THE GLASS TO CLEAR THE END OF LINE SENSOR S21."/>
+    <Text ID="1809951" Value=""/>
+    <Text ID="1809952" Value=""/>
+    <Text ID="1809953" Value=""/>
+    <Text ID="1809954" Value=""/>
+    <Text ID="1809955" Value=""/>
+    <Text ID="1809956" Value=""/>
+    <Text ID="1809957" Value=""/>
+    <Text ID="1809958" Value="-"/>
+    <Text ID="1809959" Value="WAITING FOR THE OPERATOR TO CONFIRM (S66) THAT BATCHED LOAD IS READY. ASSEMBLE THE LOAD USING THE FOOTPEDAL TO JOG THE CONVEYOR."/>
+    <Text ID="1809960" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF CONVEYOR SENSOR (S21)."/>
+    <Text ID="1809962" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1208629" Value=""/>
+    <Text ID="1208669" Value=""/>
+    <Text ID="1208670" Value=""/>
+    <Text ID="1208681" Value=""/>
+    <Text ID="1208682" Value=""/>
+    <Text ID="1208693" Value=""/>
+    <Text ID="1208694" Value=""/>
+    <Text ID="1208697" Value=""/>
+    <Text ID="1208767" Value=""/>
+    <Text ID="1208768" Value=""/>
+    <Text ID="1208769" Value=""/>
+    <Text ID="1208770" Value=""/>
+    <Text ID="1208771" Value=""/>
+    <Text ID="1208772" Value=""/>
+    <Text ID="1208773" Value=""/>
+    <Text ID="1208774" Value=""/>
+    <Text ID="1208776" Value=""/>
+    <Text ID="1208777" Value=""/>
+    <Text ID="1208778" Value=""/>
+    <Text ID="1208779" Value=""/>
+    <Text ID="1208780" Value=""/>
+    <Text ID="1208781" Value=""/>
+    <Text ID="1208782" Value=""/>
+    <Text ID="1208783" Value=""/>
+    <Text ID="1208784" Value=""/>
+    <Text ID="1208785" Value=""/>
+    <Text ID="1208786" Value=""/>
+    <Text ID="1208787" Value=""/>
+    <Text ID="1208788" Value=""/>
+    <Text ID="1208789" Value=""/>
+    <Text ID="1208790" Value=""/>
+    <Text ID="1208791" Value=""/>
+    <Text ID="1208792" Value=""/>
+    <Text ID="1208793" Value=""/>
+    <Text ID="1208794" Value=""/>
+    <Text ID="1208795" Value=""/>
+    <Text ID="1208796" Value=""/>
+    <Text ID="1208797" Value=""/>
+    <Text ID="1208798" Value=""/>
+    <Text ID="1208799" Value=""/>
+    <Text ID="1208800" Value=""/>
+    <Text ID="1208801" Value=""/>
+    <Text ID="1208803" Value=""/>
+    <Text ID="1208804" Value=""/>
+    <Text ID="1208805" Value=""/>
+    <Text ID="1208806" Value=""/>
+    <Text ID="1208807" Value=""/>
+    <Text ID="1208808" Value=""/>
+    <Text ID="1208809" Value=""/>
+    <Text ID="1208810" Value=""/>
+    <Text ID="1208817" Value=""/>
+    <Text ID="1208818" Value=""/>
+    <Text ID="1208819" Value=""/>
+    <Text ID="1208820" Value=""/>
+    <Text ID="1208821" Value=""/>
+    <Text ID="1208822" Value=""/>
+    <Text ID="1208823" Value=""/>
+    <Text ID="1208824" Value=""/>
+    <Text ID="1208826" Value=""/>
+    <Text ID="1208827" Value=""/>
+    <Text ID="1208828" Value=""/>
+    <Text ID="1208829" Value=""/>
+    <Text ID="1208830" Value=""/>
+    <Text ID="1208831" Value=""/>
+    <Text ID="1208832" Value=""/>
+    <Text ID="1208833" Value=""/>
+    <Text ID="1208834" Value=""/>
+    <Text ID="1208835" Value=""/>
+    <Text ID="1208836" Value=""/>
+    <Text ID="1208837" Value=""/>
+    <Text ID="1208838" Value=""/>
+    <Text ID="1208839" Value=""/>
+    <Text ID="1208840" Value=""/>
+    <Text ID="1208841" Value=""/>
+    <Text ID="1208842" Value=""/>
+    <Text ID="1389338" Value=""/>
+    <Text ID="1389339" Value=""/>
+    <Text ID="1389340" Value=""/>
+    <Text ID="1761901" Value=""/>
+    <Text ID="1761902" Value=""/>
+    <Text ID="1761903" Value=""/>
+    <Text ID="1788887" Value=""/>
+    <Text ID="1788888" Value=""/>
+    <Text ID="1788889" Value=""/>
+    <Text ID="1788890" Value=""/>
+    <Text ID="1788891" Value=""/>
+    <Text ID="1788892" Value=""/>
+    <Text ID="1788893" Value=""/>
+    <Text ID="1788894" Value=""/>
+    <Text ID="1788895" Value=""/>
+    <Text ID="1788896" Value=""/>
+    <Text ID="1788897" Value=""/>
+    <Text ID="1788898" Value=""/>
+    <Text ID="1788899" Value=""/>
+    <Text ID="1788900" Value=""/>
+    <Text ID="1788902" Value=""/>
+    <Text ID="1788903" Value=""/>
+    <Text ID="1788904" Value=""/>
+    <Text ID="1788905" Value=""/>
+    <Text ID="1788906" Value=""/>
+    <Text ID="1788907" Value=""/>
+    <Text ID="1788908" Value=""/>
+    <Text ID="1788909" Value=""/>
+    <Text ID="1788910" Value=""/>
+    <Text ID="1788911" Value=""/>
+    <Text ID="1788912" Value=""/>
+    <Text ID="1788913" Value=""/>
+    <Text ID="1788914" Value=""/>
+    <Text ID="1788915" Value=""/>
+    <Text ID="1788916" Value=""/>
+    <Text ID="1788918" Value=""/>
+    <Text ID="1788919" Value=""/>
+    <Text ID="1788920" Value=""/>
+    <Text ID="1788921" Value=""/>
+    <Text ID="1788922" Value=""/>
+    <Text ID="1788923" Value=""/>
+    <Text ID="1788924" Value=""/>
+    <Text ID="1788925" Value=""/>
+    <Text ID="1788926" Value=""/>
+    <Text ID="1788927" Value=""/>
+    <Text ID="1788928" Value=""/>
+    <Text ID="1788929" Value=""/>
+    <Text ID="1788930" Value=""/>
+    <Text ID="1788931" Value=""/>
+    <Text ID="1788932" Value=""/>
+    <Text ID="1788933" Value=""/>
+    <Text ID="1788934" Value=""/>
+    <Text ID="1788935" Value=""/>
+    <Text ID="1788936" Value=""/>
+    <Text ID="1788937" Value=""/>
+    <Text ID="1788938" Value=""/>
+    <Text ID="1788939" Value=""/>
+    <Text ID="1802260" Value=""/>
+    <Text ID="1809951" Value=""/>
+    <Text ID="1809952" Value=""/>
+    <Text ID="1809953" Value=""/>
+    <Text ID="1809954" Value=""/>
+    <Text ID="1809955" Value=""/>
+    <Text ID="1809956" Value=""/>
+    <Text ID="1809957" Value=""/>
+    <Text ID="1809958" Value=""/>
+    <Text ID="1809959" Value=""/>
+    <Text ID="1809960" Value=""/>
+    <Text ID="1809962" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1208629" Value="80"/>
+    <Index ID="1208669" Value="4"/>
+    <Index ID="1208670" Value="5"/>
+    <Index ID="1208681" Value="21"/>
+    <Index ID="1208682" Value="22"/>
+    <Index ID="1208693" Value="23"/>
+    <Index ID="1208694" Value="24"/>
+    <Index ID="1208697" Value="25"/>
+    <Index ID="1208767" Value="18"/>
+    <Index ID="1208768" Value="17"/>
+    <Index ID="1208769" Value="16"/>
+    <Index ID="1208770" Value="15"/>
+    <Index ID="1208771" Value="14"/>
+    <Index ID="1208772" Value="13"/>
+    <Index ID="1208773" Value="12"/>
+    <Index ID="1208774" Value="11"/>
+    <Index ID="1208776" Value="75"/>
+    <Index ID="1208777" Value="101"/>
+    <Index ID="1208778" Value="92"/>
+    <Index ID="1208779" Value="79"/>
+    <Index ID="1208780" Value="58"/>
+    <Index ID="1208781" Value="57"/>
+    <Index ID="1208782" Value="56"/>
+    <Index ID="1208783" Value="55"/>
+    <Index ID="1208784" Value="74"/>
+    <Index ID="1208785" Value="73"/>
+    <Index ID="1208786" Value="72"/>
+    <Index ID="1208787" Value="71"/>
+    <Index ID="1208788" Value="50"/>
+    <Index ID="1208789" Value="49"/>
+    <Index ID="1208790" Value="46"/>
+    <Index ID="1208791" Value="48"/>
+    <Index ID="1208792" Value="47"/>
+    <Index ID="1208793" Value="45"/>
+    <Index ID="1208794" Value="44"/>
+    <Index ID="1208795" Value="43"/>
+    <Index ID="1208796" Value="42"/>
+    <Index ID="1208797" Value="41"/>
+    <Index ID="1208798" Value="40"/>
+    <Index ID="1208799" Value="39"/>
+    <Index ID="1208800" Value="38"/>
+    <Index ID="1208801" Value="37"/>
+    <Index ID="1208803" Value="35"/>
+    <Index ID="1208804" Value="34"/>
+    <Index ID="1208805" Value="33"/>
+    <Index ID="1208806" Value="32"/>
+    <Index ID="1208807" Value="10"/>
+    <Index ID="1208808" Value="30"/>
+    <Index ID="1208809" Value="29"/>
+    <Index ID="1208810" Value="28"/>
+    <Index ID="1208817" Value="20"/>
+    <Index ID="1208818" Value="19"/>
+    <Index ID="1208819" Value="0"/>
+    <Index ID="1208820" Value="31"/>
+    <Index ID="1208821" Value="9"/>
+    <Index ID="1208822" Value="8"/>
+    <Index ID="1208823" Value="7"/>
+    <Index ID="1208824" Value="6"/>
+    <Index ID="1208826" Value="78"/>
+    <Index ID="1208827" Value="77"/>
+    <Index ID="1208828" Value="76"/>
+    <Index ID="1208829" Value="3"/>
+    <Index ID="1208830" Value="2"/>
+    <Index ID="1208831" Value="93"/>
+    <Index ID="1208832" Value="1"/>
+    <Index ID="1208833" Value="91"/>
+    <Index ID="1208834" Value="60"/>
+    <Index ID="1208835" Value="59"/>
+    <Index ID="1208836" Value="70"/>
+    <Index ID="1208837" Value="69"/>
+    <Index ID="1208838" Value="68"/>
+    <Index ID="1208839" Value="87"/>
+    <Index ID="1208840" Value="86"/>
+    <Index ID="1208841" Value="85"/>
+    <Index ID="1208842" Value="84"/>
+    <Index ID="1389338" Value="81"/>
+    <Index ID="1389339" Value="82"/>
+    <Index ID="1389340" Value="83"/>
+    <Index ID="1761901" Value="27"/>
+    <Index ID="1761902" Value="26"/>
+    <Index ID="1761903" Value="36"/>
+    <Index ID="1788887" Value="61"/>
+    <Index ID="1788888" Value="51"/>
+    <Index ID="1788889" Value="52"/>
+    <Index ID="1788890" Value="53"/>
+    <Index ID="1788891" Value="54"/>
+    <Index ID="1788892" Value="62"/>
+    <Index ID="1788893" Value="63"/>
+    <Index ID="1788894" Value="64"/>
+    <Index ID="1788895" Value="65"/>
+    <Index ID="1788896" Value="66"/>
+    <Index ID="1788897" Value="67"/>
+    <Index ID="1788898" Value="88"/>
+    <Index ID="1788899" Value="89"/>
+    <Index ID="1788900" Value="90"/>
+    <Index ID="1788902" Value="94"/>
+    <Index ID="1788903" Value="95"/>
+    <Index ID="1788904" Value="96"/>
+    <Index ID="1788905" Value="97"/>
+    <Index ID="1788906" Value="98"/>
+    <Index ID="1788907" Value="99"/>
+    <Index ID="1788908" Value="100"/>
+    <Index ID="1788909" Value="102"/>
+    <Index ID="1788910" Value="103"/>
+    <Index ID="1788911" Value="104"/>
+    <Index ID="1788912" Value="105"/>
+    <Index ID="1788913" Value="106"/>
+    <Index ID="1788914" Value="107"/>
+    <Index ID="1788915" Value="108"/>
+    <Index ID="1788916" Value="109"/>
+    <Index ID="1788918" Value="110"/>
+    <Index ID="1788919" Value="111"/>
+    <Index ID="1788920" Value="112"/>
+    <Index ID="1788921" Value="113"/>
+    <Index ID="1788922" Value="114"/>
+    <Index ID="1788923" Value="115"/>
+    <Index ID="1788924" Value="117"/>
+    <Index ID="1788925" Value="118"/>
+    <Index ID="1788926" Value="119"/>
+    <Index ID="1788927" Value="120"/>
+    <Index ID="1788928" Value="121"/>
+    <Index ID="1788929" Value="122"/>
+    <Index ID="1788930" Value="123"/>
+    <Index ID="1788931" Value="124"/>
+    <Index ID="1788932" Value="125"/>
+    <Index ID="1788933" Value="126"/>
+    <Index ID="1788934" Value="127"/>
+    <Index ID="1788935" Value="128"/>
+    <Index ID="1788936" Value="129"/>
+    <Index ID="1788937" Value="130"/>
+    <Index ID="1788938" Value="132"/>
+    <Index ID="1788939" Value="116"/>
+    <Index ID="1802260" Value="131"/>
+    <Index ID="1809951" Value="133"/>
+    <Index ID="1809952" Value="134"/>
+    <Index ID="1809953" Value="135"/>
+    <Index ID="1809954" Value="136"/>
+    <Index ID="1809955" Value="137"/>
+    <Index ID="1809956" Value="138"/>
+    <Index ID="1809957" Value="139"/>
+    <Index ID="1809958" Value="140"/>
+    <Index ID="1809959" Value="141"/>
+    <Index ID="1809960" Value="142"/>
+    <Index ID="1809962" Value="143"/>
+  </IndexMap>
+</TextGroup>

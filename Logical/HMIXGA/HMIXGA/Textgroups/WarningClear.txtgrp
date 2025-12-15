@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="WarningClear">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="426"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1317759" Value="If pallet moved, check position of reed switch. If pallet did not move, check solenoid override switch. Check Air Pressure."/>
+    <Text ID="1782255" Value="Waiting for rising edge of photo cell S1. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782256" Value="Waiting for rising edge of photo cell S2. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782257" Value="Waiting for rising edge of photo cell S3. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782258" Value="Waiting for falling edge of photo cell S3. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782259" Value="Waiting for falling edge of photo cell S4. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782260" Value="If datum gate moved, check position of reed switch. If datum gate did not move, check solenoid override switch. Check Air Pressure."/>
+    <Text ID="1782261" Value="Waiting for rising edge of photo cell S6. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782262" Value="Waiting for rising edge of photo cell S7. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782263" Value="Waiting for rising edge of photo cell S8. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782264" Value="Waiting for falling edge of photo cell S8. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782265" Value="Waiting for falling edge of photo cell S12. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782266" Value="If pallet moved, check position of reed switch. If pallet did not move, check solenoid override switch. Check Air Pressure."/>
+    <Text ID="1782267" Value="Waiting for rising edge of photo cell S14. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782268" Value="Waiting for rising edge of photo cell S16. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782269" Value="Waiting for falling edge of photo cell S17. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782270" Value="Waiting for rising edge of photo cell S17, while reversing. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782271" Value="Waiting for rising edge of photo cell S19. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782272" Value="Waiting for falling edge of photo cell S18. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782273" Value="Waiting for rising edge of photo cell S21. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782274" Value="If pallet moved, check position of reed switch. If pallet did not move, check solenoid override switch. Check Air Pressure."/>
+    <Text ID="1782275" Value="Waiting for rising edge of photo cell S20. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1782276" Value="Waiting for falling edge of photo cell S20. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1793565" Value="If pallet moved, check position of reed switch. If pallet did not move, check solenoid override switch. Check Air Pressure."/>
+    <Text ID="1793567" Value="Waiting for falling edge of photo cell S17. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1793569" Value="Waiting for falling edge of photo cell S19. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1793571" Value="If pallet moved, check position of reed switch. If pallet did not move, check solenoid override switch. Check Air Pressure."/>
+    <Text ID="1793572" Value="Waiting for rising edge of photo cell S21. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1793573" Value="Waiting for falling edge of photo cell S21. Check lens for dirt or moisture. Adjust warning delay if required."/>
+    <Text ID="1814421" Value="Waiting for rising edge of photo cell S21. Check lens for dirt or moisture. Adjust warning delay if required."/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1317759" Value=""/>
+    <Text ID="1782255" Value=""/>
+    <Text ID="1782256" Value=""/>
+    <Text ID="1782257" Value=""/>
+    <Text ID="1782258" Value=""/>
+    <Text ID="1782259" Value=""/>
+    <Text ID="1782260" Value=""/>
+    <Text ID="1782261" Value=""/>
+    <Text ID="1782262" Value=""/>
+    <Text ID="1782263" Value=""/>
+    <Text ID="1782264" Value=""/>
+    <Text ID="1782265" Value=""/>
+    <Text ID="1782266" Value=""/>
+    <Text ID="1782267" Value=""/>
+    <Text ID="1782268" Value=""/>
+    <Text ID="1782269" Value=""/>
+    <Text ID="1782270" Value=""/>
+    <Text ID="1782271" Value=""/>
+    <Text ID="1782272" Value=""/>
+    <Text ID="1782273" Value=""/>
+    <Text ID="1782274" Value=""/>
+    <Text ID="1782275" Value=""/>
+    <Text ID="1782276" Value=""/>
+    <Text ID="1793565" Value=""/>
+    <Text ID="1793567" Value=""/>
+    <Text ID="1793569" Value=""/>
+    <Text ID="1793571" Value=""/>
+    <Text ID="1793572" Value=""/>
+    <Text ID="1793573" Value=""/>
+    <Text ID="1814421" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1317759" Value="0"/>
+    <Index ID="1782255" Value="1"/>
+    <Index ID="1782256" Value="2"/>
+    <Index ID="1782257" Value="3"/>
+    <Index ID="1782258" Value="4"/>
+    <Index ID="1782259" Value="5"/>
+    <Index ID="1782260" Value="6"/>
+    <Index ID="1782261" Value="8"/>
+    <Index ID="1782262" Value="9"/>
+    <Index ID="1782263" Value="10"/>
+    <Index ID="1782264" Value="11"/>
+    <Index ID="1782265" Value="12"/>
+    <Index ID="1782266" Value="13"/>
+    <Index ID="1782267" Value="14"/>
+    <Index ID="1782268" Value="15"/>
+    <Index ID="1782269" Value="16"/>
+    <Index ID="1782270" Value="17"/>
+    <Index ID="1782271" Value="20"/>
+    <Index ID="1782272" Value="23"/>
+    <Index ID="1782273" Value="22"/>
+    <Index ID="1782274" Value="19"/>
+    <Index ID="1782275" Value="25"/>
+    <Index ID="1782276" Value="26"/>
+    <Index ID="1793565" Value="7"/>
+    <Index ID="1793567" Value="18"/>
+    <Index ID="1793569" Value="21"/>
+    <Index ID="1793571" Value="24"/>
+    <Index ID="1793572" Value="27"/>
+    <Index ID="1793573" Value="28"/>
+    <Index ID="1814421" Value="29"/>
+  </IndexMap>
+</TextGroup>

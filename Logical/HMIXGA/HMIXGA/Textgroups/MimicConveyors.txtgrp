@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MimicConveyors">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="37"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="617541" Value="PALLET SOLENOID OFF (DOWN)"/>
+    <Text ID="617542" Value="PALLET SOLENOID ON (UP)"/>
+    <Text ID="964634" Value="SEAMING CONVEYOR 1"/>
+    <Text ID="964635" Value="LOADING CONVEYOR"/>
+    <Text ID="1588272" Value="CORNER CONVEYOR 1"/>
+    <Text ID="1588273" Value="CORNER CONVEYOR 2"/>
+    <Text ID="1588275" Value="SEAMING CONVEYOR 2"/>
+    <Text ID="1588277" Value="CORNER CONVEYOR 3"/>
+    <Text ID="1588278" Value="CORNER CONVEYOR 4"/>
+    <Text ID="1588279" Value="BUFFER CONVEYOR 1"/>
+    <Text ID="1588280" Value="BUFFER CONVEYOR 2"/>
+    <Text ID="1588281" Value="ROW BUILDING CONVEYOR"/>
+    <Text ID="1788466" Value="ROW EXIT CONVEYOR"/>
+    <Text ID="1788467" Value="LOAD BUILDING CONVEYOR"/>
+    <Text ID="1788814" Value="DATUM GATE UP"/>
+    <Text ID="1788815" Value="DATUM GATE DOWN"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="617541" Value=""/>
+    <Text ID="617542" Value=""/>
+    <Text ID="964634" Value=""/>
+    <Text ID="964635" Value=""/>
+    <Text ID="1588272" Value=""/>
+    <Text ID="1588273" Value=""/>
+    <Text ID="1588275" Value=""/>
+    <Text ID="1588277" Value=""/>
+    <Text ID="1588278" Value=""/>
+    <Text ID="1588279" Value=""/>
+    <Text ID="1588280" Value=""/>
+    <Text ID="1588281" Value=""/>
+    <Text ID="1788466" Value=""/>
+    <Text ID="1788467" Value=""/>
+    <Text ID="1788814" Value=""/>
+    <Text ID="1788815" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="617541" Value="0"/>
+    <Index ID="617542" Value="1"/>
+    <Index ID="964634" Value="3"/>
+    <Index ID="964635" Value="2"/>
+    <Index ID="1588272" Value="4"/>
+    <Index ID="1588273" Value="5"/>
+    <Index ID="1588275" Value="6"/>
+    <Index ID="1588277" Value="7"/>
+    <Index ID="1588278" Value="8"/>
+    <Index ID="1588279" Value="9"/>
+    <Index ID="1588280" Value="10"/>
+    <Index ID="1588281" Value="11"/>
+    <Index ID="1788466" Value="12"/>
+    <Index ID="1788467" Value="13"/>
+    <Index ID="1788814" Value="14"/>
+    <Index ID="1788815" Value="15"/>
+  </IndexMap>
+</TextGroup>

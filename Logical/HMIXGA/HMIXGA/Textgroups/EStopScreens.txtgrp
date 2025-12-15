@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="EStopScreens">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="23"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="189730" Value="EMERGENCY STOP HAS BEEN ACTIVATED WHILE STILL PROCESSING GLASS!"/>
+    <Text ID="189731" Value="1. REMOVE UNWANTED GLASS"/>
+    <Text ID="189732" Value="CONFIRM REMOVAL"/>
+    <Text ID="189733" Value="2. RESET ALL EMO BUTTONS"/>
+    <Text ID="189734" Value="CONFIRM RESET"/>
+    <Text ID="189735" Value="3. PRESS THE CONTROL START BUTTON"/>
+    <Text ID="189736" Value="NEXT"/>
+    <Text ID="189737" Value="CLEAR 09 ~ 10"/>
+    <Text ID="189738" Value="CLEAR 11 ~ 12"/>
+    <Text ID="189739" Value="CLEAR 23 ~ 30"/>
+    <Text ID="189740" Value="CLEAR 31 ~ 39"/>
+    <Text ID="189741" Value="CLEAR 41 ~ 47"/>
+    <Text ID="189742" Value="CANCEL"/>
+    <Text ID="189743" Value="CONFIRM"/>
+    <Text ID="189862" Value="CANCELS SELECTED ITEMS TO RESTART SELECTION"/>
+    <Text ID="189863" Value="CONFIRM REMAINING SELECTION"/>
+    <Text ID="480577" Value="GO TO NEXT SCREEN"/>
+    <Text ID="480578" Value="CLEAR 51 ~ 56"/>
+    <Text ID="480579" Value="CLEAR 61 ~ 64"/>
+    <Text ID="615766" Value="CLEAR 71 ~ 73"/>
+    <Text ID="746220" Value="CLEAR 0-01~0-04"/>
+    <Text ID="746221" Value="CLEAR 3-13~3-18"/>
+    <Text ID="746222" Value="CLEAR 1-33~1-35"/>
+    <Text ID="760914" Value="CLEAR 0-13~0-18"/>
+    <Text ID="760915" Value="CLEAR 0-53~0-56"/>
+    <Text ID="760918" Value="CLEAR BATCH"/>
+    <Text ID="770902" Value="CLEAR 3-33~3-35"/>
+    <Text ID="770903" Value="CLEAR 4-36~4-39"/>
+    <Text ID="830541" Value="CLEAR 1-01~1-0A"/>
+    <Text ID="830542" Value="CLEAR 0-81~0-84"/>
+    <Text ID="830543" Value="CLEAR 91~95"/>
+    <Text ID="830544" Value="CLEAR 101~105"/>
+    <Text ID="830545" Value="CLEAR 111~114"/>
+    <Text ID="853408" Value="CLEAR 4-13~4-15"/>
+    <Text ID="853409" Value="CLEAR 5-16~5-1A"/>
+    <Text ID="853410" Value="CLEAR 0-33"/>
+    <Text ID="873566" Value="CLEAR 121~124"/>
+    <Text ID="962436" Value="CLEAR 0-62"/>
+    <Text ID="962437" Value="CLEAR 1-62~1-64"/>
+    <Text ID="1021424" Value="CLEAR 2-91~2-94"/>
+    <Text ID="1021427" Value="CLEAR 0-23~0-24"/>
+    <Text ID="1021428" Value="CLEAR 1-54~1-55"/>
+    <Text ID="1021429" Value="CLEAR 2-56~2-57"/>
+    <Text ID="1021430" Value="CLEAR 3-56"/>
+    <Text ID="1021431" Value="CLEAR 4-56"/>
+    <Text ID="1021432" Value="CLEAR 5-58~5-59"/>
+    <Text ID="1021433" Value="CLEAR 6-58"/>
+    <Text ID="1021434" Value="CLEAR 7-58"/>
+    <Text ID="1021435" Value="CLEAR 3-6*"/>
+    <Text ID="1021440" Value="CLEAR 2-61~2-68"/>
+    <Text ID="1087078" Value="CLEAR 3-01 ~ 3-06"/>
+    <Text ID="1087079" Value="CLEAR 6-33 ~ 6-38"/>
+    <Text ID="1087080" Value="CLEAR 7-36 ~ 7-37"/>
+    <Text ID="1087081" Value="CLEAR 8-36 ~ 8-37"/>
+    <Text ID="1087082" Value="CLEAR 9-36 ~ 9-37"/>
+    <Text ID="1087083" Value="CLEAR A-36 ~ A-38"/>
+    <Text ID="1087084" Value="CLEAR 0-13 ~ 0-18"/>
+    <Text ID="1218638" Value="ESTOP RECOVERY"/>
+    <Text ID="1218722" Value="TOUCH RELEVANT BUTTONS TO SELECT ANY GLASS MANUALLY REMOVED"/>
+    <Text ID="1218837" Value="COMPLETE ESTOP RECOVERY PROCESS"/>
+    <Text ID="1284917" Value=""/>
+    <Text ID="1284918" Value="CONFIRM PRESSED"/>
+    <Text ID="1335728" Value="CLEAR 1-81 ~ 1-8A"/>
+    <Text ID="1335729" Value="CLEAR 3-81 ~ 3-86"/>
+    <Text ID="1335730" Value="CLEAR 5-35 ~ 5-38"/>
+    <Text ID="1460350" Value="CLEAR 8-51 ~ 8-54"/>
+    <Text ID="1460351" Value="CLEAR 8-61 ~ 8-63"/>
+    <Text ID="1497367" Value="CLEAR 1-71 ~ 1-75"/>
+    <Text ID="1497368" Value="CLEAR 2-71 ~ 2-74"/>
+    <Text ID="1497369" Value="CLEAR 3-71 ~ 3-74"/>
+    <Text ID="1497370" Value="CLEAR 4-71 ~ 4-74"/>
+    <Text ID="1497371" Value="CLEAR 5-71 ~ 5-74"/>
+    <Text ID="1497372" Value="CLEAR 6-71 ~ 6-72"/>
+    <Text ID="1535897" Value="CLEAR 1-33 ~ 1-35"/>
+    <Text ID="1535898" Value="CLEAR 3-33 ~ 3-35"/>
+    <Text ID="1535899" Value="CLEAR 4-36 ~ 4-37"/>
+    <Text ID="1549021" Value="CLEAR 1-13 ~ 1-15"/>
+    <Text ID="1549022" Value="CLEAR 2-16 ~ 2-1B"/>
+    <Text ID="1567280" Value="CLEAR 71 ~ 72"/>
+    <Text ID="1567281" Value="CLEAR 8-71 ~ 8-72"/>
+    <Text ID="1593090" Value="CLEAR 4-66 ~ 4-67"/>
+    <Text ID="1593091" Value="CLEAR 5-68"/>
+    <Text ID="1641344" Value="CLEAR 5-81~5-85"/>
+    <Text ID="1684252" Value="CLEAR 6-69"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="189730" Value=""/>
+    <Text ID="189731" Value=""/>
+    <Text ID="189732" Value=""/>
+    <Text ID="189733" Value=""/>
+    <Text ID="189734" Value=""/>
+    <Text ID="189735" Value=""/>
+    <Text ID="189736" Value=""/>
+    <Text ID="189737" Value=""/>
+    <Text ID="189738" Value=""/>
+    <Text ID="189739" Value=""/>
+    <Text ID="189740" Value=""/>
+    <Text ID="189741" Value=""/>
+    <Text ID="189742" Value=""/>
+    <Text ID="189743" Value=""/>
+    <Text ID="189862" Value=""/>
+    <Text ID="189863" Value=""/>
+    <Text ID="480577" Value=""/>
+    <Text ID="480578" Value=""/>
+    <Text ID="480579" Value=""/>
+    <Text ID="615766" Value=""/>
+    <Text ID="746220" Value=""/>
+    <Text ID="746221" Value=""/>
+    <Text ID="746222" Value=""/>
+    <Text ID="760914" Value=""/>
+    <Text ID="760915" Value=""/>
+    <Text ID="760918" Value=""/>
+    <Text ID="770902" Value=""/>
+    <Text ID="770903" Value=""/>
+    <Text ID="830541" Value=""/>
+    <Text ID="830542" Value=""/>
+    <Text ID="830543" Value=""/>
+    <Text ID="830544" Value=""/>
+    <Text ID="830545" Value=""/>
+    <Text ID="853408" Value=""/>
+    <Text ID="853409" Value=""/>
+    <Text ID="853410" Value=""/>
+    <Text ID="873566" Value=""/>
+    <Text ID="962436" Value=""/>
+    <Text ID="962437" Value=""/>
+    <Text ID="1021424" Value=""/>
+    <Text ID="1021427" Value=""/>
+    <Text ID="1021428" Value=""/>
+    <Text ID="1021429" Value=""/>
+    <Text ID="1021430" Value=""/>
+    <Text ID="1021431" Value=""/>
+    <Text ID="1021432" Value=""/>
+    <Text ID="1021433" Value=""/>
+    <Text ID="1021434" Value=""/>
+    <Text ID="1021435" Value=""/>
+    <Text ID="1021440" Value=""/>
+    <Text ID="1087078" Value=""/>
+    <Text ID="1087079" Value=""/>
+    <Text ID="1087080" Value=""/>
+    <Text ID="1087081" Value=""/>
+    <Text ID="1087082" Value=""/>
+    <Text ID="1087083" Value=""/>
+    <Text ID="1087084" Value=""/>
+    <Text ID="1218638" Value=""/>
+    <Text ID="1218722" Value=""/>
+    <Text ID="1218837" Value=""/>
+    <Text ID="1284917" Value=""/>
+    <Text ID="1284918" Value=""/>
+    <Text ID="1335728" Value=""/>
+    <Text ID="1335729" Value=""/>
+    <Text ID="1335730" Value=""/>
+    <Text ID="1460350" Value=""/>
+    <Text ID="1460351" Value=""/>
+    <Text ID="1497367" Value=""/>
+    <Text ID="1497368" Value=""/>
+    <Text ID="1497369" Value=""/>
+    <Text ID="1497370" Value=""/>
+    <Text ID="1497371" Value=""/>
+    <Text ID="1497372" Value=""/>
+    <Text ID="1535897" Value=""/>
+    <Text ID="1535898" Value=""/>
+    <Text ID="1535899" Value=""/>
+    <Text ID="1549021" Value=""/>
+    <Text ID="1549022" Value=""/>
+    <Text ID="1567280" Value=""/>
+    <Text ID="1567281" Value=""/>
+    <Text ID="1593090" Value=""/>
+    <Text ID="1593091" Value=""/>
+    <Text ID="1641344" Value=""/>
+    <Text ID="1684252" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="189730" Value="1"/>
+    <Index ID="189731" Value="2"/>
+    <Index ID="189732" Value="3"/>
+    <Index ID="189733" Value="4"/>
+    <Index ID="189734" Value="5"/>
+    <Index ID="189735" Value="6"/>
+    <Index ID="189736" Value="7"/>
+    <Index ID="189737" Value="8"/>
+    <Index ID="189738" Value="9"/>
+    <Index ID="189739" Value="10"/>
+    <Index ID="189740" Value="11"/>
+    <Index ID="189741" Value="12"/>
+    <Index ID="189742" Value="16"/>
+    <Index ID="189743" Value="17"/>
+    <Index ID="189862" Value="18"/>
+    <Index ID="189863" Value="19"/>
+    <Index ID="480577" Value="20"/>
+    <Index ID="480578" Value="13"/>
+    <Index ID="480579" Value="14"/>
+    <Index ID="615766" Value="15"/>
+    <Index ID="746220" Value="22"/>
+    <Index ID="746221" Value="23"/>
+    <Index ID="746222" Value="24"/>
+    <Index ID="760914" Value="25"/>
+    <Index ID="760915" Value="26"/>
+    <Index ID="760918" Value="27"/>
+    <Index ID="770902" Value="28"/>
+    <Index ID="770903" Value="29"/>
+    <Index ID="830541" Value="30"/>
+    <Index ID="830542" Value="31"/>
+    <Index ID="830543" Value="32"/>
+    <Index ID="830544" Value="33"/>
+    <Index ID="830545" Value="34"/>
+    <Index ID="853408" Value="35"/>
+    <Index ID="853409" Value="36"/>
+    <Index ID="853410" Value="37"/>
+    <Index ID="873566" Value="38"/>
+    <Index ID="962436" Value="39"/>
+    <Index ID="962437" Value="40"/>
+    <Index ID="1021424" Value="41"/>
+    <Index ID="1021427" Value="42"/>
+    <Index ID="1021428" Value="43"/>
+    <Index ID="1021429" Value="44"/>
+    <Index ID="1021430" Value="45"/>
+    <Index ID="1021431" Value="46"/>
+    <Index ID="1021432" Value="47"/>
+    <Index ID="1021433" Value="48"/>
+    <Index ID="1021434" Value="49"/>
+    <Index ID="1021435" Value="50"/>
+    <Index ID="1021440" Value="51"/>
+    <Index ID="1087078" Value="53"/>
+    <Index ID="1087079" Value="55"/>
+    <Index ID="1087080" Value="56"/>
+    <Index ID="1087081" Value="57"/>
+    <Index ID="1087082" Value="58"/>
+    <Index ID="1087083" Value="59"/>
+    <Index ID="1087084" Value="52"/>
+    <Index ID="1218638" Value="0"/>
+    <Index ID="1218722" Value="62"/>
+    <Index ID="1218837" Value="21"/>
+    <Index ID="1284917" Value="63"/>
+    <Index ID="1284918" Value="64"/>
+    <Index ID="1335728" Value="60"/>
+    <Index ID="1335729" Value="61"/>
+    <Index ID="1335730" Value="54"/>
+    <Index ID="1460350" Value="65"/>
+    <Index ID="1460351" Value="66"/>
+    <Index ID="1497367" Value="67"/>
+    <Index ID="1497368" Value="68"/>
+    <Index ID="1497369" Value="69"/>
+    <Index ID="1497370" Value="70"/>
+    <Index ID="1497371" Value="71"/>
+    <Index ID="1497372" Value="72"/>
+    <Index ID="1535897" Value="73"/>
+    <Index ID="1535898" Value="74"/>
+    <Index ID="1535899" Value="75"/>
+    <Index ID="1549021" Value="76"/>
+    <Index ID="1549022" Value="77"/>
+    <Index ID="1567280" Value="78"/>
+    <Index ID="1567281" Value="79"/>
+    <Index ID="1593090" Value="80"/>
+    <Index ID="1593091" Value="81"/>
+    <Index ID="1641344" Value="82"/>
+    <Index ID="1684252" Value="83"/>
+  </IndexMap>
+</TextGroup>

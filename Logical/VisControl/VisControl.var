@@ -1,0 +1,18 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * Program: Level
+ * File: VisControll.var
+ * Author: NickE
+ * Created: January 18, 2013
+ ********************************************************************
+ * Local variables of program Level
+ ********************************************************************)
+VAR
+	ScaleBatch : ScaleBatch_typ;
+	VisBatch : VisBatch_typ;
+	ServiceLevel : Level_typ;
+	Level : Level_typ;
+	ServiceVis : Vis_typ;
+	Vis : Vis_typ;
+END_VAR

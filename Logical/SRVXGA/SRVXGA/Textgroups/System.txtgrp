@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="System">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="423"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1804271" Value="Time and Date"/>
+    <Text ID="1804272" Value="HH:MM:SS"/>
+    <Text ID="1804273" Value="DD/MM/YYYY"/>
+    <Text ID="1804274" Value="Touch Calibration"/>
+    <Text ID="1804275" Value="TOUCH CALIBRATION"/>
+    <Text ID="1804276" Value="Screen Brightness"/>
+    <Text ID="1804277" Value="BRIGHTNESS UP"/>
+    <Text ID="1804278" Value="BRIGHTNESS DOWN"/>
+    <Text ID="1804279" Value="Network Settings"/>
+    <Text ID="1804280" Value="Read IP Address:"/>
+    <Text ID="1804281" Value="IP Address:"/>
+    <Text ID="1804282" Value="Subnet Mask:"/>
+    <Text ID="1804283" Value="Default Gateway:"/>
+    <Text ID="1804284" Value="Broadcast Address:"/>
+    <Text ID="1804285" Value="Write IP Address:"/>
+    <Text ID="1804286" Value="Set IP Address:"/>
+    <Text ID="1804287" Value="Supervisor Level Password"/>
+    <Text ID="1804288" Value="ENTER NEW PASSWORD"/>
+    <Text ID="1804289" Value="Engineer Level Password"/>
+    <Text ID="1804290" Value="Reset Default Passwords"/>
+    <Text ID="1804291" Value="RESET"/>
+    <Text ID="1804292" Value="START"/>
+    <Text ID="1804293" Value="BACK"/>
+    <Text ID="1804294" Value="IP Address:"/>
+    <Text ID="1804295" Value="&gt;"/>
+    <Text ID="1804296" Value="&lt;"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1804271" Value=""/>
+    <Text ID="1804272" Value=""/>
+    <Text ID="1804273" Value=""/>
+    <Text ID="1804274" Value=""/>
+    <Text ID="1804275" Value=""/>
+    <Text ID="1804276" Value=""/>
+    <Text ID="1804277" Value=""/>
+    <Text ID="1804278" Value=""/>
+    <Text ID="1804279" Value=""/>
+    <Text ID="1804280" Value=""/>
+    <Text ID="1804281" Value=""/>
+    <Text ID="1804282" Value=""/>
+    <Text ID="1804283" Value=""/>
+    <Text ID="1804284" Value=""/>
+    <Text ID="1804285" Value=""/>
+    <Text ID="1804286" Value=""/>
+    <Text ID="1804287" Value=""/>
+    <Text ID="1804288" Value=""/>
+    <Text ID="1804289" Value=""/>
+    <Text ID="1804290" Value=""/>
+    <Text ID="1804291" Value=""/>
+    <Text ID="1804292" Value=""/>
+    <Text ID="1804293" Value=""/>
+    <Text ID="1804294" Value=""/>
+    <Text ID="1804295" Value=""/>
+    <Text ID="1804296" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1804271" Value="0"/>
+    <Index ID="1804272" Value="1"/>
+    <Index ID="1804273" Value="2"/>
+    <Index ID="1804274" Value="3"/>
+    <Index ID="1804275" Value="4"/>
+    <Index ID="1804276" Value="5"/>
+    <Index ID="1804277" Value="6"/>
+    <Index ID="1804278" Value="7"/>
+    <Index ID="1804279" Value="8"/>
+    <Index ID="1804280" Value="9"/>
+    <Index ID="1804281" Value="10"/>
+    <Index ID="1804282" Value="11"/>
+    <Index ID="1804283" Value="12"/>
+    <Index ID="1804284" Value="13"/>
+    <Index ID="1804285" Value="15"/>
+    <Index ID="1804286" Value="14"/>
+    <Index ID="1804287" Value="16"/>
+    <Index ID="1804288" Value="17"/>
+    <Index ID="1804289" Value="18"/>
+    <Index ID="1804290" Value="19"/>
+    <Index ID="1804291" Value="20"/>
+    <Index ID="1804292" Value="21"/>
+    <Index ID="1804293" Value="22"/>
+    <Index ID="1804294" Value="25"/>
+    <Index ID="1804295" Value="24"/>
+    <Index ID="1804296" Value="23"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Project xmlns="http://br-automation.co.at/AS/VC/Project">
+  <Property Name="Backlight" Value="False"/>
+  <Property Name="BeepKey" Value="False"/>
+  <Property Name="BeepTouch" Value="False"/>
+  <Property Name="CalibrationDatapoint" Value="None"/>
+  <Property Name="CalibrationStateDatapoint" Value="None"/>
+  <Property Name="ColorMode" Value="8Bit"/>
+  <Property Name="ConfigureTemplate" Value="0"/>
+  <Property Name="ConnectionErrorPage" Value="None"/>
+  <Property Name="DefaultKeyLevelNumeric" Value="0"/>
+  <Property Name="DefaultKeyLevelString" Value="0"/>
+  <Property Name="DefaultLanguage" Value="en"/>
+  <Property Name="DefaultPage" Value="Source[local].Page[P00_INITIALIZE]"/>
+  <Property Name="DefaultStyleSheet" Value="Source[local].StyleSheet[Color]"/>
+  <Property Name="FocusControlDatapoint" Value="None"/>
+  <Property Name="FontAntialiasing" Value="Off"/>
+  <Property Name="HelpControlDatapoint" Value="None"/>
+  <Property Name="IPAddressDatapoint" Value="None"/>
+  <Property Name="KeyLevelChangeDatapoint" Value="None"/>
+  <Property Name="KeyLevelCurrentDatapoint" Value="None"/>
+  <Property Name="KeyMatrix" Value="None"/>
+  <Property Name="KeyRepeatDelay" Value="300"/>
+  <Property Name="KeyRepeatRate" Value="50"/>
+  <Property Name="LEDMatrix" Value="None"/>
+  <Property Name="LanguageChangeDatapoint" Value="None"/>
+  <Property Name="LanguageCurrentDatapoint" Value="None"/>
+  <Property Name="LifeSignDatapoint" Value="None"/>
+  <Property Name="ManualStart" Value="False"/>
+  <Property Name="PageChangeDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.Page.New]"/>
+  <Property Name="PageCurrentDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.Page.Current]"/>
+  <Property Name="ScreenSaver_Activate" Value="False"/>
+  <Property Name="TargetResourceRoot" Value=""/>
+  <Property Name="TextLengthOverrunBackColor" Value="None"/>
+  <Property Name="TextLengthOverrunCut" Value="False"/>
+  <Property Name="TextLengthOverrunForeColor" Value="None"/>
+  <Property Name="TouchPadCancel" Value="Default"/>
+  <Property Name="VCCVersion" Value="9"/>
+  <Property Name="WheelCountDatapoint" Value="None"/>
+  <Property Name="WheelEnterDatapoint" Value="None"/>
+  <SourceFiles>
+    <Source File="TextGroups\Alarm.txtgrp"/>
+    <Source File="TextGroups\Background.txtgrp"/>
+    <Source File="TextGroups\Batching.txtgrp"/>
+    <Source File="TextGroups\Calculator.txtgrp"/>
+    <Source File="TextGroups\Drives.txtgrp"/>
+    <Source File="TextGroups\EStopScreens.txtgrp"/>
+    <Source File="TextGroups\FlipWarnings.txtgrp"/>
+    <Source File="TextGroups\HeaderBar.txtgrp"/>
+    <Source File="TextGroups\IO.txtgrp"/>
+    <Source File="TextGroups\MaxRemaining.txtgrp"/>
+    <Source File="TextGroups\Menu.txtgrp"/>
+    <Source File="TextGroups\MimicBlock.txtgrp"/>
+    <Source File="TextGroups\MimicConveyors.txtgrp"/>
+    <Source File="TextGroups\MimicHelp.txtgrp"/>
+    <Source File="TextGroups\Mimic.txtgrp"/>
+    <Source File="TextGroups\Options.txtgrp"/>
+    <Source File="TextGroups\PageNames.txtgrp"/>
+    <Source File="TextGroups\Process.txtgrp"/>
+    <Source File="TextGroups\Remote.txtgrp"/>
+    <Source File="TextGroups\Rotation.txtgrp"/>
+    <Source File="TextGroups\Servo.txtgrp"/>
+    <Source File="TextGroups\SettingsHelp.txtgrp"/>
+    <Source File="TextGroups\Settings.txtgrp"/>
+    <Source File="TextGroups\Status.txtgrp"/>
+    <Source File="TextGroups\System.txtgrp"/>
+    <Source File="TextGroups\TestButtons.txtgrp"/>
+    <Source File="TextGroups\Tilt.txtgrp"/>
+    <Source File="TextGroups\Tracking.txtgrp"/>
+    <Source File="TextGroups\WarningClear.txtgrp"/>
+    <Source File="TextGroups\WashHeight.txtgrp"/>
+    <Source File="TextGroups\WebFiles.txtgrp"/>
+    <Source File="Fonts\DefaultFont.fninfo"/>
+    <Source File="Fonts\Arial11.fninfo"/>
+    <Source File="Fonts\Arial18.fninfo"/>
+    <Source File="Fonts\ArialN6.fninfo"/>
+    <Source File="Fonts\Info.fninfo"/>
+    <Source File="Fonts\Trebuchet11.fninfo"/>
+    <Source File="Fonts\Trebuchet14.fninfo"/>
+    <Source File="Fonts\Trebuchet18.fninfo"/>
+    <Source File="Fonts\Trebuchet9.fninfo"/>
+    <Source File="Fonts\Verdana14.fninfo"/>
+    <Source File="Fonts\Verdana18.fninfo"/>
+    <Source File="Fonts\Verdana28.fninfo"/>
+    <Source File="Fonts\Arial14.fninfo"/>
+    <Source File="Fonts\Verdana22.fninfo"/>
+    <Source File="Fonts\Arial16B.fninfo"/>
+    <Source File="Fonts\Arial28.fninfo"/>
+    <Source File="Fonts\Trebuchet22.fninfo"/>
+    <Source File="Fonts\Arial13.fninfo"/>
+    <Source File="Fonts\Trebuchet13.fninfo"/>
+    <Source File="Bitmaps\MimicBmp.bminfo"/>
+    <Source File="Bitmaps\REED_OFF.bminfo"/>
+    <Source File="Bitmaps\REED_ON.bminfo"/>
+    <Source File="Bitmaps\IconMenu.bminfo"/>
+    <Source File="Bitmaps\IconMimic.bminfo"/>
+    <Source File="Bitmaps\IconSettings.bminfo"/>
+    <Source File="Bitmaps\IconDrives.bminfo"/>
+    <Source File="Bitmaps\IconServos.bminfo"/>
+    <Source File="Bitmaps\IconIO.bminfo"/>
+    <Source File="Bitmaps\IconAlarm.bminfo"/>
+    <Source File="Bitmaps\IconWarning.bminfo"/>
+    <Source File="Bitmaps\IconEvent.bminfo"/>
+    <Source File="Bitmaps\IconOption.bminfo"/>
+    <Source File="Bitmaps\SensorBlock.bminfo"/>
+    <Source File="Bitmaps\backward_active.bminfo"/>
+    <Source File="Bitmaps\backward_pressed.bminfo"/>
+    <Source File="Bitmaps\global_area_active.bminfo"/>
+    <Source File="Bitmaps\global_area_pressed.bminfo"/>
+    <Source File="Bitmaps\forward_active.bminfo"/>
+    <Source File="Bitmaps\forward_pressed.bminfo"/>
+    <Source File="Bitmaps\control_button_active.bminfo"/>
+    <Source File="Bitmaps\control_button_pressed.bminfo"/>
+    <Source File="Bitmaps\right_active.bminfo"/>
+    <Source File="Bitmaps\right_pressed.bminfo"/>
+    <Source File="Bitmaps\left_active.bminfo"/>
+    <Source File="Bitmaps\left_pressed.bminfo"/>
+    <Source File="Bitmaps\up_active.bminfo"/>
+    <Source File="Bitmaps\up_pressed.bminfo"/>
+    <Source File="Bitmaps\down_active.bminfo"/>
+    <Source File="Bitmaps\down_pressed.bminfo"/>
+    <Source File="Bitmaps\multi_up_active.bminfo"/>
+    <Source File="Bitmaps\multi_up_pressed.bminfo"/>
+    <Source File="Bitmaps\multi_down_active.bminfo"/>
+    <Source File="Bitmaps\multi_down_pressed.bminfo"/>
+    <Source File="Bitmaps\ProgressBorder.bminfo"/>
+    <Source File="Bitmaps\down_active_control.bminfo"/>
+    <Source File="Bitmaps\down_pressed_control.bminfo"/>
+    <Source File="Bitmaps\up_active_control.bminfo"/>
+    <Source File="Bitmaps\global_area_gradient_upside.bminfo"/>
+    <Source File="Bitmaps\global_area_gradient_downside.bminfo"/>
+    <Source File="Bitmaps\frame_header.bminfo"/>
+    <Source File="Bitmaps\up_pressed_control.bminfo"/>
+    <Source File="Bitmaps\EditPadVGA.bminfo"/>
+    <Source File="Bitmaps\EditPadVGA_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneNumPad_released.bminfo"/>
+    <Source File="Bitmaps\zuneListPadVer_released.bminfo"/>
+    <Source File="Bitmaps\zuneAlphaPad_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneAlphaPad_released.bminfo"/>
+    <Source File="Bitmaps\zuneAlphaPadQVGA1_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneAlphaPadQVGA1_released.bminfo"/>
+    <Source File="Bitmaps\zuneAlphaPadQVGA2_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneAlphaPadQVGA3_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneEditpadQVGA2_released.bminfo"/>
+    <Source File="Bitmaps\zuneEditPadQVGA3_released.bminfo"/>
+    <Source File="Bitmaps\zuneEditPadVga_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneEditPadVga_released.bminfo"/>
+    <Source File="Bitmaps\zuneListPadHor_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneListPadHor_released.bminfo"/>
+    <Source File="Bitmaps\zuneListPadVer_pressed.bminfo"/>
+    <Source File="Bitmaps\zuneNumPad_pressed.bminfo"/>
+    <Source File="Bitmaps\OFF_10.bminfo"/>
+    <Source File="Bitmaps\OFF_11.bminfo"/>
+    <Source File="Bitmaps\OFF_12.bminfo"/>
+    <Source File="Bitmaps\OFF_13.bminfo"/>
+    <Source File="Bitmaps\OFF_14.bminfo"/>
+    <Source File="Bitmaps\OFF_15.bminfo"/>
+    <Source File="Bitmaps\OFF_16.bminfo"/>
+    <Source File="Bitmaps\OFF_1.bminfo"/>
+    <Source File="Bitmaps\OFF_2.bminfo"/>
+    <Source File="Bitmaps\OFF_3.bminfo"/>
+    <Source File="Bitmaps\OFF_4.bminfo"/>
+    <Source File="Bitmaps\OFF_5.bminfo"/>
+    <Source File="Bitmaps\OFF_6.bminfo"/>
+    <Source File="Bitmaps\OFF_7.bminfo"/>
+    <Source File="Bitmaps\OFF_8.bminfo"/>
+    <Source File="Bitmaps\OFF_9.bminfo"/>
+    <Source File="Bitmaps\OK_OFF.bminfo"/>
+    <Source File="Bitmaps\OK_ON.bminfo"/>
+    <Source File="Bitmaps\ON_10Grn.bminfo"/>
+    <Source File="Bitmaps\ON_10Red.bminfo"/>
+    <Source File="Bitmaps\ON_11Grn.bminfo"/>
+    <Source File="Bitmaps\ON_11Red.bminfo"/>
+    <Source File="Bitmaps\ON_12Grn.bminfo"/>
+    <Source File="Bitmaps\ON_12Red.bminfo"/>
+    <Source File="Bitmaps\ON_13Grn.bminfo"/>
+    <Source File="Bitmaps\ON_13Red.bminfo"/>
+    <Source File="Bitmaps\ON_14Grn.bminfo"/>
+    <Source File="Bitmaps\ON_14Red.bminfo"/>
+    <Source File="Bitmaps\ON_15Grn.bminfo"/>
+    <Source File="Bitmaps\ON_15Red.bminfo"/>
+    <Source File="Bitmaps\ON_16Grn.bminfo"/>
+    <Source File="Bitmaps\ON_16Red.bminfo"/>
+    <Source File="Bitmaps\ON_1Grn.bminfo"/>
+    <Source File="Bitmaps\ON_1Red.bminfo"/>
+    <Source File="Bitmaps\ON_2Grn.bminfo"/>
+    <Source File="Bitmaps\ON_2Red.bminfo"/>
+    <Source File="Bitmaps\ON_3Grn.bminfo"/>
+    <Source File="Bitmaps\ON_3Red.bminfo"/>
+    <Source File="Bitmaps\ON_4Grn.bminfo"/>
+    <Source File="Bitmaps\ON_4Red.bminfo"/>
+    <Source File="Bitmaps\ON_5Grn.bminfo"/>
+    <Source File="Bitmaps\ON_5Red.bminfo"/>
+    <Source File="Bitmaps\ON_6Grn.bminfo"/>
+    <Source File="Bitmaps\ON_6Red.bminfo"/>
+    <Source File="Bitmaps\ON_7Grn.bminfo"/>
+    <Source File="Bitmaps\ON_7Red.bminfo"/>
+    <Source File="Bitmaps\ON_8Grn.bminfo"/>
+    <Source File="Bitmaps\ON_8Red.bminfo"/>
+    <Source File="Bitmaps\ON_9Grn.bminfo"/>
+    <Source File="Bitmaps\ON_9Red.bminfo"/>
+    <Source File="Bitmaps\PhotoOff.bminfo"/>
+    <Source File="Bitmaps\PhotoOn.bminfo"/>
+    <Source File="Bitmaps\ToggleOff.bminfo"/>
+    <Source File="Bitmaps\ToggleOn.bminfo"/>
+    <Source File="Bitmaps\DropDownDark.bminfo"/>
+    <Source File="Bitmaps\LeftBackDark.bminfo"/>
+    <Source File="Bitmaps\RightNextDark.bminfo"/>
+    <Source File="Bitmaps\CloseDark.bminfo"/>
+    <Source File="Bitmaps\Page1OF9.bminfo"/>
+    <Source File="Bitmaps\Page2OF9.bminfo"/>
+    <Source File="Bitmaps\Page3OF9.bminfo"/>
+    <Source File="Bitmaps\Page4OF9.bminfo"/>
+    <Source File="Bitmaps\Page5OF9.bminfo"/>
+    <Source File="Bitmaps\Page6OF9.bminfo"/>
+    <Source File="Bitmaps\Page7OF9.bminfo"/>
+    <Source File="Bitmaps\Page8OF9.bminfo"/>
+    <Source File="Bitmaps\Page9OF9.bminfo"/>
+    <Source File="Bitmaps\TrackReset.bminfo"/>
+    <Source File="Bitmaps\logo.bminfo"/>
+    <Source File="Bitmaps\DropDownLight.bminfo"/>
+    <Source File="Bitmaps\RightNextLight.bminfo"/>
+    <Source File="Bitmaps\LeftBackLight.bminfo"/>
+    <Source File="Bitmaps\CloseLight.bminfo"/>
+    <Source File="Bitmaps\DropHelpDark.bminfo"/>
+    <Source File="BitmapGroups\NumPad.bmgrp"/>
+    <Source File="BitmapGroups\AlphaPad.bmgrp"/>
+    <Source File="BitmapGroups\NavigationPad.bmgrp"/>
+    <Source File="BitmapGroups\Borders.bmgrp"/>
+    <Source File="BitmapGroups\REED.bmgrp"/>
+    <Source File="BitmapGroups\Input_10.bmgrp"/>
+    <Source File="BitmapGroups\Input_11.bmgrp"/>
+    <Source File="BitmapGroups\Input_12.bmgrp"/>
+    <Source File="BitmapGroups\Input_13.bmgrp"/>
+    <Source File="BitmapGroups\Input_14.bmgrp"/>
+    <Source File="BitmapGroups\Input_15.bmgrp"/>
+    <Source File="BitmapGroups\Input_16.bmgrp"/>
+    <Source File="BitmapGroups\Input_1.bmgrp"/>
+    <Source File="BitmapGroups\Input_2.bmgrp"/>
+    <Source File="BitmapGroups\Input_3.bmgrp"/>
+    <Source File="BitmapGroups\Input_4.bmgrp"/>
+    <Source File="BitmapGroups\Input_5.bmgrp"/>
+    <Source File="BitmapGroups\Input_6.bmgrp"/>
+    <Source File="BitmapGroups\Input_7.bmgrp"/>
+    <Source File="BitmapGroups\Input_8.bmgrp"/>
+    <Source File="BitmapGroups\Input_9.bmgrp"/>
+    <Source File="BitmapGroups\OK.bmgrp"/>
+    <Source File="BitmapGroups\Output_10.bmgrp"/>
+    <Source File="BitmapGroups\Output_11.bmgrp"/>
+    <Source File="BitmapGroups\Output_12.bmgrp"/>
+    <Source File="BitmapGroups\Output_13.bmgrp"/>
+    <Source File="BitmapGroups\Output_14.bmgrp"/>
+    <Source File="BitmapGroups\Output_15.bmgrp"/>
+    <Source File="BitmapGroups\Output_16.bmgrp"/>
+    <Source File="BitmapGroups\Output_1.bmgrp"/>
+    <Source File="BitmapGroups\Output_2.bmgrp"/>
+    <Source File="BitmapGroups\Output_3.bmgrp"/>
+    <Source File="BitmapGroups\Output_4.bmgrp"/>
+    <Source File="BitmapGroups\Output_5.bmgrp"/>
+    <Source File="BitmapGroups\Output_6.bmgrp"/>
+    <Source File="BitmapGroups\Output_7.bmgrp"/>
+    <Source File="BitmapGroups\Output_8.bmgrp"/>
+    <Source File="BitmapGroups\Output_9.bmgrp"/>
+    <Source File="BitmapGroups\Photos.bmgrp"/>
+    <Source File="BitmapGroups\Toggle.bmgrp"/>
+    <Source File="BitmapGroups\Icons.bmgrp"/>
+    <Source File="BitmapGroups\PageOF9.bmgrp"/>
+    <Source File="Pages\P00_INITIALIZE.page"/>
+    <Source File="Pages\P10_MENU.page"/>
+    <Source File="Pages\P11_MIMIC.page"/>
+    <Source File="Pages\P12_OPTIONS.page"/>
+    <Source File="Pages\P13_SETTINGS.page"/>
+    <Source File="Pages\P14_DRIVES.page"/>
+    <Source File="Pages\P15_SERVOS.page"/>
+    <Source File="Pages\P16_RIO.page"/>
+    <Source File="Pages\P17_ALARM.page"/>
+    <Source File="Pages\P18_WARNING.page"/>
+    <Source File="Pages\P19_EVENT.page"/>
+    <Source File="Pages\P20_ASHTON_TECH.page"/>
+    <Source File="Layers\Background.layer"/>
+    <Source File="Layers\IPConfig.layer"/>
+    <Source File="Layers\Message.layer"/>
+    <Source File="Layers\Notify.layer"/>
+    <Source File="Layers\PasswordEngRefuse.layer"/>
+    <Source File="Layers\PasswordLevel0.layer"/>
+    <Source File="Layers\PasswordLevel1.layer"/>
+    <Source File="Layers\PasswordLevel2.layer"/>
+    <Source File="Layers\PasswordLevel3.layer"/>
+    <Source File="Layers\Start.layer"/>
+    <Source File="Layers\Navigation.layer"/>
+    <Source File="Layers\Status.layer"/>
+    <Source File="StyleSheets\Gray.vcs"/>
+    <Source File="StyleSheets\Color.vcs"/>
+    <Source File="Borders\Raised.bdr"/>
+    <Source File="Borders\Sunken.bdr"/>
+    <Source File="Borders\Etched.bdr"/>
+    <Source File="Borders\Bump.bdr"/>
+    <Source File="Borders\SunkenOuter.bdr"/>
+    <Source File="Borders\RaisedInner.bdr"/>
+    <Source File="Borders\Flat_black.bdr"/>
+    <Source File="Borders\Flat_grey.bdr"/>
+    <Source File="Borders\BackwardActive.bdr"/>
+    <Source File="Borders\BackwardPressed.bdr"/>
+    <Source File="Borders\ControlActive.bdr"/>
+    <Source File="Borders\ControlPressed.bdr"/>
+    <Source File="Borders\DownActiveControl.bdr"/>
+    <Source File="Borders\DownPressedControl.bdr"/>
+    <Source File="Borders\ForwardActive.bdr"/>
+    <Source File="Borders\ForwardPressed.bdr"/>
+    <Source File="Borders\GlobalAreaActive.bdr"/>
+    <Source File="Borders\GlobalAreaPressed.bdr"/>
+    <Source File="Borders\MultiScrollDownActive.bdr"/>
+    <Source File="Borders\MultiScrollDownPressed.bdr"/>
+    <Source File="Borders\MultiScrollUpActive.bdr"/>
+    <Source File="Borders\MultiScrollUpPressed.bdr"/>
+    <Source File="Borders\ProgressBarBorder.bdr"/>
+    <Source File="Borders\ScrollDownActive.bdr"/>
+    <Source File="Borders\ScrollDownPressed.bdr"/>
+    <Source File="Borders\ScrollUpActive.bdr"/>
+    <Source File="Borders\ScrollUpPressed.bdr"/>
+    <Source File="Borders\ScrollLeftActive.bdr"/>
+    <Source File="Borders\ScrollLeftPressed.bdr"/>
+    <Source File="Borders\ScrollRightActive.bdr"/>
+    <Source File="Borders\ScrollRightPressed.bdr"/>
+    <Source File="Borders\UpActiveControl.bdr"/>
+    <Source File="Borders\UpPressedControl.bdr"/>
+    <Source File="Borders\FrameHeader.bdr"/>
+    <Source File="TouchPads\NumPad.tpr"/>
+    <Source File="TouchPads\AlphaPadQVGA.tpr"/>
+    <Source File="TouchPads\AlphaPad.tpr"/>
+    <Source File="TouchPads\NavigationPad_ver.tpr"/>
+    <Source File="TouchPads\NavigationPad_hor.tpr"/>
+    <Source File="TouchPads\EditPad.tpr"/>
+    <Source File="Trends\TrendData.tdc"/>
+    <Source File="VirtualKeys.vcvk"/>
+    <Source File="Palette.vcr"/>
+  </SourceFiles>
+</Project>

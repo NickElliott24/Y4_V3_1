@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="Message">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.ServiceVis.Message.Display]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x0000100B" Name="StrMessage">
+      <Property Name="BackColor" Value="247"/>
+      <Property Name="Border" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Trebuchet14]"/>
+      <Property Name="ForeColor" Value="46"/>
+      <Property Name="Height" Value="64"/>
+      <Property Name="InputNext" Value="Enter"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="MaxChars" Value="75"/>
+      <Property Name="SimulationValue" Value="ABCDEFGHIJKLMNOPQRSTUVWXYABCDEFGHIJKLMNOPQRSTUVWXYABCDEFGHIJKLMNOPQRSTUVWXY"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Input]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.VisControl.ServiceVis.Message.Text]"/>
+      <Property Name="Width" Value="880"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butMessageClose">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="None"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Font" Value="Source[local].Font[Trebuchet14]"/>
+      <Property Name="Height" Value="64"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="880"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
+      <Property Name="TextIndex" Value="24"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_MessageHide]"/>
+      <Property Name="Width" Value="144"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

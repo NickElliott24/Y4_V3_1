@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Rotation">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="3"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1803136" Value="NOT_HOMED"/>
+    <Text ID="1803137" Value="HOMED"/>
+    <Text ID="1803138" Value="HOME_TO_POS1"/>
+    <Text ID="1803139" Value="POS1_TO_POS2"/>
+    <Text ID="1803140" Value="AT_POS1"/>
+    <Text ID="1803141" Value="AT_POS2"/>
+    <Text ID="1803142" Value="AT_POS2_DOCK"/>
+    <Text ID="1803143" Value="ESTOPPED"/>
+    <Text ID="1803144" Value="ESTOP_TO_POS1"/>
+    <Text ID="1803145" Value="ESTOP_TO_POS2"/>
+    <Text ID="1803146" Value="HOMING SEQUENCE NOT COMPLETED"/>
+    <Text ID="1803147" Value="HOMING SEQUENCE COMPLETED"/>
+    <Text ID="1803148" Value="MOVE FROM THE HOME POSITION TO POSITION 1."/>
+    <Text ID="1803149" Value="AT POSITION 1, OPERATING SOLENOID FOR DOCKING LOCATION."/>
+    <Text ID="1803150" Value="MOVE FROM POSITION 1 TO POSITION 2."/>
+    <Text ID="1803151" Value="AT POSITION 2, OPERATING SOLENOID FOR DOCKING LOCATION."/>
+    <Text ID="1803152" Value="AT POSITION 2, DOCKED, READY TO SEND GLASS TO FURNACE."/>
+    <Text ID="1803153" Value="ESTOP BUTTON WAS PRESSED WIHILE THE ROTATION CONVEYOR WAS MOVING."/>
+    <Text ID="1803154" Value="MOVING FROM ESTOP POSITION TO POSITION 1. ONLY ACTIVE IF GLASS IS REMOVED DURING THE ESTOP RECOVERY PROCESS."/>
+    <Text ID="1803155" Value="MOVING FROM ESTOP POSITION TO POSITION 2. ONLY ACTIVE IF GLASS IS NOT REMOVED DURING THE ESTOP RECOVERY PROCESS."/>
+    <Text ID="1803156" Value="CONFIRM RESET"/>
+    <Text ID="1803157" Value="MOVE FROM POSITION 2 TO POSITION 1."/>
+    <Text ID="1803158" Value="POS2_TO_POS1"/>
+    <Text ID="1803159" Value="AT POSITION 1, DOCKED, READY TO RECEIVE GLASS FROM WASHER."/>
+    <Text ID="1803160" Value="AT_POS1_DOCK"/>
+    <Text ID="1803161" Value="AT_POS1_UNDOCK"/>
+    <Text ID="1803162" Value="AT_POS2_UNDOCK"/>
+    <Text ID="1803163" Value="AT POSITION 1, WAITING FOR DOCKING TO DISENGAGE."/>
+    <Text ID="1803164" Value="AT POSITION 2, WAITING FOR DOCKING TO DISENGAGE."/>
+    <Text ID="1803165" Value="CONTROL_DISABLED"/>
+    <Text ID="1803166" Value="CONTROL CIRCUIT OFF"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1803136" Value=""/>
+    <Text ID="1803137" Value=""/>
+    <Text ID="1803138" Value=""/>
+    <Text ID="1803139" Value=""/>
+    <Text ID="1803140" Value=""/>
+    <Text ID="1803141" Value=""/>
+    <Text ID="1803142" Value=""/>
+    <Text ID="1803143" Value=""/>
+    <Text ID="1803144" Value=""/>
+    <Text ID="1803145" Value=""/>
+    <Text ID="1803146" Value=""/>
+    <Text ID="1803147" Value=""/>
+    <Text ID="1803148" Value=""/>
+    <Text ID="1803149" Value=""/>
+    <Text ID="1803150" Value=""/>
+    <Text ID="1803151" Value=""/>
+    <Text ID="1803152" Value=""/>
+    <Text ID="1803153" Value=""/>
+    <Text ID="1803154" Value=""/>
+    <Text ID="1803155" Value=""/>
+    <Text ID="1803156" Value=""/>
+    <Text ID="1803157" Value=""/>
+    <Text ID="1803158" Value=""/>
+    <Text ID="1803159" Value=""/>
+    <Text ID="1803160" Value=""/>
+    <Text ID="1803161" Value=""/>
+    <Text ID="1803162" Value=""/>
+    <Text ID="1803163" Value=""/>
+    <Text ID="1803164" Value=""/>
+    <Text ID="1803165" Value=""/>
+    <Text ID="1803166" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1803136" Value="1"/>
+    <Index ID="1803137" Value="11"/>
+    <Index ID="1803138" Value="12"/>
+    <Index ID="1803139" Value="16"/>
+    <Index ID="1803140" Value="13"/>
+    <Index ID="1803141" Value="17"/>
+    <Index ID="1803142" Value="18"/>
+    <Index ID="1803143" Value="21"/>
+    <Index ID="1803144" Value="22"/>
+    <Index ID="1803145" Value="23"/>
+    <Index ID="1803146" Value="101"/>
+    <Index ID="1803147" Value="111"/>
+    <Index ID="1803148" Value="112"/>
+    <Index ID="1803149" Value="113"/>
+    <Index ID="1803150" Value="116"/>
+    <Index ID="1803151" Value="117"/>
+    <Index ID="1803152" Value="118"/>
+    <Index ID="1803153" Value="121"/>
+    <Index ID="1803154" Value="122"/>
+    <Index ID="1803155" Value="123"/>
+    <Index ID="1803156" Value="50"/>
+    <Index ID="1803157" Value="120"/>
+    <Index ID="1803158" Value="20"/>
+    <Index ID="1803159" Value="114"/>
+    <Index ID="1803160" Value="14"/>
+    <Index ID="1803161" Value="15"/>
+    <Index ID="1803162" Value="19"/>
+    <Index ID="1803163" Value="115"/>
+    <Index ID="1803164" Value="119"/>
+    <Index ID="1803165" Value="0"/>
+    <Index ID="1803166" Value="100"/>
+  </IndexMap>
+</TextGroup>

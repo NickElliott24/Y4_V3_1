@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Tilt">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="420"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1161016" Value="CONTROL_OFF"/>
+    <Text ID="1161017" Value="DOWN_LIMIT"/>
+    <Text ID="1161018" Value="UP_FAST"/>
+    <Text ID="1161019" Value="UP_LIMIT"/>
+    <Text ID="1161020" Value="UP_SLOW"/>
+    <Text ID="1161021" Value="DOWN_FAST"/>
+    <Text ID="1161022" Value="DOWN_SLOW"/>
+    <Text ID="1208964" Value="UP_OVERLIMIT"/>
+    <Text ID="1208965" Value="DOWN_OVERLIMIT"/>
+    <Text ID="1208966" Value="UP_SLOW_RESET"/>
+    <Text ID="1208967" Value="CONTROL CIRCUIT OFF, BRAKE ON"/>
+    <Text ID="1208968" Value="AT THE DOWN LIMIT, IN POSITION TO SEND GLASS TO THE FOLLOWING CONVEYORS."/>
+    <Text ID="1208969" Value="LIFTING FAST. CUT TO SLOW WHEN SENSOR S73 IS MADE. STOP IF EITHER S74 OR S75 ARE MADE."/>
+    <Text ID="1208970" Value="LIFTING SLOW. STOP IF EITHER S74 OR S75 ARE MADE."/>
+    <Text ID="1208971" Value="AT THE UP LIMIT, IN POSITION TO RECEIVE GLASS FROM THE PRECEDING EQUIPMENT."/>
+    <Text ID="1208972" Value="LOWERING FAST. CUT TO SLOW WHEN SENSOR S72 IS MADE. STOP IF EITHER S70 OR S71 ARE MADE"/>
+    <Text ID="1208973" Value="LOWERING SLOW. STOP IF EITHER S70 OR S71 ARE MADE."/>
+    <Text ID="1208974" Value="AT THE UP OVERLIMIT POSITION. USE CONFIRM BUTTON TO RESET TO UP POSITION."/>
+    <Text ID="1208975" Value="AT THE DOWN OVERLIMIT POSITION. USE CONFIRM BUTTON TO RESET TO UP POSITION."/>
+    <Text ID="1208976" Value="LIFTING SLOW TO CLEAR DOWN LIMIT, BEFORE RESETTING TO DOWN POSITION."/>
+    <Text ID="1208980" Value="CONFIRM RESET"/>
+    <Text ID="1641339" Value="LOWERING SLOW TO CLEAR UP LIMIT, BEFORE RESETTING TO UP POSITION."/>
+    <Text ID="1641341" Value="DOWN_SLOW_RESET"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1161016" Value=""/>
+    <Text ID="1161017" Value=""/>
+    <Text ID="1161018" Value=""/>
+    <Text ID="1161019" Value=""/>
+    <Text ID="1161020" Value=""/>
+    <Text ID="1161021" Value=""/>
+    <Text ID="1161022" Value=""/>
+    <Text ID="1208964" Value=""/>
+    <Text ID="1208965" Value=""/>
+    <Text ID="1208966" Value=""/>
+    <Text ID="1208967" Value=""/>
+    <Text ID="1208968" Value=""/>
+    <Text ID="1208969" Value=""/>
+    <Text ID="1208970" Value=""/>
+    <Text ID="1208971" Value=""/>
+    <Text ID="1208972" Value=""/>
+    <Text ID="1208973" Value=""/>
+    <Text ID="1208974" Value=""/>
+    <Text ID="1208975" Value=""/>
+    <Text ID="1208976" Value=""/>
+    <Text ID="1208980" Value=""/>
+    <Text ID="1641339" Value=""/>
+    <Text ID="1641341" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1161016" Value="0"/>
+    <Index ID="1161017" Value="11"/>
+    <Index ID="1161018" Value="12"/>
+    <Index ID="1161019" Value="14"/>
+    <Index ID="1161020" Value="13"/>
+    <Index ID="1161021" Value="15"/>
+    <Index ID="1161022" Value="16"/>
+    <Index ID="1208964" Value="21"/>
+    <Index ID="1208965" Value="22"/>
+    <Index ID="1208966" Value="23"/>
+    <Index ID="1208967" Value="100"/>
+    <Index ID="1208968" Value="111"/>
+    <Index ID="1208969" Value="112"/>
+    <Index ID="1208970" Value="113"/>
+    <Index ID="1208971" Value="114"/>
+    <Index ID="1208972" Value="115"/>
+    <Index ID="1208973" Value="116"/>
+    <Index ID="1208974" Value="121"/>
+    <Index ID="1208975" Value="122"/>
+    <Index ID="1208976" Value="123"/>
+    <Index ID="1208980" Value="50"/>
+    <Index ID="1641339" Value="124"/>
+    <Index ID="1641341" Value="24"/>
+  </IndexMap>
+</TextGroup>

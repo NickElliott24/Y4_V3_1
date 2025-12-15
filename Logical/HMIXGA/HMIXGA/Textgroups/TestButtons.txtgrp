@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="TestButtons">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="424"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1279505" Value="SOLENOID 26 ED 1"/>
+    <Text ID="1279506" Value="SOLENOID 27 ED 2"/>
+    <Text ID="1279507" Value="SOLENOID 28 ED 3"/>
+    <Text ID="1279508" Value="SOLENOID 29 ED 4"/>
+    <Text ID="1279509" Value="MOTOR 19 ED 1"/>
+    <Text ID="1279510" Value="MOTOR 20 ED 2"/>
+    <Text ID="1279511" Value="MOTOR 21 ED 3"/>
+    <Text ID="1279512" Value="MOTOR 1 BELT 1"/>
+    <Text ID="1279513" Value="MOTOR 2 BELT 2"/>
+    <Text ID="1279514" Value="MOTOR 3 BELT 3"/>
+    <Text ID="1279515" Value="MOTOR 4 BELT 4"/>
+    <Text ID="1279516" Value="MOTOR 5 BELT 5"/>
+    <Text ID="1279517" Value="MOTOR 6 BELT 6"/>
+    <Text ID="1279518" Value="MOTOR 7 BELT 7"/>
+    <Text ID="1279519" Value="MOTOR 8 BELT 8"/>
+    <Text ID="1279520" Value="MOTOR 9 BELT 9"/>
+    <Text ID="1279521" Value="MOTOR 10 BELT 10"/>
+    <Text ID="1279522" Value="MOTOR 11 BELT 11"/>
+    <Text ID="1279523" Value="MOTOR 12 BELT 12"/>
+    <Text ID="1279524" Value="VACUUM PUMP 1"/>
+    <Text ID="1279525" Value="VACUUM PUMP 2"/>
+    <Text ID="1279526" Value="VACUUM PUMP 3"/>
+    <Text ID="1279527" Value="VACUUM PUMP 4"/>
+    <Text ID="1279528" Value="WATER PUMP 1"/>
+    <Text ID="1279529" Value="WATER PUMP 2"/>
+    <Text ID="1279530" Value="EXTRACTION 3"/>
+    <Text ID="1279531" Value="EXTRACTION 4"/>
+    <Text ID="1279532" Value="EVACUATION PUMP 3"/>
+    <Text ID="1279533" Value="EVACUATION PUMP 4"/>
+    <Text ID="1279534" Value="SOLENOID 30 PALLET 1"/>
+    <Text ID="1279535" Value="SOLENOID 31 PALLET 2"/>
+    <Text ID="1279536" Value="SOLENOID 32 PALLET 3"/>
+    <Text ID="1279537" Value="SOLENOID 33 PALLET 4"/>
+    <Text ID="1279538" Value="SOLENOID 1 BELT 1"/>
+    <Text ID="1279539" Value="SOLENOID 2 BELT 2"/>
+    <Text ID="1279540" Value="SOLENOID 26 BELT 9"/>
+    <Text ID="1279541" Value="SOLENOID 3 BELT 3"/>
+    <Text ID="1279542" Value="SOLENOID 4 BELT 4"/>
+    <Text ID="1279543" Value="SOLENOID 27 BELT 10"/>
+    <Text ID="1279544" Value="SOLENOID 25 GATE 2"/>
+    <Text ID="1279545" Value="SOLENOID 10 BELT 5"/>
+    <Text ID="1279546" Value="SOLENOID 11 BELT 6"/>
+    <Text ID="1279547" Value="SOLENOID 28 BELT 11"/>
+    <Text ID="1279548" Value="SOLENOID 12 BELT 7"/>
+    <Text ID="1279549" Value="SOLENOID 13 BELT 8"/>
+    <Text ID="1279550" Value="SOLENOID 29 BELT 12"/>
+    <Text ID="1279551" Value="SOLENOID 35 LASER KNIFE"/>
+    <Text ID="1279552" Value="SOLENOID 19 SCAVENGE"/>
+    <Text ID="1279553" Value="SOLENOID 5 ARMS 1"/>
+    <Text ID="1279554" Value="SOLENOID 6 ARMS 2"/>
+    <Text ID="1279555" Value="SOLENOID 7 ARMS 3"/>
+    <Text ID="1279556" Value="SOLENOID 8 ARMS 4"/>
+    <Text ID="1279557" Value="SOLENOID 14 ARMS 6"/>
+    <Text ID="1279558" Value="SOLENOID 15 ARMS 7"/>
+    <Text ID="1279559" Value="SOLENOID 16 ARMS 8"/>
+    <Text ID="1279560" Value="SOLENOID 17 ARMS 9"/>
+    <Text ID="1279561" Value="MOTOR 22 ED 4"/>
+    <Text ID="1279562" Value="SOLENOID 9 ARMS 5"/>
+    <Text ID="1279563" Value="SOLENOID 18 ARMS 10"/>
+    <Text ID="1279564" Value="SOLENOID 40 FLIP DOWN"/>
+    <Text ID="1279565" Value="SOLENOID 43 DOCK 2"/>
+    <Text ID="1279566" Value="SOLENOID 42 DOCK 1"/>
+    <Text ID="1279567" Value="SOLENOID 34 PALLET 5"/>
+    <Text ID="1279568" Value="SOLENOID 25 DATUM GATE"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1279505" Value=""/>
+    <Text ID="1279506" Value=""/>
+    <Text ID="1279507" Value=""/>
+    <Text ID="1279508" Value=""/>
+    <Text ID="1279509" Value=""/>
+    <Text ID="1279510" Value=""/>
+    <Text ID="1279511" Value=""/>
+    <Text ID="1279512" Value=""/>
+    <Text ID="1279513" Value=""/>
+    <Text ID="1279514" Value=""/>
+    <Text ID="1279515" Value=""/>
+    <Text ID="1279516" Value=""/>
+    <Text ID="1279517" Value=""/>
+    <Text ID="1279518" Value=""/>
+    <Text ID="1279519" Value=""/>
+    <Text ID="1279520" Value=""/>
+    <Text ID="1279521" Value=""/>
+    <Text ID="1279522" Value=""/>
+    <Text ID="1279523" Value=""/>
+    <Text ID="1279524" Value=""/>
+    <Text ID="1279525" Value=""/>
+    <Text ID="1279526" Value=""/>
+    <Text ID="1279527" Value=""/>
+    <Text ID="1279528" Value=""/>
+    <Text ID="1279529" Value=""/>
+    <Text ID="1279530" Value=""/>
+    <Text ID="1279531" Value=""/>
+    <Text ID="1279532" Value=""/>
+    <Text ID="1279533" Value=""/>
+    <Text ID="1279534" Value=""/>
+    <Text ID="1279535" Value=""/>
+    <Text ID="1279536" Value=""/>
+    <Text ID="1279537" Value=""/>
+    <Text ID="1279538" Value=""/>
+    <Text ID="1279539" Value=""/>
+    <Text ID="1279540" Value=""/>
+    <Text ID="1279541" Value=""/>
+    <Text ID="1279542" Value=""/>
+    <Text ID="1279543" Value=""/>
+    <Text ID="1279544" Value=""/>
+    <Text ID="1279545" Value=""/>
+    <Text ID="1279546" Value=""/>
+    <Text ID="1279547" Value=""/>
+    <Text ID="1279548" Value=""/>
+    <Text ID="1279549" Value=""/>
+    <Text ID="1279550" Value=""/>
+    <Text ID="1279551" Value=""/>
+    <Text ID="1279552" Value=""/>
+    <Text ID="1279553" Value=""/>
+    <Text ID="1279554" Value=""/>
+    <Text ID="1279555" Value=""/>
+    <Text ID="1279556" Value=""/>
+    <Text ID="1279557" Value=""/>
+    <Text ID="1279558" Value=""/>
+    <Text ID="1279559" Value=""/>
+    <Text ID="1279560" Value=""/>
+    <Text ID="1279561" Value=""/>
+    <Text ID="1279562" Value=""/>
+    <Text ID="1279563" Value=""/>
+    <Text ID="1279564" Value=""/>
+    <Text ID="1279565" Value=""/>
+    <Text ID="1279566" Value=""/>
+    <Text ID="1279567" Value=""/>
+    <Text ID="1279568" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1279505" Value="43"/>
+    <Index ID="1279506" Value="44"/>
+    <Index ID="1279507" Value="45"/>
+    <Index ID="1279508" Value="46"/>
+    <Index ID="1279509" Value="13"/>
+    <Index ID="1279510" Value="14"/>
+    <Index ID="1279511" Value="15"/>
+    <Index ID="1279512" Value="1"/>
+    <Index ID="1279513" Value="2"/>
+    <Index ID="1279514" Value="3"/>
+    <Index ID="1279515" Value="4"/>
+    <Index ID="1279516" Value="5"/>
+    <Index ID="1279517" Value="6"/>
+    <Index ID="1279518" Value="7"/>
+    <Index ID="1279519" Value="8"/>
+    <Index ID="1279520" Value="9"/>
+    <Index ID="1279521" Value="10"/>
+    <Index ID="1279522" Value="11"/>
+    <Index ID="1279523" Value="12"/>
+    <Index ID="1279524" Value="17"/>
+    <Index ID="1279525" Value="18"/>
+    <Index ID="1279526" Value="19"/>
+    <Index ID="1279527" Value="20"/>
+    <Index ID="1279528" Value="21"/>
+    <Index ID="1279529" Value="22"/>
+    <Index ID="1279530" Value="23"/>
+    <Index ID="1279531" Value="24"/>
+    <Index ID="1279532" Value="25"/>
+    <Index ID="1279533" Value="26"/>
+    <Index ID="1279534" Value="47"/>
+    <Index ID="1279535" Value="48"/>
+    <Index ID="1279536" Value="49"/>
+    <Index ID="1279537" Value="50"/>
+    <Index ID="1279538" Value="31"/>
+    <Index ID="1279539" Value="32"/>
+    <Index ID="1279540" Value="39"/>
+    <Index ID="1279541" Value="33"/>
+    <Index ID="1279542" Value="34"/>
+    <Index ID="1279543" Value="40"/>
+    <Index ID="1279544" Value="51"/>
+    <Index ID="1279545" Value="35"/>
+    <Index ID="1279546" Value="36"/>
+    <Index ID="1279547" Value="41"/>
+    <Index ID="1279548" Value="37"/>
+    <Index ID="1279549" Value="38"/>
+    <Index ID="1279550" Value="42"/>
+    <Index ID="1279551" Value="52"/>
+    <Index ID="1279552" Value="53"/>
+    <Index ID="1279553" Value="54"/>
+    <Index ID="1279554" Value="55"/>
+    <Index ID="1279555" Value="56"/>
+    <Index ID="1279556" Value="57"/>
+    <Index ID="1279557" Value="59"/>
+    <Index ID="1279558" Value="60"/>
+    <Index ID="1279559" Value="61"/>
+    <Index ID="1279560" Value="62"/>
+    <Index ID="1279561" Value="16"/>
+    <Index ID="1279562" Value="58"/>
+    <Index ID="1279563" Value="63"/>
+    <Index ID="1279564" Value="64"/>
+    <Index ID="1279565" Value="65"/>
+    <Index ID="1279566" Value="66"/>
+    <Index ID="1279567" Value="67"/>
+    <Index ID="1279568" Value="68"/>
+  </IndexMap>
+</TextGroup>

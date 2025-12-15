@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.4.149?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Local data types" Private="true">VisuControl.typ</Object>
+    <Object Type="File" Description="Local variables" Private="true">VisControl.var</Object>
+    <Object Type="Package" Description="Control for VisuNew">HMIControl</Object>
+    <Object Type="Package" Description="Remote service visualisation control">ServiceControl</Object>
+    <Object Type="Package">BatchDisp</Object>
+  </Objects>
+</Package>

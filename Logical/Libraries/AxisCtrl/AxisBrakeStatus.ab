@@ -1,0 +1,17 @@
+FUNCTION_BLOCK AxisBrakeStatus
+	(*	Bit0: Brake Relay On
+			Bit1: Brake Electrical On
+			Bit2: Brake Mechanical Open		*)
+	
+	if (Enable) then
+		RelayOn					=	BIT_TST(StatusPV,1)
+		ElectricalOn		= BIT_TST(StatusPV,2)
+		MechanicalOpen	= BIT_TST(StatusPV,4)
+	else
+		RelayOn					= 0
+		ElectricalOn		= 0
+		MechanicalOpen 	= 0
+	endif
+		
+	
+END_FUNCTION_BLOCK

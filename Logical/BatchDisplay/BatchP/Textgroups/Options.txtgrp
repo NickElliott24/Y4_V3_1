@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Options">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="4"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1611728" Value="OPTIONS:"/>
+    <Text ID="1611729" Value="FONT COLOUR"/>
+    <Text ID="1611730" Value="TEXT SIZE"/>
+    <Text ID="1611731" Value="UNITS"/>
+    <Text ID="1611732" Value="DISPLAY TYPE"/>
+    <Text ID="1611733" Value="EXAMPLE"/>
+    <Text ID="1611734" Value=""/>
+    <Text ID="1611735" Value=""/>
+    <Text ID="1611736" Value="BACK COLOUR"/>
+    <Text ID="1611737" Value=""/>
+    <Text ID="1611738" Value="1000.0 X 800.0"/>
+    <Text ID="1611739" Value="39.37 X 31.49"/>
+    <Text ID="1611740" Value=""/>
+    <Text ID="1611741" Value=""/>
+    <Text ID="1611742" Value=""/>
+    <Text ID="1611743" Value=""/>
+    <Text ID="1611744" Value=""/>
+    <Text ID="1611745" Value=""/>
+    <Text ID="1611746" Value=""/>
+    <Text ID="1611747" Value=""/>
+    <Text ID="1611748" Value=""/>
+    <Text ID="1611749" Value="CALCULATING DISPLAY"/>
+    <Text ID="1611750" Value="RENDERING"/>
+    <Text ID="1611751" Value="CLEARING"/>
+    <Text ID="1611813" Value="L\nE\nA\nD\nI\nN\nG\n \nE\nD\nG\nE\n \nV"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1611728" Value=""/>
+    <Text ID="1611729" Value=""/>
+    <Text ID="1611730" Value=""/>
+    <Text ID="1611731" Value=""/>
+    <Text ID="1611732" Value=""/>
+    <Text ID="1611733" Value=""/>
+    <Text ID="1611734" Value=""/>
+    <Text ID="1611735" Value=""/>
+    <Text ID="1611736" Value=""/>
+    <Text ID="1611737" Value=""/>
+    <Text ID="1611738" Value=""/>
+    <Text ID="1611739" Value=""/>
+    <Text ID="1611740" Value=""/>
+    <Text ID="1611741" Value=""/>
+    <Text ID="1611742" Value=""/>
+    <Text ID="1611743" Value=""/>
+    <Text ID="1611744" Value=""/>
+    <Text ID="1611745" Value=""/>
+    <Text ID="1611746" Value=""/>
+    <Text ID="1611747" Value=""/>
+    <Text ID="1611748" Value=""/>
+    <Text ID="1611749" Value=""/>
+    <Text ID="1611750" Value=""/>
+    <Text ID="1611751" Value=""/>
+    <Text ID="1611813" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1611728" Value="0"/>
+    <Index ID="1611729" Value="2"/>
+    <Index ID="1611730" Value="3"/>
+    <Index ID="1611731" Value="4"/>
+    <Index ID="1611732" Value="5"/>
+    <Index ID="1611733" Value="6"/>
+    <Index ID="1611734" Value="7"/>
+    <Index ID="1611735" Value="8"/>
+    <Index ID="1611736" Value="1"/>
+    <Index ID="1611737" Value="9"/>
+    <Index ID="1611738" Value="10"/>
+    <Index ID="1611739" Value="11"/>
+    <Index ID="1611740" Value="12"/>
+    <Index ID="1611741" Value="13"/>
+    <Index ID="1611742" Value="14"/>
+    <Index ID="1611743" Value="15"/>
+    <Index ID="1611744" Value="16"/>
+    <Index ID="1611745" Value="17"/>
+    <Index ID="1611746" Value="18"/>
+    <Index ID="1611747" Value="19"/>
+    <Index ID="1611748" Value="20"/>
+    <Index ID="1611749" Value="21"/>
+    <Index ID="1611750" Value="22"/>
+    <Index ID="1611751" Value="23"/>
+    <Index ID="1611813" Value="30"/>
+  </IndexMap>
+</TextGroup>

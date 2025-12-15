@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Input_8">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="30"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3523" Value="Source[local].Bitmap[OFF_8]"/>
+    <BitmapRef ID="3524" Value="Source[local].Bitmap[ON_8Grn]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3523" Value="0"/>
+    <Index ID="3524" Value="1"/>
+  </IndexMap>
+</BitmapGroup>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.6.81 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Package variables" Private="true">System.var</Object>
+    <Object Type="Program" Language="IEC" Description="Control section of program">Control</Object>
+    <Object Type="Program" Language="IEC" Description="Seaming motor control">Seamers</Object>
+    <Object Type="Program" Language="IEC" Description="Anti blip for sensor inputs">SensorInput</Object>
+    <Object Type="Program" Language="IEC" Description="Operation information">Process</Object>
+    <Object Type="Program" Language="IEC" Description="IO addressing">IO</Object>
+    <Object Type="Program" Language="IEC" Description="Filstar valve control">Filstar</Object>
+    <Object Type="Program" Language="IEC" Description="IO Line Configuration">LineConfig</Object>
+  </Objects>
+</Package>

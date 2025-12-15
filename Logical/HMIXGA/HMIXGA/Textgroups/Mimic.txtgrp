@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Mimic">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="415"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="523545" Value=" BUFFER 1"/>
+    <Text ID="523546" Value=" BUFFER 2"/>
+    <Text ID="527284" Value=" ROW BUILD"/>
+    <Text ID="527285" Value=" LOAD BUILD"/>
+    <Text ID="540540" Value=" SEAMER 2"/>
+    <Text ID="540543" Value=" BATCHING"/>
+    <Text ID="644775" Value="RESET 70-1"/>
+    <Text ID="1025440" Value="RESET 50-1~50-7"/>
+    <Text ID="1025441" Value="RESET 60-1~60-3"/>
+    <Text ID="1208935" Value="RESET 00-1~00-5"/>
+    <Text ID="1208936" Value="RESET 80-1~80-5"/>
+    <Text ID="1208937" Value="RESET 51-2~51-3"/>
+    <Text ID="1208938" Value="ROW BUILDING:"/>
+    <Text ID="1208939" Value="SPACE REMAINING IN ROW"/>
+    <Text ID="1208940" Value="LONGEST IN ROW"/>
+    <Text ID="1208941" Value="RESET 6-33~6-38"/>
+    <Text ID="1287730" Value="LASER"/>
+    <Text ID="1287731" Value="WASHER"/>
+    <Text ID="1287732" Value="HI-VOL"/>
+    <Text ID="1287737" Value="PAUSE"/>
+    <Text ID="1330881" Value=" INFORMATION"/>
+    <Text ID="1335597" Value="LOAD BUILDING:"/>
+    <Text ID="1335598" Value="CURRENT BATCHED LENGTH"/>
+    <Text ID="1335599" Value="RESET 1-33~1-35"/>
+    <Text ID="1335600" Value="MANUAL BATCHING"/>
+    <Text ID="1384195" Value=" LOADING"/>
+    <Text ID="1384196" Value=" CORNER"/>
+    <Text ID="1384211" Value=" SEAMER 1"/>
+    <Text ID="1384215" Value="OFFLINE"/>
+    <Text ID="1384224" Value="CURRENT BATCHED WIDTH"/>
+    <Text ID="1384225" Value="NEXT WIDTH"/>
+    <Text ID="1389359" Value="BATCH"/>
+    <Text ID="1389360" Value="RESET 5-58~5-59"/>
+    <Text ID="1394480" Value="RESET 51~56"/>
+    <Text ID="1394503" Value="RESET 1-54~1-55"/>
+    <Text ID="1394542" Value="CLEAR PARTIAL BATCH"/>
+    <Text ID="1394543" Value="RESET 2-56~2-57"/>
+    <Text ID="1394544" Value="RESET 5-58~5-59"/>
+    <Text ID="1394545" Value="RESET 61~65"/>
+    <Text ID="1416580" Value="RESET 10-1~10-8"/>
+    <Text ID="1425549" Value="RESET 11-1~11-5"/>
+    <Text ID="1425550" Value="RESET 20-1~20-8"/>
+    <Text ID="1430991" Value="RESET 40-1~40-2"/>
+    <Text ID="1431012" Value="RESET 41-1~41-4"/>
+    <Text ID="1450014" Value="RESET 30-1~30-2"/>
+    <Text ID="1450154" Value="RESET 8-51~8-54"/>
+    <Text ID="1450155" Value="RESET 8-61~8-63"/>
+    <Text ID="1491427" Value="RESET 1-71~1-75"/>
+    <Text ID="1491428" Value="RESET 2-71~2-74"/>
+    <Text ID="1491429" Value="RESET 3-71~3-74"/>
+    <Text ID="1491430" Value="RESET 4-71~4-74"/>
+    <Text ID="1491431" Value="RESET 5-71~5-74"/>
+    <Text ID="1491432" Value="RESET 6-71~6-72"/>
+    <Text ID="1529942" Value="RESET 4-36~4-37"/>
+    <Text ID="1529946" Value="RESET 41~42"/>
+    <Text ID="1529970" Value="RESET 3-33~3-35"/>
+    <Text ID="1530034" Value="RESET 0-13~0-16"/>
+    <Text ID="1548979" Value="RESET 1-13 ~ 1-15"/>
+    <Text ID="1548980" Value="RESET 2-16 ~ 2-1B"/>
+    <Text ID="1561170" Value="RESET 8-71 ~ 8-72"/>
+    <Text ID="1567275" Value="RESET 71 ~ 72"/>
+    <Text ID="1583889" Value="EXIT"/>
+    <Text ID="1588267" Value="RESET 4-66 ~ 4-67"/>
+    <Text ID="1593087" Value="RESET 5-68"/>
+    <Text ID="1630803" Value="RESET 5-81 ~ 5-85"/>
+    <Text ID="1636485" Value="RESET 6-58"/>
+    <Text ID="1636486" Value="RESET 7-58"/>
+    <Text ID="1641317" Value="TILT"/>
+    <Text ID="1652087" Value="MULTI"/>
+    <Text ID="1678298" Value="FURNACE CHANGE RESET"/>
+    <Text ID="1684242" Value="RESET 6-69"/>
+    <Text ID="1788429" Value=" OFFLINE LOADING"/>
+    <Text ID="1788430" Value="RESET 81-1~81-2"/>
+    <Text ID="1788431" Value="RESET 82-1~82-2"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="523545" Value=""/>
+    <Text ID="523546" Value=""/>
+    <Text ID="527284" Value=""/>
+    <Text ID="527285" Value=""/>
+    <Text ID="540540" Value=""/>
+    <Text ID="540543" Value=""/>
+    <Text ID="644775" Value=""/>
+    <Text ID="1025440" Value=""/>
+    <Text ID="1025441" Value=""/>
+    <Text ID="1208935" Value=""/>
+    <Text ID="1208936" Value=""/>
+    <Text ID="1208937" Value=""/>
+    <Text ID="1208938" Value=""/>
+    <Text ID="1208939" Value=""/>
+    <Text ID="1208940" Value=""/>
+    <Text ID="1208941" Value=""/>
+    <Text ID="1287730" Value=""/>
+    <Text ID="1287731" Value=""/>
+    <Text ID="1287732" Value=""/>
+    <Text ID="1287737" Value=""/>
+    <Text ID="1330881" Value=""/>
+    <Text ID="1335597" Value=""/>
+    <Text ID="1335598" Value=""/>
+    <Text ID="1335599" Value=""/>
+    <Text ID="1335600" Value=""/>
+    <Text ID="1384195" Value=""/>
+    <Text ID="1384196" Value=""/>
+    <Text ID="1384211" Value=""/>
+    <Text ID="1384215" Value=""/>
+    <Text ID="1384224" Value=""/>
+    <Text ID="1384225" Value=""/>
+    <Text ID="1389359" Value=""/>
+    <Text ID="1389360" Value=""/>
+    <Text ID="1394480" Value=""/>
+    <Text ID="1394503" Value=""/>
+    <Text ID="1394542" Value=""/>
+    <Text ID="1394543" Value=""/>
+    <Text ID="1394544" Value=""/>
+    <Text ID="1394545" Value=""/>
+    <Text ID="1416580" Value=""/>
+    <Text ID="1425549" Value=""/>
+    <Text ID="1425550" Value=""/>
+    <Text ID="1430991" Value=""/>
+    <Text ID="1431012" Value=""/>
+    <Text ID="1450014" Value=""/>
+    <Text ID="1450154" Value=""/>
+    <Text ID="1450155" Value=""/>
+    <Text ID="1491427" Value=""/>
+    <Text ID="1491428" Value=""/>
+    <Text ID="1491429" Value=""/>
+    <Text ID="1491430" Value=""/>
+    <Text ID="1491431" Value=""/>
+    <Text ID="1491432" Value=""/>
+    <Text ID="1529942" Value=""/>
+    <Text ID="1529946" Value=""/>
+    <Text ID="1529970" Value=""/>
+    <Text ID="1530034" Value=""/>
+    <Text ID="1548979" Value=""/>
+    <Text ID="1548980" Value=""/>
+    <Text ID="1561170" Value=""/>
+    <Text ID="1567275" Value=""/>
+    <Text ID="1583889" Value=""/>
+    <Text ID="1588267" Value=""/>
+    <Text ID="1593087" Value=""/>
+    <Text ID="1630803" Value=""/>
+    <Text ID="1636485" Value=""/>
+    <Text ID="1636486" Value=""/>
+    <Text ID="1641317" Value=""/>
+    <Text ID="1652087" Value=""/>
+    <Text ID="1678298" Value=""/>
+    <Text ID="1684242" Value=""/>
+    <Text ID="1788429" Value=""/>
+    <Text ID="1788430" Value=""/>
+    <Text ID="1788431" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="523545" Value="1"/>
+    <Index ID="523546" Value="2"/>
+    <Index ID="527284" Value="3"/>
+    <Index ID="527285" Value="4"/>
+    <Index ID="540540" Value="0"/>
+    <Index ID="540543" Value="9"/>
+    <Index ID="644775" Value="20"/>
+    <Index ID="1025440" Value="18"/>
+    <Index ID="1025441" Value="19"/>
+    <Index ID="1208935" Value="11"/>
+    <Index ID="1208936" Value="21"/>
+    <Index ID="1208937" Value="24"/>
+    <Index ID="1208938" Value="25"/>
+    <Index ID="1208939" Value="28"/>
+    <Index ID="1208940" Value="29"/>
+    <Index ID="1208941" Value="34"/>
+    <Index ID="1287730" Value="43"/>
+    <Index ID="1287731" Value="44"/>
+    <Index ID="1287732" Value="45"/>
+    <Index ID="1287737" Value="46"/>
+    <Index ID="1330881" Value="8"/>
+    <Index ID="1335597" Value="30"/>
+    <Index ID="1335598" Value="31"/>
+    <Index ID="1335599" Value="49"/>
+    <Index ID="1335600" Value="33"/>
+    <Index ID="1384195" Value="5"/>
+    <Index ID="1384196" Value="7"/>
+    <Index ID="1384211" Value="6"/>
+    <Index ID="1384215" Value="47"/>
+    <Index ID="1384224" Value="26"/>
+    <Index ID="1384225" Value="27"/>
+    <Index ID="1389359" Value="48"/>
+    <Index ID="1389360" Value="35"/>
+    <Index ID="1394480" Value="36"/>
+    <Index ID="1394503" Value="37"/>
+    <Index ID="1394542" Value="32"/>
+    <Index ID="1394543" Value="38"/>
+    <Index ID="1394544" Value="39"/>
+    <Index ID="1394545" Value="40"/>
+    <Index ID="1416580" Value="12"/>
+    <Index ID="1425549" Value="13"/>
+    <Index ID="1425550" Value="14"/>
+    <Index ID="1430991" Value="16"/>
+    <Index ID="1431012" Value="17"/>
+    <Index ID="1450014" Value="15"/>
+    <Index ID="1450154" Value="41"/>
+    <Index ID="1450155" Value="42"/>
+    <Index ID="1491427" Value="50"/>
+    <Index ID="1491428" Value="51"/>
+    <Index ID="1491429" Value="52"/>
+    <Index ID="1491430" Value="53"/>
+    <Index ID="1491431" Value="54"/>
+    <Index ID="1491432" Value="55"/>
+    <Index ID="1529942" Value="56"/>
+    <Index ID="1529946" Value="57"/>
+    <Index ID="1529970" Value="58"/>
+    <Index ID="1530034" Value="59"/>
+    <Index ID="1548979" Value="60"/>
+    <Index ID="1548980" Value="61"/>
+    <Index ID="1561170" Value="62"/>
+    <Index ID="1567275" Value="63"/>
+    <Index ID="1583889" Value="64"/>
+    <Index ID="1588267" Value="65"/>
+    <Index ID="1593087" Value="66"/>
+    <Index ID="1630803" Value="67"/>
+    <Index ID="1636485" Value="68"/>
+    <Index ID="1636486" Value="69"/>
+    <Index ID="1641317" Value="70"/>
+    <Index ID="1652087" Value="71"/>
+    <Index ID="1678298" Value="72"/>
+    <Index ID="1684242" Value="73"/>
+    <Index ID="1788429" Value="10"/>
+    <Index ID="1788430" Value="22"/>
+    <Index ID="1788431" Value="23"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.1.5.68 SP?>
+<Package xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="Program" Language="IEC" Description="Password Level Control">Level</Object>
+    <Object Type="Program" Language="IEC" Description="Status bar screen control">Status</Object>
+    <Object Type="Program" Language="IEC" Description="Start visualisation control">Start</Object>
+    <Object Type="Program" Language="IEC" Description="Menu screen">Page10</Object>
+    <Object Type="Program" Language="IEC" Description="Mimic screen">Page11</Object>
+    <Object Type="Program" Language="IEC" Description="Options screen">Page12</Object>
+    <Object Type="Program" Language="IEC" Description="Settings screen">Page13</Object>
+    <Object Type="Program" Language="IEC" Description="Drives screen">Page14</Object>
+    <Object Type="Program" Language="IEC" Description="Servo screen controls">Page15</Object>
+    <Object Type="Program" Language="IEC" Description="Remote screen control">Page16</Object>
+    <Object Type="Program" Language="IEC" Description="Alarm screen control">Page17</Object>
+    <Object Type="Program" Language="IEC" Description="Warning screen control">Page18</Object>
+    <Object Type="Program" Language="IEC" Description="Ashton tech screen control">Page20</Object>
+    <Object Type="Program" Language="IEC" Description="EStop Recovery Program">ESRecover</Object>
+    <Object Type="Program" Language="IEC" Description="Simulation control">Simulation</Object>
+  </Objects>
+</Package>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Remote">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="419"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="1803046" Value="CONTROL PANEL SLICE IO - 1"/>
+    <Text ID="1803047" Value="CONTROL PANEL SLICE IO - 2"/>
+    <Text ID="1803048" Value="LINE REMOTE IO BLOCKS - 1"/>
+    <Text ID="1803049" Value="LINE REMOTE IO BLOCKS - 2"/>
+    <Text ID="1803050" Value="LINE REMOTE IO BLOCKS - 3"/>
+    <Text ID="1803051" Value="PANEL 1"/>
+    <Text ID="1803052" Value=""/>
+    <Text ID="1803053" Value="MODULE 3 - INPUTS"/>
+    <Text ID="1803054" Value="MODULE 4 - OUTPUTS"/>
+    <Text ID="1803055" Value="MODULE 7 - 0V COMMON"/>
+    <Text ID="1803056" Value="MODULE 10 - MIXED"/>
+    <Text ID="1803057" Value="MODULE 11 - MIXED"/>
+    <Text ID="1803058" Value="MODULE 12 - INPUTS"/>
+    <Text ID="1803059" Value="MODULE 14 - MIXED"/>
+    <Text ID="1803060" Value="MODULE 15 - INPUT"/>
+    <Text ID="1803061" Value="MODULE 16 - MIXED"/>
+    <Text ID="1803062" Value="MODULE 17 - INPUT"/>
+    <Text ID="1803063" Value="MODULE 9 - BUS CARD"/>
+    <Text ID="1803064" Value="MODULE 13 - MIXED"/>
+    <Text ID="1803065" Value="LINE REMOTE IO BLOCKS - 4"/>
+    <Text ID="1803066" Value=""/>
+    <Text ID="1803067" Value="MODULE STATUS:"/>
+    <Text ID="1803068" Value="SERIAL NUMBER:"/>
+    <Text ID="1803069" Value="MODULE ID:"/>
+    <Text ID="1803070" Value="HARDWARE VARIANT:"/>
+    <Text ID="1803071" Value="FIRMWARE VERSION:"/>
+    <Text ID="1803072" Value="MODULE 5 - 24V COMMON"/>
+    <Text ID="1803073" Value="MODULE 6 - 0V COMMON"/>
+    <Text ID="1803074" Value="MODULE 8 - OUTPUTS"/>
+    <Text ID="1803075" Value="FUSE STATUS:"/>
+    <Text ID="1803076" Value="X67 POWER STATUS:"/>
+    <Text ID="1803077" Value="DC SUPPLY STATUS:"/>
+    <Text ID="1803078" Value="OVERLOAD STATUS:"/>
+    <Text ID="1803079" Value="FUSE OK"/>
+    <Text ID="1803080" Value="FUSE BLOWN"/>
+    <Text ID="1803081" Value="BUS POWER OK"/>
+    <Text ID="1803082" Value="BUS OVERCURRENT"/>
+    <Text ID="1803083" Value="DC POWER OK"/>
+    <Text ID="1803084" Value="DC WARNING"/>
+    <Text ID="1803085" Value="CHANNEL OVERLOAD"/>
+    <Text ID="1803086" Value="NO OVERLOAD"/>
+    <Text ID="1803087" Value="DC WARNING"/>
+    <Text ID="1803088" Value="DC POWER OK"/>
+    <Text ID="1803089" Value=""/>
+    <Text ID="1803090" Value="LINE 4"/>
+    <Text ID="1803091" Value="LINE 3"/>
+    <Text ID="1803092" Value="LINE 2"/>
+    <Text ID="1803093" Value="LINE 1"/>
+    <Text ID="1803094" Value="PANEL 2"/>
+    <Text ID="1803095" Value="MODULE 1 - POWER SUPPLY"/>
+    <Text ID="1803096" Value="MODULE 2 - INPUTS"/>
+    <Text ID="1803097" Value="TEST MOTORS AND PUMPS:"/>
+    <Text ID="1803098" Value="TEST SOLENOIDS:"/>
+    <Text ID="1803099" Value="TEST 1"/>
+    <Text ID="1803100" Value="TEST 2"/>
+    <Text ID="1803101" Value=""/>
+    <Text ID="1803102" Value=""/>
+    <Text ID="1803103" Value="TEST"/>
+    <Text ID="1803104" Value="MODULE 18 - MIXED"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="1803046" Value=""/>
+    <Text ID="1803047" Value=""/>
+    <Text ID="1803048" Value=""/>
+    <Text ID="1803049" Value=""/>
+    <Text ID="1803050" Value=""/>
+    <Text ID="1803051" Value=""/>
+    <Text ID="1803052" Value=""/>
+    <Text ID="1803053" Value=""/>
+    <Text ID="1803054" Value=""/>
+    <Text ID="1803055" Value=""/>
+    <Text ID="1803056" Value=""/>
+    <Text ID="1803057" Value=""/>
+    <Text ID="1803058" Value=""/>
+    <Text ID="1803059" Value=""/>
+    <Text ID="1803060" Value=""/>
+    <Text ID="1803061" Value=""/>
+    <Text ID="1803062" Value=""/>
+    <Text ID="1803063" Value=""/>
+    <Text ID="1803064" Value=""/>
+    <Text ID="1803065" Value=""/>
+    <Text ID="1803066" Value=""/>
+    <Text ID="1803067" Value=""/>
+    <Text ID="1803068" Value=""/>
+    <Text ID="1803069" Value=""/>
+    <Text ID="1803070" Value=""/>
+    <Text ID="1803071" Value=""/>
+    <Text ID="1803072" Value=""/>
+    <Text ID="1803073" Value=""/>
+    <Text ID="1803074" Value=""/>
+    <Text ID="1803075" Value=""/>
+    <Text ID="1803076" Value=""/>
+    <Text ID="1803077" Value=""/>
+    <Text ID="1803078" Value=""/>
+    <Text ID="1803079" Value=""/>
+    <Text ID="1803080" Value=""/>
+    <Text ID="1803081" Value=""/>
+    <Text ID="1803082" Value=""/>
+    <Text ID="1803083" Value=""/>
+    <Text ID="1803084" Value=""/>
+    <Text ID="1803085" Value=""/>
+    <Text ID="1803086" Value=""/>
+    <Text ID="1803087" Value=""/>
+    <Text ID="1803088" Value=""/>
+    <Text ID="1803089" Value=""/>
+    <Text ID="1803090" Value=""/>
+    <Text ID="1803091" Value=""/>
+    <Text ID="1803092" Value=""/>
+    <Text ID="1803093" Value=""/>
+    <Text ID="1803094" Value=""/>
+    <Text ID="1803095" Value=""/>
+    <Text ID="1803096" Value=""/>
+    <Text ID="1803097" Value=""/>
+    <Text ID="1803098" Value=""/>
+    <Text ID="1803099" Value=""/>
+    <Text ID="1803100" Value=""/>
+    <Text ID="1803101" Value=""/>
+    <Text ID="1803102" Value=""/>
+    <Text ID="1803103" Value=""/>
+    <Text ID="1803104" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="1803046" Value="0"/>
+    <Index ID="1803047" Value="1"/>
+    <Index ID="1803048" Value="2"/>
+    <Index ID="1803049" Value="3"/>
+    <Index ID="1803050" Value="4"/>
+    <Index ID="1803051" Value="8"/>
+    <Index ID="1803052" Value="14"/>
+    <Index ID="1803053" Value="53"/>
+    <Index ID="1803054" Value="54"/>
+    <Index ID="1803055" Value="57"/>
+    <Index ID="1803056" Value="60"/>
+    <Index ID="1803057" Value="61"/>
+    <Index ID="1803058" Value="62"/>
+    <Index ID="1803059" Value="64"/>
+    <Index ID="1803060" Value="65"/>
+    <Index ID="1803061" Value="66"/>
+    <Index ID="1803062" Value="67"/>
+    <Index ID="1803063" Value="59"/>
+    <Index ID="1803064" Value="63"/>
+    <Index ID="1803065" Value="5"/>
+    <Index ID="1803066" Value="6"/>
+    <Index ID="1803067" Value="16"/>
+    <Index ID="1803068" Value="17"/>
+    <Index ID="1803069" Value="18"/>
+    <Index ID="1803070" Value="19"/>
+    <Index ID="1803071" Value="20"/>
+    <Index ID="1803072" Value="55"/>
+    <Index ID="1803073" Value="56"/>
+    <Index ID="1803074" Value="58"/>
+    <Index ID="1803075" Value="21"/>
+    <Index ID="1803076" Value="22"/>
+    <Index ID="1803077" Value="23"/>
+    <Index ID="1803078" Value="24"/>
+    <Index ID="1803079" Value="25"/>
+    <Index ID="1803080" Value="26"/>
+    <Index ID="1803081" Value="27"/>
+    <Index ID="1803082" Value="28"/>
+    <Index ID="1803083" Value="29"/>
+    <Index ID="1803084" Value="30"/>
+    <Index ID="1803085" Value="31"/>
+    <Index ID="1803086" Value="32"/>
+    <Index ID="1803087" Value="33"/>
+    <Index ID="1803088" Value="34"/>
+    <Index ID="1803089" Value="35"/>
+    <Index ID="1803090" Value="13"/>
+    <Index ID="1803091" Value="12"/>
+    <Index ID="1803092" Value="11"/>
+    <Index ID="1803093" Value="10"/>
+    <Index ID="1803094" Value="9"/>
+    <Index ID="1803095" Value="51"/>
+    <Index ID="1803096" Value="52"/>
+    <Index ID="1803097" Value="36"/>
+    <Index ID="1803098" Value="37"/>
+    <Index ID="1803099" Value="39"/>
+    <Index ID="1803100" Value="40"/>
+    <Index ID="1803101" Value="15"/>
+    <Index ID="1803102" Value="7"/>
+    <Index ID="1803103" Value="38"/>
+    <Index ID="1803104" Value="68"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<BitmapGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="Icons">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="80"/>
+  <Property Name="Translate" Value="False"/>
+  <BitmapLayer LanguageId="neutral">
+    <BitmapRef ID="3886" Value="Source[local].Bitmap[IconMenu]"/>
+    <BitmapRef ID="3887" Value="Source[local].Bitmap[IconMimic]"/>
+    <BitmapRef ID="3888" Value="Source[local].Bitmap[IconMenu]"/>
+    <BitmapRef ID="3889" Value="Source[local].Bitmap[IconSettings]"/>
+    <BitmapRef ID="3890" Value="Source[local].Bitmap[IconDrives]"/>
+    <BitmapRef ID="3891" Value="Source[local].Bitmap[IconServos]"/>
+    <BitmapRef ID="3892" Value="Source[local].Bitmap[IconIO]"/>
+    <BitmapRef ID="3893" Value="Source[local].Bitmap[IconAlarm]"/>
+    <BitmapRef ID="3894" Value="Source[local].Bitmap[IconWarning]"/>
+    <BitmapRef ID="3895" Value="Source[local].Bitmap[IconEvent]"/>
+    <BitmapRef ID="3896" Value="Source[local].Bitmap[IconOption]"/>
+  </BitmapLayer>
+  <IndexMap>
+    <Index ID="3886" Value="10"/>
+    <Index ID="3887" Value="11"/>
+    <Index ID="3888" Value="0"/>
+    <Index ID="3889" Value="13"/>
+    <Index ID="3890" Value="14"/>
+    <Index ID="3891" Value="15"/>
+    <Index ID="3892" Value="16"/>
+    <Index ID="3893" Value="17"/>
+    <Index ID="3894" Value="18"/>
+    <Index ID="3895" Value="19"/>
+    <Index ID="3896" Value="12"/>
+  </IndexMap>
+</BitmapGroup>

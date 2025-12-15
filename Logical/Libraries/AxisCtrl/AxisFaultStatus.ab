@@ -1,0 +1,17 @@
+FUNCTION_BLOCK AxisFaultStatus
+	(* Implementation of AxisFaultStatus *)
+	
+	if (Enable) then
+		if (AxisCtrl.Status.FaultAct) AND (Clock) then
+			AxisCtrl.Status.FaultStatus = 51
+		else
+			AxisCtrl.Status.FaultStatus = 7
+		endif
+	else
+		AxisCtrl.Status.FaultStatus = 0
+	endif
+	
+	FaultStatus = AxisCtrl.Status.FaultStatus
+	
+	
+END_FUNCTION_BLOCK

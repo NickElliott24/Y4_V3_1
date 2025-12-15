@@ -1,0 +1,447 @@
+(********************************************************************
+ * COPYRIGHT --  
+ ********************************************************************
+ * File: Global.var
+ * Author: NickE
+ * Created: April 2, 2015
+ ********************************************************************
+ * Global variables of project N_Default
+ ********************************************************************)
+VAR
+	Alarm : Alarm_typ; (*Alarm *)
+END_VAR
+VAR CONSTANT
+	AlwaysON : BOOL := TRUE; (*Always On flag*)
+END_VAR
+VAR RETAIN
+	AnalogPerm : ANALOGS_typ;
+END_VAR
+VAR
+	AnalogStore : ANALOGCAPTURE_typ;
+END_VAR
+VAR RETAIN
+	ArmsPerm1 : ArmsPerm_typ; (*Flip up arms retained values*)
+	ArmsPerm2 : ArmsPerm_typ; (*Flip up arms retained values*)
+END_VAR
+VAR
+	ArmsTemp1 : FlipUps; (*Flip up arms non retained values*)
+	ArmsTemp2 : FlipUps; (*Flip up arms non retained values*)
+	Ax1 : Axis_typ; (*Axis 1 variables*)
+END_VAR
+VAR RETAIN
+	Ax1P : AxisPerm_typ; (*Axis 1 permananent variables*)
+END_VAR
+VAR
+	Ax2 : Axis_typ; (*Axis 2 variables*)
+END_VAR
+VAR RETAIN
+	Ax2P : AxisPerm_typ; (*Axis 2 permananent variables*)
+END_VAR
+VAR
+	Ax3 : Axis_typ; (*Axis 3 variables*)
+	axis1basic : AxisBasic_typ;
+	axis2basic : AxisBasic_typ;
+	BatchAtExit : Output_typ; (*Batch ready at exit*)
+	BatchMode : BATCHING_enum; (*Batching modes*)
+	Belts1 : BeltClear_typ; (*Seamer 1 belts/processing complete*)
+	Belts2 : BeltClear_typ; (*Seamer 2 belts/processing complete*)
+END_VAR
+VAR RETAIN
+	CAPT : PTCon_typ; (*Preset times for accumulator conveyor*)
+END_VAR
+VAR
+	CB1 : PLINV_typ; (*Runout conveyor, in line with CC4 & CB2*)
+	CB1Test : InvTestFB; (*Test Runout conveyor, in line with CC4 & CB2*)
+	CB2 : PLINV_typ; (*Runout conveyor, in line with CB1 & CRB*)
+	CB2Test : InvTestFB; (*Test Runout conveyor, in line with CB1 & CRB*)
+	CC1 : PLINV_typ; (*Corner conveyor, in line with CS1*)
+	CC1Test : InvTestFB; (*Test Corner conveyor, in line with CS1*)
+	CC2 : PLINV_typ; (*Corner conveyor, in line with CS2*)
+	CC2Test : InvTestFB; (*Test Corner conveyor, in line with CS2*)
+	CC3 : PLINV_typ; (*Corner conveyor, in line with CS2*)
+	CC3Test : InvTestFB; (*Test Corner conveyor, in line with CS2*)
+	CC4 : PLINV_typ; (*Corner conveyor, in line with CB1*)
+	CC4Test : InvTestFB; (*Test Corner conveyor, in line with CB1*)
+	CL1 : PLINV_typ; (*End loading conveyor, in line with CS1*)
+	CL1Test : InvTestFB; (*Test End loading conveyor, in line with CS1*)
+	CLB : PLINV_typ; (*Load building conveyor, in line with CRE*)
+	CLBTest : InvTestFB; (*Test Load building conveyor, in line with CRE*)
+	ClearBatch : Input_typ; (*Clear Batch Button*)
+	ClearInv : PLInvOut_typ; (*Reset data at each scan.*)
+END_VAR
+VAR RETAIN
+	CLPT2 : PTCon_typ; (*Preset times for loading conveyor*)
+END_VAR
+VAR
+	Control : ControlFB;
+	CRB : PLINV_typ; (*Row building conveyor, in line with CR3*)
+	CRBTest : InvTestFB; (*Test Row building conveyor, in line with CR3*)
+	CRE : PLINV_typ; (*Row building exit conveyor, in line with CLB*)
+	CRETest : InvTestFB; (*Test Row building exit conveyor, in line with CLB*)
+	CS1 : PLINV_typ; (*Seamer 1 conveyor, in line with CL1 & CC1*)
+	CS1Test : InvTestFB; (*Test Seamer 1 conveyor, in line with CL1 & CC1*)
+	CS2 : PLINV_typ; (*Seamer 2 conveyor, in line with CC2 & CR1*)
+	CS2Test : InvTestFB; (*Test Seamer 2 conveyor, in line with CC2 & CR1*)
+	CV1 : PLINV_typ; (*Seamer 1 vacuum*)
+	CV1Test : InvTestFB; (*Test Seamer 1 vacuum*)
+	CV2 : PLINV_typ; (*Seamer 2 vacuum*)
+	CV2Test : InvTestFB; (*Test Seamer 2 vacuum*)
+END_VAR
+VAR RETAIN
+	Data : Process_typ; (*Runtime data permanent variables*)
+END_VAR
+VAR
+	DataFlow : DataFlow_typ;
+	DispStrDecode : Imperialification_typ := (0);
+	EMO : EMO_typ; (*EMO Recovery variables*)
+	EPLState : EPLState_typ;
+	Filstar : Filstar_typ; (*Filstar valve control*)
+	FurnReady : Input_typ; (*Furnace ready to accept glass*)
+END_VAR
+VAR RETAIN
+	Grind1 : Grind_typ; (*Grinding data permanent variables*)
+	Grind2 : Grind_typ; (*Grinding data permanent variables*)
+END_VAR
+VAR
+	GrindDisp1 : GrindDisp_typ; (*Grinding data display variables*)
+	GrindDisp2 : GrindDisp_typ; (*Grinding data display variables*)
+	i : INT; (*Array index (Non specific)*)
+END_VAR
+VAR RETAIN
+	InvPerms : InvPerms_typ; (*Inverter Permanent Variables*)
+END_VAR
+VAR
+	InvReset : Output_typ; (*Inverter Trip Reset *)
+	InvTemps : InvPerms_typ; (*Inverter Variables For visualisation*)
+	Laser : Mode_typ; (*Laser variables*)
+	LaserBusy : Input_typ; (*Laser Busy (While Marking)*)
+	LaserFire : Output_typ; (*Fire Laser Output*)
+	LegTest : LegTest_typ;
+END_VAR
+VAR RETAIN
+	LoadPerm : LoadPerm_typ; (*Load building permanent variables*)
+END_VAR
+VAR
+	Loads : Loads_typ;
+	LoadTemp : Batch; (*Load building temporary variables*)
+	Meterage1 : Display_enum := FB_HIDE;
+	Meterage2 : Display_enum := FB_HIDE;
+	MeterageReset1 : Measurement_typ := (Reset:=FALSE,Runtime:=FB_HIDE);
+	MeterageReset2 : Measurement_typ := (Reset:=FALSE);
+	MS1Belt1 : Output_typ; (*Motor Starter 1 - Belt 1 Motor *)
+	MS2Belt2 : Output_typ; (*Motor Starter 2 - Belt 2 Motor *)
+	MS3Belt3 : Output_typ; (*Motor Starter 3 - Belt 3 Motor *)
+	MS4Belt4 : Output_typ; (*Motor Starter 4 - Belt 4 Motor *)
+	MS5Belt5 : Output_typ; (*Motor Starter 5 - Belt 5 Motor *)
+	MS6Belt6 : Output_typ; (*Motor Starter 6 - Belt 6 Motor *)
+	MS7Belt7 : Output_typ; (*Motor Starter 7 - Belt 7 Motor *)
+	MS8Belt8 : Output_typ; (*Motor Starter 8 - Belt 8 Motor *)
+	MS9Vac1 : Output_typ; (*Motor Starter 9 - Vacuum 1 Pump *)
+	MS10Vac2 : Output_typ; (*Motor Starter 10 - Vacuum 2 Pump *)
+	MS11Vac3 : Output_typ; (*Motor Starter 11 - Vacuum 3 Pump *)
+	MS12Vac4 : Output_typ; (*Motor Starter 12 - Vacuum 4 Pump *)
+	MS13Water1 : Output_typ; (*Motor Starter 13 - Water Tank 1 Pump *)
+	MS14Water2 : Output_typ; (*Motor Starter 14 - Water Tank 2 Pump *)
+	MS19Belt9 : Output_typ; (*Motor Starter 19 - Belt 9 Motor *)
+	MS20Belt10 : Output_typ; (*Motor Starter 20 - Belt 10 Motor *)
+	MS21Belt11 : Output_typ; (*Motor Starter 21 - Belt 11 Motor *)
+	MS22Belt12 : Output_typ; (*Motor Starter 22 - Belt 12 Motor *)
+	MS23Vac5 : Output_typ; (*Motor Starter 23 - Extraction Vacuum 5 Pump *)
+	MS24Vac6 : Output_typ; (*Motor Starter 24 - Extraction Vacuum 6 Pump *)
+	MS25Vac7 : Output_typ; (*Motor Starter 25 - Extraction Vacuum 7 Pump *)
+	MS26Vac8 : Output_typ; (*Motor Starter 26 - Extraction Vacuum 8 Pump *)
+	Offline : Mode_typ; (*Manual Batching Loading variables*)
+	Pause : Mode_typ; (*Pause mode variables*)
+END_VAR
+VAR RETAIN
+	Perms : Perms_typ; (*Miscellaneous Permanent variables*)
+	PresetSeam : PTSeam_typ; (*Auto running timer presets*)
+	PresetSys : Preset_typ; (*System timer presets*)
+END_VAR
+VAR
+	ProcessMode : Input_typ; (*Extra process mode input*)
+	Reset : Reset_typ; (*Information resets*)
+END_VAR
+VAR RETAIN
+	RowPerm : RowPerm_typ; (*Row building permanent variables*)
+END_VAR
+VAR
+	Rows : Rows_typ;
+	RowTemp : Batch; (*Row building temporary variables*)
+	S1Photo : Input_typ; (*CL1 Slow Photoelectric Switch*)
+	S2Photo : Input_typ; (*CL1 End Photoelectric Switch*)
+	S3Photo : Input_typ; (*CS1 Process Photoelectric Switch*)
+	S4Photo : Input_typ; (*DG1 Clear Photoelectric Switch*)
+	S5Photo : Input_typ; (*Pal2 Clear Photoelectric Switch*)
+	S6Photo : Input_typ; (*CC2 Slow Photoelectric Switch*)
+	S7Photo : Input_typ; (*CC2 End Photoelectric Switch*)
+	S8Photo : Input_typ; (*CS2 Process Photoelectric Switch*)
+	S9Photo : Input_typ; (*CS1 Restart Photoelectric Switch*)
+	S12Photo : Input_typ; (*CC3 Start Photoelectric Switch*)
+	S13Photo : Input_typ; (*CC4 Clear Photoelectric Switch*)
+	S14Photo : Input_typ; (*CB1 Stop Photoelectric Switch*)
+	S15Photo : Input_typ; (*CB1 Clear Photoelectric Switch*)
+	S16Photo : Input_typ; (*CRB Start Photoelectric Switch*)
+	S17Photo : Input_typ; (*CRB Stop Photoelectric Switch*)
+	S18Photo : Input_typ; (*CRB End Photoelectric Switch*)
+	S19Photo : Input_typ; (*CLB Photoelectric Switch*)
+	S20Photo : Input_typ; (*Manual Batch Limit Photoelectric Switch*)
+	S21Photo : Input_typ; (*CLB End Photoelectric Switch*)
+	S30Reed : Input_typ; (*Pallet 1 Down Reed Switch *)
+	S31Reed : Input_typ; (*Pallet 1 Up Reed Switch *)
+	S32Reed : Input_typ; (*Pallet 2 Down Reed Switch *)
+	S33Reed : Input_typ; (*Pallet 2 Up Reed Switch *)
+	S34Reed : Input_typ; (*Pallet 3 Down Reed Switch *)
+	S35Reed : Input_typ; (*Pallet 3 Up Reed Switch*)
+	S36Reed : Input_typ; (*Pallet 4 Down Reed Switch*)
+	S37Reed : Input_typ; (*Pallet 4 Up Reed Switch*)
+	S38Reed : Input_typ; (*Squaring bar down reed switch*)
+	S39Reed : Input_typ; (*Squaring bar up reed switch*)
+	S45Foot : Input_typ; (*CL1 Loading Start Footpedal  *)
+	S48Foot : Input_typ; (*Manual batch jog footpedal*)
+	S49Foot : Input_typ; (*CR2 Clear Footpedal*)
+	S50Reed : Input_typ; (*Datum Gate 1 Down Reed Switch *)
+	S52Reed : Input_typ; (*Flip Down Arm Up Reed Switch*)
+	S53Reed : Input_typ; (*Flip Down Arm Down Reed Switch*)
+	S55Lever : Input_typ; (*Line Pause Lever Selector *)
+	S56Lever : Input_typ; (*Laser Enabled Lever Selector*)
+	S57Lever : Input_typ; (*Offline Loading Lever Selector *)
+	S58Lever : Input_typ; (*Manual Batching Lever Selector *)
+	S64Float : Input_typ; (*Water Tank 1 Float Switch *)
+	S65Float : Input_typ; (*Water Tank 2 Float Switch *)
+	S66PB : Input_typ; (*Manual batch complete pushbutton*)
+	S80Origin : Input_typ; (*Servo 1 Origin Photoelectric Switch*)
+	S81Photo : Input_typ; (*Servo 1 Rev Photoelectric Switch*)
+	S82Photo : Input_typ; (*Servo 1 Centre 1 Photoelectric Switch*)
+	S83Photo : Input_typ; (*Servo 1 Centre 2 Photoelectric Switch*)
+	S84Photo : Input_typ; (*Servo 1 Fwd Photoelectric Switch*)
+	S90Origin : Input_typ; (*Servo 2 Origin Photoelectric Switch*)
+	S91Photo : Input_typ; (*Servo 2 Rev Photoelectric Switch*)
+	S92Photo : Input_typ; (*Servo 2 Centre 1 Photoelectric Switch*)
+	S93Photo : Input_typ; (*Servo 2 Centre 2 Photoelectric Switch*)
+	S94Photo : Input_typ; (*Servo 2 Fwd Photoelectric Switch*)
+	S100Reed : Input_typ; (*Flip Up Arm 1/1 Down Reed Switch*)
+	S101Reed : Input_typ; (*Flip Up Arm 1/1 Up Reed Switch*)
+	S102Reed : Input_typ; (*Flip Up Arm 1/2 Down Reed Switch*)
+	S103Reed : Input_typ; (*Flip Up Arm 1/2 Up Reed Switch*)
+	S104Reed : Input_typ; (*Flip Up Arm 2/1 Down Reed Switch*)
+	S105Reed : Input_typ; (*Flip Up Arm 2/1 Up Reed Switch*)
+	S106Reed : Input_typ; (*Flip Up Arm 2/2 Down Reed Switch*)
+	S107Reed : Input_typ; (*Flip Up Arm 2/2 Up Reed Switch*)
+	S108Reed : Input_typ; (*Flip Up Arm 3/1 Down Reed Switch*)
+	S109Reed : Input_typ; (*Flip Up Arm 3/1 Up Reed Switch*)
+	S110Reed : Input_typ; (*Flip Up Arm 3/2 Down Reed Switch*)
+	S111Reed : Input_typ; (*Flip Up Arm 3/2 Up Reed Switch*)
+	S112Reed : Input_typ; (*Flip Up Arm 4/1 Down Reed Switch*)
+	S113Reed : Input_typ; (*Flip Up Arm 4/1 Up Reed Switch*)
+	S114Reed : Input_typ; (*Flip Up Arm 4/2 Down Reed Switch*)
+	S115Reed : Input_typ; (*Flip Up Arm 4/2 Up Reed Switch*)
+	S116Reed : Input_typ; (*Flip Up Arm 5/1 Down Reed Switch*)
+	S117Reed : Input_typ; (*Flip Up Arm 5/1 Up Reed Switch*)
+	S118Reed : Input_typ; (*Flip Up Arm 5/2 Down Reed Switch*)
+	S119Reed : Input_typ; (*Flip Up Arm 5/2 Up Reed Switch*)
+	S120Reed : Input_typ; (*Flip Up Arm 6/1 Down Reed Switch*)
+	S121Reed : Input_typ; (*Flip Up Arm 6/1 Up Reed Switch*)
+	S122Reed : Input_typ; (*Flip Up Arm 6/2 Down Reed Switch*)
+	S123Reed : Input_typ; (*Flip Up Arm 6/2 Up Reed Switch*)
+	S124Reed : Input_typ; (*Flip Up Arm 7/1 Down Reed Switch*)
+	S125Reed : Input_typ; (*Flip Up Arm 7/1 Up Reed Switch*)
+	S126Reed : Input_typ; (*Flip Up Arm 7/2 Down Reed Switch*)
+	S127Reed : Input_typ; (*Flip Up Arm 7/2 Up Reed Switch*)
+	S128Reed : Input_typ; (*Flip Up Arm 8/1 Down Reed Switch*)
+	S129Reed : Input_typ; (*Flip Up Arm 8/1 Up Reed Switch*)
+	S130Reed : Input_typ; (*Flip Up Arm 8/2 Down Reed Switch*)
+	S131Reed : Input_typ; (*Flip Up Arm 8/2 Up Reed Switch*)
+	S132Reed : Input_typ; (*Flip Up Arm 9/1 Down Reed Switch*)
+	S133Reed : Input_typ; (*Flip Up Arm 9/1 Up Reed Switch*)
+	S134Reed : Input_typ; (*Flip Up Arm 9/2 Down Reed Switch*)
+	S135Reed : Input_typ; (*Flip Up Arm 9/2 Up Reed Switch*)
+	S136Reed : Input_typ; (*Flip Up Arm 10/1 Down Reed Switch*)
+	S137Reed : Input_typ; (*Flip Up Arm 10/1 Up Reed Switch*)
+	S138Reed : Input_typ; (*Flip Up Arm 10/2 Down Reed Switch*)
+	S139Reed : Input_typ; (*Flip Up Arm 10/2 Up Reed Switch*)
+END_VAR
+VAR RETAIN
+	ScalePerm : PLInvScale_typ; (*Conveyor scaling constants*)
+END_VAR
+VAR
+	SeamBlock : ARRAY[0..4] OF BOOL;
+	Seamers : SeamersSMProFB; (*Motor and Pump control*)
+	Seaming : Seamer_typ; (*Seaming variables*)
+	Sensor1 : Photo; (*Filter Sensor 1 Input*)
+	Sensor2 : Photo; (*Filter Sensor 2 Input*)
+	Sensor3 : Photo; (*Filter Sensor 3 Input*)
+	Sensor4 : Photo; (*Filter Sensor 4 Input*)
+	Sensor5 : Photo; (*Filter Sensor 5 Input*)
+	Sensor6 : Photo; (*Filter Sensor 6 Input*)
+	Sensor7 : Photo; (*Filter Sensor 7 Input*)
+	Sensor8 : Photo; (*Filter Sensor 8 Input*)
+	Sensor9 : Photo; (*Filter Sensor 9 Input*)
+	Sensor12 : Photo; (*Filter Sensor 12 Input*)
+	Sensor13 : Photo; (*Filter Sensor 13 Input*)
+	Sensor14 : Photo; (*Filter Sensor 14 Input*)
+	Sensor15 : Photo; (*Filter Sensor 15 Input*)
+	Sensor16 : Photo; (*Filter Sensor 16 Input*)
+	Sensor17 : Photo; (*Filter Sensor 17 Input*)
+	Sensor18 : Photo; (*Filter Sensor 18 Input*)
+	Sensor19 : Photo; (*Filter Sensor 19 Input*)
+	Sensor20 : Photo; (*Filter Sensor 20 Input*)
+	Sensor21 : Photo; (*Filter Sensor 21 Input*)
+	Servo1NOT : Input_typ; (*Servo 1 Negative Over Travel Limit Switch*)
+	Servo1POT : Input_typ; (*Servo 1 Positive Over Travel Limit Switch*)
+	Servo2NOT : Input_typ; (*Servo 2 Negative Over Travel Limit Switch*)
+	Servo2POT : Input_typ; (*Servo 2 Positive Over Travel Limit Switch*)
+	Simulation : Simulation_typ; (*Simulation variables*)
+	Sol1Blt1 : Output_typ; (*Solenoid Valve 1 Belt 1 *)
+	Sol2Blt2 : Output_typ; (*Solenoid Valve 2 Belt 2 *)
+	Sol3Blt3 : Output_typ; (*Solenoid Valve 3 Belt 3*)
+	Sol4Blt4 : Output_typ; (*Solenoid Valve 4 Belt 4*)
+	Sol5Arm1 : Output_typ; (*Solenoid Valve 5 Flip Up Arm 1*)
+	Sol6Arm2 : Output_typ; (*Solenoid Valve 6 Flip Up Arm 2*)
+	Sol7Arm3 : Output_typ; (*Solenoid Valve 7 Flip Up Arm 3*)
+	Sol8Arm4 : Output_typ; (*Solenoid Valve 8 Flip Up Arm 4*)
+	Sol10Blt5 : Output_typ; (*Solenoid Valve 10 Belt 5*)
+	Sol11Blt6 : Output_typ; (*Solenoid Valve 11 Belt 6*)
+	Sol12Blt7 : Output_typ; (*Solenoid Valve 12 Belt 7*)
+	Sol13Blt8 : Output_typ; (*Solenoid Valve 13 Belt 8*)
+	Sol14Arm6 : Output_typ; (*Solenoid Valve 14 Flip Up Arm 6*)
+	Sol15Arm7 : Output_typ; (*Solenoid Valve 15 Flip Up Arm 7*)
+	Sol19Pump : Output_typ; (*Solenoid Valve 19 Scavenge Pump*)
+	Sol20DT1 : Output_typ; (*Solenoid Valve 20 Detension 1*)
+	Sol21DT2 : Output_typ; (*Solenoid Valve 21 Detension 2*)
+	Sol22DT3 : Output_typ; (*Solenoid Valve 22 Detension 3*)
+	Sol23DT4 : Output_typ; (*Solenoid Valve 23 Detension 4 *)
+	Sol24DG1 : Output_typ; (*Solenoid Valve 24 Datum Gate 1*)
+	Sol24DG1B : Output_typ; (*Solenoid Valve 24 Datum Gate 1 B*)
+	Sol30Pal1 : Output_typ; (*Solenoid Valve 30 Pallet 1 *)
+	Sol31Pal2 : Output_typ; (*Solenoid Valve 31 Pallet 2 *)
+	Sol32Pal3 : Output_typ; (*Solenoid Valve 32 Pallet 3*)
+	Sol33Pal4 : Output_typ; (*Solenoid Valve 33 Pallet 4*)
+	Sol34Pal5 : Output_typ; (*Solenoid Valve 34 Pallet 5*)
+	Sol35Laser : Output_typ; (*Solenoid Valve 35 Laser Air Knife*)
+	Sol37Spray : Output_typ; (*Solenoid Valve 37 Atomiser Spray*)
+	Sol40Datum : Output_typ; (*Solenoid Valve 40 Datum*)
+	Sol47Spray : Output_typ; (*Solenoid Valve 47 Atomiser Spray 2*)
+	Sol53Recirc : Output_typ; (*Solenoid Valve 53 Recirculation*)
+END_VAR
+VAR RETAIN
+	Speeds : PLInvPerm; (*Conveyor speeds*)
+	SysPerm : PermSys_typ; (*Permanent system variables*)
+END_VAR
+VAR
+	SysTemp : TempSys_typ; (*System temporary variables*)
+	TestAuto : Input_typ; (*Test Mode Enabled*)
+	TestServos : BOOL; (*During Servo Testing*)
+	Track001 : TrackBit; (*TRACK FROM S45Foot.In (P) TO S31Reed.In (P)*)
+	Track002 : TrackBit; (*TRACK FROM S31Reed.In (P) TO S1Photo.Int (P)*)
+	Track003 : TrackBit; (*TRACK FROM S1Photo.Int (P) TO S2Photo.Int (P)*)
+	Track004 : TrackBit; (*TRACK FROM S2Photo.Int (P) TO Ax1.SeekFin (P)*)
+	Track005 : TrackBit; (*TRACK FROM Ax1.SeekFin (P) TO NOT Tracking00.Blocked (-)*)
+	Track011 : TrackBit; (*TRACK FROM S2Photo.Int (P) TO Track011.DelayTON.Q (-)*)
+	Track012 : TrackBit; (*TRACK FROM Track011.DelayTON.Q (-) TO LaserBusy.In (N)*)
+	Track013 : TrackBit; (*TRACK FROM LaserBusy.In (N) TO NOT Tracking01.Blocked (-)*)
+	Track101 : TrackBit; (*TRACK FROM NOT Tracking00.Blocked (-) TO S3Photo.Int (P)*)
+	Track102 : TrackBit; (*TRACK FROM S3Photo.Int (P) TO S3Photo.Int (N)*)
+	Track103 : TrackBit; (*TRACK FROM S3Photo.Int (N) TO Belts1.Done (P)*)
+	Track104 : TrackBit; (*TRACK FROM Belts1.Done (P) TO S4Photo.Int (N)*)
+	Track105 : TrackBit; (*TRACK FROM S4Photo.Int (N) TO Track105.DelayTON.Q (P)*)
+	Track106 : TrackBit; (*TRACK FROM Track105.DelayTON.Q (P) TO S50Reed.In (P)*)
+	Track107 : TrackBit; (*TRACK FROM S50Reed.In (P) TO Track107.DelayTON.Q (P)*)
+	Track108 : TrackBit; (*TRACK FROM Track107.DelayTON.Q (P) TO NOT Tracking10.Blocked (-)*)
+	Track111 : TrackBit; (*TRACK FROM NOT Tracking10.Blocked (P) TO S32Reed.In (P)*)
+	Track112 : TrackBit; (*TRACK FROM S32Reed.In (P) TO S6Photo.Int (P)*)
+	Track113 : TrackBit; (*TRACK FROM S6Photo.Int (P) TO S7Photo.Int (P)*)
+	Track114 : TrackBit; (*TRACK FROM S7Photo.Int (P) TO Ax2.SeekFin (P)*)
+	Track115 : TrackBit; (*TRACK FROM Ax2.SeekFin (P) TO NOT Tracking11.Blocked (-)*)
+	Track201 : TrackBit; (*TRACK FROM NOT Tracking11.Blocked (-) TO S8Photo.Int (P)*)
+	Track202 : TrackBit; (*TRACK FROM S8Photo.Int (P) TO S8Photo.Int (N)*)
+	Track203 : TrackBit; (*TRACK FROM S8Photo.Int (N) TO Belts2.Done (P)*)
+	Track204 : TrackBit; (*TRACK FROM Belts2.Done (P) TO S12Photo.Int (N)*)
+	Track205 : TrackBit; (*TRACK FROM S12Photo.Int (N) TO Track205.DelayTON.Q (P)*)
+	Track206 : TrackBit; (*TRACK FROM Track205.DelayTON.Q (P) TO Track206.DelayTON.Q (P)*)
+	Track207 : TrackBit; (*TRACK FROM Track206.DelayTON.Q (P) TO S35Reed.In (P)*)
+	Track208 : TrackBit; (*TRACK FROM S35Reed.In (P) TO NOT Tracking20.Blocked (-)*)
+	Track301 : TrackBit; (*TRACK FROM NOT Tracking20.Blocked (-) TO S14Photo.Int (P)*)
+	Track302 : TrackBit; (*TRACK FROM S14Photo.Int (P) TO NOT Tracking30.Blocked (-)*)
+	Track401 : TrackBit; (*TRACK FROM NOT Tracking30.Blocked (-) TO S16Photo.Int (P)*)
+	Track402 : TrackBit; (*TRACK FROM S16Photo.Int (P) TO NOT Tracking40.Blocked (-)*)
+	Track411 : TrackBit; (*TRACK FROM NOT Tracking40.Blocked (-) TO Track411.DelayTON.Q (P)*)
+	Track412 : TrackBit; (*TRACK FROM Track411.DelayTON.Q (P) TO S17Photo.Int (N)*)
+	Track413 : TrackBit; (*TRACK FROM S17Photo.Int (N) TO S17Photo.Int (P)*)
+	Track414 : TrackBit; (*TRACK FROM S17Photo.Int (P) TO S17Photo.Int (N)*)
+	Track501 : TrackBit; (*TRACK FROM S17Photo.Int (N) TO RowTemp.Done (P)*)
+	Track502 : TrackBit; (*TRACK FROM RowTemp.Done (P) TO Track502.DelayTON.Q (P)*)
+	Track503 : TrackBit; (*TRACK FROM Track502.DelayTON.Q (P) TO S36Reed.In (P)*)
+	Track504 : TrackBit; (*TRACK FROM S36Reed.In (P) TO S19Photo.Int (P)*)
+	Track505 : TrackBit; (*TRACK FROM S19Photo.Int (P) TO Track505.DelayTON.Q (N)*)
+	Track506 : TrackBit; (*TRACK FROM Track505.DelayTON.Q (P) TO S19Photo.Int (N)*)
+	Track507 : TrackBit; (*TRACK FROM S19Photo.Int (N) TO Track507.DelayTON.Q (P)*)
+	Track511 : TrackBit; (*TRACK FROM S58Lever.Int (P) TO S66PB.In (P)*)
+	Track512 : TrackBit; (*TRACK FROM S66PB.In (P) TO S21Photo.In (P)*)
+	Track513 : TrackBit; (*TRACK FROM S21Photo.Int (P) TO NOT(Tracking51.Blocked) (-)*)
+	Track601 : TrackBit; (*TRACK FROM Track507.DelayTON.Q(Stop) (P) TO LoadTemp.Done (P)*)
+	Track602 : TrackBit; (*TRACK FROM LoadTemp.Done (P) TO S21Photo.Int (P)*)
+	Track603 : TrackBit; (*TRACK FROM S21Photo.Int (P) TO NOT(Tracking60.Blocked) (-)*)
+	Track701 : TrackBit; (*TRACK FROM NOT(Tracking60.Blocked) (-) TO Track701.DelayTON.Q (P)*)
+	Track801 : TrackBit; (*TRACK FROM S18Photo.Int (P) TO S18Photo.Int (N)*)
+	Track802 : TrackBit; (*TRACK FROM S18Photo.Int (N) TO Track802.DelayTON.Q (P)*)
+	Track803 : TrackBit; (*TRACK FROM Track802.DelayTON.Q (P) TO S36Reed.In (P)*)
+	Track804 : TrackBit; (*TRACK FROM S36Reed.In (P) TO S19Photo.Int (P)*)
+	Track805 : TrackBit; (*TRACK FROM S19Photo.Int (P) TO S19Photo.Int (N)*)
+	Track811 : TrackBit; (*TRACK FROM S19Photo.Int (N) TO S21Photo.Int (P)*)
+	Track812 : TrackBit; (*TRACK FROM S21Photo.Int (P) TO NOT(Tracking81.Blocked) (-)*)
+	Track821 : TrackBit; (*TRACK FROM NOT(Tracking81.Blocked) (-) TO S21Photo.Int (N)*)
+	Track822 : TrackBit; (*TRACK FROM S21Photo.Int (N) TO Track821.DelayTON.Q (P)*)
+	Track901 : TrackBit; (*TRACK FROM NOT Tracking00.Blocked (-) TO S2Photo.Int (N)*)
+	Track911 : TrackBit; (*TRACK FROM NOT Tracking10.Blocked (-) TO NOT S9Photo.Int (-)*)
+	Track912 : TrackBit; (*TRACK FROM NOT S9Photo.Int (-) TO S5Photo.Int (N)*)
+	Track921 : TrackBit; (*TRACK FROM NOT Tracking20.Blocked (-) TO Track921.DelayTON.Q (P)*)
+	Track922 : TrackBit; (*TRACK FROM Track521.DelayTON.Q (P) TO NOT(S13Photo.Int) (-)*)
+	Track931 : TrackBit; (*TRACK FROM NOT Tracking30.Blocked (-) TO S15Photo.Int (N)*)
+	Track932 : TrackBit; (*TRACK FROM S15Photo.Int (N) TO Track932.DelayTON.Q (P)*)
+	Track941 : TrackBit; (*TRACK FROM NOT Tracking11.Blocked (-) TO S7Photo.Int (N)*)
+	TrackClear : TrackBit := (FixedIN:=(Control:=FALSE,ESClearing:=FALSE,EMOStart:=FALSE),RunBlock:=FALSE,SolBlock:=FALSE,Analog:=0,Speed:=0.0,SpeedAnalog:=0.0,SpeedMatchEN:=FALSE,SpeedMatch:=0.0,TimeoutBlock:=FALSE,TimeoutEN:=FALSE,TrackDelayEN:=FALSE,DelayPT:=0,TimeoutACK:=FALSE,DoneIN:=FALSE,Active:=FALSE,Done:=FALSE,Disp:=HIDE,ESDisp:=HIDE,RunOUT:=FALSE,SolOUT:=FALSE,SpeedOUT:=0.0,TimeoutOUT:=FALSE,DelayTON:=(IN:=FALSE),TimeoutACKLatch:=FALSE);
+END_VAR
+VAR RETAIN
+	TrackDelayPT : TrackDelayPT_typ; (*Preset for timeout*)
+END_VAR
+VAR
+	Tracking00 : TrackingSection; (*TRACK BITS Track001 ~ Track005*)
+	Tracking01 : TrackingSection; (*TRACK BITS Track011 ~ Track013*)
+	Tracking10 : TrackingSection; (*TRACK BITS Track101 ~ Track108*)
+	Tracking11 : TrackingSection; (*TRACK BITS Track111 ~ Track115*)
+	Tracking20 : TrackingSection; (*TRACK BITS Track201 ~ Track208*)
+	Tracking30 : TrackingSection; (*TRACK BITS Track301 ~ Track302*)
+	Tracking40 : TrackingSection; (*TRACK BITS Track401 ~ Track402*)
+	Tracking41 : TrackingSection; (*TRACK BITS Track411 ~ Track414*)
+	Tracking50 : TrackingSection; (*TRACK BITS Track501 ~ Track507*)
+	Tracking51 : TrackingSection; (*TRACK BITS Track511 ~ Track513*)
+	Tracking60 : TrackingSection; (*TRACK BITS Track601 ~ Track603*)
+	Tracking70 : TrackingSection; (*TRACK BITS Track701 ~ Track603*)
+	Tracking80 : TrackingSection; (*TRACK BITS Track801 ~ Track805*)
+	Tracking81 : TrackingSection; (*TRACK BITS Track811 ~ Track812*)
+	Tracking82 : TrackingSection; (*TRACK BITS Track821 ~ Track822*)
+	Tracking90 : TrackingSection; (*TRACK BITS Track901 ~ Track005*)
+	Tracking91 : TrackingSection; (*TRACK BITS Track911 ~ Track912*)
+	Tracking92 : TrackingSection; (*TRACK BITS Track921 ~ Track922*)
+	Tracking93 : TrackingSection; (*TRACK BITS Track931 ~ Track932*)
+	Tracking94 : TrackingSection; (*TRACK BITS Track941*)
+	Warn : Warnings_typ; (*Timeout variables*)
+	Warning : Alarm_typ; (*Warning*)
+	WashRun : Input_typ; (*Washer Running  *)
+	WashStop : Output_typ; (*Glass running out signal to following equipment*)
+	X2X02 : X2X_typ; (*X2X + Station Number*)
+	X2X03 : X2X_typ; (*X2X + Station Number*)
+	X2X04 : X2X_typ; (*X2X + Station Number*)
+	X2X08 : X2X_typ; (*X2X + Station Number*)
+	X2X10 : X2X_typ; (*X2X + Station Number*)
+	X2X11 : X2X_typ; (*X2X + Station Number*)
+	X2X12 : X2X_typ; (*X2X + Station Number*)
+	X2X13 : X2X_typ; (*X2X + Station Number*)
+	X2X14 : X2X_typ; (*X2X + Station Number*)
+	X2X15 : X2X_typ; (*X2X + Station Number*)
+	X2X16 : X2X_typ; (*X2X + Station Number*)
+	X2X17 : X2X_typ; (*X2X + Station Number*)
+	X2X18 : X2X_typ; (*X2X + Station Number*)
+	X2XModule : ARRAY[0..30] OF X2XModule_typ; (*X2X Module*)
+END_VAR

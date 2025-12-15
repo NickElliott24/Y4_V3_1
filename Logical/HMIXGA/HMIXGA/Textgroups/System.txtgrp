@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="System">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="423"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="546753" Value="Time and Date"/>
+    <Text ID="546754" Value="HH:MM:SS"/>
+    <Text ID="546755" Value="DD/MM/YYYY"/>
+    <Text ID="546756" Value="Touch Calibration"/>
+    <Text ID="546757" Value="TOUCH CALIBRATION"/>
+    <Text ID="546758" Value="Screen Brightness"/>
+    <Text ID="546759" Value="BRIGHTNESS UP"/>
+    <Text ID="546760" Value="BRIGHTNESS DOWN"/>
+    <Text ID="546761" Value="Network Settings"/>
+    <Text ID="546762" Value="Read IP Address:"/>
+    <Text ID="546763" Value="IP Address:"/>
+    <Text ID="546764" Value="Subnet Mask:"/>
+    <Text ID="546765" Value="Default Gateway:"/>
+    <Text ID="546766" Value="Broadcast Address:"/>
+    <Text ID="546767" Value="Write IP Address:"/>
+    <Text ID="546768" Value="Set IP Address:"/>
+    <Text ID="546769" Value="Supervisor Level Password"/>
+    <Text ID="546770" Value="ENTER NEW PASSWORD"/>
+    <Text ID="546771" Value="Engineer Level Password"/>
+    <Text ID="546772" Value="Reset Default Passwords"/>
+    <Text ID="546773" Value="RESET"/>
+    <Text ID="546774" Value="START"/>
+    <Text ID="584836" Value="BACK"/>
+    <Text ID="584837" Value="IP Address:"/>
+    <Text ID="628472" Value="&gt;"/>
+    <Text ID="628473" Value="&lt;"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="546753" Value=""/>
+    <Text ID="546754" Value=""/>
+    <Text ID="546755" Value=""/>
+    <Text ID="546756" Value=""/>
+    <Text ID="546757" Value=""/>
+    <Text ID="546758" Value=""/>
+    <Text ID="546759" Value=""/>
+    <Text ID="546760" Value=""/>
+    <Text ID="546761" Value=""/>
+    <Text ID="546762" Value=""/>
+    <Text ID="546763" Value=""/>
+    <Text ID="546764" Value=""/>
+    <Text ID="546765" Value=""/>
+    <Text ID="546766" Value=""/>
+    <Text ID="546767" Value=""/>
+    <Text ID="546768" Value=""/>
+    <Text ID="546769" Value=""/>
+    <Text ID="546770" Value=""/>
+    <Text ID="546771" Value=""/>
+    <Text ID="546772" Value=""/>
+    <Text ID="546773" Value=""/>
+    <Text ID="546774" Value=""/>
+    <Text ID="584836" Value=""/>
+    <Text ID="584837" Value=""/>
+    <Text ID="628472" Value=""/>
+    <Text ID="628473" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="546753" Value="0"/>
+    <Index ID="546754" Value="1"/>
+    <Index ID="546755" Value="2"/>
+    <Index ID="546756" Value="3"/>
+    <Index ID="546757" Value="4"/>
+    <Index ID="546758" Value="5"/>
+    <Index ID="546759" Value="6"/>
+    <Index ID="546760" Value="7"/>
+    <Index ID="546761" Value="8"/>
+    <Index ID="546762" Value="9"/>
+    <Index ID="546763" Value="10"/>
+    <Index ID="546764" Value="11"/>
+    <Index ID="546765" Value="12"/>
+    <Index ID="546766" Value="13"/>
+    <Index ID="546767" Value="15"/>
+    <Index ID="546768" Value="14"/>
+    <Index ID="546769" Value="16"/>
+    <Index ID="546770" Value="17"/>
+    <Index ID="546771" Value="18"/>
+    <Index ID="546772" Value="19"/>
+    <Index ID="546773" Value="20"/>
+    <Index ID="546774" Value="21"/>
+    <Index ID="584836" Value="22"/>
+    <Index ID="584837" Value="25"/>
+    <Index ID="628472" Value="24"/>
+    <Index ID="628473" Value="23"/>
+  </IndexMap>
+</TextGroup>
