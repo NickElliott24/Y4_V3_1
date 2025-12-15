@@ -38,10 +38,10 @@
     <Text ID="1279535" Value="SOLENOID 31 PALLET 2"/>
     <Text ID="1279536" Value="SOLENOID 32 PALLET 3"/>
     <Text ID="1279537" Value="SOLENOID 33 PALLET 4"/>
-    <Text ID="1279538" Value="SOLENOID 1 BELT 1"/>
-    <Text ID="1279539" Value="SOLENOID 2 BELT 2"/>
+    <Text ID="1279538" Value="SOLENOID 37 SPRAY 1"/>
+    <Text ID="1279539" Value="SOLENOID 47 SPRAY 2"/>
     <Text ID="1279540" Value="SOLENOID 26 BELT 9"/>
-    <Text ID="1279541" Value="SOLENOID 3 BELT 3"/>
+    <Text ID="1279541" Value="SOLENOID 51 RECIRC"/>
     <Text ID="1279542" Value="SOLENOID 4 BELT 4"/>
     <Text ID="1279543" Value="SOLENOID 27 BELT 10"/>
     <Text ID="1279544" Value="SOLENOID 25 GATE 2"/>

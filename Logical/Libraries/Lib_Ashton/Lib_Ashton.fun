@@ -619,3 +619,30 @@ FUNCTION_BLOCK FlipUps (*FLIP UP ARMS CONTROL*) (*$GROUP=User,$CAT=User,$GROUPIC
 		zzEdge00000 : BOOL;
 	END_VAR
 END_FUNCTION_BLOCK
+
+FUNCTION_BLOCK NozzleControl (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_INPUT
+		PreTrack : ARRAY[0..2] OF BOOL; (*[0] = Blocked [1..2] Pre track bits, during S&F and ready and block conditions off*)
+		Track : ARRAY[0..6] OF BOOL; (*TrackBits when nozzles to be active*)
+		VacuumStopDelay : UDINT; (*Vacuum Stop delay after Control Stop*)
+		NozzlePerm : NozzlePerm_typ; (*NozzlePerm.OpenDelay/PurgeCount*)
+		Vacuum : BOOL; (*Link to 2nd pump running before nozzles on*)
+		AutoStart : BOOL; (*Seamer specific AutoStart condition*)
+		Control : BOOL; (*Control.Achieved1*)
+		TransportMode : BOOL; (*Seamers.TransportMode*)
+	END_VAR
+	VAR_OUTPUT
+		Spray : BOOL; (*Spray solenoid output control*)
+		ControlStop : INT; (*ControlStop count for current power cycle*)
+		Nozzle : NozzleControl_typ; (*Start up and stop sequence control*)
+	END_VAR
+	VAR
+		IdleIntervalTON : TON; (*If track off for period*)
+		IdleOpenTON : TON; (*Open delay if idle*)
+		TrackIndex : USINT; (*For loop index of Track*)
+		SequenceIO : IntervalOpen_enum;
+	END_VAR
+	VAR_INPUT
+		PreTracking : INT; (*Pretracking number, used to turn on spray earlier if required*)
+	END_VAR
+END_FUNCTION_BLOCK

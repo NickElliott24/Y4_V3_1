@@ -1,5 +1,11 @@
 
 TYPE
+	IntervalOpen_enum : 
+		(
+		IO_IDLE,
+		IO_INTERVAL,
+		IO_OPEN
+		);
 	CycleTime_typ : 	STRUCT 
 		Current : TIME; (*Current captured time*)
 		Previous : TIME; (*Previous captured time*)
@@ -49,4 +55,25 @@ TYPE
 		TWOS := 3, (*Batching only 2 rows of 1 piece/row*)
 		FOURS := 4 (*Batching only 2 rows of 2 pieces*)
 		);
+	NozzleControl_enum : 
+		(
+		NC_Idle,
+		NC_Open,
+		NC_Close,
+		NC_CleanDone,
+		NC_ControlStop1,
+		NC_ControlStop2
+		);
+	NozzleControl_typ : 	STRUCT 
+		CountPurge : INT;
+		Seq : NozzleControl_enum;
+		PurgeCount : INT;
+		Delay : INT;
+		VacuumStopDelay : DINT;
+		NozzleOpenDelay : DINT;
+	END_STRUCT;
+	NozzlePerm_typ : 	STRUCT 
+		PurgeCount : INT;
+		OpenDelay : DINT;
+	END_STRUCT;
 END_TYPE

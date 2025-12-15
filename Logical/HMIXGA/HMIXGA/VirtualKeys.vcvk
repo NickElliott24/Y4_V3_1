@@ -10663,4 +10663,52 @@
       </KeyAction>
     </KeyActions>
   </VirtualKey>
+  <VirtualKey Name="VK_Sol37Spray">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Sol37Spray.Test]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_Sol47Spray">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Sol47Spray.Test]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_Sol53Recirc">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Sol53Recirc.Test]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
 </KeyMapping>

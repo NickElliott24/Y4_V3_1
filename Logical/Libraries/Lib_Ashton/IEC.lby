@@ -20,5 +20,6 @@
     <File>Lib_Ashton.typ</File>
     <File>Batch.st</File>
     <File>FlipUps.st</File>
+    <File>NozzleControl.st</File>
   </Files>
 </Library>

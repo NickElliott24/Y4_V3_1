@@ -1446,7 +1446,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="StatusDatapoint" Value="None"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
       <Property Name="Z-Order" Value="4"/>
       <TextGroup>

@@ -150,6 +150,11 @@ VAR
 	MS24Vac6 : Output_typ; (*Motor Starter 24 - Extraction Vacuum 6 Pump *)
 	MS25Vac7 : Output_typ; (*Motor Starter 25 - Extraction Vacuum 7 Pump *)
 	MS26Vac8 : Output_typ; (*Motor Starter 26 - Extraction Vacuum 8 Pump *)
+END_VAR
+VAR RETAIN
+	NozzlePerm : NozzlePerm_typ := (0);
+END_VAR
+VAR
 	Offline : Mode_typ; (*Manual Batching Loading variables*)
 	Pause : Mode_typ; (*Pause mode variables*)
 END_VAR
