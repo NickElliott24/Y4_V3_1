@@ -331,6 +331,12 @@ VAR
 END_VAR
 VAR RETAIN
 	Speeds : PLInvPerm; (*Conveyor speeds*)
+END_VAR
+VAR
+	Spray1 : NozzleControl; (*Seamer 1 Spray Nozzle*)
+	Spray2 : NozzleControl; (*Seamer 2 Spray Nozzle*)
+END_VAR
+VAR RETAIN
 	SysPerm : PermSys_typ; (*Permanent system variables*)
 END_VAR
 VAR
