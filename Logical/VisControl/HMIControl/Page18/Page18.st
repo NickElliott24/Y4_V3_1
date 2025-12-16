@@ -260,11 +260,11 @@ PROGRAM _CYCLIC
 	SysTemp.Events[1] := Control.Stop ;
 	SysTemp.Events[2] := Control.EStop1 AND Control.Empty ;
 	SysTemp.Events[3] := Control.EStop1 AND NOT Control.Empty ;
-	SysTemp.Events[4] := Seamers.Enable[1] ;
-	SysTemp.Events[5] := Seamers.Enable[2] ;
-	SysTemp.Events[8] := Seamers.AutoStart[0] ;
-	SysTemp.Events[9] := Seamers.AutoStart[1] ;
-	SysTemp.Events[10] := Seamers.AutoStart[2] ;
+	SysTemp.Events[4] := SeamersII.Enable[1] ;
+	SysTemp.Events[5] := SeamersII.Enable[2] ;
+	SysTemp.Events[8] := SeamersII.AutoStart[0] ;
+	SysTemp.Events[9] := SeamersII.AutoStart[1] ;
+	SysTemp.Events[10] := SeamersII.AutoStart[2] ;
 	SysTemp.Events[13] := Control.Achieved1 ;
 	SysTemp.Events[14] := Control.Achieved2 ;
 	SysTemp.Events[15] := Reset.Count ;

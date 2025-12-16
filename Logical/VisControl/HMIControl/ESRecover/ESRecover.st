@@ -18,7 +18,7 @@ PROGRAM _CYCLIC
 	END_IF
 
 	PresetSys.ESRestart[1] := LIMIT(10, PresetSys.ESRestart[1], 700) ;
-	EMO.LatchTON1.IN := (EMO.Latch1) AND (Seamers.DoneOUT[1]) ;
+	EMO.LatchTON1.IN := (EMO.Latch1) AND (SeamersII.DoneOUT[1]) ;
 	EMO.LatchTON1.PT := PresetSys.ESRestart[1] ;
 	EMO.LatchTON1 ();
 	IF(EMO.LatchTON1.Q) THEN
@@ -26,7 +26,7 @@ PROGRAM _CYCLIC
 	END_IF
 
 	PresetSys.ESRestart[2] := LIMIT(10, PresetSys.ESRestart[2], 700) ;
-	EMO.LatchTON2.IN := (EMO.Latch2) AND (Seamers.DoneOUT[2]) ;
+	EMO.LatchTON2.IN := (EMO.Latch2) AND (SeamersII.DoneOUT[2]) ;
 	EMO.LatchTON2.PT := PresetSys.ESRestart[2] ;
 	EMO.LatchTON2 ();
 	IF(EMO.LatchTON2.Q) THEN

@@ -12,7 +12,6 @@
     <Object Type="Package">IPConfig</Object>
     <Object Type="Package" Description="Service visualisation control">VisControl</Object>
     <Object Type="Package" Description="HMI Visualisation XGA Screens">HMIXGA</Object>
-    <Object Type="Package" Description="Service Visualisation XGA Screens">SRVXGA</Object>
     <Object Type="Package">BatchDisplay</Object>
     <Object Type="Package" Description="Handle comms to Inverters">InvComms</Object>
   </Objects>

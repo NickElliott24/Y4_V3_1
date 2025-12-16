@@ -4778,7 +4778,7 @@
       <Property Name="FolderType" Value="FunctionBlock"/>
       <DataPoint Name="TransportMode">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+        <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
         <Property Name="Description" Value=""/>
         <Property Name="PLCType" Value="BOOL"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -4787,7 +4787,7 @@
       </DataPoint>
       <DataPoint Name="StartAllDisp">
         <Property Name="ConnectedBySharedResource" Value="False"/>
-        <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+        <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
         <Property Name="Description" Value=""/>
         <Property Name="PLCType" Value="Display_enum"/>
         <Property Name="UpdateTime" Value="Default"/>
@@ -4804,7 +4804,7 @@
         <Property Name="VCType" Value="BOOL[]"/>
         <DataPoint Name="AutoStart[1]">
           <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
           <Property Name="Description" Value=""/>
           <Property Name="PLCType" Value="BOOL"/>
           <Property Name="UpdateTime" Value="Default"/>
@@ -4813,7 +4813,7 @@
         </DataPoint>
         <DataPoint Name="AutoStart[2]">
           <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
           <Property Name="Description" Value=""/>
           <Property Name="PLCType" Value="BOOL"/>
           <Property Name="UpdateTime" Value="Default"/>
@@ -4822,7 +4822,7 @@
         </DataPoint>
         <DataPoint Name="AutoStart[0]">
           <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
           <Property Name="Description" Value=""/>
           <Property Name="PLCType" Value="BOOL"/>
           <Property Name="UpdateTime" Value="Default"/>
@@ -4840,7 +4840,7 @@
         <Property Name="VCType" Value="BOOL[]"/>
         <DataPoint Name="Enable[1]">
           <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
           <Property Name="Description" Value=""/>
           <Property Name="PLCType" Value="BOOL"/>
           <Property Name="UpdateTime" Value="Default"/>
@@ -4849,7 +4849,7 @@
         </DataPoint>
         <DataPoint Name="Enable[2]">
           <Property Name="ConnectedBySharedResource" Value="False"/>
-          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA,HMIXGA\HMIXGA"/>
+          <Property Name="ConnectingVisus" Value="SRVXGA\SRVXGA"/>
           <Property Name="Description" Value=""/>
           <Property Name="PLCType" Value="BOOL"/>
           <Property Name="UpdateTime" Value="Default"/>
@@ -11616,6 +11616,15 @@
               <Property Name="UserID" Value="None"/>
               <Property Name="VCType" Value="INTEGER"/>
             </DataPoint>
+            <DataPoint Name="Status[2]">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="Status_enum"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
           </DataPoint>
           <DataPoint Name="Colour">
             <Property Name="ConnectedBySharedResource" Value="False"/>
@@ -11635,6 +11644,15 @@
               <Property Name="VCType" Value="INTEGER"/>
             </DataPoint>
             <DataPoint Name="Colour[1]">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="Colour_enum"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+            <DataPoint Name="Colour[2]">
               <Property Name="ConnectedBySharedResource" Value="False"/>
               <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
               <Property Name="Description" Value=""/>
@@ -12069,6 +12087,15 @@
               <Property Name="VCType" Value="INTEGER"/>
             </DataPoint>
             <DataPoint Name="Status[19]">
+              <Property Name="ConnectedBySharedResource" Value="False"/>
+              <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+              <Property Name="Description" Value=""/>
+              <Property Name="PLCType" Value="Status_enum"/>
+              <Property Name="UpdateTime" Value="Default"/>
+              <Property Name="UserID" Value="None"/>
+              <Property Name="VCType" Value="INTEGER"/>
+            </DataPoint>
+            <DataPoint Name="Status[15]">
               <Property Name="ConnectedBySharedResource" Value="False"/>
               <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
               <Property Name="Description" Value=""/>
@@ -30550,6 +30577,142 @@
       <Property Name="Description" Value=""/>
       <Property Name="FolderType" Value="Struct"/>
       <DataPoint Name="Test">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL"/>
+      </DataPoint>
+    </Folder>
+    <Folder Name="NozzlePerm">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <DataPoint Name="PurgeCount">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="INT"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+      </DataPoint>
+      <DataPoint Name="OpenDelay">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+        <Property Name="DPLimit" Value="Default"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="DINT"/>
+        <Property Name="PLCUnit" Value="Default"/>
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="SCALED"/>
+      </DataPoint>
+    </Folder>
+    <Folder Name="InterceptPT">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <DataPoint Name="IntervalPT">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+        <Property Name="DPLimit" Value="Default"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="UDINT"/>
+        <Property Name="PLCUnit" Value="Default"/>
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Minutes]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="SCALED"/>
+      </DataPoint>
+      <DataPoint Name="OpenPT">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+        <Property Name="DPLimit" Value="Default"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="UDINT"/>
+        <Property Name="PLCUnit" Value="Default"/>
+        <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="SCALED"/>
+      </DataPoint>
+    </Folder>
+    <Folder Name="SeamersII">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="FunctionBlock"/>
+      <DataPoint Name="AutoStart">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL[0..2]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL[]"/>
+        <DataPoint Name="AutoStart[0]">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="AutoStart[1]">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="AutoStart[2]">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </DataPoint>
+      <DataPoint Name="Enable">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="BOOL[0..2]"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="BOOL[]"/>
+        <DataPoint Name="Enable[1]">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+        <DataPoint Name="Enable[2]">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="BOOL"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="BOOL"/>
+        </DataPoint>
+      </DataPoint>
+      <DataPoint Name="StartAllDisp">
+        <Property Name="ConnectedBySharedResource" Value="False"/>
+        <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="PLCType" Value="Display_enum"/>
+        <Property Name="UpdateTime" Value="Default"/>
+        <Property Name="UserID" Value="None"/>
+        <Property Name="VCType" Value="INTEGER"/>
+      </DataPoint>
+      <DataPoint Name="TransportMode">
         <Property Name="ConnectedBySharedResource" Value="False"/>
         <Property Name="ConnectingVisus" Value="HMIXGA\HMIXGA"/>
         <Property Name="Description" Value=""/>

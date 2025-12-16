@@ -5,7 +5,6 @@
     <Object Type="File" Description="Local data types" Private="true">VisuControl.typ</Object>
     <Object Type="File" Description="Local variables" Private="true">VisControl.var</Object>
     <Object Type="Package" Description="Control for VisuNew">HMIControl</Object>
-    <Object Type="Package" Description="Remote service visualisation control">ServiceControl</Object>
     <Object Type="Package">BatchDisp</Object>
   </Objects>
 </Package>

@@ -45,9 +45,9 @@ PROGRAM _CYCLIC
 		X2X04.P5 ;
 		X2X04.P6 ;
 		X2X04.P7 ;
-		X2X04.P8 := SEL(Control.Auto,Sol37Spray.Test,Sol37Spray.Auto);
-		X2X04.P9 := SEL(Control.Auto,Sol47Spray.Test,Sol47Spray.Auto);
-		X2X04.P10 := SEL(Control.Auto,Sol53Recirc.Test,Sol53Recirc.Auto);
+		X2X04.P8 ;
+		X2X04.P9 ;
+		X2X04.P10 ;
 		X2X04.P11 := SEL(Control.Auto,Sol24DG1B.Test,Sol24DG1B.Auto) ;
 		X2X04.P12 := Filstar.Out ;
 		//MAP X2X ST08 TO VARIABLES
@@ -77,7 +77,7 @@ PROGRAM _CYCLIC
 		LaserBusy.In := X2X10.P7 ;
 		X2X10.P8 := LaserFire.Auto ;
 		S100Reed.In := X2X10.P9 ;
-		X2X10.P10 := SEL(Control.Auto,Sol1Blt1.Test,Sol1Blt1.Auto) ;
+		X2X10.P10 := SEL(Control.Auto,Sol37Spray.Test,Sol37Spray.Auto) ;
 		X2X10.P11 := SEL(Control.Auto,Sol2Blt2.Test,Sol2Blt2.Auto) ;
 		X2X10.P12 := SEL(Control.Auto,Sol5Arm1.Test,Sol5Arm1.Auto) ;
 		X2X10.P13 := SEL(Control.Auto,Sol6Arm2.Test,Sol6Arm2.Auto) ;
@@ -128,8 +128,8 @@ PROGRAM _CYCLIC
 		X2X13.P15 := Sol35Laser.Auto ;
 		X2X13.P16 := SEL(Control.Auto,Sol19Pump.Test,Sol19Pump.Auto) ;
 		//MAP X2X ST14 TO VARIABLES
-		X2X14.P1 := SEL(Control.Auto,Sol10Blt5.Test,Sol10Blt5.Auto) ;
-		X2X14.P2 := SEL(Control.Auto,Sol11Blt6.Test,Sol11Blt6.Auto) ;
+		X2X14.P1 := SEL(Control.Auto,Sol47Spray.Test,Sol47Spray.Auto) ;
+		X2X14.P2 := SEL(Control.Auto,Sol53Recirc.Test,Sol53Recirc.Auto) ;
 		X2X14.P3 := SEL(Control.Auto,Sol14Arm6.Test,Sol14Arm6.Auto) ;
 		X2X14.P4 := SEL(Control.Auto,Sol15Arm7.Test,Sol15Arm7.Auto) ;
 		X2X14.P5 := SEL(Control.Auto,Sol22DT3.Test,Sol22DT3.Auto) ;

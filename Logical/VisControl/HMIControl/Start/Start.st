@@ -14,13 +14,13 @@ PROGRAM _CYCLIC
 	Vis.Start.ResetEnable	:= HIDE	;
 	
 	//STATUS LIGHTS FOR SEAMER 1
-	IF(Seamers.AutoStart[1]) THEN
+	IF(SeamersII.AutoStart[1]) THEN
 		Vis.Start.StatusSeam1	:=	GREEN	;
 	ELSE
 		Vis.Start.StatusSeam1	:=	GREEN_DARK	;
 	END_IF
 	
-	IF(Seamers.Enable[1]) AND NOT(Seamers.AutoStart[1]) THEN
+	IF(SeamersII.Enable[1]) AND NOT(SeamersII.AutoStart[1]) THEN
 		Vis.Start.StatusSeam1	:=	YELLOW	;
 	END_IF
 
@@ -43,13 +43,13 @@ PROGRAM _CYCLIC
 	END_IF
 	
 	//STATUS LIGHTS FOR SEAMER 2
-	IF(Seamers.AutoStart[2]) THEN
+	IF(SeamersII.AutoStart[2]) THEN
 		Vis.Start.StatusSeam2	:=	GREEN	;
 	ELSE
 		Vis.Start.StatusSeam2	:=	GREEN_DARK	;
 	END_IF
 	
-	IF(Seamers.Enable[2]) AND NOT(Seamers.AutoStart[2]) THEN
+	IF(SeamersII.Enable[2]) AND NOT(SeamersII.AutoStart[2]) THEN
 		Vis.Start.StatusSeam2	:=	YELLOW	;
 	END_IF
 	
