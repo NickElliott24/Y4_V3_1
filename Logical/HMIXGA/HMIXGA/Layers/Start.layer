@@ -229,7 +229,7 @@
       <Property Name="Multiline" Value="Automatic"/>
       <Property Name="SimulationIndex" Value="0"/>
       <Property Name="SimulationValue" Value="0"/>
-      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Seamers.StartAllDisp]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.SeamersII.StartAllDisp]"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
       <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
       <Property Name="TextIndexOffset" Value="40"/>
@@ -252,7 +252,7 @@
       <Property Name="PressedBitmapIndex" Value="1"/>
       <Property Name="PressedBitmapSource" Value="BitmapGroup"/>
       <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Seamers.StartAllDisp]"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.SeamersII.StartAllDisp]"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicStart]"/>
       <Property Name="TextIndexDatapoint" Value="None"/>
       <Property Name="TextSimulationValue" Value="0"/>

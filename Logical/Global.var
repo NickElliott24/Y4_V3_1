@@ -108,6 +108,7 @@ VAR
 	i : INT; (*Array index (Non specific)*)
 END_VAR
 VAR RETAIN
+	InterceptPT : IntervalDelays_typ := (0);
 	InvPerms : InvPerms_typ; (*Inverter Permanent Variables*)
 END_VAR
 VAR
@@ -272,6 +273,7 @@ END_VAR
 VAR
 	SeamBlock : ARRAY[0..4] OF BOOL;
 	Seamers : SeamersSMProFB; (*Motor and Pump control*)
+	SeamersII : SeamersSMProIIFB; (*Motor and Pump control*)
 	Seaming : Seamer_typ; (*Seaming variables*)
 	Sensor1 : Photo; (*Filter Sensor 1 Input*)
 	Sensor2 : Photo; (*Filter Sensor 2 Input*)

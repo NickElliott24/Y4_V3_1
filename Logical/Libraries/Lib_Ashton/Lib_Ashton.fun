@@ -646,3 +646,79 @@ FUNCTION_BLOCK NozzleControl (*TODO: Add your comment here*) (*$GROUP=User,$CAT=
 		PreTracking : INT; (*Pretracking number, used to turn on spray earlier if required*)
 	END_VAR
 END_FUNCTION_BLOCK
+
+FUNCTION_BLOCK SeamersSMProIIFB (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR_INPUT
+		Enable : ARRAY[0..2] OF BOOL;
+		AutoStart : ARRAY[0..2] OF BOOL;
+		EDOn : BOOL;
+		TransportMode : BOOL;
+		Detension : BOOL;
+		Trips : ARRAY[0..80] OF BOOL;
+		SeekBlock : ARRAY[0..2] OF BOOL;
+		Float : ARRAY[0..2] OF BOOL;
+		Shaker : BOOL;
+		PresetSys : Preset_Seamers_typ;
+		InterceptOpen : UDINT;
+		InterceptInterval : UDINT;
+		Control : Control_typ;
+	END_VAR
+	VAR_OUTPUT
+		StartAllDisp : Display_enum;
+		BeltOUT : ARRAY[0..12] OF BOOL;
+		VacOUT : ARRAY[0..4] OF BOOL;
+		EDOUT : ARRAY[0..4] OF BOOL;
+		ExtractionOUT : ARRAY[0..4] OF BOOL;
+		PumpOUT : ARRAY[0..2] OF BOOL;
+		ValveOUT : ARRAY[0..2] OF BOOL;
+		DoneOUT : ARRAY[0..4] OF BOOL;
+		BackGround : Control_BackGround_typ;
+	END_VAR
+	VAR
+		AutoStart1 : SeamerStart_enum;
+		AutoStart2 : SeamerStart_enum;
+		Latch : BOOL;
+		LatchES : BOOL;
+		Starting1 : BOOL;
+		Starting2 : BOOL;
+		Scavenge : Interval_typ;
+		Belt1TON : TON;
+		Belt2TON : TON;
+		Belt3TON : TON;
+		Belt4TON : TON;
+		Belt5TON : TON;
+		Belt6TON : TON;
+		Belt7TON : TON;
+		Belt8TON : TON;
+		Belt9TON : TON;
+		Belt10TON : TON;
+		Belt11TON : TON;
+		Belt12TON : TON;
+		ED1TON : TON;
+		ED2TON : TON;
+		ED3TON : TON;
+		ED4TON : TON;
+		Vac1TON : TON;
+		Vac2TON : TON;
+		Vac3TON : TON;
+		Vac4TON : TON;
+		Extract1TON : TON;
+		Extract2TON : TON;
+		Extract3TON : TON;
+		Extract4TON : TON;
+		Pump4TON : TON;
+		Pump3TON : TON;
+		Pump1TON : TON;
+		Pump2TON : TON;
+		i : INT;
+		VacuumRunOn : VacuumRunOn_enum;
+		InterceptOpen2TON : TON;
+		InterceptOpen1TON : TON;
+		InterceptInterval2TON : TON;
+		InterceptInterval1TON : TON;
+		Intercept2 : IntervalDelay_enum;
+		Intercept1 : IntervalDelay_enum;
+		VacStopTON : TON;
+		zzEdge00000 : BOOL;
+	END_VAR
+END_FUNCTION_BLOCK

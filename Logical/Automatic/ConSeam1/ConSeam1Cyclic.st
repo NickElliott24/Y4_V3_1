@@ -54,7 +54,7 @@ PROGRAM _CYCLIC
 			ELSE
 				Track101.Speed := Speeds.SpeedSeam ;
 			END_IF
-			Track101.RunBlock := NOT(Seamers.DoneOUT[1]) ;
+			Track101.RunBlock := NOT(SeamersII.DoneOUT[1]) ;
 			Track101.TimeoutEN := TRUE ;
 			Track101.TimeoutACK := Warn.Ack ;
 			Track101.TimeoutBlock := (Warn.Block) ;
@@ -87,7 +87,7 @@ PROGRAM _CYCLIC
 //			ELSE
 //				Track102.Speed := Speeds.SpeedSeam ;
 //			END_IF
-//			Track102.RunBlock := NOT(Seamers.DoneOUT[1]) ;
+//			Track102.RunBlock := NOT(SeamersII.DoneOUT[1]) ;
 //			Track102.TimeoutEN := TRUE ;
 //			Track102.TimeoutACK := Warn.Ack ;
 //			Track102.TimeoutBlock := (Warn.Block) ;
@@ -121,7 +121,7 @@ PROGRAM _CYCLIC
 //			ELSE
 //				Track103.Speed := Speeds.SpeedSeam ;
 //			END_IF
-//			Track103.RunBlock := NOT(Seamers.DoneOUT[1]) ;
+//			Track103.RunBlock := NOT(SeamersII.DoneOUT[1]) ;
 //			//FB CALL
 //			Track103 ();
 //			//FB OUTPUTS

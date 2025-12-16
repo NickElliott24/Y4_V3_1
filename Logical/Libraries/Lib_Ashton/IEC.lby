@@ -21,5 +21,6 @@
     <File>Batch.st</File>
     <File>FlipUps.st</File>
     <File>NozzleControl.st</File>
+    <File>SeamersSMProIIFB.st</File>
   </Files>
 </Library>

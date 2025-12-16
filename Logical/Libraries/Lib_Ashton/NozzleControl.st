@@ -109,9 +109,9 @@ FUNCTION_BLOCK NozzleControl
 			END_IF
 			ControlStop := ControlStop + 1;
 	END_CASE
-	IdleOpenTON.PT := t#30s;
+	IdleOpenTON.PT := t#10s;
 	IdleOpenTON ();
-	IdleIntervalTON.PT := t#1m;
+	IdleIntervalTON.PT := t#2m30s;
 	IdleIntervalTON ();
 	IF(TransportMode)THEN
 		Spray := FALSE;

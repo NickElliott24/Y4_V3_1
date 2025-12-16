@@ -83,7 +83,7 @@ PROGRAM _CYCLIC
 		Belt4.End := FALSE ;
 	END_IF
 	//OUTPUTS
-	IF(Seamers.Enable[1]) THEN
+	IF(SeamersII.Enable[1]) THEN
 		IF(Belt1.Out) AND NOT(Control.ESClear) THEN
 			Sol1Blt1.Auto := TRUE ;
 		ELSE
@@ -201,7 +201,7 @@ PROGRAM _CYCLIC
 		Belt8.End := FALSE ;
 	END_IF
 	//OUTPUTS
-	IF(Seamers.Enable[2]) THEN
+	IF(SeamersII.Enable[2]) THEN
 		IF(Belt5.Out) AND NOT(Control.ESClear) THEN
 			Sol10Blt5.Auto := TRUE ;
 		ELSE

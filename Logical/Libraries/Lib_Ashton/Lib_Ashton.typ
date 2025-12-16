@@ -1,5 +1,9 @@
 
 TYPE
+	IntervalDelays_typ : 	STRUCT 
+		IntervalPT : UDINT;
+		OpenPT : UDINT;
+	END_STRUCT;
 	IntervalOpen_enum : 
 		(
 		IO_IDLE,
@@ -76,4 +80,63 @@ TYPE
 		PurgeCount : INT;
 		OpenDelay : DINT;
 	END_STRUCT;
+	Preset_Seamers_typ : 	STRUCT 
+		Belt : UDINT; (*During Belt auto start*)
+		Vac : UDINT; (*During Vacuum auto start*)
+		ED : UDINT; (*During ED auto start*)
+		Extraction : UDINT; (*During Extraction auto start*)
+		VacsStop : UDINT; (*Vacuum run on after control stop*)
+		Water : ARRAY[0..4]OF UDINT; (*Water Pump delays*)
+	END_STRUCT;
+	Control_typ : 	STRUCT 
+		Achieved : BOOL;
+		ESClear : BOOL;
+	END_STRUCT;
+	Interval_typ : 	STRUCT 
+		Out : BOOL; (*Valve output*)
+		Open : TON; (*Valve open delay*)
+		Interval : TON; (*Interval delay*)
+		TestIndex2 : USINT;
+		TestIndex1 : USINT;
+		FreqIndex : USINT;
+	END_STRUCT;
+	SeamerStart_enum : 
+		(
+		SS_Reset := 0,
+		SS_Ready := 1,
+		SS_BeltMotor1 := 2, (*Control for 1st belt motor*)
+		SS_BeltMotor2 := 3, (*Control for 2nd belt motor*)
+		SS_BeltMotor3 := 4, (*Control for 3rd belt motor*)
+		SS_BeltMotor4 := 5, (*Control for 4th belt motor*)
+		SS_BeltMotor5 := 6, (*Control for 5th belt motor (Vertical)*)
+		SS_BeltMotor6 := 7, (*Control for 6th belt motor (Vertical)*)
+		SS_VacuumPump1 := 8, (*Control for 1st vacuum pump*)
+		SS_VacuumPump2 := 9, (*Control for 2nd vacuum pump*)
+		SS_Extraction1 := 10, (*Control for 1st extraction pump (Dry)*)
+		SS_Extraction2 := 11, (*Control for 2nd extraction pump (Dry)*)
+		SS_Started := 12,
+		SS_TransportMode := 13
+		);
+	Control_BackGround_typ : 	STRUCT 
+		Achieved1 : BOOL;
+		Achieved2 : BOOL;
+		ESClear : BOOL;
+		Warning : BOOL;
+		Alarm : BOOL;
+		AutoStart : ARRAY[0..2]OF BOOL;
+		Enable : ARRAY[0..2]OF BOOL;
+		ED : BOOL;
+	END_STRUCT;
+	VacuumRunOn_enum : 
+		(
+		VR_Idle := 0,
+		VR_Running := 1,
+		VR_Done := 2
+		);
+	IntervalDelay_enum : 
+		(
+		ID_Idle := 0,
+		ID_Interval := 1,
+		ID_Open := 2
+		);
 END_TYPE

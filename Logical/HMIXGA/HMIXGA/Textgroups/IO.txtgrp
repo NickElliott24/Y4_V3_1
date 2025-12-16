@@ -37,9 +37,9 @@
     <Text ID="116751" Value="-"/>
     <Text ID="116752" Value="-"/>
     <Text ID="116753" Value="-"/>
-    <Text ID="116754" Value="SOL37SPRAY"/>
-    <Text ID="116755" Value="SOL47SPRAY"/>
-    <Text ID="116756" Value="SOL53RECIRC"/>
+    <Text ID="116754" Value="-"/>
+    <Text ID="116755" Value="-"/>
+    <Text ID="116756" Value="-"/>
     <Text ID="116757" Value="SOL24DG1B"/>
     <Text ID="116758" Value="FILSTAR"/>
     <Text ID="117657" Value="MS1BELT1"/>
@@ -63,7 +63,7 @@
     <Text ID="117675" Value="LASERBUSY.IN"/>
     <Text ID="117676" Value="LASERFIRE"/>
     <Text ID="117677" Value="S100REED.IN"/>
-    <Text ID="117678" Value="-"/>
+    <Text ID="117678" Value="SOL37SPRAY"/>
     <Text ID="117679" Value="-"/>
     <Text ID="117680" Value="SOL5ARM1"/>
     <Text ID="117681" Value="SOL6ARM2"/>
@@ -116,8 +116,8 @@
     <Text ID="864347" Value="SOL22DT3"/>
     <Text ID="864348" Value="SOL15ARM7"/>
     <Text ID="864349" Value="SOL14ARM6"/>
-    <Text ID="864350" Value="-"/>
-    <Text ID="864351" Value="-"/>
+    <Text ID="864350" Value="SOL53RECIRC"/>
+    <Text ID="864351" Value="SOL47SPRAY"/>
     <Text ID="864352" Value="S102REED.IN"/>
     <Text ID="864353" Value="S50REED.IN"/>
     <Text ID="864354" Value="S33REED.IN"/>

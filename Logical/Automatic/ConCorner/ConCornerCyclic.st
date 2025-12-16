@@ -16,7 +16,7 @@ PROGRAM _CYCLIC
 	Tracking11.Blocks[2] := (CS2.Input.Fault) OR(CV2.Input.Fault) ;
 	Tracking11.Blocks[3] := (CC3.Input.Fault) ;
 	Tracking11.Blocks[4] := (Sol32Pal3.Auto) ;
-	Tracking11.Blocks[6] := NOT(Seamers.DoneOUT[2]) ;
+	Tracking11.Blocks[6] := NOT(SeamersII.DoneOUT[2]) ;
 	Tracking11.Blocks[7] := NOT(ArmsTemp2.UpDone) ;
 	Tracking11.Blocks[9] := (S8Photo.Int) ;
 	Tracking11.Blocks[10] := (S12Photo.Int) ;

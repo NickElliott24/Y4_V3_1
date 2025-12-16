@@ -17,7 +17,7 @@ PROGRAM _CYCLIC
 	Tracking00.Blocks[3] := (CC1.Input.Fault) ;
 	Tracking00.Blocks[4] := NOT(Sol31Pal2.Auto) ;
 	Tracking00.Blocks[5] := NOT(Sol24DG1.Auto) ;
-	Tracking00.Blocks[6] := NOT(Seamers.DoneOUT[1]) ;
+	Tracking00.Blocks[6] := NOT(SeamersII.DoneOUT[1]) ;
 	Tracking00.Blocks[7] := NOT(ArmsTemp1.UpDone) ;
 	Tracking00.Blocks[9] := (S3Photo.Int) ;
 	Tracking00.Blocks[10] := (S4Photo.Int) ;

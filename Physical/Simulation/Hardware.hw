@@ -11,16 +11,9 @@
       <Parameter ID="VncPasswordViewControl1" Value="4046" />
       <Parameter ID="VncRefreshRate1" Value="100" />
       <Group ID="Vnc2" />
-      <Parameter ID="VncVcObjectName2" Value="SRVXGA" />
-      <Parameter ID="VncKeyMappingFile2" Value="VC\PS2-Keyboard3.dis" />
-      <Parameter ID="VncAuthentication2" Value="1" />
-      <Parameter ID="VncPasswordViewOnly2" Value="1234" />
-      <Parameter ID="VncPasswordViewControl2" Value="4046" />
-      <Parameter ID="VncPortNumber2" Value="5901" />
-      <Group ID="Vnc3" />
-      <Parameter ID="VncVcObjectName3" Value="BatchP" />
-      <Parameter ID="VncKeyMappingFile3" Value="VC\PS2-Keyboard1.dis" />
-      <Parameter ID="VncPortNumber3" Value="5902" />
+      <Parameter ID="VncVcObjectName2" Value="BatchP" />
+      <Parameter ID="VncKeyMappingFile2" Value="VC\PS2-Keyboard1.dis" />
+      <Parameter ID="VncPortNumber2" Value="5902" />
     </Connector>
     <Parameter ID="ConfigurationID" Value="N13_V1_0_Simulation" />
     <Parameter ID="PermanentPvSize" Value="4096" />

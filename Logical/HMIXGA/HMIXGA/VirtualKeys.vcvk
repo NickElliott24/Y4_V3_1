@@ -4715,7 +4715,7 @@
         <Property Name="Name" Value="Action_0"/>
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Seamers.AutoStart[1]]"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.SeamersII.AutoStart[1]]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -4731,7 +4731,7 @@
         <Property Name="Name" Value="Action_0"/>
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Seamers.AutoStart[2]]"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.SeamersII.AutoStart[2]]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -4747,7 +4747,7 @@
         <Property Name="Name" Value="Action_0"/>
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Seamers.Enable[1]]"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.SeamersII.Enable[1]]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -4763,7 +4763,7 @@
         <Property Name="Name" Value="Action_0"/>
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Seamers.Enable[2]]"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.SeamersII.Enable[2]]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -5145,7 +5145,7 @@
         <Property Name="Name" Value="Action_0"/>
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Seamers.AutoStart[0]]"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.SeamersII.AutoStart[0]]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>
@@ -5983,7 +5983,7 @@
         <Property Name="Name" Value="Action_0"/>
         <Property Name="ResetValue" Value="0"/>
         <Property Name="SetValue" Value="1"/>
-        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Seamers.TransportMode]"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.SeamersII.TransportMode]"/>
       </KeyAction>
     </KeyActions>
   </VirtualKey>

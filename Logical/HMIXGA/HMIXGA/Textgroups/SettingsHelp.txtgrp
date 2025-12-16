@@ -153,6 +153,10 @@
     <Text ID="1793524" Value=""/>
     <Text ID="1793525" Value=""/>
     <Text ID="1798326" Value="DURING 80-2. DELAY TO ALLOW THE OFFLINE LOADED GLASS TO CLEAR THE ROW BUILDING LOAD SENSOR BEFORE STOPPING."/>
+    <Text ID="1823670" Value="DELAY, AFTER CONTROL CIRCUIT IS OFF AND VACUUMS ARE STOPPED BEFORE THE ATOMISER SPRAYS STOP."/>
+    <Text ID="1823671" Value="NUMBER OF TIMES THE SPRAY NOZZLES ARE PURGED AT GRINDING START UP."/>
+    <Text ID="1823672" Value="AMOUNT OF TIME THAT THE SPRAY NOZZLES ARE OPEN BEFORE THE VACUUM PUMPS ARE PAUSED TO ALLOW THE INTERCEPT CHAMBERS TO DRAIN."/>
+    <Text ID="1823673" Value="DELAY FOR THE INTERCEPT CHAMBERS TO DRAIN WHEN THE VACUUM PUMPS ARE PAUSED."/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="334899" Value=""/>
@@ -303,6 +307,10 @@
     <Text ID="1793524" Value=""/>
     <Text ID="1793525" Value=""/>
     <Text ID="1798326" Value=""/>
+    <Text ID="1823670" Value=""/>
+    <Text ID="1823671" Value=""/>
+    <Text ID="1823672" Value=""/>
+    <Text ID="1823673" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="334899" Value="99"/>
@@ -453,5 +461,9 @@
     <Index ID="1793524" Value="94"/>
     <Index ID="1793525" Value="93"/>
     <Index ID="1798326" Value="15"/>
+    <Index ID="1823670" Value="148"/>
+    <Index ID="1823671" Value="149"/>
+    <Index ID="1823672" Value="150"/>
+    <Index ID="1823673" Value="151"/>
   </IndexMap>
 </TextGroup>

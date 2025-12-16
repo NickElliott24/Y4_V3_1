@@ -47,19 +47,6 @@
     <Task Name="Page17" Source="VisControl.HMIControl.Page17.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="Page18" Source="VisControl.HMIControl.Page18.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="Page20" Source="VisControl.HMIControl.Page20.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Level" Source="VisControl.ServiceControl.S_Level.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Status" Source="VisControl.ServiceControl.S_Status.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Start" Source="VisControl.ServiceControl.S_Start.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_ESRecove" Source="VisControl.ServiceControl.S_ESRecover.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page10" Source="VisControl.ServiceControl.S_Page10.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page11" Source="VisControl.ServiceControl.S_Page11.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page12" Source="VisControl.ServiceControl.S_Page12.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page13" Source="VisControl.ServiceControl.S_Page13.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page14" Source="VisControl.ServiceControl.S_Page14.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page15" Source="VisControl.ServiceControl.S_Page15.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page16" Source="VisControl.ServiceControl.S_Page16.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page18" Source="VisControl.ServiceControl.S_Page18.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="S_Page20" Source="VisControl.ServiceControl.S_Page20.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="EPLComms" Source="InvComms.EPLComms.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="BatchData" Source="VisControl.BatchDisp.BatchData.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
@@ -69,7 +56,6 @@
   <TaskClass Name="Cyclic#8" />
   <VcDataObjects>
     <VcDataObject Name="HMIXGA" Source="HMIXGA.HMIXGA.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
-    <VcDataObject Name="SRVXGA" Source="SRVXGA.SRVXGA.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
     <VcDataObject Name="BatchP" Source="BatchDisplay.BatchP.dob" Memory="UserROM" Language="Vc" WarningLevel="2" Compress="false" />
   </VcDataObjects>
   <Binaries>
@@ -111,27 +97,31 @@
     <BinaryObject Name="vcfntttf" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vccddbox" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vccpopup" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="Acp10sys" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
-    <BinaryObject Name="Acp10map" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="acp10cfg" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vccline" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vccslider" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vcctrend" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="VisuTe03" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="VisuTe02" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="VisuTe01" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vccdt" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="SRVXGA01" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="SRVXGA02" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="SRVXGA03" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vcxml" Source="" Memory="UserROM" Language="Binary" />
-    <BinaryObject Name="vccurl" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="SRVXGA" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="BatchP01" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="BatchP03" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="BatchP02" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="acp10cfg" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Acp10map" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Acp10sys" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcchtml" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vccurl" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vcxml" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vccdt" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="VisuTe01" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="VisuTe02" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="VisuTe03" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vcctrend" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vccslider" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vccline" Source="" Memory="UserROM" Language="Binary" />
   </Binaries>
   <Libraries>
     <LibraryObject Name="AsIecCon" Source="Libraries.AsIecCon.lby" Memory="UserROM" Language="Binary" Debugging="true" />
@@ -157,7 +147,7 @@
     <LibraryObject Name="Acp10_MC" Source="Libraries.Acp10_MC.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="Lib_Ashton" Source="Libraries.Lib_Ashton.lby" Memory="UserROM" Language="IEC" Debugging="true" />
     <LibraryObject Name="asepl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
-    <LibraryObject Name="arsvcreg" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="AsMath" Source="Libraries.AsMath.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="arsvcreg" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>
