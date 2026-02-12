@@ -10,7 +10,7 @@ PROGRAM _CYCLIC
 	Perms.FLIPARMS1 := 4 ;
 	Perms.FLIPARMS2 := 2 ;
 
-	Perms.VersionText	:=	'S/W Version 3.0 08/25'	;
+	Perms.VersionText	:=	'S/W Version 3.1 02/26'	;
 	
 	// DeviceName used for mapping IO to ACOPOS 
 	Ax1.Node	:=	'SL1.IF1.ST1.IF1.ST12'	;	// Alter to suit each job 

@@ -60,9 +60,21 @@
     <Module Name="X2X16RM5" Type="X67DM1321.L08" X="1415" Y="-416" />
     <Module Name="X2X18RM6" Type="X67DM1321.L08" X="1571" Y="-417" />
     <Module Name="X2X14RM4" Type="X67DM1321" X="1247" Y="-416" />
-    <Module Name="X2X17RI1" Type="X67DI1371" X="1493" Y="-418.7" />
+    <Module Name="X2X17RI1" Type="X67DI1371" X="1493" Y="-418" />
     <Module Name="INV11" Type="8I74xxxxxxx.01P-1" X="3352" Y="341" />
     <Module Name="INV12" Type="8I74xxxxxxx.01P-1" X="3617" Y="339" />
+    <Module Name="X20BM01" Type="X20BM01" X="1674" Y="-417" />
+    <Module Name="X20BR9300" Type="X20BR9300" X="1674" Y="-417" />
+    <Module Name="X20TB12d" Type="X20TB12" X="1674" Y="-390" />
+    <Module Name="X20BM11a" Type="X20BM11" X="1687" Y="-417" />
+    <Module Name="X2X20IP3" Type="X20DI9371" X="1687" Y="-417" />
+    <Module Name="X20TB12i" Type="X20TB12" X="1687" Y="-390" />
+    <Module Name="X20BM11d" Type="X20BM11" X="1700" Y="-417" />
+    <Module Name="X2X21OP3" Type="X20DO9321" X="1700" Y="-417" />
+    <Module Name="X20TB12j" Type="X20TB12" X="1700" Y="-390" />
+    <Module Name="X20BM11j" Type="X20BM11" X="1713" Y="-417" />
+    <Module Name="X2X22OP4" Type="X20DO9321" X="1713" Y="-417" />
+    <Module Name="X20TB12k" Type="X20TB12" X="1713" Y="-390" />
   </Modules>
   <Links>
     <Link From="5ACCIF01.FPLS-000a" To="X20BC0083" FromPort="IF1" ToPort="PLK1">
@@ -104,10 +116,11 @@
       <Point X="955" Y="85" />
       <Point X="955" Y="245" />
       <Point X="925" Y="245" />
-      <Point X="925" Y="498" />
-      <Point X="887" Y="498" />
-      <Point X="842" Y="498" />
-      <Point X="842" Y="513" />
+      <Point X="925" Y="552" />
+      <Point X="672" Y="552" />
+      <Point X="672" Y="544" />
+      <Point X="672" Y="502" />
+      <Point X="672" Y="502" />
     </Link>
     <Link From="8AC120.60-1" To="8LSA45.EA030D000-0" FromPort="EC" ToPort="EC">
       <Point X="984.1" Y="62.1" />
@@ -149,138 +162,142 @@
       <Point X="928.3" Y="68.09999" />
     </Link>
     <Link From="INV1" To="INV2" FromPort="PLK2" ToPort="PLK1">
-      <Point X="857" Y="513" />
-      <Point X="857" Y="513" />
-      <Point X="887" Y="513" />
-      <Point X="895" Y="513" />
-      <Point X="895" Y="672" />
-      <Point X="1172" Y="672" />
-      <Point X="1172" Y="498" />
-      <Point X="1155" Y="498" />
-      <Point X="1110" Y="498" />
-      <Point X="1110" Y="513" />
+      <Point X="684" Y="502" />
+      <Point X="684" Y="502" />
+      <Point X="684" Y="544" />
+      <Point X="684" Y="545" />
+      <Point X="940" Y="545" />
+      <Point X="940" Y="544" />
+      <Point X="940" Y="502" />
+      <Point X="940" Y="502" />
     </Link>
     <Link From="INV10" To="INV9" FromPort="PLK1" ToPort="PLK2">
-      <Point X="3262" Y="515" />
-      <Point X="3262" Y="500" />
-      <Point X="3307" Y="500" />
-      <Point X="3308" Y="500" />
-      <Point X="3308" Y="665" />
-      <Point X="3075" Y="665" />
-      <Point X="3075" Y="515" />
-      <Point X="3039" Y="515" />
-      <Point X="3009" Y="515" />
-      <Point X="3009" Y="515" />
+      <Point X="3092" Y="504" />
+      <Point X="3092" Y="504" />
+      <Point X="3092" Y="546" />
+      <Point X="3092" Y="555" />
+      <Point X="2836" Y="555" />
+      <Point X="2836" Y="546" />
+      <Point X="2836" Y="504" />
+      <Point X="2836" Y="504" />
+    </Link>
+    <Link From="INV10" To="INV11" FromPort="PLK2" ToPort="PLK1">
+      <Point X="3104" Y="504" />
+      <Point X="3104" Y="504" />
+      <Point X="3104" Y="546" />
+      <Point X="3104" Y="555" />
+      <Point X="3360" Y="555" />
+      <Point X="3360" Y="546" />
+      <Point X="3360" Y="504" />
+      <Point X="3360" Y="504" />
+    </Link>
+    <Link From="INV11" To="INV12" FromPort="PLK2" ToPort="PLK1">
+      <Point X="3372" Y="504" />
+      <Point X="3372" Y="504" />
+      <Point X="3372" Y="546" />
+      <Point X="3372" Y="555" />
+      <Point X="3625" Y="555" />
+      <Point X="3625" Y="544" />
+      <Point X="3625" Y="502" />
+      <Point X="3625" Y="502" />
+    </Link>
+    <Link From="INV12" To="INV13" FromPort="PLK2" ToPort="PLK1">
+      <Point X="3637" Y="502" />
+      <Point X="3637" Y="502" />
+      <Point X="3637" Y="544" />
+      <Point X="3637" Y="545" />
+      <Point X="3892" Y="545" />
+      <Point X="3892" Y="544" />
+      <Point X="3892" Y="502" />
+      <Point X="3892" Y="502" />
+    </Link>
+    <Link From="INV13" To="INV14" FromPort="PLK2" ToPort="PLK1">
+      <Point X="3904" Y="502" />
+      <Point X="3904" Y="502" />
+      <Point X="3904" Y="544" />
+      <Point X="3904" Y="545" />
+      <Point X="4160" Y="545" />
+      <Point X="4160" Y="544" />
+      <Point X="4160" Y="502" />
+      <Point X="4160" Y="502" />
     </Link>
     <Link From="INV2" To="INV3" FromPort="PLK2" ToPort="PLK1">
-      <Point X="1125" Y="513" />
-      <Point X="1125" Y="513" />
-      <Point X="1155" Y="513" />
-      <Point X="1165" Y="513" />
-      <Point X="1165" Y="679" />
-      <Point X="1432" Y="679" />
-      <Point X="1432" Y="498" />
-      <Point X="1423" Y="498" />
-      <Point X="1378" Y="498" />
-      <Point X="1378" Y="513" />
+      <Point X="952" Y="502" />
+      <Point X="952" Y="502" />
+      <Point X="952" Y="544" />
+      <Point X="952" Y="545" />
+      <Point X="1208" Y="545" />
+      <Point X="1208" Y="544" />
+      <Point X="1208" Y="502" />
+      <Point X="1208" Y="502" />
     </Link>
     <Link From="INV3" To="INV4" FromPort="PLK2" ToPort="PLK1">
-      <Point X="1393" Y="513" />
-      <Point X="1393" Y="513" />
-      <Point X="1423" Y="513" />
-      <Point X="1425" Y="513" />
-      <Point X="1425" Y="672" />
-      <Point X="1702" Y="672" />
-      <Point X="1702" Y="498" />
-      <Point X="1691" Y="498" />
-      <Point X="1646" Y="498" />
-      <Point X="1646" Y="513" />
+      <Point X="1220" Y="502" />
+      <Point X="1220" Y="502" />
+      <Point X="1220" Y="544" />
+      <Point X="1220" Y="545" />
+      <Point X="1476" Y="545" />
+      <Point X="1476" Y="544" />
+      <Point X="1476" Y="502" />
+      <Point X="1476" Y="502" />
     </Link>
     <Link From="INV4" To="INV5" FromPort="PLK2" ToPort="PLK1">
-      <Point X="1661" Y="513" />
-      <Point X="1661" Y="513" />
-      <Point X="1691" Y="513" />
-      <Point X="1695" Y="513" />
-      <Point X="1695" Y="679" />
-      <Point X="1972" Y="679" />
-      <Point X="1972" Y="498" />
-      <Point X="1959" Y="498" />
-      <Point X="1914" Y="498" />
-      <Point X="1914" Y="513" />
+      <Point X="1488" Y="502" />
+      <Point X="1488" Y="502" />
+      <Point X="1488" Y="544" />
+      <Point X="1488" Y="545" />
+      <Point X="1744" Y="545" />
+      <Point X="1744" Y="544" />
+      <Point X="1744" Y="502" />
+      <Point X="1744" Y="502" />
     </Link>
     <Link From="INV5" To="INV6" FromPort="PLK2" ToPort="PLK1">
-      <Point X="1929" Y="513" />
-      <Point X="1929" Y="513" />
-      <Point X="1959" Y="513" />
-      <Point X="1965" Y="513" />
-      <Point X="1965" Y="672" />
-      <Point X="2242" Y="672" />
-      <Point X="2242" Y="498" />
-      <Point X="2227" Y="498" />
-      <Point X="2182" Y="498" />
-      <Point X="2182" Y="513" />
+      <Point X="1756" Y="502" />
+      <Point X="1756" Y="502" />
+      <Point X="1756" Y="544" />
+      <Point X="1756" Y="545" />
+      <Point X="2012" Y="545" />
+      <Point X="2012" Y="544" />
+      <Point X="2012" Y="502" />
+      <Point X="2012" Y="502" />
     </Link>
     <Link From="INV6" To="INV7" FromPort="PLK2" ToPort="PLK1">
-      <Point X="2197" Y="513" />
-      <Point X="2197" Y="513" />
-      <Point X="2227" Y="513" />
-      <Point X="2235" Y="513" />
-      <Point X="2235" Y="679" />
-      <Point X="2512" Y="679" />
-      <Point X="2512" Y="500" />
-      <Point X="2503" Y="500" />
-      <Point X="2458" Y="500" />
-      <Point X="2458" Y="515" />
+      <Point X="2024" Y="502" />
+      <Point X="2024" Y="502" />
+      <Point X="2024" Y="544" />
+      <Point X="2024" Y="545" />
+      <Point X="2288" Y="545" />
+      <Point X="2288" Y="546" />
+      <Point X="2288" Y="504" />
+      <Point X="2288" Y="504" />
     </Link>
     <Link From="INV7" To="INV8" FromPort="PLK2" ToPort="PLK1">
-      <Point X="2473" Y="515" />
-      <Point X="2473" Y="515" />
-      <Point X="2503" Y="515" />
-      <Point X="2505" Y="515" />
-      <Point X="2505" Y="672" />
-      <Point X="2782" Y="672" />
-      <Point X="2782" Y="500" />
-      <Point X="2771" Y="500" />
-      <Point X="2726" Y="500" />
-      <Point X="2726" Y="515" />
+      <Point X="2300" Y="504" />
+      <Point X="2300" Y="504" />
+      <Point X="2300" Y="546" />
+      <Point X="2300" Y="555" />
+      <Point X="2556" Y="555" />
+      <Point X="2556" Y="546" />
+      <Point X="2556" Y="504" />
+      <Point X="2556" Y="504" />
     </Link>
     <Link From="INV8" To="INV9" FromPort="PLK2" ToPort="PLK1">
-      <Point X="2741" Y="515" />
-      <Point X="2741" Y="515" />
-      <Point X="2771" Y="515" />
-      <Point X="2775" Y="515" />
-      <Point X="2775" Y="665" />
-      <Point X="3045" Y="665" />
-      <Point X="3045" Y="500" />
-      <Point X="3039" Y="500" />
-      <Point X="2994" Y="500" />
-      <Point X="2994" Y="515" />
+      <Point X="2568" Y="504" />
+      <Point X="2568" Y="504" />
+      <Point X="2568" Y="546" />
+      <Point X="2568" Y="555" />
+      <Point X="2824" Y="555" />
+      <Point X="2824" Y="546" />
+      <Point X="2824" Y="504" />
+      <Point X="2824" Y="504" />
     </Link>
-    <Link From="X2X10RM1" To="X20BT9400" FromPort="X2X1" ToPort="X2X1">
-      <Point X="917" Y="-404" />
-      <Point X="917" Y="-404" />
-      <Point X="906" Y="-404" />
-      <Point X="905" Y="-404" />
-      <Point X="905" Y="-373" />
-      <Point X="764" Y="-373" />
-      <Point X="757" Y="-373" />
-      <Point X="757" Y="-373" />
-    </Link>
-    <Link From="X2X11RM2" To="X2X10RM1" FromPort="X2X1" ToPort="X2X2">
-      <Point X="999" Y="-404" />
-      <Point X="999" Y="-404" />
-      <Point X="988" Y="-404" />
-      <Point X="969" Y="-404" />
-      <Point X="957" Y="-404" />
-      <Point X="957" Y="-404" />
-    </Link>
-    <Link From="X2X11RM2" To="Servo1" FromPort="X2X2" ToPort="X2X1">
-      <Point X="1039" Y="-404" />
-      <Point X="1039" Y="-404" />
-      <Point X="1051" Y="-404" />
+    <Link From="Servo1" To="X2X11RM2" FromPort="X2X1" ToPort="X2X2">
+      <Point X="1086" Y="-404" />
+      <Point X="1086" Y="-404" />
       <Point X="1075" Y="-404" />
-      <Point X="1086" Y="-404" />
-      <Point X="1086" Y="-404" />
+      <Point X="1051" Y="-404" />
+      <Point X="1039" Y="-404" />
+      <Point X="1039" Y="-404" />
     </Link>
     <Link From="Servo1" To="X2X13RM3" FromPort="X2X2" ToPort="X2X1">
       <Point X="1126" Y="-404" />
@@ -291,16 +308,6 @@
       <Point X="1158" Y="-405" />
       <Point X="1169" Y="-405" />
       <Point X="1169" Y="-405" />
-    </Link>
-    <Link From="X2X13RM3" To="X2X14RM4" FromPort="X2X2" ToPort="X2X1">
-      <Point X="1209" Y="-405" />
-      <Point X="1209" Y="-405" />
-      <Point X="1221" Y="-405" />
-      <Point X="1231.5" Y="-405" />
-      <Point X="1231.5" Y="-404" />
-      <Point X="1242" Y="-404" />
-      <Point X="1253" Y="-404" />
-      <Point X="1253" Y="-404" />
     </Link>
     <Link From="Servo2" To="X2X14RM4" FromPort="X2X1" ToPort="X2X2">
       <Point X="1333" Y="-404" />
@@ -318,71 +325,61 @@
       <Point X="1421" Y="-404" />
       <Point X="1421" Y="-404" />
     </Link>
-    <Link From="X2X17RI1" To="X2X16RM5" FromPort="X2X1" ToPort="X2X2">
-      <Point X="1499" Y="-406.7" />
-      <Point X="1499" Y="-406.7" />
-      <Point X="1488" Y="-406.7" />
-      <Point X="1488" Y="-404" />
+    <Link From="X20BT9400" To="X2X10RM1" FromPort="X2X1" ToPort="X2X1">
+      <Point X="757" Y="-373" />
+      <Point X="757" Y="-373" />
+      <Point X="764" Y="-373" />
+      <Point X="765" Y="-373" />
+      <Point X="765" Y="-404" />
+      <Point X="906" Y="-404" />
+      <Point X="917" Y="-404" />
+      <Point X="917" Y="-404" />
+    </Link>
+    <Link From="X2X10RM1" To="X2X11RM2" FromPort="X2X2" ToPort="X2X1">
+      <Point X="957" Y="-404" />
+      <Point X="957" Y="-404" />
+      <Point X="969" Y="-404" />
+      <Point X="988" Y="-404" />
+      <Point X="999" Y="-404" />
+      <Point X="999" Y="-404" />
+    </Link>
+    <Link From="X2X13RM3" To="X2X14RM4" FromPort="X2X2" ToPort="X2X1">
+      <Point X="1209" Y="-405" />
+      <Point X="1209" Y="-405" />
+      <Point X="1221" Y="-405" />
+      <Point X="1231.5" Y="-405" />
+      <Point X="1231.5" Y="-404" />
+      <Point X="1242" Y="-404" />
+      <Point X="1253" Y="-404" />
+      <Point X="1253" Y="-404" />
+    </Link>
+    <Link From="X2X16RM5" To="X2X17RI1" FromPort="X2X2" ToPort="X2X1">
+      <Point X="1461" Y="-404" />
+      <Point X="1461" Y="-404" />
       <Point X="1473" Y="-404" />
-      <Point X="1461" Y="-404" />
-      <Point X="1461" Y="-404" />
+      <Point X="1473" Y="-406" />
+      <Point X="1488" Y="-406" />
+      <Point X="1499" Y="-406" />
+      <Point X="1499" Y="-406" />
     </Link>
-    <Link From="X2X18RM6" To="X2X17RI1" FromPort="X2X1" ToPort="X2X2">
-      <Point X="1577" Y="-405" />
-      <Point X="1577" Y="-405" />
+    <Link From="X2X17RI1" To="X2X18RM6" FromPort="X2X2" ToPort="X2X1">
+      <Point X="1539" Y="-406" />
+      <Point X="1539" Y="-406" />
+      <Point X="1551" Y="-406" />
+      <Point X="1551" Y="-405" />
       <Point X="1566" Y="-405" />
-      <Point X="1566" Y="-406.7" />
-      <Point X="1551" Y="-406.7" />
-      <Point X="1539" Y="-406.7" />
-      <Point X="1539" Y="-406.7" />
+      <Point X="1577" Y="-405" />
+      <Point X="1577" Y="-405" />
     </Link>
-    <Link From="INV13" To="INV14" FromPort="PLK2" ToPort="PLK1">
-      <Point X="4077" Y="513" />
-      <Point X="4077" Y="513" />
-      <Point X="4107" Y="513" />
-      <Point X="4124" Y="513" />
-      <Point X="4124" Y="663" />
-      <Point X="4384" Y="663" />
-      <Point X="4384" Y="498" />
-      <Point X="4375" Y="498" />
-      <Point X="4330" Y="498" />
-      <Point X="4330" Y="513" />
-    </Link>
-    <Link From="INV10" To="INV11" FromPort="PLK2" ToPort="PLK1">
-      <Point X="3277" Y="515" />
-      <Point X="3277" Y="515" />
-      <Point X="3307" Y="515" />
-      <Point X="3315" Y="515" />
-      <Point X="3315" Y="665" />
-      <Point X="3578" Y="665" />
-      <Point X="3578" Y="500" />
-      <Point X="3575" Y="500" />
-      <Point X="3530" Y="500" />
-      <Point X="3530" Y="515" />
-    </Link>
-    <Link From="INV11" To="INV12" FromPort="PLK2" ToPort="PLK1">
-      <Point X="3545" Y="515" />
-      <Point X="3545" Y="515" />
-      <Point X="3575" Y="515" />
-      <Point X="3585" Y="515" />
-      <Point X="3585" Y="672" />
-      <Point X="3852" Y="672" />
-      <Point X="3852" Y="498" />
-      <Point X="3840" Y="498" />
-      <Point X="3795" Y="498" />
-      <Point X="3795" Y="513" />
-    </Link>
-    <Link From="INV12" To="INV13" FromPort="PLK2" ToPort="PLK1">
-      <Point X="3810" Y="513" />
-      <Point X="3810" Y="513" />
-      <Point X="3840" Y="513" />
-      <Point X="3845" Y="513" />
-      <Point X="3845" Y="665" />
-      <Point X="4115" Y="665" />
-      <Point X="4115" Y="498" />
-      <Point X="4107" Y="498" />
-      <Point X="4062" Y="498" />
-      <Point X="4062" Y="513" />
+    <Link From="X2X18RM6" To="X20BR9300" FromPort="X2X2" ToPort="X2X1">
+      <Point X="1617" Y="-405" />
+      <Point X="1617" Y="-405" />
+      <Point X="1629" Y="-405" />
+      <Point X="1635" Y="-405" />
+      <Point X="1635" Y="-373" />
+      <Point X="1669" Y="-373" />
+      <Point X="1676" Y="-373" />
+      <Point X="1676" Y="-373" />
     </Link>
   </Links>
   <InfoElements />

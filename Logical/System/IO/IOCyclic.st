@@ -196,7 +196,45 @@ PROGRAM _CYCLIC
 		S58Lever.In := X2X18.P14 ;
 		S20Photo.In := X2X18.P15 ;
 		X2X18.P16 ; //INPUT CAN BE USED FOR BUTTON OR FOOTPEDAL TO BRING UP NEXT SCREEN ON BATCHING DISPLAY.
-
+		//MAP X2X ST20 TO VARIABLES
+		AGVInPosition.In := X2X20.P1;
+		AGVReady.In := X2X20.P2;
+		AGVReceiving.In := X2X20.P3;
+		X2X20.P4;
+		X2X20.P5;
+		X2X20.P6;
+		X2X20.P7;
+		X2X20.P8;
+		X2X20.P9;
+		X2X20.P10;
+		X2X20.P11;
+		X2X20.P12;
+		//MAP X2X ST21 TO VARIABLES
+		X2X21.P1;
+		X2X21.P2;
+		X2X21.P3;
+		X2X21.P4;
+		X2X21.P5 := AGVReadyToSend.Auto;
+		X2X21.P6 := Length_Bit13;
+		X2X21.P7 := Length_Bit14;
+		X2X21.P8 := Length_Bit15;
+		X2X21.P9 := Length_Bit16;
+		X2X21.P10;
+		X2X21.P11;
+		X2X21.P12;
+		//MAP X2X ST22 TO VARIABLES
+		X2X22.P1 := Length_Bit1;
+		X2X22.P2 := Length_Bit2;
+		X2X22.P3 := Length_Bit3;
+		X2X22.P4 := Length_Bit4;
+		X2X22.P5 := Length_Bit5;
+		X2X22.P6 := Length_Bit6;
+		X2X22.P7 := Length_Bit7;
+		X2X22.P8 := Length_Bit8;
+		X2X22.P9 := Length_Bit9;
+		X2X22.P10 := Length_Bit10;
+		X2X22.P11 := Length_Bit11;
+		X2X22.P12 := Length_Bit12;
 	END_IF
 
 	//RESET TEST BITS WHEN EXITING TEST SCREENS
