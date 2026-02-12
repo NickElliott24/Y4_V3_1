@@ -10,7 +10,7 @@
 VAR
 	AGVInPosition : Input_typ; (*AGV In Position*)
 	AGVReceiving : Input_typ; (*AGV Receving Row*)
-	AGVReset : Input_typ; (*AGV Operational*)
+	AGVReady : Input_typ; (*AGV Operational*)
 	AGVReadyToSend : Output_typ; (*Ready to send to AGV*)
 	AGVSending : Output_typ; (*Sending to AGV*)
 	Length_Bit1 : BOOL := FALSE; (*Row Length - Binary Bit 1*)

@@ -219,7 +219,7 @@ PROGRAM _CYCLIC
 		X2X21.P7 := Length_Bit14;
 		X2X21.P8 := Length_Bit15;
 		X2X21.P9 := Length_Bit16;
-		X2X21.P10;
+		X2X21.P10 := AGVSending.Auto;
 		X2X21.P11;
 		X2X21.P12;
 		//MAP X2X ST22 TO VARIABLES
