@@ -55,6 +55,7 @@ PROGRAM _CYCLIC
 				Tracking93.IndexIN := 1 ;
 				Tracking40.LengthIN := Tracking30.Length ;
 				Tracking40.WidthIN := Tracking30.Width ;
+				Tracking40.RowBlockIN := Tracking30.RowBlock ;
 			END_IF
 	END_CASE
 
@@ -166,6 +167,7 @@ PROGRAM _CYCLIC
 				END_IF
 				Tracking41.LengthIN := Tracking40.Length ;
 				Tracking41.WidthIN := Tracking40.Width ;
+				Tracking41.RowBlockIN := Tracking40.RowBlock ;
 			END_IF
 	END_CASE
 
@@ -257,6 +259,7 @@ PROGRAM _CYCLIC
 			IF(Track414.Done) THEN
 				Tracking41.IndexIN := 0 ;
 				Tracking50.IndexIN := 1 ;
+				Tracking50.RowBlockIN := Tracking41.RowBlock ;
 			END_IF
 	END_CASE
 

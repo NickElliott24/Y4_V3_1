@@ -73,7 +73,12 @@ PROGRAM _CYCLIC
 				Track502.DoneIN := TRUE ;
 			END_IF
 			IF(Track502.Done) THEN
-				Tracking50.IndexIN := 3 ;
+				IF NOT(Tracking50.RowBlock)THEN // Furnace 1
+					Tracking50.IndexIN := 3 ;
+				ELSE // Furnace 2
+					Tracking50.IndexIN := 0 ;
+					Tracking52.IndexIN := 1 ;
+				END_IF
 			END_IF
 		3: //TRACK FROM Track502.DelayTON.Q (P) TO S36Reed.In (P)
 			Track501 := TrackClear ;
@@ -196,6 +201,59 @@ PROGRAM _CYCLIC
 	Track503.DoneIN := EDGEPOS(S36Reed.In) ;
 	Track504.DoneIN := EDGEPOS(S19Photo.Int) ;
 	Track506.DoneIN := EDGENEG(S19Photo.Int) ;
+	
+	//TRACKINGSECTION END BLOCK CONDITIONS
+	Tracking52.Blocks[0] := NOT(AGVReady.In) ;
+	Tracking52.Blocks[1] := NOT(AGVInPosition.In) ;
+	Tracking52.ControlIN := Control.Achieved1 ;
+	Tracking52.EMOStart := EMO.StartLatch ;
+	Tracking52.ESClear := Control.ESClear ;
+	Tracking52 ();
+	Tracking52.ResMan := FALSE ;
+	//RESET OF OUTPUTS
+	AGVReadyToSend.Auto := FALSE ;
+	AGVSending.Auto := FALSE ;
+	CASE Tracking52.Index OF
+		0: //RESET ALL TRACKBIT FOR SELECTED TRACKINGSECTION
+			Track521 := TrackClear ;
+			Track522 := TrackClear ;
+		1: //TRACK FROM Track502.DelayTON.Q (P) TO NOT(Tracking52.Blocked) (-)
+			Track522 := TrackClear ;
+			//FB INPUTS
+			Track521.FixedIN := Tracking52.FixedOUT ;
+			//FB CALL
+			Track521 ();
+			//FB OUTPUTS
+			AGVReadyToSend.Auto := Track521.SolOUT ;
+			IF(Track521.Done) THEN
+				Tracking52.IndexIN := 2 ;
+			END_IF
+		2: //TRACK FROM NOT(Tracking52.Blocked) (-)  TO Track522.DelayTON.Q (P)
+			Track521 := TrackClear ;
+			//FB INPUTS
+			Track522.FixedIN := Tracking52.FixedOUT ;
+			Track522.Speed := Speeds.SpeedBatch ;
+			Track522.TrackDelayEN := TRUE ;
+			Track522.DelayPT := TrackDelayPT.PTTrack805 ;
+			//FB CALL
+			Track522 ();
+			//FB OUTPUTS
+			AGVReadyToSend.Auto := Track522.SolOUT ;
+			AGVSending.Auto := Track522.RunOUT ;
+			CRB.o.Run[0] := Track522.RunOUT ;
+			CRB.Inv.Scale1.x := Track522.SpeedOUT ;
+			IF(Track522.Done) THEN
+				Tracking52.IndexIN := 0 ;
+			END_IF
+	END_CASE
+	
+	//TRACKBIT DONE CONDITIONS
+	Track511.DoneIN := NOT(Tracking52.Blocked) ;
+
+	//Extract bits from Row Length
+	FOR i := 0 TO 15 DO
+		LengthUnpack[i] := (SHR(REAL_TO_INT(Tracking52.Length), i) AND 1) <> 0;
+	END_FOR
 
 END_PROGRAM
 

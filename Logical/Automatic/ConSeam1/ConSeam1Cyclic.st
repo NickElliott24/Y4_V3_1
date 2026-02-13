@@ -71,6 +71,7 @@ PROGRAM _CYCLIC
 			Ax1.RaiseArms := (Track101.SolOUT) ;
 			IF(Track101.Done) THEN
 				Tracking10.IndexIN := 4 ;
+				Tracking10.LengthIN := Ax1.Measure/10.0 ;
 			END_IF
 		2: //TRACK FROM S3Photo.Int (P) TO S3Photo.Int (N)
 			Track101 := TrackClear ;
@@ -248,6 +249,7 @@ PROGRAM _CYCLIC
 				Tracking11.IndexIN := 1 ;
 				Tracking91.IndexIN := 1 ;
 				Tracking11.LengthIN := Tracking10.Length ;
+				Tracking11.RowBlockIN := Tracking10.RowBlock ;
 			END_IF
 	END_CASE
 

@@ -630,6 +630,7 @@ FUNCTION_BLOCK NozzleControl (*TODO: Add your comment here*) (*$GROUP=User,$CAT=
 		AutoStart : BOOL; (*Seamer specific AutoStart condition*)
 		Control : BOOL; (*Control.Achieved1*)
 		TransportMode : BOOL; (*Seamers.TransportMode*)
+		PreTracking : INT; (*Pretracking number, used to turn on spray earlier if required*)
 	END_VAR
 	VAR_OUTPUT
 		Spray : BOOL; (*Spray solenoid output control*)
@@ -641,9 +642,6 @@ FUNCTION_BLOCK NozzleControl (*TODO: Add your comment here*) (*$GROUP=User,$CAT=
 		IdleOpenTON : TON; (*Open delay if idle*)
 		TrackIndex : USINT; (*For loop index of Track*)
 		SequenceIO : IntervalOpen_enum;
-	END_VAR
-	VAR_INPUT
-		PreTracking : INT; (*Pretracking number, used to turn on spray earlier if required*)
 	END_VAR
 END_FUNCTION_BLOCK
 

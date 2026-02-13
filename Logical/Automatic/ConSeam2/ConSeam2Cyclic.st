@@ -246,6 +246,7 @@ PROGRAM _CYCLIC
 				Tracking92.IndexIN := 1 ;
 				Tracking30.LengthIN := Tracking20.Length ;
 				Tracking30.WidthIN := Tracking20.Width ;
+				Tracking30.RowBlockIN := Tracking20.RowBlock ;
 			END_IF
 	END_CASE
 

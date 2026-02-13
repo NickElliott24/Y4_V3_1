@@ -215,26 +215,26 @@ PROGRAM _CYCLIC
 		X2X21.P3;
 		X2X21.P4;
 		X2X21.P5 := AGVReadyToSend.Auto;
-		X2X21.P6 := Length_Bit13;
-		X2X21.P7 := Length_Bit14;
-		X2X21.P8 := Length_Bit15;
-		X2X21.P9 := Length_Bit16;
+		X2X21.P6 := LengthUnpack[12];
+		X2X21.P7 := LengthUnpack[13];
+		X2X21.P8 := LengthUnpack[14];
+		X2X21.P9 := LengthUnpack[15];
 		X2X21.P10 := AGVSending.Auto;
 		X2X21.P11;
 		X2X21.P12;
 		//MAP X2X ST22 TO VARIABLES
-		X2X22.P1 := Length_Bit1;
-		X2X22.P2 := Length_Bit2;
-		X2X22.P3 := Length_Bit3;
-		X2X22.P4 := Length_Bit4;
-		X2X22.P5 := Length_Bit5;
-		X2X22.P6 := Length_Bit6;
-		X2X22.P7 := Length_Bit7;
-		X2X22.P8 := Length_Bit8;
-		X2X22.P9 := Length_Bit9;
-		X2X22.P10 := Length_Bit10;
-		X2X22.P11 := Length_Bit11;
-		X2X22.P12 := Length_Bit12;
+		X2X22.P1 := LengthUnpack[0];
+		X2X22.P2 := LengthUnpack[1];
+		X2X22.P3 := LengthUnpack[2];
+		X2X22.P4 := LengthUnpack[3];
+		X2X22.P5 := LengthUnpack[4];
+		X2X22.P6 := LengthUnpack[5];
+		X2X22.P7 := LengthUnpack[6];
+		X2X22.P8 := LengthUnpack[7];
+		X2X22.P9 := LengthUnpack[8];
+		X2X22.P10 := LengthUnpack[9];
+		X2X22.P11 := LengthUnpack[10];
+		X2X22.P12 := LengthUnpack[11];
 	END_IF
 
 	//RESET TEST BITS WHEN EXITING TEST SCREENS
