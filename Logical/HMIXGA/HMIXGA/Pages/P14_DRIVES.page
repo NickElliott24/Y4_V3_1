@@ -9,6 +9,19 @@
   <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
   <Property Name="Width" Value="1024"/>
   <Layers>
+    <LayerRef Source="Source[local].Layer[FurnaceSelect]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="FurnaceSelect"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
     <LayerRef Source="Source[local].Layer[Navigation]">
       <Property Name="Description" Value=""/>
       <Property Name="EditingMode" Value="Frozen"/>
@@ -20,7 +33,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
-      <Property Name="Z-Order" Value="0"/>
+      <Property Name="Z-Order" Value="1"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Background]">
       <Property Name="Description" Value=""/>
@@ -33,7 +46,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
-      <Property Name="Z-Order" Value="1"/>
+      <Property Name="Z-Order" Value="2"/>
     </LayerRef>
     <Layer Name="Layers">
       <Property Name="BackColor" Value="9"/>
@@ -49,7 +62,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="2"/>
+      <Property Name="Z-Order" Value="3"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -316,7 +329,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="3"/>
+      <Property Name="Z-Order" Value="4"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -1386,9 +1399,9 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P14Layer.Status[0]]"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="4"/>
+      <Property Name="Z-Order" Value="5"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -2122,7 +2135,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="5"/>
+      <Property Name="Z-Order" Value="6"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -2788,7 +2801,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="6"/>
+      <Property Name="Z-Order" Value="7"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -3457,7 +3470,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="7"/>
+      <Property Name="Z-Order" Value="8"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -4194,7 +4207,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="8"/>
+      <Property Name="Z-Order" Value="9"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5464,7 +5477,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="9"/>
+      <Property Name="Z-Order" Value="10"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6734,7 +6747,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="10"/>
+      <Property Name="Z-Order" Value="11"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -8004,7 +8017,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="11"/>
+      <Property Name="Z-Order" Value="12"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -10452,7 +10465,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="12"/>
+      <Property Name="Z-Order" Value="13"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -11524,7 +11537,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="13"/>
+      <Property Name="Z-Order" Value="14"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -12261,7 +12274,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="14"/>
+      <Property Name="Z-Order" Value="15"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -12930,7 +12943,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="15"/>
+      <Property Name="Z-Order" Value="16"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -13598,7 +13611,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="16"/>
+      <Property Name="Z-Order" Value="17"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -14403,7 +14416,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="17"/>
+      <Property Name="Z-Order" Value="18"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -15673,7 +15686,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="18"/>
+      <Property Name="Z-Order" Value="19"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -16943,7 +16956,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="19"/>
+      <Property Name="Z-Order" Value="20"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -19391,7 +19404,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="20"/>
+      <Property Name="Z-Order" Value="21"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -20661,7 +20674,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="21"/>
+      <Property Name="Z-Order" Value="22"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -21733,7 +21746,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="22"/>
+      <Property Name="Z-Order" Value="23"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -22345,7 +22358,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="23"/>
+      <Property Name="Z-Order" Value="24"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -22957,7 +22970,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="24"/>
+      <Property Name="Z-Order" Value="25"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -23569,7 +23582,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="25"/>
+      <Property Name="Z-Order" Value="26"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -24305,7 +24318,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="26"/>
+      <Property Name="Z-Order" Value="27"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -25575,7 +25588,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="27"/>
+      <Property Name="Z-Order" Value="28"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -26845,7 +26858,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="28"/>
+      <Property Name="Z-Order" Value="29"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -28115,7 +28128,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="29"/>
+      <Property Name="Z-Order" Value="30"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -29385,7 +29398,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="30"/>
+      <Property Name="Z-Order" Value="31"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -29933,7 +29946,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="31"/>
+      <Property Name="Z-Order" Value="32"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -30601,7 +30614,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="32"/>
+      <Property Name="Z-Order" Value="33"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -31409,7 +31422,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="33"/>
+      <Property Name="Z-Order" Value="34"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -32679,7 +32692,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="34"/>
+      <Property Name="Z-Order" Value="35"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -33949,7 +33962,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="35"/>
+      <Property Name="Z-Order" Value="36"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -34354,9 +34367,9 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P14Help.Status[0]]"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="36"/>
+      <Property Name="Z-Order" Value="37"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -34429,7 +34442,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="37"/>
+      <Property Name="Z-Order" Value="38"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -34728,7 +34741,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="38"/>
+      <Property Name="Z-Order" Value="39"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel0]">
       <Property Name="Description" Value=""/>
@@ -34741,7 +34754,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="39"/>
+      <Property Name="Z-Order" Value="40"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel1]">
       <Property Name="Description" Value=""/>
@@ -34754,7 +34767,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="40"/>
+      <Property Name="Z-Order" Value="41"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel2]">
       <Property Name="Description" Value=""/>
@@ -34767,7 +34780,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="41"/>
+      <Property Name="Z-Order" Value="42"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel3]">
       <Property Name="Description" Value=""/>
@@ -34780,7 +34793,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="42"/>
+      <Property Name="Z-Order" Value="43"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordEngRefuse]">
       <Property Name="Description" Value=""/>
@@ -34793,7 +34806,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="43"/>
+      <Property Name="Z-Order" Value="44"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Start]">
       <Property Name="Description" Value=""/>
@@ -34806,7 +34819,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="44"/>
+      <Property Name="Z-Order" Value="45"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Status]">
       <Property Name="Description" Value=""/>
@@ -34819,7 +34832,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="45"/>
+      <Property Name="Z-Order" Value="46"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Message]">
       <Property Name="Description" Value=""/>
@@ -34832,7 +34845,20 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="46"/>
+      <Property Name="Z-Order" Value="47"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[FurnaceOptions]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="FurnaceOptions"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="48"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Notify]">
       <Property Name="Description" Value=""/>
@@ -34845,7 +34871,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
-      <Property Name="Z-Order" Value="47"/>
+      <Property Name="Z-Order" Value="49"/>
     </LayerRef>
   </Layers>
   <MovementOrder>

@@ -13,7 +13,7 @@ VAR
 	AGVReady : Input_typ; (*AGV Operational*)
 	AGVReadyToSend : Output_typ; (*Ready to send to AGV*)
 	AGVSending : Output_typ; (*Sending to AGV*)
-	FurnaceSelect : Input_typ; (*FALSE = Furnace 1, TRUE = Furnace 2. *)
+	FurnaceSelect : Mode_typ; (*FALSE = Furnace 1, TRUE = Furnace 2. *)
 	Alarm : Alarm_typ; (*Alarm *)
 END_VAR
 VAR CONSTANT

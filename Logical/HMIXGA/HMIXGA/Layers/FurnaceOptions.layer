@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.2.4.149"?>
+<Layer xmlns="http://br-automation.co.at/AS/VC/Project" Name="FurnaceOptions">
+  <Property Name="BackColor" Value="15"/>
+  <Property Name="Description" Value=""/>
+  <Property Name="Height" Value="768"/>
+  <Property Name="Left" Value="0"/>
+  <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Disp]"/>
+  <Property Name="Top" Value="0"/>
+  <Property Name="Width" Value="1024"/>
+  <TextGroup>
+    <TextLayer LanguageId="en"/>
+    <TextLayer LanguageId="de"/>
+    <IndexMap/>
+  </TextGroup>
+  <Controls>
+    <Control ClassId="0x00001001" Name="Shape_11">
+      <Property Name="BackColor" Value="90"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Height" Value="320"/>
+      <Property Name="Left" Value="736"/>
+      <Property Name="LineWidth" Value="0"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Disp]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+      <Property Name="Top" Value="440"/>
+      <Property Name="Width" Value="280"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="txtState10">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial13]"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Selected]"/>
+      <Property Name="Left" Value="824"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
+      <Property Name="TextIndexOffset" Value="49"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="448"/>
+      <Property Name="Width" Value="104"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="Button_6">
+      <Property Name="BackColor" Value="90"/>
+      <Property Name="BitmapAlignmentHorizontal" Value="Center"/>
+      <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[Toggle]"/>
+      <Property Name="BitmapIndex" Value="0"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="BitmapGroup"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="32"/>
+      <Property Name="KeyMatrixOffset" Value="0"/>
+      <Property Name="Left" Value="824"/>
+      <Property Name="PressedBackColor" Value="90"/>
+      <Property Name="PressedBitmapGroup" Value="Source[local].BitmapGroup[Toggle]"/>
+      <Property Name="PressedBitmapIndex" Value="1"/>
+      <Property Name="PressedBitmapSource" Value="BitmapGroup"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicStart]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="480"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Furnace2_1]"/>
+      <Property Name="Width" Value="104"/>
+    </Control>
+    <Control ClassId="0x00001002" Name="butLayer6">
+      <Property Name="AlignmentHorizontal" Value="Right"/>
+      <Property Name="AlignmentVertical" Value="Bottom"/>
+      <Property Name="BackColor" Value="90"/>
+      <Property Name="Bitmap" Value="Source[local].Bitmap[CloseDark]"/>
+      <Property Name="BitmapIndexDatapoint" Value="None"/>
+      <Property Name="BitmapSource" Value="SingleBitmap"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EmbVirtualKey" Value="None"/>
+      <Property Name="Height" Value="56"/>
+      <Property Name="KeyMatrixOffset" Value="None"/>
+      <Property Name="Left" Value="736"/>
+      <Property Name="PressedBackColor" Value="90"/>
+      <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+      <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicSettings]"/>
+      <Property Name="TextIndexDatapoint" Value="None"/>
+      <Property Name="TextSimulationValue" Value="0"/>
+      <Property Name="TextSource" Value="None"/>
+      <Property Name="Top" Value="704"/>
+      <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_FurnaceHide]"/>
+      <Property Name="Width" Value="88"/>
+    </Control>
+    <Control ClassId="0x00001004" Name="txtState12">
+      <Property Name="AlignmentHorizontal" Value="Center"/>
+      <Property Name="AlignmentVertical" Value="Center"/>
+      <Property Name="ControlID" Value="0"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="Font" Value="Source[local].Font[Arial11]"/>
+      <Property Name="ForeColor" Value="15"/>
+      <Property Name="Height" Value="184"/>
+      <Property Name="IndexDatapoint" Value="None"/>
+      <Property Name="Left" Value="736"/>
+      <Property Name="Multiline" Value="Automatic"/>
+      <Property Name="SimulationIndex" Value="0"/>
+      <Property Name="SimulationValue" Value="0"/>
+      <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+      <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
+      <Property Name="TextIndexOffset" Value="51"/>
+      <Property Name="TextSource" Value="MultipleTexts"/>
+      <Property Name="Top" Value="512"/>
+      <Property Name="Width" Value="280"/>
+    </Control>
+  </Controls>
+  <KeyMapping/>
+</Layer>

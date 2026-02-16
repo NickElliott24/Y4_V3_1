@@ -9,6 +9,19 @@
   <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[default]"/>
   <Property Name="Width" Value="1024"/>
   <Layers>
+    <LayerRef Source="Source[local].Layer[FurnaceSelect]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="FurnaceSelect"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Z-Order" Value="0"/>
+    </LayerRef>
     <LayerRef Source="Source[local].Layer[Background]">
       <Property Name="Description" Value=""/>
       <Property Name="EditingMode" Value="Lock All"/>
@@ -20,7 +33,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
-      <Property Name="Z-Order" Value="0"/>
+      <Property Name="Z-Order" Value="1"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Navigation]">
       <Property Name="Description" Value=""/>
@@ -33,12 +46,12 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
-      <Property Name="Z-Order" Value="1"/>
+      <Property Name="Z-Order" Value="2"/>
     </LayerRef>
     <Layer Name="Conveyor1">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
-      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="EditingMode" Value="Normal"/>
       <Property Name="Height" Value="768"/>
       <Property Name="Left" Value="0"/>
       <Property Name="OutlineColor" Value="0"/>
@@ -49,7 +62,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="2"/>
+      <Property Name="Z-Order" Value="3"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -76,19 +89,19 @@
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[18]]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="331"/>
+          <Property Name="Top" Value="363"/>
           <Property Name="Width" Value="152"/>
         </Control>
         <Control ClassId="0x00001001" Name="Shape_2">
           <Property Name="BackColor" Value="51"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="291"/>
+          <Property Name="Height" Value="279"/>
           <Property Name="Left" Value="464"/>
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[16]]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="344"/>
+          <Property Name="Top" Value="385"/>
           <Property Name="Width" Value="136"/>
         </Control>
         <Control ClassId="0x00001001" Name="Shape_3">
@@ -100,19 +113,19 @@
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[16]]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="344"/>
+          <Property Name="Top" Value="376"/>
           <Property Name="Width" Value="120"/>
         </Control>
         <Control ClassId="0x00001001" Name="Shape_6">
           <Property Name="BackColor" Value="51"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="88"/>
+          <Property Name="Height" Value="85"/>
           <Property Name="Left" Value="224"/>
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[16]]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="547"/>
+          <Property Name="Top" Value="579"/>
           <Property Name="Width" Value="240"/>
         </Control>
         <Control ClassId="0x00001001" Name="Shape_7">
@@ -124,7 +137,7 @@
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[16]]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="435"/>
+          <Property Name="Top" Value="467"/>
           <Property Name="Width" Value="132"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpLine">
@@ -150,8 +163,35 @@
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[19]]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="331"/>
+          <Property Name="Top" Value="363"/>
           <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001001" Name="Shape_8">
+          <Property Name="BackColor" Value="51"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="57"/>
+          <Property Name="Left" Value="464"/>
+          <Property Name="LineWidth" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[23]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="328"/>
+          <Property Name="Width" Value="136"/>
+        </Control>
+        <Control ClassId="0x00001005" Name="bmpAGV">
+          <Property Name="BitmapGroup" Value="Source[local].BitmapGroup[AGV]"/>
+          <Property Name="BitmapIndex" Value="0"/>
+          <Property Name="BitmapSource" Value="MultipleBitmaps"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Transparent"/>
+          <Property Name="Height" Value="336"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.AGVInPosition.In]"/>
+          <Property Name="Left" Value="120"/>
+          <Property Name="SimulationValue" Value="1"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
+          <Property Name="Top" Value="328"/>
+          <Property Name="Width" Value="784"/>
         </Control>
       </Controls>
       <KeyMapping/>
@@ -170,7 +210,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="3"/>
+      <Property Name="Z-Order" Value="4"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -196,7 +236,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="1"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="442"/>
+          <Property Name="Top" Value="474"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack002">
@@ -218,7 +258,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="2"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="442"/>
+          <Property Name="Top" Value="474"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack501">
@@ -240,7 +280,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="81"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="402"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack003">
@@ -262,7 +302,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="3"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="450"/>
+          <Property Name="Top" Value="482"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack004">
@@ -284,7 +324,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="4"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="458"/>
+          <Property Name="Top" Value="490"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack005">
@@ -306,7 +346,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="5"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="458"/>
+          <Property Name="Top" Value="490"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack101">
@@ -328,7 +368,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="21"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="466"/>
+          <Property Name="Top" Value="498"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack102">
@@ -350,7 +390,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="22"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="482"/>
+          <Property Name="Top" Value="514"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack103">
@@ -372,7 +412,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="23"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="498"/>
+          <Property Name="Top" Value="530"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack104">
@@ -394,7 +434,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="24"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="530"/>
+          <Property Name="Top" Value="562"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack105">
@@ -416,7 +456,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="25"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="570"/>
+          <Property Name="Top" Value="602"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack106">
@@ -438,7 +478,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="26"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="570"/>
+          <Property Name="Top" Value="602"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack107">
@@ -460,7 +500,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="27"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="570"/>
+          <Property Name="Top" Value="602"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack108">
@@ -482,7 +522,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="28"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack111">
@@ -504,7 +544,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="31"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack112">
@@ -526,7 +566,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="32"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack113">
@@ -548,7 +588,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="33"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack114">
@@ -570,7 +610,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="34"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack115">
@@ -592,7 +632,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="35"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack201">
@@ -614,7 +654,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="41"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack202">
@@ -636,7 +676,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="42"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack203">
@@ -658,7 +698,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="43"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack204">
@@ -680,7 +720,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="44"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack205">
@@ -702,7 +742,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="45"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack206">
@@ -724,7 +764,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="46"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack207">
@@ -746,7 +786,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="47"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack301">
@@ -768,7 +808,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="51"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="514"/>
+          <Property Name="Top" Value="546"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack302">
@@ -790,7 +830,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="52"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="490"/>
+          <Property Name="Top" Value="522"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack401">
@@ -812,7 +852,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="61"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="450"/>
+          <Property Name="Top" Value="482"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack402">
@@ -834,7 +874,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="62"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="426"/>
+          <Property Name="Top" Value="458"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack411">
@@ -856,7 +896,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="71"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="422"/>
+          <Property Name="Top" Value="454"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack412">
@@ -878,7 +918,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="72"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="402"/>
+          <Property Name="Top" Value="434"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack413">
@@ -900,7 +940,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="73"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="378"/>
+          <Property Name="Top" Value="410"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack414">
@@ -922,7 +962,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="74"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="378"/>
+          <Property Name="Top" Value="410"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack502">
@@ -944,7 +984,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="82"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="362"/>
+          <Property Name="Top" Value="394"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack503">
@@ -966,7 +1006,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="83"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack504">
@@ -988,7 +1028,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="84"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack801">
@@ -1010,7 +1050,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="111"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="346"/>
+          <Property Name="Top" Value="378"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack802">
@@ -1032,7 +1072,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="112"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="362"/>
+          <Property Name="Top" Value="394"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack208">
@@ -1054,7 +1094,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="48"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="559"/>
+          <Property Name="Top" Value="591"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack505">
@@ -1076,7 +1116,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="85"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack506">
@@ -1098,7 +1138,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="86"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack507">
@@ -1120,7 +1160,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="87"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack601">
@@ -1142,7 +1182,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="91"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack602">
@@ -1164,7 +1204,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="92"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack603">
@@ -1186,7 +1226,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="93"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack701">
@@ -1208,7 +1248,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="101"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="359"/>
+          <Property Name="Top" Value="391"/>
           <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack803">
@@ -1230,7 +1270,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="113"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack804">
@@ -1252,7 +1292,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="114"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack805">
@@ -1274,7 +1314,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="115"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack811">
@@ -1296,7 +1336,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="121"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="402"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack812">
@@ -1318,7 +1358,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="122"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="402"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack821">
@@ -1340,7 +1380,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="131"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="402"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack822">
@@ -1362,7 +1402,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="132"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="370"/>
+          <Property Name="Top" Value="402"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack511">
@@ -1384,7 +1424,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="141"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack512">
@@ -1406,7 +1446,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="142"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="80"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtTrack513">
@@ -1428,8 +1468,52 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
           <Property Name="TextIndexOffset" Value="143"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="80"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtTrack521">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="52"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_grey]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial18]"/>
+          <Property Name="Height" Value="56"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="472"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Track521.Disp]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Tracking]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
+          <Property Name="TextIndexOffset" Value="151"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="394"/>
+          <Property Name="Width" Value="64"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtTrack522">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="52"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_grey]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Arial18]"/>
+          <Property Name="Height" Value="56"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="472"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Track522.Disp]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Tracking]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
+          <Property Name="TextIndexOffset" Value="152"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="344"/>
+          <Property Name="Width" Value="64"/>
         </Control>
       </Controls>
       <KeyMapping/>
@@ -1448,23 +1532,11 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="4"/>
+      <Property Name="Z-Order" Value="5"/>
       <TextGroup>
-        <TextLayer LanguageId="en">
-          <Text ID="1809978" Value="S58"/>
-          <Text ID="1809980" Value="S66"/>
-          <Text ID="1809982" Value="S48"/>
-        </TextLayer>
-        <TextLayer LanguageId="de">
-          <Text ID="1809978" Value=""/>
-          <Text ID="1809980" Value=""/>
-          <Text ID="1809982" Value=""/>
-        </TextLayer>
-        <IndexMap>
-          <Index ID="1809978" Value="0"/>
-          <Index ID="1809980" Value="2"/>
-          <Index ID="1809982" Value="4"/>
-        </IndexMap>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <IndexMap/>
       </TextGroup>
       <Controls>
         <Control ClassId="0x00001005" Name="bmpPE_S9">
@@ -1478,7 +1550,7 @@
           <Property Name="Left" Value="280"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="584"/>
+          <Property Name="Top" Value="616"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S1">
@@ -1492,7 +1564,7 @@
           <Property Name="Left" Value="336"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="472"/>
+          <Property Name="Top" Value="504"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S4">
@@ -1506,7 +1578,7 @@
           <Property Name="Left" Value="328"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="572"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S7">
@@ -1520,7 +1592,7 @@
           <Property Name="Left" Value="376"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="552"/>
+          <Property Name="Top" Value="584"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S5">
@@ -1534,7 +1606,7 @@
           <Property Name="Left" Value="344"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="552"/>
+          <Property Name="Top" Value="584"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S81">
@@ -1548,7 +1620,7 @@
           <Property Name="Left" Value="304"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S82">
@@ -1562,7 +1634,7 @@
           <Property Name="Left" Value="280"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S83">
@@ -1576,7 +1648,7 @@
           <Property Name="Left" Value="264"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S84">
@@ -1590,7 +1662,7 @@
           <Property Name="Left" Value="240"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S91">
@@ -1604,7 +1676,7 @@
           <Property Name="Left" Value="376"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="568"/>
+          <Property Name="Top" Value="600"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S92">
@@ -1618,7 +1690,7 @@
           <Property Name="Left" Value="376"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="584"/>
+          <Property Name="Top" Value="616"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S93">
@@ -1632,7 +1704,7 @@
           <Property Name="Left" Value="376"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="600"/>
+          <Property Name="Top" Value="632"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S94">
@@ -1646,7 +1718,7 @@
           <Property Name="Left" Value="376"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="616"/>
+          <Property Name="Top" Value="648"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS52">
@@ -1660,7 +1732,7 @@
           <Property Name="Left" Value="360"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="600"/>
+          <Property Name="Top" Value="632"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS53">
@@ -1674,7 +1746,7 @@
           <Property Name="Left" Value="360"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="584"/>
+          <Property Name="Top" Value="616"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S16">
@@ -1688,7 +1760,7 @@
           <Property Name="Left" Value="472"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="424"/>
+          <Property Name="Top" Value="456"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S13">
@@ -1702,7 +1774,7 @@
           <Property Name="Left" Value="472"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="576"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S6">
@@ -1716,7 +1788,7 @@
           <Property Name="Left" Value="360"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="552"/>
+          <Property Name="Top" Value="584"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS32">
@@ -1730,7 +1802,7 @@
           <Property Name="Left" Value="213"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="592"/>
+          <Property Name="Top" Value="624"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS33">
@@ -1744,7 +1816,7 @@
           <Property Name="Left" Value="213"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="576"/>
+          <Property Name="Top" Value="608"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S19">
@@ -1758,7 +1830,7 @@
           <Property Name="Left" Value="584"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S19R">
@@ -1772,7 +1844,7 @@
           <Property Name="Left" Value="584"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="422"/>
+          <Property Name="Top" Value="454"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S21">
@@ -1786,7 +1858,7 @@
           <Property Name="Left" Value="704"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S21R">
@@ -1800,7 +1872,7 @@
           <Property Name="Left" Value="704"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="422"/>
+          <Property Name="Top" Value="454"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS36">
@@ -1814,7 +1886,7 @@
           <Property Name="Left" Value="454"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="384"/>
+          <Property Name="Top" Value="416"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS37">
@@ -1828,7 +1900,7 @@
           <Property Name="Left" Value="454"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="368"/>
+          <Property Name="Top" Value="400"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S15">
@@ -1842,7 +1914,7 @@
           <Property Name="Left" Value="472"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="480"/>
+          <Property Name="Top" Value="512"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS30">
@@ -1856,7 +1928,7 @@
           <Property Name="Left" Value="213"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="464"/>
+          <Property Name="Top" Value="496"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS31">
@@ -1870,7 +1942,7 @@
           <Property Name="Left" Value="213"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="448"/>
+          <Property Name="Top" Value="480"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS34">
@@ -1884,7 +1956,7 @@
           <Property Name="Left" Value="595"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="592"/>
+          <Property Name="Top" Value="624"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS35">
@@ -1898,7 +1970,7 @@
           <Property Name="Left" Value="595"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="576"/>
+          <Property Name="Top" Value="608"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S20">
@@ -1912,7 +1984,7 @@
           <Property Name="Left" Value="616"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S20R">
@@ -1926,7 +1998,7 @@
           <Property Name="Left" Value="616"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="422"/>
+          <Property Name="Top" Value="454"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S2">
@@ -1940,7 +2012,7 @@
           <Property Name="Left" Value="336"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpReedS50">
@@ -1954,7 +2026,7 @@
           <Property Name="Left" Value="272"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="576"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S12">
@@ -1968,7 +2040,7 @@
           <Property Name="Left" Value="456"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="552"/>
+          <Property Name="Top" Value="584"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S14">
@@ -1982,7 +2054,7 @@
           <Property Name="Left" Value="472"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="496"/>
+          <Property Name="Top" Value="528"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S17">
@@ -1996,7 +2068,7 @@
           <Property Name="Left" Value="472"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="408"/>
+          <Property Name="Top" Value="440"/>
           <Property Name="Width" Value="16"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpPE_S18">
@@ -2010,89 +2082,8 @@
           <Property Name="Left" Value="472"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="Width" Value="16"/>
-        </Control>
-        <Control ClassId="0x00001002" Name="butTestLeverS57">
-          <Property Name="BackColor" Value="45"/>
-          <Property Name="BitmapIndexDatapoint" Value="None"/>
-          <Property Name="BitmapSource" Value="None"/>
-          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
-          <Property Name="Height" Value="16"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="384"/>
-          <Property Name="PressedBackColor" Value="10"/>
-          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
-          <Property Name="PressedForeColor" Value="254"/>
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
-          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="TextIndex" Value="0"/>
-          <Property Name="TextIndexDatapoint" Value="None"/>
-          <Property Name="TextSimulationValue" Value="0"/>
-          <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="328"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS58]"/>
-          <Property Name="Width" Value="32"/>
-        </Control>
-        <Control ClassId="0x00001002" Name="butTestLeverS58">
-          <Property Name="BackColor" Value="45"/>
-          <Property Name="BitmapIndexDatapoint" Value="None"/>
-          <Property Name="BitmapSource" Value="None"/>
-          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
-          <Property Name="Height" Value="16"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="424"/>
-          <Property Name="PressedBackColor" Value="10"/>
-          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
-          <Property Name="PressedForeColor" Value="254"/>
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
-          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="TextIndex" Value="2"/>
-          <Property Name="TextIndexDatapoint" Value="None"/>
-          <Property Name="TextSimulationValue" Value="0"/>
-          <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="328"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS66PB]"/>
-          <Property Name="Width" Value="32"/>
-        </Control>
-        <Control ClassId="0x00001002" Name="butTestLeverS59">
-          <Property Name="BackColor" Value="45"/>
-          <Property Name="BitmapIndexDatapoint" Value="None"/>
-          <Property Name="BitmapSource" Value="None"/>
-          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
-          <Property Name="ControlID" Value="0"/>
-          <Property Name="Description" Value=""/>
-          <Property Name="EmbVirtualKey" Value="None"/>
-          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
-          <Property Name="Height" Value="16"/>
-          <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="424"/>
-          <Property Name="PressedBackColor" Value="10"/>
-          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
-          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
-          <Property Name="PressedForeColor" Value="254"/>
-          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
-          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
-          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
-          <Property Name="TextIndex" Value="4"/>
-          <Property Name="TextIndexDatapoint" Value="None"/>
-          <Property Name="TextSimulationValue" Value="0"/>
-          <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="360"/>
-          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS48Foot]"/>
-          <Property Name="Width" Value="32"/>
         </Control>
       </Controls>
       <KeyMapping/>
@@ -2111,7 +2102,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="5"/>
+      <Property Name="Z-Order" Value="6"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -2440,7 +2431,7 @@
           <Property Name="Left" Value="912"/>
           <Property Name="LineWidth" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-          <Property Name="Top" Value="512"/>
+          <Property Name="Top" Value="200"/>
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001005" Name="Bitmap_4">
@@ -2455,7 +2446,7 @@
           <Property Name="Left" Value="928"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="232"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtSettings11">
@@ -2474,7 +2465,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Mimic]"/>
           <Property Name="TextIndexOffset" Value="45"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="512"/>
+          <Property Name="Top" Value="200"/>
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001005" Name="Bitmap_3">
@@ -2489,7 +2480,7 @@
           <Property Name="Left" Value="928"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="672"/>
+          <Property Name="Top" Value="360"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtSettings10">
@@ -2508,7 +2499,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Mimic]"/>
           <Property Name="TextIndexOffset" Value="44"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="640"/>
+          <Property Name="Top" Value="328"/>
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001005" Name="Bitmap_5">
@@ -2523,7 +2514,7 @@
           <Property Name="Left" Value="928"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="728"/>
+          <Property Name="Top" Value="416"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtSettings12">
@@ -2542,7 +2533,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Mimic]"/>
           <Property Name="TextIndexOffset" Value="46"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="696"/>
+          <Property Name="Top" Value="384"/>
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001005" Name="Bitmap_6">
@@ -2557,7 +2548,7 @@
           <Property Name="Left" Value="928"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Bitmap]"/>
-          <Property Name="Top" Value="608"/>
+          <Property Name="Top" Value="296"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001004" Name="txtSettings13">
@@ -2576,7 +2567,7 @@
           <Property Name="TextGroup" Value="Source[local].TextGroup[Mimic]"/>
           <Property Name="TextIndexOffset" Value="48"/>
           <Property Name="TextSource" Value="MultipleTexts"/>
-          <Property Name="Top" Value="576"/>
+          <Property Name="Top" Value="264"/>
           <Property Name="Width" Value="96"/>
         </Control>
         <Control ClassId="0x00001002" Name="butMimicHelp3">
@@ -2876,9 +2867,9 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="StatusDatapoint" Value="None"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="6"/>
+      <Property Name="Z-Order" Value="7"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -2944,9 +2935,9 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[15]]"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="7"/>
+      <Property Name="Z-Order" Value="8"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -3102,9 +3093,9 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="StatusDatapoint" Value="None"/>
       <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="8"/>
+      <Property Name="Z-Order" Value="9"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -3206,6 +3197,100 @@
       </Controls>
       <KeyMapping/>
     </Layer>
+    <Layer Name="Text4">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="768"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="None"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Normal"/>
+      <Property Name="Width" Value="1024"/>
+      <Property Name="Z-Order" Value="10"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="txtSettings10">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet18]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="120"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Tracking52.BusyDisp]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mimic]"/>
+          <Property Name="TextIndexOffset" Value="70"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="720"/>
+          <Property Name="Width" Value="384"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butMimicHelp9">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[DropDownDark]"/>
+          <Property Name="BitmapAlignmentHorizontal" Value="Right"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="Border" Value="None"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="344"/>
+          <Property Name="PressedBackColor" Value="Source[embedded].Property[BackColor]"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[embedded].Property[Border]"/>
+          <Property Name="PressedForeColor" Value="Source[embedded].Property[ForeColor]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Tracking52.BusyDisp]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="None"/>
+          <Property Name="Top" Value="720"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_P11Show4]"/>
+          <Property Name="Width" Value="152"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtTracking82">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet18]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking52.Index]"/>
+          <Property Name="Left" Value="352"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Tracking52.BusyDisp]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Tracking]"/>
+          <Property Name="TextIndexOffset" Value="150"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="720"/>
+          <Property Name="Width" Value="64"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
     <Layer Name="SensorBlocks">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
@@ -3220,7 +3305,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="9"/>
+      <Property Name="Z-Order" Value="11"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -3241,7 +3326,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S12Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="528"/>
+          <Property Name="Top" Value="560"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS6">
@@ -3258,7 +3343,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S6Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="528"/>
+          <Property Name="Top" Value="560"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS17">
@@ -3275,7 +3360,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S17Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="384"/>
+          <Property Name="Top" Value="416"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS4">
@@ -3292,7 +3377,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S4Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="520"/>
+          <Property Name="Top" Value="552"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS3">
@@ -3309,7 +3394,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S3Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="480"/>
+          <Property Name="Top" Value="512"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS8">
@@ -3326,7 +3411,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S8Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="560"/>
+          <Property Name="Top" Value="592"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS16">
@@ -3343,7 +3428,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S16Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="400"/>
+          <Property Name="Top" Value="432"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS15">
@@ -3360,7 +3445,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S15Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="456"/>
+          <Property Name="Top" Value="482"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS5">
@@ -3377,7 +3462,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S5Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="528"/>
+          <Property Name="Top" Value="560"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS7">
@@ -3394,7 +3479,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S7Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="528"/>
+          <Property Name="Top" Value="560"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS14">
@@ -3411,7 +3496,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S14Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="472"/>
+          <Property Name="Top" Value="504"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS18">
@@ -3428,7 +3513,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S18Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS19">
@@ -3445,7 +3530,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S19Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="398"/>
+          <Property Name="Top" Value="430"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS20">
@@ -3458,11 +3543,11 @@
           <Property Name="FillStyle" Value="Transparent"/>
           <Property Name="Height" Value="64"/>
           <Property Name="IndexDatapoint" Value="None"/>
-          <Property Name="Left" Value="576"/>
+          <Property Name="Left" Value="592"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S20Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="398"/>
+          <Property Name="Top" Value="430"/>
           <Property Name="Width" Value="64"/>
         </Control>
         <Control ClassId="0x00001005" Name="bmpS21">
@@ -3479,7 +3564,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.S21Photo.BlockDisp]"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
-          <Property Name="Top" Value="398"/>
+          <Property Name="Top" Value="430"/>
           <Property Name="Width" Value="64"/>
         </Control>
       </Controls>
@@ -3499,25 +3584,40 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="10"/>
+      <Property Name="Z-Order" Value="12"/>
       <TextGroup>
         <TextLayer LanguageId="en">
           <Text ID="666698" Value="S45"/>
           <Text ID="1356613" Value="S57"/>
           <Text ID="1548906" Value="S55"/>
           <Text ID="1767886" Value="S56"/>
+          <Text ID="1827910" Value="S58"/>
+          <Text ID="1827912" Value="S66"/>
+          <Text ID="1827914" Value="S48"/>
+          <Text ID="1832671" Value="AGV-R"/>
+          <Text ID="1832673" Value="AGV-P"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="666698" Value=""/>
           <Text ID="1356613" Value=""/>
           <Text ID="1548906" Value=""/>
           <Text ID="1767886" Value=""/>
+          <Text ID="1827910" Value=""/>
+          <Text ID="1827912" Value=""/>
+          <Text ID="1827914" Value=""/>
+          <Text ID="1832671" Value=""/>
+          <Text ID="1832673" Value=""/>
         </TextLayer>
         <IndexMap>
           <Index ID="666698" Value="30"/>
           <Index ID="1356613" Value="14"/>
           <Index ID="1548906" Value="21"/>
           <Index ID="1767886" Value="20"/>
+          <Index ID="1827910" Value="4"/>
+          <Index ID="1827912" Value="6"/>
+          <Index ID="1827914" Value="8"/>
+          <Index ID="1832671" Value="10"/>
+          <Index ID="1832673" Value="12"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -3529,7 +3629,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="336"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="472"/>
+          <Property Name="Top" Value="504"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS1]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3556,7 +3656,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="416"/>
+          <Property Name="Top" Value="448"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS45]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3568,7 +3668,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="360"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="536"/>
+          <Property Name="Top" Value="568"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS6]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3580,7 +3680,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="392"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="568"/>
+          <Property Name="Top" Value="600"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS8]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3592,7 +3692,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="280"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="504"/>
+          <Property Name="Top" Value="536"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS3]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3604,7 +3704,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="312"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="576"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS4]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3616,7 +3716,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="280"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="584"/>
+          <Property Name="Top" Value="616"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS9]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3628,7 +3728,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="456"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="536"/>
+          <Property Name="Top" Value="568"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS12]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3640,7 +3740,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="472"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="576"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS13]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3652,7 +3752,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="240"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestMot1]"/>
           <Property Name="Width" Value="80"/>
         </Control>
@@ -3664,7 +3764,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="376"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="568"/>
+          <Property Name="Top" Value="600"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestMot2]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3676,7 +3776,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="456"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="408"/>
+          <Property Name="Top" Value="440"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS17]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3691,7 +3791,7 @@
           <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
           <Property Name="Height" Value="16"/>
           <Property Name="KeyMatrixOffset" Value="None"/>
-          <Property Name="Left" Value="464"/>
+          <Property Name="Left" Value="424"/>
           <Property Name="PressedBackColor" Value="10"/>
           <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
           <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
@@ -3703,7 +3803,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="328"/>
+          <Property Name="Top" Value="360"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS57]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3715,7 +3815,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="456"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="424"/>
+          <Property Name="Top" Value="456"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS16]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3743,7 +3843,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="528"/>
+          <Property Name="Top" Value="560"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Ax1.Measure]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="104"/>
@@ -3772,7 +3872,7 @@
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
           <Property Name="TeachDatapoint" Value="None"/>
-          <Property Name="Top" Value="624"/>
+          <Property Name="Top" Value="632"/>
           <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Ax2.Measure]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="104"/>
@@ -3785,7 +3885,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="584"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS19]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3812,7 +3912,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="440"/>
+          <Property Name="Top" Value="472"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS55]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3824,7 +3924,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="456"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="480"/>
+          <Property Name="Top" Value="512"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS15]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3836,7 +3936,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="376"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="536"/>
+          <Property Name="Top" Value="568"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS7]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3863,7 +3963,7 @@
           <Property Name="TextIndexDatapoint" Value="None"/>
           <Property Name="TextSimulationValue" Value="0"/>
           <Property Name="TextSource" Value="SingleText"/>
-          <Property Name="Top" Value="464"/>
+          <Property Name="Top" Value="496"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS56]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3875,7 +3975,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="336"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="488"/>
+          <Property Name="Top" Value="520"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS2]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3887,7 +3987,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="344"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="536"/>
+          <Property Name="Top" Value="568"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS5]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3899,7 +3999,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="456"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="496"/>
+          <Property Name="Top" Value="528"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS14]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3911,7 +4011,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="472"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="360"/>
+          <Property Name="Top" Value="392"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS18]"/>
           <Property Name="Width" Value="32"/>
         </Control>
@@ -3923,7 +4023,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="616"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS20]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3935,7 +4035,7 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="704"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="336"/>
+          <Property Name="Top" Value="368"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS21]"/>
           <Property Name="Width" Value="16"/>
         </Control>
@@ -3947,8 +4047,143 @@
           <Property Name="KeyMatrixOffset" Value="None"/>
           <Property Name="Left" Value="256"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[HotSpot]"/>
-          <Property Name="Top" Value="544"/>
+          <Property Name="Top" Value="576"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS50]"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butTestLeverS58">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="384"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="PressedForeColor" Value="254"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="4"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="376"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS58]"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butTestLeverS59">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="424"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="PressedForeColor" Value="254"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="6"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="376"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS66PB]"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butTestLeverS60">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="424"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="PressedForeColor" Value="254"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="8"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="392"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestS48Foot]"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butTestAGVReady">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="608"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="PressedForeColor" Value="254"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="10"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="328"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestAGVReady]"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butTestAGVInPosition">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="424"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="PressedForeColor" Value="254"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="12"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="328"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestAGVInPosition]"/>
           <Property Name="Width" Value="32"/>
         </Control>
       </Controls>
@@ -3968,7 +4203,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="11"/>
+      <Property Name="Z-Order" Value="13"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -4218,7 +4453,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="12"/>
+      <Property Name="Z-Order" Value="14"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -4471,7 +4706,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="13"/>
+      <Property Name="Z-Order" Value="15"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -4681,7 +4916,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="14"/>
+      <Property Name="Z-Order" Value="16"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -4934,7 +5169,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="15"/>
+      <Property Name="Z-Order" Value="17"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5184,7 +5419,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="16"/>
+      <Property Name="Z-Order" Value="18"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5437,7 +5672,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="17"/>
+      <Property Name="Z-Order" Value="19"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5508,7 +5743,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="18"/>
+      <Property Name="Z-Order" Value="20"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5758,7 +5993,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="19"/>
+      <Property Name="Z-Order" Value="21"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5829,7 +6064,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="20"/>
+      <Property Name="Z-Order" Value="22"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -5900,7 +6135,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="21"/>
+      <Property Name="Z-Order" Value="23"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6153,7 +6388,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="22"/>
+      <Property Name="Z-Order" Value="24"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6305,7 +6540,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="23"/>
+      <Property Name="Z-Order" Value="25"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6558,7 +6793,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="24"/>
+      <Property Name="Z-Order" Value="26"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6629,7 +6864,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="25"/>
+      <Property Name="Z-Order" Value="27"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6700,7 +6935,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="26"/>
+      <Property Name="Z-Order" Value="28"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -6747,7 +6982,7 @@
           <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking81.Blocks[12]]"/>
           <Property Name="Left" Value="528"/>
           <Property Name="Multiline" Value="Automatic"/>
-          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationIndex" Value="1"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
@@ -6765,7 +7000,7 @@
           <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking81.Blocks[11]]"/>
           <Property Name="Left" Value="528"/>
           <Property Name="Multiline" Value="Automatic"/>
-          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationIndex" Value="1"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
@@ -6783,7 +7018,7 @@
           <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking81.Blocks[10]]"/>
           <Property Name="Left" Value="528"/>
           <Property Name="Multiline" Value="Automatic"/>
-          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationIndex" Value="1"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
@@ -6801,7 +7036,7 @@
           <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking81.Blocks[9]]"/>
           <Property Name="Left" Value="528"/>
           <Property Name="Multiline" Value="Automatic"/>
-          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationIndex" Value="1"/>
           <Property Name="SimulationValue" Value="0"/>
           <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
           <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
@@ -6953,7 +7188,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="27"/>
+      <Property Name="Z-Order" Value="29"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -7010,6 +7245,372 @@
       </Controls>
       <KeyMapping/>
     </Layer>
+    <Layer Name="Help5_5">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="768"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status[4]]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="1024"/>
+      <Property Name="Z-Order" Value="30"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001004" Name="txtTracking82">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet14]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="112"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking52.Index]"/>
+          <Property Name="Left" Value="128"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="1"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.Tracking52.BusyDisp]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicHelp]"/>
+          <Property Name="TextIndexOffset" Value="150"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="432"/>
+          <Property Name="Width" Value="368"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butReset82">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[TrackReset]"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="SingleBitmap"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet18]"/>
+          <Property Name="ForeColor" Value="46"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="128"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Status1[13]]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicMimic]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[Mimic]"/>
+          <Property Name="TextIndex" Value="74"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="384"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TrackingClrMan52]"/>
+          <Property Name="Width" Value="224"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtCLB">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet14]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="128"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicConveyors]"/>
+          <Property Name="TextIndexOffset" Value="11"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="568"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001007" Name="numCB2Speed">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet14]"/>
+          <Property Name="Height" Value="32"/>
+          <Property Name="Left" Value="384"/>
+          <Property Name="MaxDatapoint" Value="None"/>
+          <Property Name="MaxValue" Value="None"/>
+          <Property Name="MinDatapoint" Value="None"/>
+          <Property Name="MinValue" Value="None"/>
+          <Property Name="SimulationValue" Value="35"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Output]"/>
+          <Property Name="TeachDatapoint" Value="None"/>
+          <Property Name="Top" Value="568"/>
+          <Property Name="UnitText" Value="Abbreviation"/>
+          <Property Name="UnitTextAlignment" Value="Left"/>
+          <Property Name="UnitTextPosition" Value="Right"/>
+          <Property Name="UnitTextWidth" Value="0"/>
+          <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.CRB.Inv.Scale1.x]"/>
+          <Property Name="ValueMode" Value="Standard"/>
+          <Property Name="Width" Value="112"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
+    <Layer Name="Help5_5Block">
+      <Property Name="BackColor" Value="9"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Normal"/>
+      <Property Name="Height" Value="768"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="StatusDatapoint" Value="Source[global].Variable[PLC.VisControl.Vis.P11.Layers.Layer12]"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Width" Value="1024"/>
+      <Property Name="Z-Order" Value="31"/>
+      <TextGroup>
+        <TextLayer LanguageId="en"/>
+        <TextLayer LanguageId="de"/>
+        <IndexMap/>
+      </TextGroup>
+      <Controls>
+        <Control ClassId="0x00001001" Name="Shape_28">
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Height" Value="384"/>
+          <Property Name="Left" Value="504"/>
+          <Property Name="LineWidth" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
+          <Property Name="Top" Value="376"/>
+          <Property Name="Width" Value="400"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtSettings4">
+          <Property Name="AlignmentVertical" Value="Center"/>
+          <Property Name="BackColor" Value="255"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="FillStyle" Value="Opaque"/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet18]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="40"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="192"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="376"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp24">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="110"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="736"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp23">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="108"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="704"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp22">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="106"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="672"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp21">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="104"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="640"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp20">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="100"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="576"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp19">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="98"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="544"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp18">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="96"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="512"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp17">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="94"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="480"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp16">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking52.Blocks[1]]"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="195"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="448"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp15">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="Source[global].Variable[PLC.Tracking52.Blocks[0]]"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="193"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="416"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="txtHelp25">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Trebuchet11]"/>
+          <Property Name="ForeColor" Value="15"/>
+          <Property Name="Height" Value="24"/>
+          <Property Name="IndexDatapoint" Value="None"/>
+          <Property Name="Left" Value="528"/>
+          <Property Name="Multiline" Value="Automatic"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value="0"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Text]"/>
+          <Property Name="TextGroup" Value="Source[local].TextGroup[MimicBlock]"/>
+          <Property Name="TextIndexOffset" Value="102"/>
+          <Property Name="TextSource" Value="MultipleTexts"/>
+          <Property Name="Top" Value="608"/>
+          <Property Name="Width" Value="376"/>
+        </Control>
+      </Controls>
+      <KeyMapping/>
+    </Layer>
     <Layer Name="Help6_1">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
@@ -7024,7 +7625,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="28"/>
+      <Property Name="Z-Order" Value="32"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -7212,7 +7813,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="29"/>
+      <Property Name="Z-Order" Value="33"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -7465,7 +8066,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="30"/>
+      <Property Name="Z-Order" Value="34"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -7718,7 +8319,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="31"/>
+      <Property Name="Z-Order" Value="35"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -7968,7 +8569,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="32"/>
+      <Property Name="Z-Order" Value="36"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -8221,7 +8822,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="33"/>
+      <Property Name="Z-Order" Value="37"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -8409,7 +9010,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="34"/>
+      <Property Name="Z-Order" Value="38"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -8662,7 +9263,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="35"/>
+      <Property Name="Z-Order" Value="39"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -8915,7 +9516,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="36"/>
+      <Property Name="Z-Order" Value="40"/>
       <TextGroup>
         <TextLayer LanguageId="en">
           <Text ID="1818235" Value="RESET"/>
@@ -10364,7 +10965,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="37"/>
+      <Property Name="Z-Order" Value="41"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -10696,7 +11297,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="38"/>
+      <Property Name="Z-Order" Value="42"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel0]">
       <Property Name="Description" Value=""/>
@@ -10709,7 +11310,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="39"/>
+      <Property Name="Z-Order" Value="43"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel1]">
       <Property Name="Description" Value=""/>
@@ -10722,7 +11323,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="40"/>
+      <Property Name="Z-Order" Value="44"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel2]">
       <Property Name="Description" Value=""/>
@@ -10735,7 +11336,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="41"/>
+      <Property Name="Z-Order" Value="45"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordLevel3]">
       <Property Name="Description" Value=""/>
@@ -10748,7 +11349,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="42"/>
+      <Property Name="Z-Order" Value="46"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[PasswordEngRefuse]">
       <Property Name="Description" Value=""/>
@@ -10761,7 +11362,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="43"/>
+      <Property Name="Z-Order" Value="47"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Start]">
       <Property Name="Description" Value=""/>
@@ -10774,7 +11375,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="44"/>
+      <Property Name="Z-Order" Value="48"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Status]">
       <Property Name="Description" Value=""/>
@@ -10787,7 +11388,20 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="45"/>
+      <Property Name="Z-Order" Value="49"/>
+    </LayerRef>
+    <LayerRef Source="Source[local].Layer[FurnaceOptions]">
+      <Property Name="Description" Value=""/>
+      <Property Name="EditingMode" Value="Frozen"/>
+      <Property Name="Left" Value="0"/>
+      <Property Name="Name" Value="FurnaceOptions"/>
+      <Property Name="OutlineColor" Value="0"/>
+      <Property Name="OutlineDisplayControl" Value="False"/>
+      <Property Name="OutlineDisplayName" Value="True"/>
+      <Property Name="OutlineHatched" Value="False"/>
+      <Property Name="Top" Value="0"/>
+      <Property Name="VisibilityMode" Value="Hidden"/>
+      <Property Name="Z-Order" Value="50"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Message]">
       <Property Name="Description" Value=""/>
@@ -10800,7 +11414,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="46"/>
+      <Property Name="Z-Order" Value="51"/>
     </LayerRef>
     <LayerRef Source="Source[local].Layer[Notify]">
       <Property Name="Description" Value=""/>
@@ -10813,7 +11427,7 @@
       <Property Name="OutlineHatched" Value="False"/>
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
-      <Property Name="Z-Order" Value="47"/>
+      <Property Name="Z-Order" Value="52"/>
     </LayerRef>
     <Layer Name="EStop1">
       <Property Name="BackColor" Value="9"/>
@@ -10829,7 +11443,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="48"/>
+      <Property Name="Z-Order" Value="53"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -11042,7 +11656,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="49"/>
+      <Property Name="Z-Order" Value="54"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -11578,7 +12192,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="50"/>
+      <Property Name="Z-Order" Value="55"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -11928,7 +12542,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="51"/>
+      <Property Name="Z-Order" Value="56"/>
       <TextGroup>
         <TextLayer LanguageId="en">
           <Text ID="1218693" Value="ESTOP 2"/>
@@ -12288,7 +12902,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Hidden"/>
       <Property Name="Width" Value="1024"/>
-      <Property Name="Z-Order" Value="52"/>
+      <Property Name="Z-Order" Value="57"/>
       <TextGroup>
         <TextLayer LanguageId="en"/>
         <TextLayer LanguageId="de"/>
@@ -13668,5 +14282,6 @@
     <TabSeqItem Index="76" Value="Source[embedded].Layer[Help7_1].Control[numCL1Speed]"/>
     <TabSeqItem Index="77" Value="Source[embedded].Layer[Help7_1].Control[numCC1Speed]"/>
     <TabSeqItem Index="78" Value="Source[embedded].Layer[Help8_1].Control[numCC2Speed]"/>
+    <TabSeqItem Index="79" Value="Source[embedded].Layer[Help5_5].Control[numCB2Speed]"/>
   </TabSequence>
 </Page>
