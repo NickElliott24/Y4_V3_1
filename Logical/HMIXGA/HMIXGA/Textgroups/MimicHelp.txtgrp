@@ -149,6 +149,9 @@
     <Text ID="1809959" Value="WAITING FOR THE OPERATOR TO CONFIRM (S66) THAT BATCHED LOAD IS READY. ASSEMBLE THE LOAD USING THE FOOTPEDAL TO JOG THE CONVEYOR."/>
     <Text ID="1809960" Value="WAITING FOR THE LEADING EDGE OF THE GLASS TO MAKE THE END OF CONVEYOR SENSOR (S21)."/>
     <Text ID="1809962" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF"/>
+    <Text ID="1832692" Value="-"/>
+    <Text ID="1832693" Value="WAITING FOR ALL THE BLOCK CONDITIONS TO BE OFF"/>
+    <Text ID="1832694" Value="WAITING FOR THE DELAY 'BEFORE MOVED TO TRANSFER' TO BE DONE."/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="1208629" Value=""/>
@@ -295,6 +298,9 @@
     <Text ID="1809959" Value=""/>
     <Text ID="1809960" Value=""/>
     <Text ID="1809962" Value=""/>
+    <Text ID="1832692" Value=""/>
+    <Text ID="1832693" Value=""/>
+    <Text ID="1832694" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="1208629" Value="80"/>
@@ -441,5 +447,8 @@
     <Index ID="1809959" Value="141"/>
     <Index ID="1809960" Value="142"/>
     <Index ID="1809962" Value="143"/>
+    <Index ID="1832692" Value="150"/>
+    <Index ID="1832693" Value="151"/>
+    <Index ID="1832694" Value="152"/>
   </IndexMap>
 </TextGroup>

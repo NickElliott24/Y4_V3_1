@@ -138,7 +138,7 @@
     <Text ID="1663857" Value="TRACK 5-84 BLOCK CONDITIONS"/>
     <Text ID="1678294" Value="3 -"/>
     <Text ID="1678295" Value="3 - FURNACE CHANGE ACTIVATED"/>
-    <Text ID="1684222" Value="TRACK 5-13 BLOCK CONDITIONS"/>
+    <Text ID="1684222" Value="TRACK 51-3 BLOCK CONDITIONS"/>
     <Text ID="1767606" Value="TRACK 00-5 BLOCK CONDITIONS:"/>
     <Text ID="1767673" Value="0 -"/>
     <Text ID="1767674" Value="0 - FOLLOWING CONVEYORS NOT CLEAR"/>
@@ -168,6 +168,11 @@
     <Text ID="1802253" Value="??FOLLOWING TEXT FOR NORMAL TRACKING BLOCKS"/>
     <Text ID="1802254" Value="??FOLLOWING TEXT FOR SEEK AND FIND BLOCKS"/>
     <Text ID="1802259" Value="5 -"/>
+    <Text ID="1832719" Value="TRACK 52-1 BLOCK CONDITIONS"/>
+    <Text ID="1832720" Value="0 -"/>
+    <Text ID="1832721" Value="0 - TRANSFER SYSTEM NOT READY"/>
+    <Text ID="1832722" Value="1 -"/>
+    <Text ID="1832723" Value="1 - TRANSFER NOT IN POSITION"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="1330894" Value=""/>
@@ -333,6 +338,11 @@
     <Text ID="1802253" Value=""/>
     <Text ID="1802254" Value=""/>
     <Text ID="1802259" Value=""/>
+    <Text ID="1832719" Value=""/>
+    <Text ID="1832720" Value=""/>
+    <Text ID="1832721" Value=""/>
+    <Text ID="1832722" Value=""/>
+    <Text ID="1832723" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="1330894" Value="0"/>
@@ -498,5 +508,10 @@
     <Index ID="1802253" Value="10"/>
     <Index ID="1802254" Value="59"/>
     <Index ID="1802259" Value="101"/>
+    <Index ID="1832719" Value="192"/>
+    <Index ID="1832720" Value="193"/>
+    <Index ID="1832721" Value="194"/>
+    <Index ID="1832722" Value="195"/>
+    <Index ID="1832723" Value="196"/>
   </IndexMap>
 </TextGroup>

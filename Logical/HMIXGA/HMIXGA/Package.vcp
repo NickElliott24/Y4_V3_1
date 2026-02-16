@@ -224,6 +224,8 @@
     <Source File="Bitmaps\LeftBackLight.bminfo"/>
     <Source File="Bitmaps\CloseLight.bminfo"/>
     <Source File="Bitmaps\DropHelpDark.bminfo"/>
+    <Source File="Bitmaps\MimicAGVInPosition.bminfo"/>
+    <Source File="Bitmaps\MimicAGVNotInPosition.bminfo"/>
     <Source File="BitmapGroups\NumPad.bmgrp"/>
     <Source File="BitmapGroups\AlphaPad.bmgrp"/>
     <Source File="BitmapGroups\NavigationPad.bmgrp"/>
@@ -266,6 +268,7 @@
     <Source File="BitmapGroups\Toggle.bmgrp"/>
     <Source File="BitmapGroups\Icons.bmgrp"/>
     <Source File="BitmapGroups\PageOF9.bmgrp"/>
+    <Source File="BitmapGroups\AGV.bmgrp"/>
     <Source File="Pages\P00_INITIALIZE.page"/>
     <Source File="Pages\P10_MENU.page"/>
     <Source File="Pages\P11_MIMIC.page"/>
@@ -290,6 +293,8 @@
     <Source File="Layers\Start.layer"/>
     <Source File="Layers\Navigation.layer"/>
     <Source File="Layers\Status.layer"/>
+    <Source File="Layers\FurnaceSelect.layer"/>
+    <Source File="Layers\FurnaceOptions.layer"/>
     <Source File="StyleSheets\Gray.vcs"/>
     <Source File="StyleSheets\Color.vcs"/>
     <Source File="Borders\Raised.bdr"/>

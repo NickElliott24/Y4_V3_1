@@ -148,7 +148,11 @@ PROGRAM _CYCLIC
 			Track108 := TrackClear ;
 			//FB INPUTS
 			Track104.FixedIN := Tracking10.FixedOUT ;
-			Track104.Speed := Speeds.SpeedTrans ;
+			IF (ProcessMode.In) THEN
+				Track104.Speed := Speeds.SpeedSeamSlow;
+			ELSE
+				Track104.Speed := Speeds.SpeedSeam ;
+			END_IF
 			Track104.TimeoutEN := TRUE ;
 			Track104.TimeoutACK := Warn.Ack ;
 			Track104.TimeoutBlock := (Warn.Block) ;

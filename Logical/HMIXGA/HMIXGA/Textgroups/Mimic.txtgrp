@@ -29,7 +29,7 @@
     <Text ID="1335597" Value="LOAD BUILDING:"/>
     <Text ID="1335598" Value="CURRENT BATCHED LENGTH"/>
     <Text ID="1335599" Value="RESET 1-33~1-35"/>
-    <Text ID="1335600" Value="MANUAL BATCHING"/>
+    <Text ID="1335600" Value=" MANUAL BATCHING"/>
     <Text ID="1384195" Value=" LOADING"/>
     <Text ID="1384196" Value=" CORNER"/>
     <Text ID="1384211" Value=" SEAMER 1"/>
@@ -72,13 +72,14 @@
     <Text ID="1630803" Value="RESET 5-81 ~ 5-85"/>
     <Text ID="1636485" Value="RESET 6-58"/>
     <Text ID="1636486" Value="RESET 7-58"/>
-    <Text ID="1641317" Value="TILT"/>
+    <Text ID="1641317" Value=" TRANSFER"/>
     <Text ID="1652087" Value="MULTI"/>
     <Text ID="1678298" Value="FURNACE CHANGE RESET"/>
     <Text ID="1684242" Value="RESET 6-69"/>
     <Text ID="1788429" Value=" OFFLINE LOADING"/>
     <Text ID="1788430" Value="RESET 81-1~81-2"/>
     <Text ID="1788431" Value="RESET 82-1~82-2"/>
+    <Text ID="1832685" Value="RESET 52-1 ~ 52-2"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="523545" Value=""/>
@@ -155,6 +156,7 @@
     <Text ID="1788429" Value=""/>
     <Text ID="1788430" Value=""/>
     <Text ID="1788431" Value=""/>
+    <Text ID="1832685" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="523545" Value="1"/>
@@ -231,5 +233,6 @@
     <Index ID="1788429" Value="10"/>
     <Index ID="1788430" Value="22"/>
     <Index ID="1788431" Value="23"/>
+    <Index ID="1832685" Value="74"/>
   </IndexMap>
 </TextGroup>

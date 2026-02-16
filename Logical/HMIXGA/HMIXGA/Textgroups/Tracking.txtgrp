@@ -149,6 +149,9 @@
     <Text ID="1809973" Value="51-1"/>
     <Text ID="1809974" Value="51-2"/>
     <Text ID="1809975" Value="51-3"/>
+    <Text ID="1827907" Value="-"/>
+    <Text ID="1827908" Value="52-1"/>
+    <Text ID="1827909" Value="52-2"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="736508" Value=""/>
@@ -295,6 +298,9 @@
     <Text ID="1809973" Value=""/>
     <Text ID="1809974" Value=""/>
     <Text ID="1809975" Value=""/>
+    <Text ID="1827907" Value=""/>
+    <Text ID="1827908" Value=""/>
+    <Text ID="1827909" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="736508" Value="79"/>
@@ -441,5 +447,8 @@
     <Index ID="1809973" Value="141"/>
     <Index ID="1809974" Value="142"/>
     <Index ID="1809975" Value="143"/>
+    <Index ID="1827907" Value="150"/>
+    <Index ID="1827908" Value="151"/>
+    <Index ID="1827909" Value="152"/>
   </IndexMap>
 </TextGroup>

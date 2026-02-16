@@ -93,6 +93,12 @@ PROGRAM _CYCLIC
 			IF(Level.Level > OPERATOR) AND(Tracking82.Busy) THEN
 				Vis.P11.Status1[9] := SHOW ;
 			END_IF
+			IF(Track521.Active) AND(Tracking52.Blocked) THEN
+				Vis.P11.Layers.Layer12 := SHOW ;
+			END_IF
+			IF(Level.Level > OPERATOR) AND(Tracking52.Busy) THEN
+				Vis.P11.Status1[13] := SHOW ;
+			END_IF
 		5:
 			Vis.P11.Status[5] := SHOW ;
 			IF(Level.Level > OPERATOR) AND(Tracking00.Busy) THEN
@@ -159,6 +165,9 @@ PROGRAM _CYCLIC
 	END_IF
 	IF NOT(FurnReady.Int) THEN
 		Vis.P11.Status[19] :=	SHOW	;
+	END_IF
+	IF NOT(AGVReady.In)THEN
+		Vis.P11.Status[23] :=	SHOW	;
 	END_IF
 	IF(S57Lever.Int) THEN
 		Vis.P11.Status[15] := SHOW ;
