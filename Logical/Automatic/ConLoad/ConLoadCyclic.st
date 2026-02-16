@@ -83,7 +83,7 @@ PROGRAM _CYCLIC
 			END_IF
 			IF(Track002.Done) THEN
 				Tracking00.IndexIN := 3 ;
-				Tracking00.RowBlockIN := FurnaceSelect.In; //Input for Furnace 2 selection
+				Tracking00.RowBlockIN := FurnaceSelect.Selected; //Input for Furnace 2 selection
 			END_IF
 		3: //TRACK FROM S1Photo.Int (P) TO S2Photo.Int (P)
 			Track001 := TrackClear ;

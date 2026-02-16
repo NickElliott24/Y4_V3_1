@@ -77,7 +77,8 @@ PROGRAM _CYCLIC
 					Tracking50.IndexIN := 3 ;
 				ELSE // Furnace 2
 					Tracking50.IndexIN := 0 ;
-					Tracking52.IndexIN := 1 ;
+					Tracking52.IndexIN := 3 ;
+					Tracking52.LengthIN := Tracking50.Length ;
 				END_IF
 			END_IF
 		3: //TRACK FROM Track502.DelayTON.Q (P) TO S36Reed.In (P)
@@ -245,10 +246,12 @@ PROGRAM _CYCLIC
 			IF(Track522.Done) THEN
 				Tracking52.IndexIN := 0 ;
 			END_IF
+		3://Trick to beat the problem of Track521.DoneIN being true when IndexIN = 1.
+			Tracking52.IndexIN := 1 ;
 	END_CASE
 	
 	//TRACKBIT DONE CONDITIONS
-	Track511.DoneIN := NOT(Tracking52.Blocked) ;
+	Track521.DoneIN := NOT(Tracking52.Blocked) ;
 
 	//Extract bits from Row Length
 	FOR i := 0 TO 15 DO

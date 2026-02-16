@@ -68,6 +68,7 @@ PROGRAM _CYCLIC
 			Ax2.RaiseArms := (Track201.SolOUT) ;
 			IF(Track201.Done) THEN
 				Tracking20.IndexIN := 4 ;
+				Tracking20.WidthIN := Ax2.Measure/10.0 ;
 			END_IF
 		2: //TRACK FROM S8Photo.Int (P) TO S8Photo.Int (N)
 			Track201 := TrackClear ;
@@ -145,7 +146,11 @@ PROGRAM _CYCLIC
 			Track208 := TrackClear ;
 			//FB INPUTS
 			Track204.FixedIN := Tracking20.FixedOUT ;
-			Track204.Speed := Speeds.SpeedTrans ;
+			IF (ProcessMode.In) THEN
+				Track204.Speed := Speeds.SpeedSeamSlow;
+			ELSE
+				Track204.Speed := Speeds.SpeedSeam ;
+			END_IF
 			Track204.TimeoutEN := TRUE ;
 			Track204.TimeoutACK := Warn.Ack ;
 			Track204.TimeoutBlock := (Warn.Block) ;
