@@ -64,6 +64,10 @@
     <Text ID="1405892" Value=""/>
     <Text ID="1411252" Value="TEST"/>
     <Text ID="1793519" Value="MODULE 18 - MIXED"/>
+    <Text ID="1832844" Value="MODULE 20 - INPUT"/>
+    <Text ID="1832845" Value="MODULE 21 - OUTPUT"/>
+    <Text ID="1832846" Value="MODULE 22 - OUTPUT"/>
+    <Text ID="1832895" Value="MODULE 19 - BUS CARD"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="537495" Value=""/>
@@ -125,6 +129,10 @@
     <Text ID="1405892" Value=""/>
     <Text ID="1411252" Value=""/>
     <Text ID="1793519" Value=""/>
+    <Text ID="1832844" Value=""/>
+    <Text ID="1832845" Value=""/>
+    <Text ID="1832846" Value=""/>
+    <Text ID="1832895" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="537495" Value="0"/>
@@ -186,5 +194,9 @@
     <Index ID="1405892" Value="7"/>
     <Index ID="1411252" Value="38"/>
     <Index ID="1793519" Value="68"/>
+    <Index ID="1832844" Value="69"/>
+    <Index ID="1832845" Value="70"/>
+    <Index ID="1832846" Value="71"/>
+    <Index ID="1832895" Value="72"/>
   </IndexMap>
 </TextGroup>

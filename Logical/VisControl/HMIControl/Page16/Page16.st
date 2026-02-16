@@ -34,7 +34,7 @@ PROGRAM _CYCLIC
 	IF(Control.Test) THEN
 		Vis.P16.Status[8]	:=	SHOW	;
 	ELSE
-		Vis.P16.EnableIndex	:= LIMIT(0, Vis.P16.EnableIndex, 4);//ALTER Limit max dependent on number of IO screens, 5=6 screens ETC...
+		Vis.P16.EnableIndex	:= LIMIT(0, Vis.P16.EnableIndex, 5);//ALTER Limit max dependent on number of IO screens, 5=6 screens ETC...
 	END_IF
 
 	//CALCULATE WHEN LAYER HAS CHANGED

@@ -202,6 +202,42 @@
     <Text ID="1793539" Value="S58LEVER.IN"/>
     <Text ID="1793540" Value="S20PHOTO.IN"/>
     <Text ID="1793541" Value="NEXTBATCH"/>
+    <Text ID="1827731" Value="AGVINPOSITION.IN"/>
+    <Text ID="1827732" Value="AGVREADY.IN"/>
+    <Text ID="1827733" Value="AGVRECEIVING.IN"/>
+    <Text ID="1827734" Value="-"/>
+    <Text ID="1827735" Value="-"/>
+    <Text ID="1827736" Value="-"/>
+    <Text ID="1827737" Value="-"/>
+    <Text ID="1827738" Value="-"/>
+    <Text ID="1827739" Value="-"/>
+    <Text ID="1827740" Value="-"/>
+    <Text ID="1827741" Value="-"/>
+    <Text ID="1827742" Value="-"/>
+    <Text ID="1827743" Value="-"/>
+    <Text ID="1827744" Value="-"/>
+    <Text ID="1827745" Value="-"/>
+    <Text ID="1827746" Value="-"/>
+    <Text ID="1827747" Value="AGVREADYTOSEND"/>
+    <Text ID="1827748" Value="LENGTH_BIT12"/>
+    <Text ID="1827752" Value="AGVSENDING"/>
+    <Text ID="1827753" Value="-"/>
+    <Text ID="1827754" Value="-"/>
+    <Text ID="1827755" Value="LENGTH_BIT13"/>
+    <Text ID="1827756" Value="LENGTH_BIT14"/>
+    <Text ID="1827757" Value="LENGTH_BIT15"/>
+    <Text ID="1827758" Value="LENGTH_BIT0"/>
+    <Text ID="1827759" Value="LENGTH_BIT1"/>
+    <Text ID="1827760" Value="LENGTH_BIT2"/>
+    <Text ID="1827761" Value="LENGTH_BIT3"/>
+    <Text ID="1827762" Value="LENGTH_BIT4"/>
+    <Text ID="1827763" Value="LENGTH_BIT5"/>
+    <Text ID="1827764" Value="LENGTH_BIT6"/>
+    <Text ID="1827765" Value="LENGTH_BIT7"/>
+    <Text ID="1827766" Value="LENGTH_BIT8"/>
+    <Text ID="1827767" Value="LENGTH_BIT9"/>
+    <Text ID="1827768" Value="LENGTH_BIT10"/>
+    <Text ID="1827769" Value="LENGTH_BIT11"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="114948" Value=""/>
@@ -401,6 +437,42 @@
     <Text ID="1793539" Value=""/>
     <Text ID="1793540" Value=""/>
     <Text ID="1793541" Value=""/>
+    <Text ID="1827731" Value=""/>
+    <Text ID="1827732" Value=""/>
+    <Text ID="1827733" Value=""/>
+    <Text ID="1827734" Value=""/>
+    <Text ID="1827735" Value=""/>
+    <Text ID="1827736" Value=""/>
+    <Text ID="1827737" Value=""/>
+    <Text ID="1827738" Value=""/>
+    <Text ID="1827739" Value=""/>
+    <Text ID="1827740" Value=""/>
+    <Text ID="1827741" Value=""/>
+    <Text ID="1827742" Value=""/>
+    <Text ID="1827743" Value=""/>
+    <Text ID="1827744" Value=""/>
+    <Text ID="1827745" Value=""/>
+    <Text ID="1827746" Value=""/>
+    <Text ID="1827747" Value=""/>
+    <Text ID="1827748" Value=""/>
+    <Text ID="1827752" Value=""/>
+    <Text ID="1827753" Value=""/>
+    <Text ID="1827754" Value=""/>
+    <Text ID="1827755" Value=""/>
+    <Text ID="1827756" Value=""/>
+    <Text ID="1827757" Value=""/>
+    <Text ID="1827758" Value=""/>
+    <Text ID="1827759" Value=""/>
+    <Text ID="1827760" Value=""/>
+    <Text ID="1827761" Value=""/>
+    <Text ID="1827762" Value=""/>
+    <Text ID="1827763" Value=""/>
+    <Text ID="1827764" Value=""/>
+    <Text ID="1827765" Value=""/>
+    <Text ID="1827766" Value=""/>
+    <Text ID="1827767" Value=""/>
+    <Text ID="1827768" Value=""/>
+    <Text ID="1827769" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="114948" Value="1"/>
@@ -600,5 +672,41 @@
     <Index ID="1793539" Value="194"/>
     <Index ID="1793540" Value="195"/>
     <Index ID="1793541" Value="196"/>
+    <Index ID="1827731" Value="197"/>
+    <Index ID="1827732" Value="198"/>
+    <Index ID="1827733" Value="199"/>
+    <Index ID="1827734" Value="200"/>
+    <Index ID="1827735" Value="201"/>
+    <Index ID="1827736" Value="202"/>
+    <Index ID="1827737" Value="203"/>
+    <Index ID="1827738" Value="204"/>
+    <Index ID="1827739" Value="205"/>
+    <Index ID="1827740" Value="206"/>
+    <Index ID="1827741" Value="207"/>
+    <Index ID="1827742" Value="208"/>
+    <Index ID="1827743" Value="209"/>
+    <Index ID="1827744" Value="210"/>
+    <Index ID="1827745" Value="211"/>
+    <Index ID="1827746" Value="212"/>
+    <Index ID="1827747" Value="213"/>
+    <Index ID="1827748" Value="214"/>
+    <Index ID="1827752" Value="218"/>
+    <Index ID="1827753" Value="219"/>
+    <Index ID="1827754" Value="220"/>
+    <Index ID="1827755" Value="215"/>
+    <Index ID="1827756" Value="216"/>
+    <Index ID="1827757" Value="217"/>
+    <Index ID="1827758" Value="221"/>
+    <Index ID="1827759" Value="222"/>
+    <Index ID="1827760" Value="223"/>
+    <Index ID="1827761" Value="224"/>
+    <Index ID="1827762" Value="225"/>
+    <Index ID="1827763" Value="226"/>
+    <Index ID="1827764" Value="227"/>
+    <Index ID="1827765" Value="228"/>
+    <Index ID="1827766" Value="229"/>
+    <Index ID="1827767" Value="230"/>
+    <Index ID="1827768" Value="231"/>
+    <Index ID="1827769" Value="232"/>
   </IndexMap>
 </TextGroup>
