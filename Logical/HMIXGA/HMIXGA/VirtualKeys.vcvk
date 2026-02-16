@@ -10711,4 +10711,114 @@
       </KeyAction>
     </KeyActions>
   </VirtualKey>
+  <VirtualKey Name="VK_Furnace2_0">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="1"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Selected]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_Furnace2_1">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Selected]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_FurnaceShow">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="0"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Disp]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_FurnaceHide">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x00000161">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.FurnaceSelect.Disp]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_TestAGVReady">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.AGVReady.In]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_TestAGVInPosition">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016A">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.AGVInPosition.In]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
+  <VirtualKey Name="VK_TrackingClrMan52">
+    <Property Name="Description" Value=""/>
+    <Property Name="VirtualKey_LED" Value="False"/>
+    <KeyActions>
+      <KeyAction ClassId="0x0000016B">
+        <Property Name="CompletionDatapoint" Value="None"/>
+        <Property Name="CompletionValue" Value="0"/>
+        <Property Name="Description" Value=""/>
+        <Property Name="Locking" Value="Never"/>
+        <Property Name="Name" Value="Action_0"/>
+        <Property Name="ResetValue" Value="0"/>
+        <Property Name="SetValue" Value="1"/>
+        <Property Name="ValueDatapoint" Value="Source[global].Variable[PLC.Tracking52.ResMan]"/>
+      </KeyAction>
+    </KeyActions>
+  </VirtualKey>
 </KeyMapping>

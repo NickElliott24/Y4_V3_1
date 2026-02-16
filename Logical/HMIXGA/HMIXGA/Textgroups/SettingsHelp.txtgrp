@@ -157,6 +157,7 @@
     <Text ID="1823671" Value="NUMBER OF TIMES THE SPRAY NOZZLES ARE PURGED AT GRINDING START UP."/>
     <Text ID="1823672" Value="AMOUNT OF TIME THAT THE SPRAY NOZZLES ARE OPEN BEFORE THE VACUUM PUMPS ARE PAUSED TO ALLOW THE INTERCEPT CHAMBERS TO DRAIN."/>
     <Text ID="1823673" Value="DELAY FOR THE INTERCEPT CHAMBERS TO DRAIN WHEN THE VACUUM PUMPS ARE PAUSED."/>
+    <Text ID="1832728" Value="DELAY FOR ROW TO BE MOVED TO THE TRANSFER CONVEYOR. THIS DELAY SHOULD BE SET LONGER THAN REQUIRED. THE TRANSFER CONVEYOR WILL POSITION THE ROW."/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="334899" Value=""/>
@@ -311,16 +312,17 @@
     <Text ID="1823671" Value=""/>
     <Text ID="1823672" Value=""/>
     <Text ID="1823673" Value=""/>
+    <Text ID="1832728" Value=""/>
   </TextLayer>
   <IndexMap>
-    <Index ID="334899" Value="99"/>
+    <Index ID="334899" Value="100"/>
     <Index ID="539196" Value="0"/>
     <Index ID="539197" Value="2"/>
     <Index ID="539199" Value="3"/>
-    <Index ID="1019503" Value="96"/>
-    <Index ID="1019504" Value="97"/>
-    <Index ID="1019505" Value="29"/>
-    <Index ID="1071949" Value="30"/>
+    <Index ID="1019503" Value="97"/>
+    <Index ID="1019504" Value="98"/>
+    <Index ID="1019505" Value="30"/>
+    <Index ID="1071949" Value="31"/>
     <Index ID="1224322" Value="4"/>
     <Index ID="1240250" Value="5"/>
     <Index ID="1295339" Value="7"/>
@@ -333,137 +335,138 @@
     <Index ID="1295346" Value="22"/>
     <Index ID="1295349" Value="25"/>
     <Index ID="1295350" Value="26"/>
-    <Index ID="1295355" Value="40"/>
-    <Index ID="1295356" Value="41"/>
-    <Index ID="1295357" Value="42"/>
-    <Index ID="1295358" Value="43"/>
-    <Index ID="1295359" Value="44"/>
-    <Index ID="1295360" Value="45"/>
-    <Index ID="1295361" Value="46"/>
-    <Index ID="1295362" Value="47"/>
-    <Index ID="1295363" Value="48"/>
-    <Index ID="1295364" Value="49"/>
-    <Index ID="1295365" Value="50"/>
-    <Index ID="1295366" Value="51"/>
-    <Index ID="1295367" Value="52"/>
-    <Index ID="1295368" Value="53"/>
+    <Index ID="1295355" Value="41"/>
+    <Index ID="1295356" Value="42"/>
+    <Index ID="1295357" Value="43"/>
+    <Index ID="1295358" Value="44"/>
+    <Index ID="1295359" Value="45"/>
+    <Index ID="1295360" Value="46"/>
+    <Index ID="1295361" Value="47"/>
+    <Index ID="1295362" Value="48"/>
+    <Index ID="1295363" Value="49"/>
+    <Index ID="1295364" Value="50"/>
+    <Index ID="1295365" Value="51"/>
+    <Index ID="1295366" Value="52"/>
+    <Index ID="1295367" Value="53"/>
+    <Index ID="1295368" Value="54"/>
     <Index ID="1299645" Value="23"/>
     <Index ID="1299646" Value="24"/>
-    <Index ID="1299809" Value="36"/>
-    <Index ID="1299810" Value="37"/>
-    <Index ID="1299811" Value="38"/>
-    <Index ID="1299812" Value="39"/>
-    <Index ID="1308026" Value="54"/>
-    <Index ID="1308027" Value="55"/>
-    <Index ID="1308028" Value="56"/>
-    <Index ID="1308029" Value="57"/>
-    <Index ID="1308030" Value="58"/>
-    <Index ID="1308031" Value="59"/>
-    <Index ID="1308032" Value="60"/>
-    <Index ID="1308033" Value="61"/>
-    <Index ID="1308034" Value="62"/>
-    <Index ID="1308035" Value="63"/>
-    <Index ID="1313107" Value="72"/>
-    <Index ID="1313110" Value="73"/>
-    <Index ID="1313111" Value="74"/>
-    <Index ID="1313112" Value="81"/>
-    <Index ID="1313113" Value="82"/>
-    <Index ID="1313114" Value="83"/>
-    <Index ID="1313115" Value="84"/>
-    <Index ID="1313116" Value="85"/>
-    <Index ID="1313117" Value="86"/>
-    <Index ID="1313118" Value="87"/>
-    <Index ID="1313119" Value="88"/>
-    <Index ID="1313120" Value="89"/>
-    <Index ID="1313121" Value="90"/>
-    <Index ID="1313122" Value="91"/>
-    <Index ID="1313123" Value="79"/>
-    <Index ID="1313124" Value="80"/>
-    <Index ID="1313491" Value="95"/>
-    <Index ID="1399759" Value="100"/>
-    <Index ID="1399760" Value="101"/>
-    <Index ID="1399761" Value="102"/>
-    <Index ID="1399762" Value="33"/>
-    <Index ID="1399763" Value="34"/>
-    <Index ID="1431108" Value="104"/>
-    <Index ID="1431110" Value="105"/>
-    <Index ID="1431111" Value="106"/>
-    <Index ID="1440975" Value="107"/>
-    <Index ID="1460277" Value="64"/>
-    <Index ID="1480843" Value="92"/>
-    <Index ID="1567293" Value="103"/>
-    <Index ID="1593109" Value="65"/>
-    <Index ID="1593110" Value="66"/>
-    <Index ID="1593111" Value="67"/>
-    <Index ID="1593113" Value="68"/>
-    <Index ID="1593114" Value="69"/>
-    <Index ID="1593115" Value="70"/>
+    <Index ID="1299809" Value="37"/>
+    <Index ID="1299810" Value="38"/>
+    <Index ID="1299811" Value="39"/>
+    <Index ID="1299812" Value="40"/>
+    <Index ID="1308026" Value="55"/>
+    <Index ID="1308027" Value="56"/>
+    <Index ID="1308028" Value="57"/>
+    <Index ID="1308029" Value="58"/>
+    <Index ID="1308030" Value="59"/>
+    <Index ID="1308031" Value="60"/>
+    <Index ID="1308032" Value="61"/>
+    <Index ID="1308033" Value="62"/>
+    <Index ID="1308034" Value="63"/>
+    <Index ID="1308035" Value="64"/>
+    <Index ID="1313107" Value="73"/>
+    <Index ID="1313110" Value="74"/>
+    <Index ID="1313111" Value="75"/>
+    <Index ID="1313112" Value="82"/>
+    <Index ID="1313113" Value="83"/>
+    <Index ID="1313114" Value="84"/>
+    <Index ID="1313115" Value="85"/>
+    <Index ID="1313116" Value="86"/>
+    <Index ID="1313117" Value="87"/>
+    <Index ID="1313118" Value="88"/>
+    <Index ID="1313119" Value="89"/>
+    <Index ID="1313120" Value="90"/>
+    <Index ID="1313121" Value="91"/>
+    <Index ID="1313122" Value="92"/>
+    <Index ID="1313123" Value="80"/>
+    <Index ID="1313124" Value="81"/>
+    <Index ID="1313491" Value="96"/>
+    <Index ID="1399759" Value="101"/>
+    <Index ID="1399760" Value="102"/>
+    <Index ID="1399761" Value="103"/>
+    <Index ID="1399762" Value="34"/>
+    <Index ID="1399763" Value="35"/>
+    <Index ID="1431108" Value="105"/>
+    <Index ID="1431110" Value="106"/>
+    <Index ID="1431111" Value="107"/>
+    <Index ID="1440975" Value="108"/>
+    <Index ID="1460277" Value="65"/>
+    <Index ID="1480843" Value="93"/>
+    <Index ID="1567293" Value="104"/>
+    <Index ID="1593109" Value="66"/>
+    <Index ID="1593110" Value="67"/>
+    <Index ID="1593111" Value="68"/>
+    <Index ID="1593113" Value="69"/>
+    <Index ID="1593114" Value="70"/>
+    <Index ID="1593115" Value="71"/>
     <Index ID="1609848" Value="1"/>
-    <Index ID="1609930" Value="108"/>
-    <Index ID="1609931" Value="109"/>
-    <Index ID="1609932" Value="110"/>
-    <Index ID="1609933" Value="111"/>
-    <Index ID="1609934" Value="112"/>
-    <Index ID="1609935" Value="113"/>
-    <Index ID="1609936" Value="114"/>
-    <Index ID="1609937" Value="115"/>
-    <Index ID="1609938" Value="116"/>
-    <Index ID="1609939" Value="117"/>
-    <Index ID="1609940" Value="118"/>
-    <Index ID="1609941" Value="119"/>
-    <Index ID="1609942" Value="120"/>
-    <Index ID="1609943" Value="121"/>
-    <Index ID="1609944" Value="122"/>
-    <Index ID="1609945" Value="123"/>
-    <Index ID="1609946" Value="124"/>
-    <Index ID="1609947" Value="125"/>
-    <Index ID="1609948" Value="126"/>
-    <Index ID="1609949" Value="127"/>
-    <Index ID="1609950" Value="128"/>
-    <Index ID="1609951" Value="129"/>
-    <Index ID="1609952" Value="130"/>
-    <Index ID="1609953" Value="131"/>
-    <Index ID="1609954" Value="132"/>
-    <Index ID="1609955" Value="133"/>
-    <Index ID="1616585" Value="134"/>
-    <Index ID="1616586" Value="135"/>
-    <Index ID="1616587" Value="136"/>
-    <Index ID="1616588" Value="137"/>
-    <Index ID="1616589" Value="138"/>
-    <Index ID="1616590" Value="139"/>
-    <Index ID="1616591" Value="140"/>
-    <Index ID="1616592" Value="141"/>
+    <Index ID="1609930" Value="109"/>
+    <Index ID="1609931" Value="110"/>
+    <Index ID="1609932" Value="111"/>
+    <Index ID="1609933" Value="112"/>
+    <Index ID="1609934" Value="113"/>
+    <Index ID="1609935" Value="114"/>
+    <Index ID="1609936" Value="115"/>
+    <Index ID="1609937" Value="116"/>
+    <Index ID="1609938" Value="117"/>
+    <Index ID="1609939" Value="118"/>
+    <Index ID="1609940" Value="119"/>
+    <Index ID="1609941" Value="120"/>
+    <Index ID="1609942" Value="121"/>
+    <Index ID="1609943" Value="122"/>
+    <Index ID="1609944" Value="123"/>
+    <Index ID="1609945" Value="124"/>
+    <Index ID="1609946" Value="125"/>
+    <Index ID="1609947" Value="126"/>
+    <Index ID="1609948" Value="127"/>
+    <Index ID="1609949" Value="128"/>
+    <Index ID="1609950" Value="129"/>
+    <Index ID="1609951" Value="130"/>
+    <Index ID="1609952" Value="131"/>
+    <Index ID="1609953" Value="132"/>
+    <Index ID="1609954" Value="133"/>
+    <Index ID="1609955" Value="134"/>
+    <Index ID="1616585" Value="135"/>
+    <Index ID="1616586" Value="136"/>
+    <Index ID="1616587" Value="137"/>
+    <Index ID="1616588" Value="138"/>
+    <Index ID="1616589" Value="139"/>
+    <Index ID="1616590" Value="140"/>
+    <Index ID="1616591" Value="141"/>
+    <Index ID="1616592" Value="142"/>
     <Index ID="1622756" Value="19"/>
-    <Index ID="1647258" Value="71"/>
+    <Index ID="1647258" Value="72"/>
     <Index ID="1652085" Value="9"/>
-    <Index ID="1652296" Value="142"/>
+    <Index ID="1652296" Value="143"/>
     <Index ID="1663865" Value="17"/>
-    <Index ID="1699934" Value="35"/>
-    <Index ID="1720851" Value="143"/>
-    <Index ID="1720852" Value="144"/>
-    <Index ID="1720853" Value="147"/>
+    <Index ID="1699934" Value="36"/>
+    <Index ID="1720851" Value="144"/>
+    <Index ID="1720852" Value="145"/>
+    <Index ID="1720853" Value="148"/>
     <Index ID="1777091" Value="21"/>
-    <Index ID="1777124" Value="98"/>
-    <Index ID="1777125" Value="27"/>
-    <Index ID="1777138" Value="146"/>
-    <Index ID="1777139" Value="145"/>
-    <Index ID="1777154" Value="77"/>
-    <Index ID="1777155" Value="78"/>
+    <Index ID="1777124" Value="99"/>
+    <Index ID="1777125" Value="28"/>
+    <Index ID="1777138" Value="147"/>
+    <Index ID="1777139" Value="146"/>
+    <Index ID="1777154" Value="78"/>
+    <Index ID="1777155" Value="79"/>
     <Index ID="1789085" Value="12"/>
     <Index ID="1789086" Value="13"/>
     <Index ID="1789090" Value="11"/>
     <Index ID="1789091" Value="10"/>
-    <Index ID="1793134" Value="28"/>
-    <Index ID="1793135" Value="32"/>
-    <Index ID="1793136" Value="31"/>
-    <Index ID="1793145" Value="75"/>
-    <Index ID="1793146" Value="76"/>
-    <Index ID="1793524" Value="94"/>
-    <Index ID="1793525" Value="93"/>
+    <Index ID="1793134" Value="29"/>
+    <Index ID="1793135" Value="33"/>
+    <Index ID="1793136" Value="32"/>
+    <Index ID="1793145" Value="76"/>
+    <Index ID="1793146" Value="77"/>
+    <Index ID="1793524" Value="95"/>
+    <Index ID="1793525" Value="94"/>
     <Index ID="1798326" Value="15"/>
-    <Index ID="1823670" Value="148"/>
-    <Index ID="1823671" Value="149"/>
-    <Index ID="1823672" Value="150"/>
-    <Index ID="1823673" Value="151"/>
+    <Index ID="1823670" Value="149"/>
+    <Index ID="1823671" Value="150"/>
+    <Index ID="1823672" Value="151"/>
+    <Index ID="1823673" Value="152"/>
+    <Index ID="1832728" Value="27"/>
   </IndexMap>
 </TextGroup>

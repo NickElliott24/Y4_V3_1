@@ -278,6 +278,7 @@
     <Text ID="1789088" Value="DELAY BEFORE SEAMER 2 RESTART"/>
     <Text ID="1789094" Value="DELAY BEFORE OFFLINE CLEAR"/>
     <Text ID="1814420" Value="TIMEOUT DELAY FOR TRACKING BIT 51-2"/>
+    <Text ID="1832726" Value="DELAY BEFORE MOVED TO TRANSFER"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="453370" Value=""/>
@@ -553,6 +554,7 @@
     <Text ID="1789088" Value=""/>
     <Text ID="1789094" Value=""/>
     <Text ID="1814420" Value=""/>
+    <Text ID="1832726" Value=""/>
   </TextLayer>
   <IndexMap>
     <Index ID="453370" Value="146"/>
@@ -828,5 +830,6 @@
     <Index ID="1789088" Value="69"/>
     <Index ID="1789094" Value="73"/>
     <Index ID="1814420" Value="261"/>
+    <Index ID="1832726" Value="77"/>
   </IndexMap>
 </TextGroup>
