@@ -124,7 +124,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -141,7 +141,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -158,7 +158,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -175,7 +175,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -192,7 +192,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -209,7 +209,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -226,7 +226,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -243,7 +243,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -380,7 +380,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -397,7 +397,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -414,7 +414,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -431,7 +431,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -448,7 +448,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -465,7 +465,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -482,7 +482,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -499,7 +499,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -694,7 +694,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -711,7 +711,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -728,7 +728,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -745,7 +745,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="184"/>
@@ -822,7 +822,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -839,7 +839,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -856,7 +856,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -873,7 +873,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -890,7 +890,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -907,7 +907,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -924,7 +924,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -941,7 +941,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -1098,7 +1098,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -1115,7 +1115,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -1132,7 +1132,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -1149,7 +1149,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="712"/>
@@ -1226,7 +1226,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -1243,7 +1243,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -1260,7 +1260,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>
@@ -1277,7 +1277,7 @@
           <Property Name="AlignmentHorizontal" Value="Left"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Font" Value="Source[local].Font[Arial14]"/>
+          <Property Name="Font" Value="Source[local].Font[Arial13]"/>
           <Property Name="Height" Value="32"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="448"/>

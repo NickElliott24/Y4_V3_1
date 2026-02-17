@@ -79,6 +79,7 @@ PROGRAM _CYCLIC
 					Tracking50.IndexIN := 0 ;
 					Tracking52.IndexIN := 3 ;
 					Tracking52.LengthIN := Tracking50.Length ;
+					Tracking52.BatchClearIN := Tracking50.BatchClear;
 				END_IF
 			END_IF
 		3: //TRACK FROM Track502.DelayTON.Q (P) TO S36Reed.In (P)
@@ -214,6 +215,7 @@ PROGRAM _CYCLIC
 	//RESET OF OUTPUTS
 	AGVReadyToSend.Auto := FALSE ;
 	AGVSending.Auto := FALSE ;
+	AGVBatchClear.Auto := FALSE;
 	CASE Tracking52.Index OF
 		0: //RESET ALL TRACKBIT FOR SELECTED TRACKINGSECTION
 			Track521 := TrackClear ;
@@ -241,6 +243,7 @@ PROGRAM _CYCLIC
 			//FB OUTPUTS
 			AGVReadyToSend.Auto := Track522.SolOUT ;
 			AGVSending.Auto := Track522.RunOUT ;
+			AGVBatchClear.Auto := Tracking52.BatchClear;
 			CRB.o.Run[0] := Track522.RunOUT ;
 			CRB.Inv.Scale1.x := Track522.SpeedOUT ;
 			IF(Track522.Done) THEN
@@ -252,11 +255,6 @@ PROGRAM _CYCLIC
 	
 	//TRACKBIT DONE CONDITIONS
 	Track521.DoneIN := NOT(Tracking52.Blocked) ;
-
-	//Extract bits from Row Length
-	FOR i := 0 TO 15 DO
-		LengthUnpack[i] := (SHR(REAL_TO_INT(Tracking52.Length), i) AND 1) <> 0;
-	END_FOR
 
 END_PROGRAM
 

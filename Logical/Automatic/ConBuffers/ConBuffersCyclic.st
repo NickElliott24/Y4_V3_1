@@ -119,7 +119,7 @@ PROGRAM _CYCLIC
 
 	//TRACKINGSECTION END BLOCK CONDITIONS
 	Tracking40.Blocks[0] := (Tracking41.Busy) OR(S58Lever.In ) OR(S58Lever.Int) OR(Tracking51.Busy) ;
-	Tracking40.Blocks[1] := (Tracking50.IndexIN > 1) ;
+	Tracking40.Blocks[1] := (Tracking50.IndexIN > 1) OR(Tracking52.Busy) ;
 	Tracking40.Blocks[2] := (RowTemp.Done) ;
 	Tracking40.Blocks[4] := NOT(Sol33Pal4.Auto) ;
 	Tracking40.Blocks[9] := (S17Photo.Int) ;

@@ -22,6 +22,32 @@ PROGRAM _CYCLIC
 		Tracking60.BatchClearIN := TRUE ;
 		RowTemp.ClearIN := FALSE ;
 	END_IF
+	// Clear Row if Furnace 2 switched to Furnace 1
+	IF(Track501.Active) AND(Tracking50.RowBlock)THEN
+		IF(Tracking20.Width > 0.0) AND NOT(Tracking20.RowBlock)THEN
+			RowTemp.ClearIN := TRUE	;
+			Tracking50.BatchClearIN := TRUE	;
+		ELSIF(Tracking30.Width > 0.0) AND NOT(Tracking30.RowBlock)THEN
+			RowTemp.ClearIN := TRUE	;
+			Tracking50.BatchClearIN := TRUE	;
+		ELSIF(Tracking40.Width > 0.0) AND NOT(Tracking40.RowBlock)THEN
+			RowTemp.ClearIN := TRUE	;
+			Tracking50.BatchClearIN := TRUE	;
+		END_IF
+	END_IF
+	// Clear row if Furnace 1 switched to Furnace 2
+	IF(Track501.Active) AND NOT(Tracking50.RowBlock)THEN
+		IF(Tracking20.Width > 0.0) AND(Tracking20.RowBlock)THEN
+			RowTemp.ClearIN := TRUE	;
+			Tracking50.BatchClearIN := TRUE	;
+		ELSIF(Tracking30.Width > 0.0) AND(Tracking30.RowBlock)THEN
+			RowTemp.ClearIN := TRUE	;
+			Tracking50.BatchClearIN := TRUE	;
+		ELSIF(Tracking40.Width > 0.0) AND(Tracking40.RowBlock)THEN
+			RowTemp.ClearIN := TRUE	;
+			Tracking50.BatchClearIN := TRUE	;
+		END_IF
+	END_IF
 	//CALL FB
 	RowTemp ();
 	RowTemp.ClearIN := FALSE ;
@@ -49,7 +75,7 @@ PROGRAM _CYCLIC
 	END_IF
 
 	//BATCH DISPLAY DATA
-	IF EDGEPOS(Track414.Done) THEN 
+	IF EDGEPOS(Track414.Done) AND NOT(Tracking41.RowBlock) THEN 
 		Rows.Tracking50.Row[DataFlow.IndexRow].Width:=Tracking41.Width; 
 		Rows.Tracking50.Row[DataFlow.IndexRow].Length:=Tracking41.Length;
 		Rows.Tracking50.NotEmpty:=TRUE;
@@ -100,5 +126,52 @@ PROGRAM _CYCLIC
 		END_IF
 		DataFlow.IndexLoad:=1;
 	END_IF
+
+	//Encode size information to send to AGV controller
+	IF EDGEPOS(Track414.Done) AND(Tracking41.RowBlock) THEN 
+		SizeData.CurrentWidth := REAL_TO_UINT(Tracking41.Width);
+		SizeData.CurrentLength := REAL_TO_UINT(Tracking41.Length);
+	END_IF
+
+	CASE SizeData.Sequence OF
+		SD_Idle:
+			SizeData.WidthMask := FALSE;
+			SizeData.LengthMask := FALSE;
+			IF(SizeData.CurrentWidth > 0)THEN
+				SizeData.Sequence := SD_WidthData;
+			END_IF
+		SD_WidthData:
+			FOR i := 0 TO 11 DO
+				SizeData.Sizes[i] := (SHR(SizeData.CurrentWidth, i) AND 1) <> 0;
+			END_FOR
+			SizeData.WidthMask := TRUE;
+			SizeData.Sequence := SD_WidthACK;
+		SD_WidthACK:
+			IF(AGVAcknowledge.In)THEN
+				SizeData.Sequence := SD_NotWidthACK;
+				SizeData.WidthMask := TRUE;
+				SizeData.CurrentWidth := 0;
+			END_IF
+		SD_NotWidthACK:
+			IF NOT(AGVAcknowledge.In)THEN
+				SizeData.Sequence := SD_LengthData;
+			END_IF	
+		SD_LengthData:
+			FOR i := 0 TO 11 DO
+				SizeData.Sizes[i] := (SHR(SizeData.CurrentLength, i) AND 1) <> 0;
+			END_FOR
+			SizeData.LengthMask := TRUE;
+			SizeData.Sequence := SD_LengthACK;
+		SD_LengthACK:
+			IF(AGVAcknowledge.In)THEN
+				SizeData.Sequence := SD_NotLengthACK;
+				SizeData.LengthMask := TRUE;
+				SizeData.CurrentLength := 0;
+			END_IF
+		SD_NotLengthACK:
+			IF NOT(AGVAcknowledge.In)THEN
+				SizeData.Sequence := SD_Idle;
+			END_IF
+	END_CASE
 
 END_PROGRAM

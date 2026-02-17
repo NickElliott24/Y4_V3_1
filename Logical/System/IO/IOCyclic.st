@@ -200,7 +200,7 @@ PROGRAM _CYCLIC
 		AGVInPosition.In := X2X20.P1;
 		AGVReady.In := X2X20.P2;
 		AGVReceiving.In := X2X20.P3;
-		X2X20.P4;
+		AGVAcknowledge.In := X2X20.P4;
 		X2X20.P5;
 		X2X20.P6;
 		X2X20.P7;
@@ -215,26 +215,26 @@ PROGRAM _CYCLIC
 		X2X21.P3;
 		X2X21.P4;
 		X2X21.P5 := AGVReadyToSend.Auto;
-		X2X21.P6 := LengthUnpack[12];
-		X2X21.P7 := LengthUnpack[13];
-		X2X21.P8 := LengthUnpack[14];
-		X2X21.P9 := LengthUnpack[15];
+		X2X21.P6;
+		X2X21.P7 := AGVBatchClear.Auto;
+		X2X21.P8 := SizeData.LengthMask;
+		X2X21.P9 := SizeData.WidthMask;
 		X2X21.P10 := AGVSending.Auto;
 		X2X21.P11;
 		X2X21.P12;
 		//MAP X2X ST22 TO VARIABLES
-		X2X22.P1 := LengthUnpack[0];
-		X2X22.P2 := LengthUnpack[1];
-		X2X22.P3 := LengthUnpack[2];
-		X2X22.P4 := LengthUnpack[3];
-		X2X22.P5 := LengthUnpack[4];
-		X2X22.P6 := LengthUnpack[5];
-		X2X22.P7 := LengthUnpack[6];
-		X2X22.P8 := LengthUnpack[7];
-		X2X22.P9 := LengthUnpack[8];
-		X2X22.P10 := LengthUnpack[9];
-		X2X22.P11 := LengthUnpack[10];
-		X2X22.P12 := LengthUnpack[11];
+		X2X22.P1 := SizeData.Sizes[0];
+		X2X22.P2 := SizeData.Sizes[1];
+		X2X22.P3 := SizeData.Sizes[2];
+		X2X22.P4 := SizeData.Sizes[3];
+		X2X22.P5 := SizeData.Sizes[4];
+		X2X22.P6 := SizeData.Sizes[5];
+		X2X22.P7 := SizeData.Sizes[6];
+		X2X22.P8 := SizeData.Sizes[7];
+		X2X22.P9 := SizeData.Sizes[8];
+		X2X22.P10 := SizeData.Sizes[9];
+		X2X22.P11 := SizeData.Sizes[10];
+		X2X22.P12 := SizeData.Sizes[11];
 	END_IF
 
 	//RESET TEST BITS WHEN EXITING TEST SCREENS

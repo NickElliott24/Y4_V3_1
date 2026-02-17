@@ -9,6 +9,24 @@
  ********************************************************************)
 
 TYPE
+	SizeData_enum : 
+		(
+		SD_Idle := 0, (*Wait*)
+		SD_WidthData := 1, (*Set Width Data*)
+		SD_WidthACK := 2, (*Wait for acknowledgement that width data has been received*)
+		SD_NotWidthACK := 3, (*Wait for acknowlede off, data has transmitted*)
+		SD_LengthData := 4, (*Set Length Data*)
+		SD_LengthACK := 5, (*Wait for acknowledgement that length data has been received*)
+		SD_NotLengthACK := 6 (*Wait for acknowlede off, data has transmitted*)
+		);
+	SizeData_typ : 	STRUCT 
+		Sizes : ARRAY[0..11]OF BOOL; (*Bit array to pass data to AGV controller*)
+		Sequence : SizeData_enum;
+		CurrentWidth : UINT;
+		CurrentLength : UINT;
+		WidthMask : BOOL;
+		LengthMask : BOOL;
+	END_STRUCT;
 	Measurement_typ : 	STRUCT 
 		Reset : BOOL;
 		Runtime : Display_enum;

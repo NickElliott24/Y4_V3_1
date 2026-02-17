@@ -18,11 +18,11 @@
       <Property Name="BackColor" Value="90"/>
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
-      <Property Name="Height" Value="152"/>
+      <Property Name="Height" Value="136"/>
       <Property Name="Left" Value="912"/>
       <Property Name="LineWidth" Value="0"/>
       <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Shape]"/>
-      <Property Name="Top" Value="608"/>
+      <Property Name="Top" Value="624"/>
       <Property Name="Width" Value="104"/>
     </Control>
     <Control ClassId="0x00001004" Name="txtState10">
@@ -42,7 +42,7 @@
       <Property Name="TextGroup" Value="Source[local].TextGroup[Background]"/>
       <Property Name="TextIndexOffset" Value="49"/>
       <Property Name="TextSource" Value="MultipleTexts"/>
-      <Property Name="Top" Value="624"/>
+      <Property Name="Top" Value="632"/>
       <Property Name="Width" Value="104"/>
     </Control>
     <Control ClassId="0x00001002" Name="Button_6">
@@ -67,7 +67,7 @@
       <Property Name="TextIndexDatapoint" Value="None"/>
       <Property Name="TextSimulationValue" Value="0"/>
       <Property Name="TextSource" Value="None"/>
-      <Property Name="Top" Value="656"/>
+      <Property Name="Top" Value="664"/>
       <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_Furnace2_1]"/>
       <Property Name="Width" Value="104"/>
     </Control>

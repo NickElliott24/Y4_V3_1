@@ -3596,6 +3596,7 @@
           <Text ID="1827914" Value="S48"/>
           <Text ID="1832671" Value="AGV-R"/>
           <Text ID="1832673" Value="AGV-P"/>
+          <Text ID="1837540" Value="AGV-R"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="666698" Value=""/>
@@ -3607,6 +3608,7 @@
           <Text ID="1827914" Value=""/>
           <Text ID="1832671" Value=""/>
           <Text ID="1832673" Value=""/>
+          <Text ID="1837540" Value=""/>
         </TextLayer>
         <IndexMap>
           <Index ID="666698" Value="30"/>
@@ -3618,6 +3620,7 @@
           <Index ID="1827914" Value="8"/>
           <Index ID="1832671" Value="10"/>
           <Index ID="1832673" Value="12"/>
+          <Index ID="1837540" Value="15"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -4184,6 +4187,33 @@
           <Property Name="TextSource" Value="SingleText"/>
           <Property Name="Top" Value="328"/>
           <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestAGVInPosition]"/>
+          <Property Name="Width" Value="32"/>
+        </Control>
+        <Control ClassId="0x00001002" Name="butTestAGVAcknowledge">
+          <Property Name="BackColor" Value="45"/>
+          <Property Name="BitmapIndexDatapoint" Value="None"/>
+          <Property Name="BitmapSource" Value="None"/>
+          <Property Name="Border" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="EmbVirtualKey" Value="None"/>
+          <Property Name="Font" Value="Source[local].Font[ArialN6]"/>
+          <Property Name="Height" Value="16"/>
+          <Property Name="KeyMatrixOffset" Value="None"/>
+          <Property Name="Left" Value="512"/>
+          <Property Name="PressedBackColor" Value="10"/>
+          <Property Name="PressedBitmapSource" Value="Source[embedded].Property[BitmapSource]"/>
+          <Property Name="PressedBorder" Value="Source[local].Border[Flat_black]"/>
+          <Property Name="PressedForeColor" Value="254"/>
+          <Property Name="PressedTextSource" Value="Source[embedded].Property[TextSource]"/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[BasicButton]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndex" Value="15"/>
+          <Property Name="TextIndexDatapoint" Value="None"/>
+          <Property Name="TextSimulationValue" Value="0"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="336"/>
+          <Property Name="VirtualKey" Value="Source[local].VirtualKey[VK_TestAGVAcknowledge]"/>
           <Property Name="Width" Value="32"/>
         </Control>
       </Controls>

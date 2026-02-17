@@ -205,7 +205,7 @@
     <Text ID="1827731" Value="AGVINPOSITION.IN"/>
     <Text ID="1827732" Value="AGVREADY.IN"/>
     <Text ID="1827733" Value="AGVRECEIVING.IN"/>
-    <Text ID="1827734" Value="-"/>
+    <Text ID="1827734" Value="AGVACKNOWLEDGE.IN"/>
     <Text ID="1827735" Value="-"/>
     <Text ID="1827736" Value="-"/>
     <Text ID="1827737" Value="-"/>
@@ -219,25 +219,25 @@
     <Text ID="1827745" Value="-"/>
     <Text ID="1827746" Value="-"/>
     <Text ID="1827747" Value="AGVREADYTOSEND"/>
-    <Text ID="1827748" Value="LENGTH_BIT12"/>
+    <Text ID="1827748" Value="-"/>
     <Text ID="1827752" Value="AGVSENDING"/>
     <Text ID="1827753" Value="-"/>
     <Text ID="1827754" Value="-"/>
-    <Text ID="1827755" Value="LENGTH_BIT13"/>
-    <Text ID="1827756" Value="LENGTH_BIT14"/>
-    <Text ID="1827757" Value="LENGTH_BIT15"/>
-    <Text ID="1827758" Value="LENGTH_BIT0"/>
-    <Text ID="1827759" Value="LENGTH_BIT1"/>
-    <Text ID="1827760" Value="LENGTH_BIT2"/>
-    <Text ID="1827761" Value="LENGTH_BIT3"/>
-    <Text ID="1827762" Value="LENGTH_BIT4"/>
-    <Text ID="1827763" Value="LENGTH_BIT5"/>
-    <Text ID="1827764" Value="LENGTH_BIT6"/>
-    <Text ID="1827765" Value="LENGTH_BIT7"/>
-    <Text ID="1827766" Value="LENGTH_BIT8"/>
-    <Text ID="1827767" Value="LENGTH_BIT9"/>
-    <Text ID="1827768" Value="LENGTH_BIT10"/>
-    <Text ID="1827769" Value="LENGTH_BIT11"/>
+    <Text ID="1827755" Value="AGVBATCHCLEAR"/>
+    <Text ID="1827756" Value="LENGTHMASK"/>
+    <Text ID="1827757" Value="WIDTHMASK"/>
+    <Text ID="1827758" Value="SIZEDATA_BIT0"/>
+    <Text ID="1827759" Value="SIZEDATA_BIT1"/>
+    <Text ID="1827760" Value="SIZEDATA_BIT2"/>
+    <Text ID="1827761" Value="SIZEDATA_BIT3"/>
+    <Text ID="1827762" Value="SIZEDATA_BIT4"/>
+    <Text ID="1827763" Value="SIZEDATA_BIT5"/>
+    <Text ID="1827764" Value="SIZEDATA_BIT6"/>
+    <Text ID="1827765" Value="SIZEDATA_BIT7"/>
+    <Text ID="1827766" Value="SIZEDATA_BIT8"/>
+    <Text ID="1827767" Value="SIZEDATA_BIT9"/>
+    <Text ID="1827768" Value="SIZEDATA_BIT10"/>
+    <Text ID="1827769" Value="SIZEDATA_BIT11"/>
   </TextLayer>
   <TextLayer LanguageId="de">
     <Text ID="114948" Value=""/>
