@@ -224,8 +224,8 @@
     <Text ID="1827753" Value="-"/>
     <Text ID="1827754" Value="-"/>
     <Text ID="1827755" Value="AGVBATCHCLEAR"/>
-    <Text ID="1827756" Value="LENGTHMASK"/>
-    <Text ID="1827757" Value="WIDTHMASK"/>
+    <Text ID="1827756" Value="AGVSENDLENGTH"/>
+    <Text ID="1827757" Value="AGVSENDWIDTH"/>
     <Text ID="1827758" Value="SIZEDATA_BIT0"/>
     <Text ID="1827759" Value="SIZEDATA_BIT1"/>
     <Text ID="1827760" Value="SIZEDATA_BIT2"/>
