@@ -221,7 +221,7 @@
     <Text ID="1827747" Value="AGVREADYTOSEND"/>
     <Text ID="1827748" Value="-"/>
     <Text ID="1827752" Value="AGVSENDING"/>
-    <Text ID="1827753" Value="-"/>
+    <Text ID="1827753" Value="AGVREQUIRED"/>
     <Text ID="1827754" Value="-"/>
     <Text ID="1827755" Value="AGVBATCHCLEAR"/>
     <Text ID="1827756" Value="AGVSENDLENGTH"/>

@@ -256,5 +256,9 @@ PROGRAM _CYCLIC
 	//TRACKBIT DONE CONDITIONS
 	Track521.DoneIN := NOT(Tracking52.Blocked) ;
 
+	AGVRequired.Auto := FALSE;
+	IF(Tracking10.RowBlock) OR(Tracking11.RowBlock) OR(Tracking20.RowBlock) OR(Tracking30.RowBlock) OR(Tracking40.RowBlock) OR(Tracking50.RowBlock)THEN
+		AGVRequired.Auto := TRUE;
+	END_IF
 END_PROGRAM
 

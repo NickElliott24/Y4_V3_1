@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version=3.0.80.25?>
-<InitParameter Version="2.21.1" NcSwId="ACP10">
-  <Group ID="ACP10AXIS_typ" Description="">
+<?AutomationStudio Version=4.2.4.149?>
+<InitParameter Version="2.50.1" NcSwId="ACP10">
+  <Group ID="ACP10AXIS_typ">
     <Group ID="dig_in">
       <Group ID="level">
         <Parameter ID="reference" Value="ncACTIV_HI" />
@@ -16,8 +16,8 @@
         <Parameter ID="count_dir" Value="ncINVERSE" />
         <Group ID="scaling">
           <Group ID="load">
-            <Parameter ID="units" Value="18849556" />
-            <Parameter ID="rev_motor" Value="100000" />
+            <Parameter ID="units" Value="1449275" />
+            <Parameter ID="rev_motor" Value="10000" />
           </Group>
         </Group>
       </Group>
@@ -139,7 +139,11 @@
           <Parameter ID="start_dir" Value="ncPOSITIVE" />
           <Parameter ID="trigg_dir" Value="ncPOSITIVE" />
           <Parameter ID="ref_pulse" Value="ncOFF" />
+          <Parameter ID="fix_dir" Value="ncOFF" />
           <Parameter ID="tr_s_block" Value="0" />
+          <Parameter ID="torque_lim" Value="0" />
+          <Parameter ID="ds_block" Value="0" />
+          <Parameter ID="ds_stop" Value="0" />
         </Group>
       </Group>
       <Group ID="basis">

@@ -13,6 +13,7 @@ VAR
 	AGVAcknowledge : Input_typ; (*AGV Acknowledge measurement received*)
 	AGVReady : Input_typ; (*AGV Operational*)
 	AGVBatchClear : Output_typ; (*Batch clear to AGV*)
+	AGVRequired : Output_typ; (*Rows to be routed to Furnace 2*)
 	AGVReadyToSend : Output_typ; (*Ready to send to AGV*)
 	AGVSending : Output_typ; (*Sending to AGV*)
 	FurnaceSelect : Mode_typ; (*FALSE = Furnace 1, TRUE = Furnace 2. *)

@@ -17,10 +17,10 @@ PROGRAM _CYCLIC
 	Ax2.Node	:=	'SL1.IF1.ST1.IF1.ST15'	;	// Alter to suit each job 
 	
 // Servo settings 
-	Ax1P.AbsMax	:=	40640				;	// Max Size of Axis 1 
+	Ax1P.AbsMax	:=	40000				;	// Max Size of Axis 1 
 	Ax1P.AbsMin	:=	3000				;	// Min Size of Axis 1 
 	Ax2P.AbsMax	:=	25000				;	// Max Size of Axis 2 
-	Ax2P.AbsMin	:=	1500				;	// Min Size of Axis 2 
+	Ax2P.AbsMin	:=	2000				;	// Min Size of Axis 2 
 	
 	// Calculated limits for visu input 
 	Ax1.Max.Upp		:=	(Ax1P.AbsMax + 50)		;	// Maximum upper limit input 

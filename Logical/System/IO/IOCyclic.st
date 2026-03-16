@@ -220,7 +220,7 @@ PROGRAM _CYCLIC
 		X2X21.P8 := SizeData.LengthMask;
 		X2X21.P9 := SizeData.WidthMask;
 		X2X21.P10 := AGVSending.Auto;
-		X2X21.P11;
+		X2X21.P11 := AGVRequired.Auto;
 		X2X21.P12;
 		//MAP X2X ST22 TO VARIABLES
 		X2X22.P1 := SizeData.Sizes[0];

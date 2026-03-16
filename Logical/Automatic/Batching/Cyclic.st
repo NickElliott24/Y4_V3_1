@@ -149,7 +149,7 @@ PROGRAM _CYCLIC
 		SD_WidthACK:
 			IF(AGVAcknowledge.In)THEN
 				SizeData.Sequence := SD_NotWidthACK;
-				SizeData.WidthMask := TRUE;
+				SizeData.WidthMask := FALSE;
 				SizeData.CurrentWidth := 0;
 			END_IF
 		SD_NotWidthACK:
@@ -165,7 +165,7 @@ PROGRAM _CYCLIC
 		SD_LengthACK:
 			IF(AGVAcknowledge.In)THEN
 				SizeData.Sequence := SD_NotLengthACK;
-				SizeData.LengthMask := TRUE;
+				SizeData.LengthMask := FALSE;
 				SizeData.CurrentLength := 0;
 			END_IF
 		SD_NotLengthACK:
