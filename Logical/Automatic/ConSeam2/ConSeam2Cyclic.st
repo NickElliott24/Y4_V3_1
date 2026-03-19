@@ -148,13 +148,14 @@ PROGRAM _CYCLIC
 			Track204.FixedIN := Tracking20.FixedOUT ;
 			IF (ProcessMode.In) THEN
 				Track204.Speed := Speeds.SpeedSeamSlow;
+				Track204.DelayPT := REAL_TO_UDINT((UDINT_TO_REAL(TrackDelayPT.PTTrack204)) * (Speeds.SpeedSeam/Speeds.SpeedSeamSlow)) ;
 			ELSE
 				Track204.Speed := Speeds.SpeedSeam ;
+				Track204.DelayPT := TrackDelayPT.PTTrack204 ;
 			END_IF
 			Track204.TimeoutEN := TRUE ;
 			Track204.TimeoutACK := Warn.Ack ;
 			Track204.TimeoutBlock := (Warn.Block) ;
-			Track204.DelayPT := TrackDelayPT.PTTrack204 ;
 			//FB CALL
 			Track204 ();
 			//FB OUTPUTS
