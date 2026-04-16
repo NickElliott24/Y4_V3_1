@@ -156,7 +156,7 @@ PROGRAM _CYCLIC
 		1: //TRACK FROM NOT Tracking11.Blocked (-) TO S7Photo.Int (N)
 			//FB INPUTS
 			Track941.FixedIN := Tracking94.FixedOUT ;
-			Track941.RunBlock := (Track201.TimeoutOUT) OR(Track202.TimeoutOUT) OR NOT((Track201.RunOUT) OR(Track202.RunOUT)) ;
+			Track941.RunBlock := (Track201.TimeoutOUT) OR(Track204.TimeoutOUT) OR NOT((Track201.RunOUT) OR(Track204.RunOUT)) ;
 			IF (ProcessMode.In) THEN
 				Track941.Speed := Speeds.SpeedSeamSlow;
 			ELSE
