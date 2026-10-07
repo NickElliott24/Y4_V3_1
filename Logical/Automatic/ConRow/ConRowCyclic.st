@@ -235,7 +235,8 @@ PROGRAM _CYCLIC
 			Track521 := TrackClear ;
 			//FB INPUTS
 			Track522.FixedIN := Tracking52.FixedOUT ;
-			Track522.Speed := Speeds.SpeedBatch ;
+			//Track522.Speed := Speeds.SpeedBatch ; //SSS
+			Track522.Speed := Speeds.SpeedTrans ; //SSS
 			Track522.TrackDelayEN := TRUE ;
 			Track522.DelayPT := TrackDelayPT.PTTrack805 ;
 			//FB CALL
